@@ -132,8 +132,8 @@ async function job() {
     });
 
     if (removals.length > 0) {
-      console.log(`Archiving ${removals.length} tracks before removal...`);
-      await addTracksToArchive(process.env.ARCHIVE_PLAYLIST_ID, removals);
+      // console.log(`Archiving ${removals.length} tracks before removal...`);
+      // await addTracksToArchive(process.env.ARCHIVE_PLAYLIST_ID, removals);
 
       console.log(`Removing ${removals.length} tracks from main playlist...`);
       await removeTracks(PLAYLIST_ID, removals);
