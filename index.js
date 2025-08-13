@@ -94,6 +94,26 @@ async function fetchAllPlaylistItems(playlistId) {
 
 async function addTracksToArchive(playlistId, tracks) {
   const uris = tracks.map(t => t.uri);
+  
+  const logFile = `archive-log-${playlistId}.json`;
+  const logPath = path.resolve(__dirname, logFile);
+
+  let logData = [];
+  if (fs.existsSync(logPath)) {
+    logData = JSON.parse(fs.readFileSync(logPath, 'utf8'));
+  }
+
+  const now = new Date().toISOString();
+  const newEntries = tracks.map(t => ({
+    id: t.id,
+    name: t.name,
+    added_at: t.added_at || null,
+    archived_at: now
+  }));
+
+  logData.push(...newEntries);
+  fs.writeFileSync(logPath, JSON.stringify(logData, null, 2));
+
   const chunkSize = 100;
   for (let i = 0; i < uris.length; i += chunkSize) {
     const chunk = uris.slice(i, i + chunkSize);
@@ -101,6 +121,7 @@ async function addTracksToArchive(playlistId, tracks) {
     console.log(`Archived ${chunk.length} tracks.`);
   }
 }
+
 
 async function removeTracks(playlistId, tracks) {
   const chunkSize = 100;
@@ -122,6 +143,9 @@ async function getRecentlyPlayedIds() {
   return ids;
 }
 
+const monitoredPlaylists = process.env.MONITORED_PLAYLISTS.split(',');
+const archivePlaylists = process.env.ARCHIVE_PLAYLISTS.split(',');
+
 async function job() {
   try {
     const tokenData = await spotify.refreshAccessToken();
@@ -130,22 +154,35 @@ async function job() {
     const recentlyPlayed = await getRecentlyPlayedIds();
     console.log(`Found ${recentlyPlayed.size} tracks played in last 24h.`);
 
-    const items = await fetchAllPlaylistItems(PLAYLIST_ID);
-    const removals = [];
-    items.forEach((item, idx) => {
-      if (item.track && recentlyPlayed.has(item.track.id)) {
-        removals.push({ uri: item.track.uri, positions: [idx] });
+    for (let i = 0; i < monitoredPlaylists.length; i++) {
+      const playlistId = monitoredPlaylists[i].trim();
+      const archiveId = archivePlaylists[i].trim();
+
+      console.log(`\nProcessing playlist: ${playlistId}`);
+
+      const items = await fetchAllPlaylistItems(playlistId);
+      const archiveTracks = [];
+      const removals = [];
+
+      items.forEach((item, idx) => {
+        if (item.track && recentlyPlayed.has(item.track.id)) {
+          archiveTracks.push({
+            ...item.track,
+            added_at: item.added_at
+          });
+          removals.push({ uri: item.track.uri, positions: [idx] });
+        }
+      });
+
+      if (archiveTracks.length > 0) {
+        console.log(`Archiving ${archiveTracks.length} tracks to playlist ${archiveId}...`);
+        await addTracksToArchive(archiveId, archiveTracks);
+
+        console.log(`Removing ${removals.length} tracks from playlist ${playlistId}...`);
+        await removeTracks(playlistId, removals);
+      } else {
+        console.log(`No recently played tracks to remove for playlist ${playlistId}.`);
       }
-    });
-
-    if (removals.length > 0) {
-      console.log(`Archiving ${removals.length} tracks before removal...`);
-      await addTracksToArchive(process.env.ARCHIVE_PLAYLIST_ID, removals);
-
-      console.log(`Removing ${removals.length} tracks from main playlist...`);
-      await removeTracks(PLAYLIST_ID, removals);
-    } else {
-      console.log('No recently played tracks to remove.');
     }
 
   } catch (err) {
