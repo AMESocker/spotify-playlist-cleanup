@@ -27,5 +27,6 @@ jobs:
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           MONITORED_PLAYLISTS: ${{ secrets.MONITORED_PLAYLISTS }}
           ARCHIVE_PLAYLISTS: ${{ secrets.ARCHIVE_PLAYLISTS }}
+          TARGET_PLAYLIST_ID: ${{ secrets.TARGET_PLAYLIST_ID }}
           RUN_MODE: once
         run: node index.js
