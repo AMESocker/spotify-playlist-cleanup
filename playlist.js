@@ -38,12 +38,44 @@ export async function removeTracks(playlistId, tracks) {
 
 export async function getRecentlyPlayedIds() {
   const spotify = getSpotify();
-  const res = await withRetry(() => spotify.getMyRecentlyPlayedTracks({ limit: 50 }));
-  const ids = new Set();
-  res.body.items.forEach(item => {
+ const limit = 50; // max Spotify allows per request
+  let allItems = [];
+  const now = Date.now();
+  const twentyFourHoursAgo = now - 24 * 60 * 60 * 1000;
+
+  let after = twentyFourHoursAgo;
+  while (true) {
+    const res = await withRetry(() => 
+      spotify.getMyRecentlyPlayedTracks({ limit, after })
+    );
+
+    if (!res.body.items || res.body.items.length === 0) break;
+
+    allItems = allItems.concat(res.body.items);
+
+    // Spotify returns items in reverse chronological order
+    const lastItemTime = new Date(res.body.items[res.body.items.length - 1].played_at).getTime();
+    
+    // If last item is older than 24h, we can stop
+    if (lastItemTime < twentyFourHoursAgo) break;
+
+    // Prepare 'after' for next request (next oldest timestamp)
+    after = lastItemTime + 1;
+  }
+
+  // Count occurrences
+  const trackCounts = new Map();
+  allItems.forEach(item => {
     if (item.track && item.track.id) {
-      ids.add(item.track.id);
+      const id = item.track.id;
+      trackCounts.set(id, (trackCounts.get(id) || 0) + 1);
     }
   });
-  return ids;
+
+  // Filter tracks that appear more than once
+  const duplicateIds = [...trackCounts.entries()]
+    .filter(([id, count]) => count > 1)
+    .map(([id]) => id);
+
+  return new Set(duplicateIds);
 }
