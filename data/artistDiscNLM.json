@@ -57,20 +57,31 @@
     ]
   },
   {
-    "Artist": "Matchbox Twenty / Rob Thomas",
+    "Artist": "Matchbox Twenty",
     "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
     "Albums": [
       "Mad Season (2000)",
       "More Than You Think You Are (2002)",
-      "...Something to Be (2005)",
-      "Cradlesong (2009)",
       "North (2012)",
       "The Great Unknown (2015)",
-      "Chip Tooth Smile (2019)",
       "Where the Light Goes (2023)"
     ],
     "AddedAlbums": [
       "Yourself or Someone Like You (1996)"
+    ]
+  },
+    {
+    "Artist": "Rob Thomas",
+    "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
+    "Albums": [
+      "...Something to Be (2005)",
+      "Cradlesong (2009)",
+      "The Great Unknown (2015)",
+      "Chip Tooth Smile (2019)",
+      "Where the Light Goes (2023)",
+      "All Night Days (2025)"
+    ],
+    "AddedAlbums": [
     ]
   },
   {
@@ -275,8 +286,6 @@
     "Artist": "Korn",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "Korn (1994)",
-      "Korn (1994)",
       "Life Is Peachy (1996)",
       "Follow the Leader (1998)",
       "Issues (1999)",
@@ -290,7 +299,9 @@
       "The Serenity of Suffering (2016)",
       "The Nothing (2019)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Korn (1994)"
+    ]
   },
   {
     "Artist": "Linkin Park",
@@ -321,7 +332,7 @@
     ]
   },
   {
-    "Artist": "RATM",
+    "Artist": "Rage Aganst the Machine",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
       "Evil Empire (1996)",
@@ -333,13 +344,9 @@
     ]
   },
   {
-    "Artist": "White/Rob Zombie",
+    "Artist": "Rob Zombie",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "Soul-Crusher (1987)^",
-      "Make Them Die Slowly (1989)^",
-      "La Sexorcisto: Devil Music Volume One (1992)",
-      "Astro-Creep: 2000 (1995)^",
       "Hellbilly Deluxe: 13 Tales of Cadaverous Cavorting Inside the Spookshow International (1998)",
       "The Sinister Urge (2001)",
       "Educated Horses (2006)",
@@ -347,6 +354,17 @@
       "Venomous Rat Regeneration Vendor (2013)",
       "The Electric Warlock Acid Witch Satanic Orgy Celebration Dispenser (2016)",
       "The Lunar Injection Kool Aid Eclipse Conspiracy (2021)"
+    ],
+    "AddedAlbums": []
+  },
+    {
+    "Artist": "White Zombie",
+    "Group": "🔴 Metal / Hard Rock",
+    "Albums": [
+      "Soul-Crusher (1987)^",
+      "Make Them Die Slowly (1989)^",
+      "La Sexorcisto: Devil Music Volume One (1992)",
+      "Astro-Creep: 2000 (1995)^"
     ],
     "AddedAlbums": []
   },
