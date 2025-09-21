@@ -70,7 +70,7 @@
       "Yourself or Someone Like You (1996)"
     ]
   },
-    {
+  {
     "Artist": "Rob Thomas",
     "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
     "Albums": [
@@ -81,8 +81,7 @@
       "Where the Light Goes (2023)",
       "All Night Days (2025)"
     ],
-    "AddedAlbums": [
-    ]
+    "AddedAlbums": []
   },
   {
     "Artist": "Stone Temple Pilots",
@@ -308,7 +307,6 @@
     "Artist": "Linkin Park",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "Hybrid Theory (2000)",
       "Meteora (2003)",
       "Minutes to Midnight (2007)",
       "A Thousand Suns (2010)",
@@ -317,7 +315,9 @@
       "One More Light (2017)",
       "From Zero"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Hybrid Theory (2000)"
+    ]
   },
   {
     "Artist": "System of a Down",
@@ -358,7 +358,7 @@
     ],
     "AddedAlbums": []
   },
-    {
+  {
     "Artist": "White Zombie",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
