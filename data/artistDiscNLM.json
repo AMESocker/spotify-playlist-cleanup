@@ -177,7 +177,6 @@
     "Artist": "Sum-41",
     "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
     "Albums": [
-      "All Killer No Filler (2001)",
       "Does This Look Infected? (2002)",
       "Chuck (2004)",
       "Underclass Hero (2007)",
@@ -186,7 +185,9 @@
       "Order in Decline (2019)",
       "Heaven :x: Hell (2024)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "All Killer No Filler (2001)"
+    ]
   },
   {
     "Artist": "Coldplay",
