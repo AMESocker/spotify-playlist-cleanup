@@ -265,7 +265,6 @@
     "Artist": "Weezer",
     "Group": "🔵 Alternative / Indie /Folk-Rock",
     "Albums": [
-      "Weezer (Blue Album) (1994)^",
       "Pinkerton (1996)",
       "Weezer (Green Album) (2001)",
       "Maladroit (2002)",
@@ -282,7 +281,9 @@
       "Van Weezer (2021)",
       "SZNZ: Winter (2022)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Weezer (Blue Album) (1994)^"
+    ]
   },
   {
     "Artist": "Korn",
