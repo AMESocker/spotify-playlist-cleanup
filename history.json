@@ -52,5 +52,17 @@
     "artist": "Weezer",
     "album": "Pinkerton (1996)",
     "timestamp": "2025-10-04T10:19:15.758Z"
+  },
+  {
+    "action": "add",
+    "artist": "Goo Goo Dolls",
+    "album": "Goo Goo Dolls (1987)",
+    "timestamp": "2025-10-05T10:19:27.036Z"
+  },
+  {
+    "action": "add",
+    "artist": "White Zombie",
+    "album": "Soul-Crusher (1987)^",
+    "timestamp": "2025-10-05T10:19:41.235Z"
   }
 ]
