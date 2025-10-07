@@ -105,7 +105,6 @@
     "Artist": "Blink-182",
     "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
     "Albums": [
-      "Dude Ranch (1997)",
       "Enema of the State (1999)",
       "Take Off Your Pants and Jacket (2001)",
       "Blink-182 (2003)",
@@ -116,7 +115,8 @@
       "One More Time... (2023)^"
     ],
     "AddedAlbums": [
-      "Cheshire Cat (1995)"
+      "Cheshire Cat (1995)",
+      "Dude Ranch (1997)"
     ]
   },
   {
