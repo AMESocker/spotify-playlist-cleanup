@@ -139,18 +139,27 @@
     ]
   },
   {
-    "Artist": "Catch 22/Streetlight Manifesto",
+    "Artist": "Catch 22",
     "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
     "Albums": [
       "Alone in a Crowd (2000)",
-      "Washed Up and Through the Ringer (2001)^",
       "Dinosaur Sounds (2003)",
-      "Permanent Revolution (2006)",
+      "Permanent Revolution (2006)"
+    ],
+    "AddedAlbums": [
+      "Keasbey Nights (1998)^"
+    ]
+  },
+    {
+    "Artist": "Streetlight Manifesto",
+    "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
+    "Albums": [
       "Everything Goes Numb (2003)",
       "Keasbey Nights (2006)^",
       "Somewhere in the Between (2007)",
       "99 Songs of Revolution: Vol. 1 (2010)",
-      "The Hands That Thieve (2013)^"
+      "The Hands That Thieve (2013)^",
+      "The Place Behind the Stars (2025)"
     ],
     "AddedAlbums": [
       "Keasbey Nights (1998)^"
