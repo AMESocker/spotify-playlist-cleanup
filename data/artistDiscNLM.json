@@ -458,7 +458,6 @@
     "Artist": "Alicia Keys",
     "Group": "🟤 Soul / R&B",
     "Albums": [
-      "The Diary of Alicia Keys (2003)",
       "As I Am (2007)",
       "The Element of Freedom (2009)",
       "Girl on Fire (2012)",
@@ -468,7 +467,8 @@
       "Santa Baby (2022)"
     ],
     "AddedAlbums": [
-      "Songs in A Minor (2001)"
+      "Songs in A Minor (2001)",
+      "The Diary of Alicia Keys (2003)"
     ]
   },
   {
