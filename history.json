@@ -208,5 +208,11 @@
     "artist": "Aretha Franklin",
     "album": "I Never Loved a Man the Way I Love You (1967)",
     "timestamp": "2026-01-13T10:28:23.502Z"
+  },
+  {
+    "action": "add",
+    "artist": "Coldplay",
+    "album": "X&Y (2005)",
+    "timestamp": "2026-01-13T23:07:06.327Z"
   }
 ]
