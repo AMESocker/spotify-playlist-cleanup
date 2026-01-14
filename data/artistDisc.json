@@ -262,13 +262,13 @@
     "Artist": "OK Go",
     "Group": "🔵 Alternative / Indie /Folk-Rock",
     "Albums": [
-      "OK Go (2002)",
       "Oh No (2005)",
       "Of the Blue Colour of the Sky (2010)",
       "And the Adjacent Possible (2025)"
     ],
     "AddedAlbums": [
-      "Hungry Ghosts (2014)"
+      "Hungry Ghosts (2014)",
+      "OK Go (2002)"
     ]
   },
   {
@@ -673,12 +673,13 @@
     "Orig": "AES",
     "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
     "Albums": [
-      "Bleach (1989)",
       "Nevermind (1991)",
       "Incesticide",
       "In Utero (1993)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Bleach (1989)"
+    ]
   },
   {
     "Artist": "Foo Fighters",
