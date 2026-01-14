@@ -20,7 +20,6 @@
     "Artist": "Goo Goo Dolls",
     "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
     "Albums": [
-      "Hold Me Up (1990)",
       "A Boy Named Goo (1995)",
       "Dizzy Up the Girl (1998)",
       "Gutterflower (2002)",
@@ -36,7 +35,8 @@
     "AddedAlbums": [
       "Superstar Car Wash (1993)",
       "Goo Goo Dolls (1987)",
-      "Jed (1989)"
+      "Jed (1989)",
+      "Hold Me Up (1990)"
     ]
   },
   {
@@ -169,7 +169,6 @@
     "Artist": "Less Than Jake",
     "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
     "Albums": [
-      "Hello Rockview (1998)",
       "Borders & Boundaries (2000)",
       "Anthem (2003)",
       "In with the Out Crowd (2006)",
@@ -180,7 +179,8 @@
     ],
     "AddedAlbums": [
       "Pezcore (1995)^",
-      "Losing Streak (1996)^"
+      "Losing Streak (1996)^",
+      "Hello Rockview (1998)"
     ]
   },
   {
