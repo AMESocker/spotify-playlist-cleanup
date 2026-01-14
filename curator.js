@@ -109,7 +109,7 @@ export async function addNextAlbum() {
       const targetPlaylistId = process.env.TARGET_PLAYLIST_ID; // define in .env
       const playlistSize = sizes.find(p => p.playlistId === targetPlaylistId);
 
-      if (playlistSize && (playlistSize.trackCount + albumInfo.totalTracks) > 100) {
+      if (playlistSize && (playlistSize.trackCount + albumInfo.totalTracks) > 200) {
         console.log(`⚠️ Skipping album — adding ${albumInfo.totalTracks} tracks would exceed 100 limit.`);
         return; // stop here, don’t update dataset
       }
