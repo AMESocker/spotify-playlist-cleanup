@@ -250,5 +250,17 @@
     "artist": "The White Stripes",
     "album": "Get Behind Me Satan (2005)",
     "timestamp": "2026-01-14T18:36:53.128Z"
+  },
+  {
+    "action": "add",
+    "artist": "Goo Goo Dolls",
+    "album": "Hold Me Up (1990)",
+    "timestamp": "2026-01-14T18:37:49.191Z"
+  },
+  {
+    "action": "add",
+    "artist": "Less Than Jake",
+    "album": "Hello Rockview (1998)",
+    "timestamp": "2026-01-14T18:38:01.863Z"
   }
 ]
