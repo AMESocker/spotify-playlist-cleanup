@@ -269,5 +269,33 @@
     "album": "Sparkle and Fade (1995)",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-15T20:17:41.726Z"
+  },
+  {
+    "action": "add",
+    "artist": "Jamiroquai",
+    "album": "Travelling Without Moving (1996)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-16T01:12:50.256Z"
+  },
+  {
+    "action": "add",
+    "artist": "Weezer",
+    "album": "Make Believe (2005)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-16T01:16:25.626Z"
+  },
+  {
+    "action": "add",
+    "artist": "New Found Glory",
+    "album": "Nothing Gold Can Stay (1999)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-16T01:16:42.042Z"
+  },
+  {
+    "action": "add",
+    "artist": "Jerry Cantrell",
+    "album": "Boggy Depot",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-16T01:17:32.698Z"
   }
 ]
