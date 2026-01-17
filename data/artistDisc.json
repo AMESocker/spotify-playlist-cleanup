@@ -187,7 +187,6 @@
     "Artist": "Sum-41",
     "Group": "🟢 Pop-Punk / Emo / Ska / Pop Rock",
     "Albums": [
-      "Chuck (2004)",
       "Underclass Hero (2007)",
       "Screaming Bloody Murder (2011)",
       "13 Voices (2016)",
@@ -196,7 +195,8 @@
     ],
     "AddedAlbums": [
       "All Killer No Filler (2001)",
-      "Does This Look Infected? (2002)"
+      "Does This Look Infected? (2002)",
+      "Chuck (2004)"
     ]
   },
   {
