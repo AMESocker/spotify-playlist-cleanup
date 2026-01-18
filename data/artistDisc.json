@@ -3,7 +3,6 @@
     "Artist": "Alanis Morissette",
     "Group": "🟡 Grunge / Alt Rock / Post-Grunge",
     "Albums": [
-      "Under Rug Swept (2002)",
       "Feast on Scraps (2002)",
       "So-Called Chaos (2004)",
       "Flavors of Entanglement (2008)",
@@ -13,7 +12,8 @@
     ],
     "AddedAlbums": [
       "Jagged Little Pill (1995)",
-      "Supposed Former Infatuation Junkie (1998)^"
+      "Supposed Former Infatuation Junkie (1998)^",
+      "Under Rug Swept (2002)"
     ]
   },
   {
@@ -388,7 +388,6 @@
     "Artist": "The Chemical Brothers",
     "Group": "🟣 Electronic & Experimental",
     "Albums": [
-      "Surrender (1999)",
       "Come with Us (2002)",
       "Push the Button (2005)",
       "We Are the Night (2007)",
@@ -399,7 +398,8 @@
     ],
     "AddedAlbums": [
       "Exit Planet Dust (1995)",
-      "Dig Your Own Hole (1997)"
+      "Dig Your Own Hole (1997)",
+      "Surrender (1999)"
     ]
   },
   {
