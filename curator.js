@@ -44,7 +44,7 @@ if (!fs.existsSync(sourceIndexFile)) {
 let sourceIndex = JSON.parse(
   fs.readFileSync(sourceIndexFile, "utf-8")
 ).index;
-
+console.log(`🔀 Current data source: ${dataSources[sourceIndex].name}`);
 const currentSource = dataSources[sourceIndex];
 const dataFile = currentSource.file;
 
@@ -141,7 +141,7 @@ function selectSequential(dataset) {
 } */
 function selectSequential(dataset) {
   if (dataset.length === 0) return null;
-  return dataset[0];
+  return dataset.master[0];
 }
 
 /* ==================================================
@@ -150,26 +150,28 @@ function selectSequential(dataset) {
 
 export async function addNextAlbum() {
   let pick;
-
+  
   if (currentSource.strategy === "fairness") {
     pick = selectWithFairness(data);
   } else {
     pick = selectSequential(data);
   }
-
+console.log(currentSource.strategy);
   if (!pick) {
     console.log(`🎉 No albums left in ${currentSource.name}`);
     advanceSource();
     return;
   }
 
-  const artistEntry = data.find(a => a.Artist === pick.artist);
-  const albumName = pick.nextAlbum;
+  if(currentSource.strategy === "fairness"){
 
-  console.log("🎵 Next album selected:");
-  console.log(`Source: ${currentSource.name}`);
-  console.log(`Artist: ${pick.artist}`);
-  console.log(`Album: ${albumName}`);
+    const artistEntry = data.find(a => a.Artist === pick.artist);
+    const albumName = pick.nextAlbum;
+    
+    console.log("🎵 Next album selected:");
+    console.log(`Source: ${currentSource.name}`);
+    console.log(`Artist: ${pick.artist}`);
+    console.log(`Album: ${albumName}`);
 
   const ready = await initAuthIfNeeded();
   if (!ready) return;
@@ -207,9 +209,12 @@ export async function addNextAlbum() {
     sourceFile: dataFile,
     timestamp: new Date().toISOString()
   });
+  }
 
   saveData();
   advanceSource();
+console.log(`🔀 Current data source: ${dataSources[sourceIndex].name}`);
+  
 }
 
 /* ==================================================
