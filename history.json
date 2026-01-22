@@ -381,5 +381,12 @@
     "album": "Anchus Definy",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-22T18:39:31.477Z"
+  },
+  {
+    "action": "add",
+    "artist": "Stone Temple Pilots",
+    "album": "Purple (1994)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-22T21:05:40.756Z"
   }
 ]
