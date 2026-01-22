@@ -246,14 +246,15 @@
     "Artist": "Jack White",
     "Group": "🔵 Alternative / Indie /Folk-Rock",
     "Albums": [
-      "Blunderbuss (2012)",
       "Lazaretto (2014)",
       "Boarding House Reach (2018)",
       "Fear of the Dawn (2022)",
       "Entering Heaven Alive (2022)",
       "No Name (2024)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Blunderbuss (2012)"
+    ]
   },
   {
     "Artist": "The Dead Weather",
