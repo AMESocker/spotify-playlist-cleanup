@@ -367,5 +367,12 @@
     "album": "Boggy Depot",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-22T18:31:36.744Z"
+  },
+  {
+    "action": "add",
+    "artist": "System of a Down",
+    "album": "System of a Down (1998)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-22T18:32:29.092Z"
   }
 ]
