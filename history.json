@@ -360,5 +360,12 @@
     "album": "Smash (1994)",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-22T10:32:07.872Z"
+  },
+  {
+    "action": "add",
+    "artist": "Jerry Cantrell",
+    "album": "Boggy Depot",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-22T18:31:36.744Z"
   }
 ]
