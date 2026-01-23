@@ -322,7 +322,6 @@
     "Artist": "Korn",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "Issues (1999)",
       "Untouchables (2002)",
       "Take a Look in the Mirror (2003)",
       "See You on the Other Side (2005)",
@@ -336,7 +335,8 @@
     "AddedAlbums": [
       "Korn (1994)",
       "Life Is Peachy (1996)",
-      "Follow the Leader (1998)"
+      "Follow the Leader (1998)",
+      "Issues (1999)"
     ]
   },
   {
