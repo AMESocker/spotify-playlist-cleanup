@@ -395,5 +395,12 @@
     "album": "Blunderbuss (2012)",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-22T22:09:55.362Z"
+  },
+  {
+    "action": "add",
+    "artist": "Korn",
+    "album": "Issues (1999)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-23T10:29:06.250Z"
   }
 ]
