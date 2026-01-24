@@ -129,19 +129,45 @@ function selectWithFairness(dataset) {
 /* ==================================================
    SEQUENTIAL STRATEGY (DEFAULT)
 ================================================== */
-/*
-function selectSequential(dataset) {
-  const artist = dataset.find(a => a.Albums.length > 0);
-  if (!artist) return null;
 
-  return {
-    artist: artist.Artist,
-    nextAlbum: artist.Albums[0]
-  };
-} */
 function selectSequential(dataset) {
-  if (dataset.master.length === 0) return null;
-  return dataset.master[0];
+  // For 1080albums format with master/added structure
+  if (dataset.master && Array.isArray(dataset.master)) {
+    if (dataset.master.length === 0) return null;
+    
+    // Get first album string from master array
+    const albumString = dataset.master[0];
+    console.log(`📀 Parsing: "${albumString}"`);
+    
+    // Find the first occurrence of " - " (with spaces)
+    const separator = ' - ';
+    const dashIndex = albumString.indexOf(separator);
+    
+    if (dashIndex === -1) {
+      console.log(`⚠️ Invalid format (no ' - ' separator): ${albumString}`);
+      return null;
+    }
+    
+    const artist = albumString.substring(0, dashIndex).trim();
+    const album = albumString.substring(dashIndex + separator.length).trim();
+    
+    console.log(`🎤 Artist: "${artist}"`);
+    console.log(`💿 Album: "${album}"`);
+    
+    return {
+      artist: artist,
+      nextAlbum: album
+    };
+  }
+  
+  // Fallback for artistDisc format
+  const entry = dataset.find(item => item.Albums && item.Albums.length > 0);
+  if (!entry) return null;
+  
+  return {
+    artist: entry.Artist,
+    nextAlbum: entry.Albums[0]
+  };
 }
 
 /* ==================================================
