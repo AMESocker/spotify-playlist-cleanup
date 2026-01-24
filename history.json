@@ -402,5 +402,12 @@
     "album": "Issues (1999)",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-23T10:29:06.250Z"
+  },
+  {
+    "action": "add",
+    "artist": "Deep Purple",
+    "album": "Shades of Deep Purple (1968)",
+    "sourceFile": "data/artistDisc.json",
+    "timestamp": "2026-01-24T00:03:30.044Z"
   }
 ]
