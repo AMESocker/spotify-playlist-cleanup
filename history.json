@@ -409,5 +409,15 @@
     "album": "Shades of Deep Purple (1968)",
     "sourceFile": "data/artistDisc.json",
     "timestamp": "2026-01-24T00:03:30.044Z"
+  },
+  {
+    "action": "add",
+    "sourceFile": "data/1080albums.json",
+    "timestamp": "2026-01-24T05:26:35.806Z"
+  },
+  {
+    "action": "add",
+    "sourceFile": "data/1080albums.json",
+    "timestamp": "2026-01-24T05:26:48.747Z"
   }
 ]
