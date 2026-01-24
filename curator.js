@@ -177,6 +177,16 @@ export async function addNextAlbum() {
   const albumInfo = await getAlbumTrackCount(pick.artist, albumName);
   if (!albumInfo) {
     console.log("⚠️ Album not found on Spotify.");
+    // Still remove from queue even if not found
+    if (currentSource.strategy === "sequential") {
+      data.master.shift();
+    } else {
+      const artistEntry = data.find(a => a.Artist === pick.artist);
+      if (artistEntry) {
+        artistEntry.Albums.shift();
+      }
+    }
+    saveData();
     return;
   }
 
@@ -186,7 +196,7 @@ export async function addNextAlbum() {
 
   if (playlistSize && (playlistSize.trackCount + albumInfo.totalTracks) > 200) {
     console.log(`⚠️ Skipping album — adding ${albumInfo.totalTracks} tracks would exceed 200 limit.`);
-    return;
+    return; // Don't update dataset if we're skipping
   }
 
   const spotify = getSpotify();
@@ -198,11 +208,11 @@ export async function addNextAlbum() {
 
   // Move album in dataset - handle both formats
   if (currentSource.strategy === "sequential") {
-    // For 1080albums format
+    // For 1080albums format (master/added structure)
     data.master.shift();
     data.added.push(`${pick.artist} - ${albumName}`);
   } else {
-    // For artistDisc format (fairness strategy)
+    // For artistDisc format (fairness strategy with Artist objects)
     const artistEntry = data.find(a => a.Artist === pick.artist);
     artistEntry.Albums.shift();
     artistEntry.AddedAlbums.push(albumName);
@@ -213,6 +223,7 @@ export async function addNextAlbum() {
     artist: pick.artist,
     album: albumName,
     sourceFile: dataFile,
+    strategy: currentSource.strategy,
     timestamp: new Date().toISOString()
   });
 
