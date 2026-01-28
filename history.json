@@ -471,5 +471,13 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-01-27T19:59:50.797Z"
+  },
+  {
+    "action": "add",
+    "artist": "Deep Purple",
+    "album": "The Book of Taliesyn (1968)",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-01-28T10:33:00.330Z"
   }
 ]

@@ -665,7 +665,6 @@
     "Orig": "AES",
     "Group": "🟠 Classic Rock",
     "Albums": [
-      "The Book of Taliesyn (1968)",
       "Deep Purple (1969)",
       "Deep Purple in Rock (1970)",
       "Fireball (1971)",
@@ -689,7 +688,8 @@
       "=1 (2024)"
     ],
     "AddedAlbums": [
-      "Shades of Deep Purple (1968)"
+      "Shades of Deep Purple (1968)",
+      "The Book of Taliesyn (1968)"
     ]
   },
   {
