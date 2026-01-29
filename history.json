@@ -511,5 +511,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-01-29T19:03:47.526Z"
+  },
+  {
+    "action": "add",
+    "artist": "Bob Dylan",
+    "album": "Blonde on Blonde",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-01-29T22:09:25.079Z"
   }
 ]
