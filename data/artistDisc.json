@@ -1903,7 +1903,6 @@
     "Artist": "Kool & the Gang",
     "Group": "🟤 Soul / R&B",
     "Albums": [
-      "Kool and the Gang (1969)",
       "Music Is the Message (1972)",
       "Good Times (1972)",
       "Wild and Peaceful (1973)",
@@ -1930,7 +1929,9 @@
       "Perfect Union (2021)",
       "People Just Wanna Have Fun (2023)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Kool and the Gang (1969)"
+    ]
   },
   {
     "Artist": "Cory Wong",

@@ -567,5 +567,13 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-01-31T23:37:11.842Z"
+  },
+  {
+    "action": "add",
+    "artist": "Kool & the Gang",
+    "album": "Kool and the Gang (1969)",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-01-31T23:38:45.839Z"
   }
 ]
