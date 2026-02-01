@@ -24,6 +24,11 @@ const dataSources = [
     name: "1080albums",
     file: "data/1080albums.json",
     strategy: "sequential"
+  },
+  {
+    name: "rockNRollHallOfFame",
+    file: "data/rockNRollHallofFame.json",
+    strategy: "rockHall"
   }
 ];
 
@@ -171,12 +176,205 @@ function selectSequential(dataset) {
 }
 
 /* ==================================================
-   ADD NEXT ALBUM
+   ROCK HALL STRATEGY
+   Adds 10 tracks from various albums by the artist
+================================================== */
+
+async function processRockHallArtist(artistName) {
+  console.log(`🎵 Processing: ${artistName}`);
+
+  const spotify = getSpotify();
+  
+  try {
+    // Find the artist
+    console.log(`🔍 Finding artist: ${artistName}`);
+    const artistResults = await spotify.searchArtists(artistName, { limit: 5 });
+    
+    if (artistResults.body.artists.items.length === 0) {
+      console.log(`⚠️ Artist not found: ${artistName}`);
+      return {
+        success: false,
+        reason: "ARTIST NOT FOUND",
+        trackUris: []
+      };
+    }
+
+    const artist = artistResults.body.artists.items[0];
+    console.log(`✅ Found artist: "${artist.name}" (ID: ${artist.id})`);
+
+    // Get artist's albums and EPs (exclude singles)
+    console.log(`📀 Getting albums and EPs...`);
+    const albumsResponse = await spotify.getArtistAlbums(artist.id, { 
+      limit: 50,
+      include_groups: 'album' // Only albums and EPs, no singles
+    });
+    
+    let albums = albumsResponse.body.items;
+    
+    // Filter to only albums
+    albums = albums.filter(album => {
+      return album.album_type === 'album';
+    });
+    
+    console.log(`   Found ${albums.length} albums/EPs`);
+    
+    if (albums.length === 0) {
+      console.log(`⚠️ No albums/EPs found for ${artistName}`);
+      return {
+        success: false,
+        reason: "NO ALBUMS",
+        trackUris: []
+      };
+    }
+
+    // Sort by popularity or release date
+    albums.sort((a, b) => {
+      if (a.popularity !== undefined && b.popularity !== undefined) {
+        return b.popularity - a.popularity;
+      }
+      return new Date(b.release_date) - new Date(a.release_date);
+    });
+
+    // Get most popular track from each album (cycling if needed)
+    const trackUris = [];
+    const addedTrackIds = new Set();
+    let albumIndex = 0;
+    
+    console.log(`🎵 Getting most popular track from albums/EPs...`);
+    
+    while (trackUris.length < 10 && albumIndex < albums.length * 20) {
+      const album = albums[albumIndex % albums.length];
+      
+      // Get full album details to access track popularity
+      const albumDetails = await spotify.getAlbum(album.id);
+      const tracks = albumDetails.body.tracks.items;
+      
+      if (tracks.length > 0) {
+        // Sort tracks by popularity (highest first)
+        tracks.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+        
+        // Find the most popular track that we haven't added yet
+        let trackAdded = false;
+        for (const track of tracks) {
+          if (!addedTrackIds.has(track.id)) {
+            trackUris.push(track.uri);
+            addedTrackIds.add(track.id);
+            console.log(`   ${trackUris.length}. "${track.name}" from "${album.name}" (popularity: ${track.popularity || 'N/A'})`);
+            trackAdded = true;
+            break;
+          }
+        }
+        
+        if (!trackAdded) {
+          console.log(`   ⏭️  Skipping "${album.name}" - all tracks already added`);
+        }
+      }
+      
+      albumIndex++;
+    }
+    
+    if (trackUris.length === 0) {
+      console.log(`⚠️ No tracks found`);
+      return {
+        success: false,
+        reason: "NO TRACKS",
+        trackUris: []
+      };
+    }
+
+    console.log(`\n📊 Summary: Found ${trackUris.length} unique tracks from ${albums.length} albums/EPs`);
+
+    return {
+      success: true,
+      trackUris: trackUris,
+      trackCount: trackUris.length
+    };
+    
+  } catch (error) {
+    console.error(`❌ Error:`, error.message);
+    return {
+      success: false,
+      reason: "ERROR",
+      trackUris: [],
+      error: error.message
+    };
+  }
+}
+
+/* ==================================================
+   ADD NEXT ALBUM (OR ARTIST FOR ROCK HALL)
 ================================================== */
 
 export async function addNextAlbum() {
   let pick;
   
+  // Handle Rock Hall strategy differently
+  if (currentSource.strategy === "rockHall") {
+    if (!data.artists || data.artists.length === 0) {
+      console.log(`🎉 No more artists in ${currentSource.name}`);
+      advanceSource();
+      return;
+    }
+
+    const artistName = data.artists[0];
+    console.log("🎵 Next artist selected:");
+    console.log(`Source: ${currentSource.name}`);
+    console.log(`Strategy: ${currentSource.strategy}`);
+    console.log(`Artist: ${artistName}`);
+
+    const ready = await initAuthIfNeeded();
+    if (!ready) {
+      console.error("❌ Authentication failed!");
+      return;
+    }
+
+    const result = await processRockHallArtist(artistName);
+
+    if (!result.success) {
+      // Remove from queue even if failed
+      data.artists.shift();
+      data.added.push(`${artistName} [${result.reason}]`);
+      saveData();
+      advanceSource();
+      return;
+    }
+
+    // Check playlist size
+    const sizes = await checkPlaylistSizes();
+    const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
+    const playlistSize = sizes.find(p => p.playlistId === targetPlaylistId);
+
+    if (playlistSize && (playlistSize.trackCount + result.trackCount) > 200) {
+      console.log(`⚠️ Playlist would exceed 200 tracks (currently ${playlistSize.trackCount}, adding ${result.trackCount} tracks).`);
+      console.log(`⏸️  Waiting for space in playlist before adding more tracks.`);
+      return;
+    }
+
+    // Add tracks to playlist
+    await addTracks(targetPlaylistId, result.trackUris);
+    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
+
+    // Update data
+    data.artists.shift();
+    data.added.push(artistName);
+
+    history.push({
+      action: "addRockHall",
+      artist: artistName,
+      tracksAdded: result.trackCount,
+      sourceFile: dataFile,
+      strategy: currentSource.strategy,
+      timestamp: new Date().toISOString()
+    });
+
+    saveData();
+    advanceSource();
+    console.log(`✅ Completed: ${artistName}`);
+    console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
+    return;
+  }
+
+  // Original album-based strategies
   if (currentSource.strategy === "fairness") {
     pick = selectWithFairness(data);
   } else {
@@ -226,7 +424,6 @@ export async function addNextAlbum() {
   if (playlistSize && (playlistSize.trackCount + albumInfo.totalTracks) > 200) {
     console.log(`⚠️ Playlist would exceed 200 tracks (currently ${playlistSize.trackCount}, album has ${albumInfo.totalTracks} tracks).`);
     console.log(`⏸️  Waiting for space in playlist before adding more albums.`);
-    // Don't advance source or modify data - just stop here
     return;
   }
 
@@ -239,11 +436,9 @@ export async function addNextAlbum() {
 
   // Move album in dataset - handle both formats
   if (currentSource.strategy === "sequential") {
-    // For 1080albums format (master/added structure)
     data.master.shift();
     data.added.push(`${pick.artist} - ${albumName}`);
   } else {
-    // For artistDisc format (fairness strategy with Artist objects)
     const artistEntry = data.find(a => a.Artist === pick.artist);
     artistEntry.Albums.shift();
     artistEntry.AddedAlbums.push(albumName);
@@ -276,8 +471,39 @@ function undoLastAction() {
   const last = history.pop();
   const undoData = JSON.parse(fs.readFileSync(last.sourceFile, "utf-8"));
 
+  // Handle Rock Hall format
+  if (last.action === "addRockHall") {
+    const index = undoData.added.indexOf(last.artist);
+    if (index > -1) {
+      undoData.added.splice(index, 1);
+      undoData.artists.unshift(last.artist);
+    }
+    fs.writeFileSync(last.sourceFile, JSON.stringify(undoData, null, 2));
+    fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
+    console.log(`↩️ Undid artist "${last.artist}" (${last.tracksAdded} tracks)`);
+    return;
+  }
+
+  // Handle sequential format (1080albums)
+  if (last.strategy === "sequential") {
+    const albumString = `${last.artist} - ${last.album}`;
+    const index = undoData.added.indexOf(albumString);
+    if (index > -1) {
+      undoData.added.splice(index, 1);
+      undoData.master.unshift(albumString);
+    }
+    fs.writeFileSync(last.sourceFile, JSON.stringify(undoData, null, 2));
+    fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
+    console.log(`↩️ Undid album "${last.album}" from ${last.artist}`);
+    return;
+  }
+
+  // Handle fairness format (artistDisc)
   const artistEntry = undoData.find(a => a.Artist === last.artist);
-  if (!artistEntry) return;
+  if (!artistEntry) {
+    console.log("⚠️ Artist not found in data file.");
+    return;
+  }
 
   const index = artistEntry.AddedAlbums.indexOf(last.album);
   if (index > -1) {
