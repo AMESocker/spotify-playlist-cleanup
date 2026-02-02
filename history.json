@@ -575,5 +575,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-01-31T23:38:45.839Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Kinks",
+    "album": "Face to Face",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-02T10:50:32.994Z"
   }
 ]
