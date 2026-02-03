@@ -4,7 +4,6 @@ import { initAuthIfNeeded } from './auth.js';
 import { runJob } from './job.js';
 import { scheduleDaily } from './scheduler.js';
 import { logInfo } from './logger.js';
-import { addNextAlbum } from './curator.js';
 
 (async () => {
   const ready = await initAuthIfNeeded();
@@ -12,7 +11,6 @@ import { addNextAlbum } from './curator.js';
 
   if (process.env.RUN_MODE === 'once') {
     await runJob();
-    await addNextAlbum(); // add album as part of the daily job
   } else {
     scheduleDaily(runJob);
     logInfo('Scheduled daily cleanup job.');
