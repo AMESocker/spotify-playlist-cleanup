@@ -655,5 +655,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-04T10:42:02.131Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Yardbirds",
+    "album": "The Yardbirds/Over Under Sideways Down",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-04T21:07:25.687Z"
   }
 ]
