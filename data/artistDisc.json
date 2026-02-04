@@ -1861,7 +1861,6 @@
     "Artist": "Rob Scallon",
     "Group": "🔵 Alternative / Indie / Folk-Rock",
     "Albums": [
-      "Summer (2008)",
       "The Ride Home (2009)",
       "The Winter's Months (2011)",
       "Rob Scallon (2012)",
@@ -1873,7 +1872,9 @@
       "Metal Mad Libs 1-6 (with Eddie Guillen) (2016)",
       "Sunday Uke Group (2018)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Summer (2008)"
+    ]
   },
   {
     "Artist": "Rodrigo y Gabriela",

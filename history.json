@@ -647,5 +647,13 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-03T21:30:39.595Z"
+  },
+  {
+    "action": "add",
+    "artist": "Rob Scallon",
+    "album": "Summer (2008)",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-04T10:42:02.131Z"
   }
 ]
