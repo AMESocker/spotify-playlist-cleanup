@@ -703,5 +703,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-05T21:24:57.856Z"
+  },
+  {
+    "action": "add",
+    "artist": "Buffalo Springfield",
+    "album": "Buffalo Springfield Again",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-05T21:38:31.745Z"
   }
 ]
