@@ -1304,7 +1304,6 @@
     "Artist": "Sufjan Stevens",
     "Group": "🔵 Alternative / Indie / Folk-Rock",
     "Albums": [
-      "A Sun Came",
       "Enjoy Your Rabbit",
       "Michigan",
       "Seven Swans",
@@ -1314,7 +1313,9 @@
       "The Ascension",
       "Javelin"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "A Sun Came"
+    ]
   },
   {
     "Artist": "Vulfpeck",
