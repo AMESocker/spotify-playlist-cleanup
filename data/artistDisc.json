@@ -1374,11 +1374,12 @@
     "Artist": "D'Angelo",
     "Group": "🟤 Soul / R&B",
     "Albums": [
-      "Brown Sugar",
       "Voodoo",
       "Black Messiah"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Brown Sugar [NOT FOUND]"
+    ]
   },
   {
     "Artist": "Flying Lotus",
