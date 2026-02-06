@@ -1413,7 +1413,6 @@
     "Artist": "O.A.R.",
     "Group": "🔵 Alternative / Indie / Folk-Rock",
     "Albums": [
-      "The Wanderer",
       "Risen",
       "In Between Now and Then",
       "Stories of a Stranger",
@@ -1423,7 +1422,9 @@
       "The Arcade",
       "The Mighty"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "The Wanderer"
+    ]
   },
   {
     "Artist": "Toadies",

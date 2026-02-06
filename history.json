@@ -719,5 +719,13 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-06T06:47:10.180Z"
+  },
+  {
+    "action": "add",
+    "artist": "O.A.R.",
+    "album": "The Wanderer",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-06T18:44:42.044Z"
   }
 ]
