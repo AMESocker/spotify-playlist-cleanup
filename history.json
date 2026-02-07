@@ -751,5 +751,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-06T21:08:25.288Z"
+  },
+  {
+    "action": "add",
+    "artist": "Cream",
+    "album": "Disraeli Gears",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-07T21:21:54.282Z"
   }
 ]
