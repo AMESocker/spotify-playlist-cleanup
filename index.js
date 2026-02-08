@@ -4,7 +4,7 @@ import { initAuthIfNeeded } from './auth.js';
 import { runJob } from './job.js';
 import { scheduleDaily } from './scheduler.js';
 import { logInfo } from './logger.js';
-import { addNextAlbum } from './curator.js';
+import { fillPlaylist } from './curator.js';
 import { checkPlaylistSizes } from './playlistChecker.js';
 
 (async () => {
@@ -13,9 +13,7 @@ import { checkPlaylistSizes } from './playlistChecker.js';
   
   if (process.env.RUN_MODE === 'once') {
     await runJob();
-    await addNextAlbum();
-    
-    
+    await fillPlaylist()
   } else {
     scheduleDaily(runJob);
     logInfo('Scheduled daily cleanup job.');
