@@ -1211,9 +1211,6 @@
     "Artist": "Marvin Gaye",
     "Group": "🟤 Soul / R&B",
     "Albums": [
-      "That Stubborn Kinda Fellow",
-      "When I'm Alone I Cry",
-      "Hello Broadway",
       "How Sweet It Is to Be Loved by You",
       "In the Groove",
       "M.P.G.",
@@ -1658,8 +1655,6 @@
       "(A) Senile Animal (2006)",
       "Nude with Boots (2008)",
       "The Bride Screamed Murder (2010)",
-      "Freak Puke (2012)",
-      "Everybody Loves Sausages (2013)",
       "Tres Cabrones (2013)",
       "Hold It In (2014)",
       "Basses Loaded (2016)",
@@ -1914,14 +1909,7 @@
       "Emergency (1984)",
       "Forever (1986)",
       "Sweat (1989)",
-      "Unite (1992)",
-      "State of Affairs (1996)",
-      "Gangland (2001)",
-      "The Hits: Reloaded (2004)",
-      "Still Kool (2007)",
-      "Kool for the Holidays (2013)",
-      "Perfect Union (2021)",
-      "People Just Wanna Have Fun (2023)"
+      "Unite (1992)"
     ],
     "AddedAlbums": [
       "Kool and the Gang (1969)",
@@ -1967,5 +1955,39 @@
       "Away from the World",
       "Walk Around the Moon"
     ]
+  },
+  {
+    "Artist": "Elvis Presley",
+    "Group": "⚪ Classic Rock",
+    "Albums": [
+      "Elvis Presley (1956)",
+      "Elvis (1956)",
+      "Loving You (1957)",
+      "King Creole (1958)",
+      "Elvis Is Back! (1960)",
+      "Viva Las Vegas (1964)",
+      "From Elvis in Memphis (1969)",
+      "Elvis in Person at the International Hotel (1969)",
+      "That's the Way It Is (1970)",
+      "Elvis Country (I'm 10,000 Years Old) (1971)",
+      "Aloha from Hawaii via Satellite (1973)",
+      "Elvis at Sun (1979)"
+    ],
+    "AddedAlbums": []
+  },
+  {
+    "Artist": "Frank Sinatra",
+    "Group": "⚪ Classic Rock",
+    "Albums": [
+      "In the Wee Small Hours (1955)",
+      "Songs for Swingin' Lovers! (1956)",
+      "Where Are You? (1957)",
+      "A Swingin' Affair! (1957)",
+      "Come Fly with Me (1958)",
+      "Frank Sinatra Sings for Only the Lonely (1958)",
+      "Nice 'n' Easy (1960)",
+      "Sinatra at the Sands (1966)"
+    ],
+    "AddedAlbums": []
   }
 ]
