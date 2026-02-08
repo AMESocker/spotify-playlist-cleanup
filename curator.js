@@ -91,7 +91,7 @@ if (fs.existsSync(historyFile)) {
 ================================================== */
 
 function saveData(dataFilePath, dataToSave) {
-  fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
+  fs.writeFileSync(dataFilePath, JSON.stringify(dataToSave, null, 2));
   fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
 }
 
