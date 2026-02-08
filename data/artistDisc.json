@@ -1835,7 +1835,6 @@
     "Artist": "First of October",
     "Group": "🔵 Alternative / Indie / Folk-Rock",
     "Albums": [
-      "Ten Hours (2018)",
       "Gourmet Ravioli (2019)",
       "Gotta Record Everything Good (2021)",
       "CHAOS (2022)",
@@ -1843,7 +1842,9 @@
       "Round 6 (2024)",
       "One Week (2025)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Ten Hours (2018)"
+    ]
   },
   {
     "Artist": "Rob Scallon",
