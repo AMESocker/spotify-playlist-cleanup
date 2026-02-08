@@ -80,7 +80,6 @@ let sourceIndex = JSON.parse(
    LOAD DATA + HISTORY
 ================================================== */
 
-const data = JSON.parse(fs.readFileSync(dataFile, "utf-8"));
 
 let history = [];
 if (fs.existsSync(historyFile)) {
