@@ -495,6 +495,7 @@ export async function fillPlaylist() {
   
   let continueAdding = true;
   let addCount = 0;
+  let consecutiveFailures = 0; // Track failures in a row
   
   while (continueAdding) {
     const result = await addNextAlbum();
@@ -505,9 +506,15 @@ export async function fillPlaylist() {
     // - Album not found
     // - Playlist would exceed 200 tracks
     if (result === false) {
-      continueAdding = false;
-      console.log("\n🛑 Stopping: Playlist full or no more content available");
+      consecutiveFailures++;
+
+      // If we fail 3 times in a row, stop (likely playlist is full)
+      if (consecutiveFailures >= 3) {
+        continueAdding = false;
+        console.log("\n🛑 Stopping: Playlist appears to be full (multiple items won't fit)");
+      }
     } else {
+      consecutiveFailures = 0; // Reset on success
       addCount++;
       console.log(`\n✨ Progress: ${addCount} item(s) added so far\n`);
     }
