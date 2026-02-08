@@ -49,7 +49,7 @@ const dataSources = [
     name: "rockNRollHallOfFame",
     file: "data/rockNRollHallofFame.json",
     strategy: "rockHall"
-  },
+  }
 /*   {
     name: "allMusicEditorsChoice",
     file: "data/editorsChoiceAlbums.json",
@@ -90,7 +90,7 @@ if (fs.existsSync(historyFile)) {
    UTILITIES
 ================================================== */
 
-function saveData() {
+function saveData(dataFilePath, dataToSave) {
   fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
   fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
 }
@@ -356,7 +356,7 @@ export async function addNextAlbum() {
       // Remove from queue even if failed
       data.artists.shift();
       data.added.push(`${artistName} [${result.reason}]`);
-      saveData();
+      saveData(dataFile, data);
       advanceSource();
       return;
     }
@@ -389,7 +389,7 @@ export async function addNextAlbum() {
       timestamp: new Date().toISOString()
     });
 
-    saveData();
+    saveData(dataFile, data);
     advanceSource();
     console.log(`✅ Completed: ${artistName}`);
     console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
@@ -476,11 +476,9 @@ export async function addNextAlbum() {
     timestamp: new Date().toISOString()
   });
 
-  saveData(); // This should handle both data and history saves
+  saveData(dataFile, data); // This should handle both data and history saves
   advanceSource();
 
-  fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
-  fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
 
   console.log(`✅ Album added successfully`);
   console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
