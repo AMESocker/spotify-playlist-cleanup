@@ -799,5 +799,21 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-08T10:31:19.216Z"
+  },
+  {
+    "action": "add",
+    "artist": "Jimi Hendrix",
+    "album": "Are You Experienced?",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-09T18:27:25.684Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Foreigner",
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-09T18:27:27.776Z"
   }
 ]
