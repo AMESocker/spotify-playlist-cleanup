@@ -855,5 +855,13 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-02-10T17:48:11.250Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Kool & The Gang",
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-10T18:36:03.274Z"
   }
 ]

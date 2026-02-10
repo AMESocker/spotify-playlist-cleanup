@@ -1259,12 +1259,13 @@
     "Artist": "Fleet Foxes",
     "Group": "🔵 Alternative / Indie / Folk-Rock",
     "Albums": [
-      "Fleet Foxes",
       "Helplessness Blues",
       "Crack-Up",
       "Shore"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Fleet Foxes [NOT FOUND]"
+    ]
   },
   {
     "Artist": "AC/DC",
