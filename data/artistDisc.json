@@ -1706,7 +1706,6 @@
     "Artist": "Overkill",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "Feel the Fire (1985)",
       "Taking Over (1987)",
       "Under the Influence (1988)",
       "The Years of Decay (1989)",
@@ -1725,7 +1724,9 @@
       "The Wings of War (2019)",
       "Scorched (2023)"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Feel the Fire (1985)"
+    ]
   },
   {
     "Artist": "Rainbow",

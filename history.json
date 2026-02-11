@@ -887,5 +887,13 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-11T07:00:03.603Z"
+  },
+  {
+    "action": "add",
+    "artist": "Overkill",
+    "album": "Feel the Fire (1985)",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-11T18:20:17.944Z"
   }
 ]
