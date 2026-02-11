@@ -919,5 +919,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-11T21:30:53.708Z"
+  },
+  {
+    "action": "add",
+    "artist": "Pink Floyd",
+    "album": "The Piper at the Gates of Dawn",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-11T22:17:14.152Z"
   }
 ]
