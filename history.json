@@ -863,5 +863,13 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-10T18:36:03.274Z"
+  },
+  {
+    "action": "add",
+    "artist": "Orbital",
+    "album": "Orbital",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-11T00:14:31.189Z"
   }
 ]

@@ -1326,7 +1326,6 @@
     "Artist": "Orbital",
     "Group": "🟣 Electronic & Experimental",
     "Albums": [
-      "Orbital",
       "Orbital 2",
       "Snivilisation",
       "In Sides",
@@ -1335,7 +1334,9 @@
       "Wonky",
       "Monsters Exist"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "Orbital"
+    ]
   },
   {
     "Artist": "Bonobo",
