@@ -895,5 +895,21 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-11T18:20:17.944Z"
+  },
+  {
+    "action": "add",
+    "artist": "Moby Grape",
+    "album": "Moby Grape (1967)",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-11T19:49:07.140Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Peter Frampton",
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-11T19:49:08.904Z"
   }
 ]
