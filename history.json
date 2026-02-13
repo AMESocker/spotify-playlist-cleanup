@@ -943,5 +943,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-12T19:10:56.508Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Byrds",
+    "album": "Younger Than Yesterday",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-13T10:42:49.246Z"
   }
 ]
