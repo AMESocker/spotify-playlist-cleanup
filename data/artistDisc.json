@@ -1626,7 +1626,6 @@
     "Artist": "King Crimson",
     "Group": "🔴 Metal / Hard Rock",
     "Albums": [
-      "In the Court of the Crimson King",
       "In the Wake of Poseidon",
       "Lizard",
       "Islands",
@@ -1639,7 +1638,9 @@
       "THRAK",
       "The Power to Believe"
     ],
-    "AddedAlbums": []
+    "AddedAlbums": [
+      "In the Court of the Crimson King"
+    ]
   },
   {
     "Artist": "Melvins",

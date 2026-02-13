@@ -959,5 +959,21 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-13T18:59:12.292Z"
+  },
+  {
+    "action": "add",
+    "artist": "King Crimson",
+    "album": "In the Court of the Crimson King",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-13T21:31:44.896Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Electric Prunes",
+    "album": "I Had Too Much to Dream (Last Night) (1967)",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-13T21:31:47.678Z"
   }
 ]
