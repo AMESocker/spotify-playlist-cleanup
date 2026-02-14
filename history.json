@@ -983,5 +983,13 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-14T10:31:11.973Z"
+  },
+  {
+    "action": "add",
+    "artist": "Stevie Wonder",
+    "album": "Up-Tight",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-14T21:20:41.872Z"
   }
 ]

@@ -1190,7 +1190,6 @@
     "Artist": "Stevie Wonder",
     "Group": "🟤 Soul / R&B",
     "Albums": [
-      "Up-Tight",
       "For Once in My Life",
       "My Cherie Amour",
       "Signed, Sealed & Delivered",
@@ -1205,7 +1204,8 @@
       "Characters"
     ],
     "AddedAlbums": [
-      "The Jazz Soul of Little Stevie"
+      "The Jazz Soul of Little Stevie",
+      "Up-Tight"
     ]
   },
   {
