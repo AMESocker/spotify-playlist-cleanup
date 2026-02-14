@@ -975,5 +975,13 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-02-13T21:31:47.678Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Rage Against the Machine",
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-14T10:31:11.973Z"
   }
 ]
