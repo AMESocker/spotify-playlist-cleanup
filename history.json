@@ -991,5 +991,13 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-14T21:20:41.872Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Kinks",
+    "album": "Something Else by the Kinks",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-15T10:31:04.969Z"
   }
 ]
