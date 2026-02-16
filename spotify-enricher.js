@@ -6,7 +6,7 @@ import 'dotenv/config';
 
 console.log("🎵 Running Spotify track enricher...");
 
-const DATA_PATH = "data/editorsChoiceNew3.json";
+const DATA_PATH = "data/editorsChoiceAlbums.json";
 const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const SPOTIFY_CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
 const DELAY_MS = 500; // Delay between API calls to avoid rate limiting
