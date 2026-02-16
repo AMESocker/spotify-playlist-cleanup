@@ -1,6 +1,76 @@
 {
   "weeklyAlbums": [
     {
+      "date": "2026-02-13",
+      "albums": [
+        {
+          "title": "To Whom This May Concern",
+          "artist": "Jill Scott"
+        },
+        {
+          "title": "Expansions",
+          "artist": "Zo!Tall Black Guy"
+        },
+        {
+          "title": "¡Simpatico! [Remastered and Expanded]",
+          "artist": "Velocity Girl"
+        },
+        {
+          "title": "Known Associates",
+          "artist": "The Paranoid Style"
+        },
+        {
+          "title": "Filin",
+          "artist": "Melissa Aldana"
+        },
+        {
+          "title": "Mariachi El Bronx (IV)",
+          "artist": "Mariachi El Bronx"
+        },
+        {
+          "title": "Dungeon Vision",
+          "artist": "Earth Tongue"
+        },
+        {
+          "title": "Momoko",
+          "artist": "Momoko Gill"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "albums": [
+        {
+          "title": "BRITPOP",
+          "artist": "Robbie Williams"
+        },
+        {
+          "title": "Normal Isn't",
+          "artist": "Puscifer"
+        },
+        {
+          "title": "Manifeste",
+          "artist": "Tigran Hamasyan"
+        },
+        {
+          "title": "Singin' to an Empty Chair",
+          "artist": "Ratboys"
+        },
+        {
+          "title": "Människobarn",
+          "artist": "Dina Ögon"
+        },
+        {
+          "title": "Railcard",
+          "artist": "Railcard"
+        },
+        {
+          "title": "Jazz Gone Dub",
+          "artist": "Gaudi"
+        }
+      ]
+    },
+    {
       "date": "2026-01-30",
       "albums": [
         {
