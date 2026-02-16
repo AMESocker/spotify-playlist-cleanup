@@ -31,6 +31,9 @@ jobs:
         run: node allMusicEditorsChoice.js
 
       - name: Run Spotify Enricher
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: node spotify-enricher.js
       
       - name: Commit and push changes
