@@ -1073,5 +1073,13 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-02-17T21:32:15.201Z"
+  },
+  {
+    "action": "add",
+    "artist": "Rob Scallon",
+    "album": "The Ride Home (2009)",
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-18T19:04:21.637Z"
   }
 ]
