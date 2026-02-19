@@ -1,102 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-02-06",
-      "albums": [
-        {
-          "title": "BRITPOP",
-          "artist": "Robbie Williams",
-          "spotifyTrack": {
-            "id": "1cVJFpfNXmMcI0p8h44NBR",
-            "name": "G.E.M.B",
-            "uri": "spotify:track:1cVJFpfNXmMcI0p8h44NBR",
-            "popularity": 52,
-            "albumName": "BRITPOP (Deluxe Edition)",
-            "albumId": "6TvDU5Uh5fe1PaNjPZ4W2u",
-            "foundAt": "2026-02-16T02:30:54.731Z"
-          }
-        },
-        {
-          "title": "Normal Isn't",
-          "artist": "Puscifer",
-          "spotifyTrack": {
-            "id": "2QXQk39jiS0zHGVMCMemef",
-            "name": "Bad Wolf",
-            "uri": "spotify:track:2QXQk39jiS0zHGVMCMemef",
-            "popularity": 56,
-            "albumName": "Normal Isn't",
-            "albumId": "4iFytIyjG6Irorn84cgsKa",
-            "foundAt": "2026-02-16T02:30:56.147Z"
-          }
-        },
-        {
-          "title": "Manifeste",
-          "artist": "Tigran Hamasyan",
-          "spotifyTrack": {
-            "id": "1K9sehA1QUYO5RfbGIRTCP",
-            "name": "Prelude For All Seekers",
-            "uri": "spotify:track:1K9sehA1QUYO5RfbGIRTCP",
-            "popularity": 44,
-            "albumName": "Manifeste",
-            "albumId": "5DksO6hOezz6mTfYOctZ6f",
-            "foundAt": "2026-02-16T02:30:57.717Z"
-          }
-        },
-        {
-          "title": "Singin' to an Empty Chair",
-          "artist": "Ratboys",
-          "spotifyTrack": {
-            "id": "0NXJ0NZc4VbNWgCY3V7s2y",
-            "name": "Open Up",
-            "uri": "spotify:track:0NXJ0NZc4VbNWgCY3V7s2y",
-            "popularity": 48,
-            "albumName": "Singin’ to an Empty Chair",
-            "albumId": "74sjx2H7SMLQkZrJscHw8Y",
-            "foundAt": "2026-02-16T02:30:59.237Z"
-          }
-        },
-        {
-          "title": "Människobarn",
-          "artist": "Dina Ögon",
-          "spotifyTrack": {
-            "id": "2zGO4BqNdOZgC6MrppnS2K",
-            "name": "Där huden är tunnast",
-            "uri": "spotify:track:2zGO4BqNdOZgC6MrppnS2K",
-            "popularity": 47,
-            "albumName": "Människobarn",
-            "albumId": "6dOFVRlMkZ4LWrzudjA9qC",
-            "foundAt": "2026-02-16T02:31:00.667Z"
-          }
-        },
-        {
-          "title": "Railcard",
-          "artist": "Railcard",
-          "spotifyTrack": {
-            "id": "0B4nl0J12bArcaHNec0zvx",
-            "name": "Narcissus",
-            "uri": "spotify:track:0B4nl0J12bArcaHNec0zvx",
-            "popularity": 7,
-            "albumName": "Railcard",
-            "albumId": "1c44PeLNufuvWWxXdTtFJ8",
-            "foundAt": "2026-02-16T02:31:02.199Z"
-          }
-        },
-        {
-          "title": "Jazz Gone Dub",
-          "artist": "Gaudi",
-          "spotifyTrack": {
-            "id": "6c8Stfg8vDXyE2bRj3XAyU",
-            "name": "Fragile Hands",
-            "uri": "spotify:track:6c8Stfg8vDXyE2bRj3XAyU",
-            "popularity": 34,
-            "albumName": "Jazz Gone Dub",
-            "albumId": "7p0i7Tg06wvIs3KjAIoDNB",
-            "foundAt": "2026-02-16T02:31:03.568Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-01-30",
       "albums": [
         {
@@ -5115,6 +5019,104 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-02-06",
+      "albums": [
+        {
+          "title": "BRITPOP",
+          "artist": "Robbie Williams",
+          "spotifyTrack": {
+            "id": "1cVJFpfNXmMcI0p8h44NBR",
+            "name": "G.E.M.B",
+            "uri": "spotify:track:1cVJFpfNXmMcI0p8h44NBR",
+            "popularity": 52,
+            "albumName": "BRITPOP (Deluxe Edition)",
+            "albumId": "6TvDU5Uh5fe1PaNjPZ4W2u",
+            "foundAt": "2026-02-16T02:30:54.731Z"
+          }
+        },
+        {
+          "title": "Normal Isn't",
+          "artist": "Puscifer",
+          "spotifyTrack": {
+            "id": "2QXQk39jiS0zHGVMCMemef",
+            "name": "Bad Wolf",
+            "uri": "spotify:track:2QXQk39jiS0zHGVMCMemef",
+            "popularity": 56,
+            "albumName": "Normal Isn't",
+            "albumId": "4iFytIyjG6Irorn84cgsKa",
+            "foundAt": "2026-02-16T02:30:56.147Z"
+          }
+        },
+        {
+          "title": "Manifeste",
+          "artist": "Tigran Hamasyan",
+          "spotifyTrack": {
+            "id": "1K9sehA1QUYO5RfbGIRTCP",
+            "name": "Prelude For All Seekers",
+            "uri": "spotify:track:1K9sehA1QUYO5RfbGIRTCP",
+            "popularity": 44,
+            "albumName": "Manifeste",
+            "albumId": "5DksO6hOezz6mTfYOctZ6f",
+            "foundAt": "2026-02-16T02:30:57.717Z"
+          }
+        },
+        {
+          "title": "Singin' to an Empty Chair",
+          "artist": "Ratboys",
+          "spotifyTrack": {
+            "id": "0NXJ0NZc4VbNWgCY3V7s2y",
+            "name": "Open Up",
+            "uri": "spotify:track:0NXJ0NZc4VbNWgCY3V7s2y",
+            "popularity": 48,
+            "albumName": "Singin’ to an Empty Chair",
+            "albumId": "74sjx2H7SMLQkZrJscHw8Y",
+            "foundAt": "2026-02-16T02:30:59.237Z"
+          }
+        },
+        {
+          "title": "Människobarn",
+          "artist": "Dina Ögon",
+          "spotifyTrack": {
+            "id": "2zGO4BqNdOZgC6MrppnS2K",
+            "name": "Där huden är tunnast",
+            "uri": "spotify:track:2zGO4BqNdOZgC6MrppnS2K",
+            "popularity": 47,
+            "albumName": "Människobarn",
+            "albumId": "6dOFVRlMkZ4LWrzudjA9qC",
+            "foundAt": "2026-02-16T02:31:00.667Z"
+          }
+        },
+        {
+          "title": "Railcard",
+          "artist": "Railcard",
+          "spotifyTrack": {
+            "id": "0B4nl0J12bArcaHNec0zvx",
+            "name": "Narcissus",
+            "uri": "spotify:track:0B4nl0J12bArcaHNec0zvx",
+            "popularity": 7,
+            "albumName": "Railcard",
+            "albumId": "1c44PeLNufuvWWxXdTtFJ8",
+            "foundAt": "2026-02-16T02:31:02.199Z"
+          }
+        },
+        {
+          "title": "Jazz Gone Dub",
+          "artist": "Gaudi",
+          "spotifyTrack": {
+            "id": "6c8Stfg8vDXyE2bRj3XAyU",
+            "name": "Fragile Hands",
+            "uri": "spotify:track:6c8Stfg8vDXyE2bRj3XAyU",
+            "popularity": 34,
+            "albumName": "Jazz Gone Dub",
+            "albumId": "7p0i7Tg06wvIs3KjAIoDNB",
+            "foundAt": "2026-02-16T02:31:03.568Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-02-19T18:59:40.559Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-02-13",
       "albums": [
