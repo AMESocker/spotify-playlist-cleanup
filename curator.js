@@ -9,130 +9,102 @@ import { getAlbumTrackCount } from "./albumInfo.js";
 import { initAuthIfNeeded, getSpotify } from "./auth.js";
 import { checkPlaylistSizes } from "./playlistChecker.js";
 import { addTracks } from "./playlist.js";
-import { 
-  processEditorsChoiceWeek, 
-  getEditorsChoiceStatus 
-} from "./allMusicIntegration.js";
+import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
 
 /* ==================================================
    DATA SOURCES
 ================================================== */
-// Todo - Add AllMusic Editors Choice source
-// Todo - Verify that new albums from AllMusic Editors Choice are added to playlist every week on Thursdays, and that if there are more than 1 week of pending albums it adds the newest week first.
-// Todo - Integrate or import AME-add-to-playlist.js - Claude wrote a new file. Double check variable names.
-// Todo - upload and run AllMusic Editors Choice scraper once a week on Thursdays from Github Actions, saving to data/editorsChoiceNew.json
 
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
-
-// Todo - Add Artist Top 10 source
-// Todo - Format Artist Top 10 source data.
-// Todo - Label added artists with genres in Artist Top 10 source.
-
-// Todo - Add Top of the Month data with date and playlist info.
-// Todo - If artist from Top of the Month Playlist is not in Artist Disc or Artist Top 10 source, add artist to Artist Top 10 source.
-
+// Todo - Add Artist Top 10 source + format data + label genres
+// Todo - Add Top of the Month data with date and playlist info. If artist not in Artist Disc or Top 10, add to Top 10 source.
 // Todo - Add Disney/Pixar Movie Soundtracks source
 // Todo - Add Classical Composers source
-// Todo - Create function to add tracks until playlist reaches 200 tracks.
+// Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
+
 const dataSources = [
-  {
-    name: "artistDisc",
-    file: "data/artistDisc.json",
-    strategy: "fairness"
-  },
-  {
-    name: "1080albums",
-    file: "data/1080albums.json",
-    strategy: "sequential"
-  },
-  {
-    name: "rockNRollHallOfFame",
-    file: "data/rockNRollHallofFame.json",
-    strategy: "rockHall"
-  },
-/*
-    {
-    name: "artistTopTracks",
-    file: "data/artistTop10.json",
-    strategy: "fairness",
-    mode: "artistTopTracks"  // NEW: artist top tracks with fairness
-  }
+  { name: "artistDisc", file: "data/artistDisc.json", strategy: "fairness" },
+  { name: "1080albums", file: "data/1080albums.json", strategy: "sequential" },
+  { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
+  { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
+  /*
+  { name: "artistTopTracks", file: "data/artistTop10.json", strategy: "fairness", mode: "artistTopTracks" }
   */
-  {
-    name: "allMusicEditorsChoice",
-    file: "data/editorsChoiceAlbums.json",
-    strategy: "editorsChoice" // This will be handled as a special case in the code
-  }
 ];
 
-const sourceIndexFile = "data/sourceIndex.json";
-const historyFile = "history.json";
+const SOURCE_INDEX_FILE = "data/sourceIndex.json";
+const HISTORY_FILE = "history.json";
+const MAX_PLAYLIST_SIZE = 200;
 
 /* ==================================================
-   SOURCE INDEX INITIALIZATION
+   STATE
 ================================================== */
 
-if (!fs.existsSync(sourceIndexFile)) {
-  fs.writeFileSync(
-    sourceIndexFile,
-    JSON.stringify({ index: 0 }, null, 2)
-  );
+if (!fs.existsSync(SOURCE_INDEX_FILE)) {
+  fs.writeFileSync(SOURCE_INDEX_FILE, JSON.stringify({ index: 0 }, null, 2));
 }
 
-let sourceIndex = JSON.parse(
-  fs.readFileSync(sourceIndexFile, "utf-8")
-).index;
-
-
-/* ==================================================
-   LOAD DATA + HISTORY
-================================================== */
-
-
-let history = [];
-if (fs.existsSync(historyFile)) {
-  history = JSON.parse(fs.readFileSync(historyFile, "utf-8"));
-}
+let sourceIndex = JSON.parse(fs.readFileSync(SOURCE_INDEX_FILE, "utf-8")).index;
+let history = fs.existsSync(HISTORY_FILE)
+  ? JSON.parse(fs.readFileSync(HISTORY_FILE, "utf-8"))
+  : [];
 
 /* ==================================================
    UTILITIES
 ================================================== */
 
-function saveData(dataFilePath, dataToSave) {
-  fs.writeFileSync(dataFilePath, JSON.stringify(dataToSave, null, 2));
-  fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
+function readSourceIndex() {
+  sourceIndex = JSON.parse(fs.readFileSync(SOURCE_INDEX_FILE, "utf-8")).index;
 }
-
 
 function advanceSource() {
   sourceIndex = (sourceIndex + 1) % dataSources.length;
-  fs.writeFileSync(
-    sourceIndexFile,
-    JSON.stringify({ index: sourceIndex }, null, 2)
-  );
+  fs.writeFileSync(SOURCE_INDEX_FILE, JSON.stringify({ index: sourceIndex }, null, 2));
+}
+
+function saveData(dataFilePath, data) {
+  fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2));
+  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+}
+
+function pushHistory(entry) {
+  history.push({ ...entry, timestamp: new Date().toISOString() });
+}
+
+async function getPlaylistTrackCount() {
+  const sizes = await checkPlaylistSizes();
+  const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
+  return sizes.find(p => p.playlistId === targetPlaylistId)?.trackCount ?? 0;
+}
+
+async function wouldExceedLimit(tracksToAdd) {
+  const current = await getPlaylistTrackCount();
+  if (current + tracksToAdd > MAX_PLAYLIST_SIZE) {
+    console.log(`⚠️ Playlist would exceed ${MAX_PLAYLIST_SIZE} tracks (currently ${current}, adding ${tracksToAdd}).`);
+    console.log(`⏸️  Waiting for space before adding more.`);
+    return true;
+  }
+  return false;
 }
 
 /* ==================================================
-   FAIRNESS LOGIC (USED BY ONE SOURCE ONLY)
+   FAIRNESS STRATEGY
 ================================================== */
 
 function calculateGroupStats(dataset) {
-  const stats = {};
-  for (const artist of dataset) {
+  return dataset.reduce((stats, artist) => {
     const group = artist.Group;
-    if (!stats[group]) {
-      stats[group] = { albums: 0, added: 0 };
-    }
+    if (!stats[group]) stats[group] = { albums: 0, added: 0 };
     stats[group].albums += artist.Albums.length + artist.AddedAlbums.length;
     stats[group].added += artist.AddedAlbums.length;
-  }
-  return stats;
+    return stats;
+  }, {});
 }
 
-function getCandidates(dataset) {
+function selectWithFairness(dataset) {
   const groupStats = calculateGroupStats(dataset);
 
-  return dataset
+  const candidate = dataset
     .filter(a => a.Albums.length > 0)
     .map(a => {
       const totalAlbums = a.Albums.length + a.AddedAlbums.length;
@@ -140,399 +112,263 @@ function getCandidates(dataset) {
         artist: a.Artist,
         group: a.Group,
         artistPercentage: a.AddedAlbums.length / totalAlbums,
-        groupPercentage:
-          groupStats[a.Group].added / groupStats[a.Group].albums,
+        groupPercentage: groupStats[a.Group].added / groupStats[a.Group].albums,
         totalAlbums,
         nextAlbum: a.Albums[0]
       };
     })
-    .sort((a, b) => {
-      if (a.groupPercentage !== b.groupPercentage) {
-        return a.groupPercentage - b.groupPercentage;
-      }
-      if (a.artistPercentage !== b.artistPercentage) {
-        return a.artistPercentage - b.artistPercentage;
-      }
-      return b.totalAlbums - a.totalAlbums;
-    });
-}
+    .sort((a, b) =>
+      a.groupPercentage - b.groupPercentage ||
+      a.artistPercentage - b.artistPercentage ||
+      b.totalAlbums - a.totalAlbums
+    )[0];
 
-function selectWithFairness(dataset) {
-  const candidates = getCandidates(dataset);
-  return candidates.length > 0 ? candidates[0] : null;
+  return candidate ?? null;
 }
 
 /* ==================================================
-   SEQUENTIAL STRATEGY (DEFAULT)
+   SEQUENTIAL STRATEGY
 ================================================== */
 
 function selectSequential(dataset) {
-  // For 1080albums format with master/added structure
-  if (dataset.master && Array.isArray(dataset.master)) {
-    if (dataset.master.length === 0) return null;
-
-    // Get first album string from master array
+  if (dataset.master?.length > 0) {
     const albumString = dataset.master[0];
     console.log(`📀 Parsing: "${albumString}"`);
-
-    // Find the first occurrence of " - " (with spaces)
-    const separator = ' - ';
-    const dashIndex = albumString.indexOf(separator);
-
+    const dashIndex = albumString.indexOf(' - ');
     if (dashIndex === -1) {
       console.log(`⚠️ Invalid format (no ' - ' separator): ${albumString}`);
       return null;
     }
-
     const artist = albumString.substring(0, dashIndex).trim();
-    const album = albumString.substring(dashIndex + separator.length).trim();
-
-    console.log(`🎤 Artist: "${artist}"`);
-    console.log(`💿 Album: "${album}"`);
-
-    return {
-      artist: artist,
-      nextAlbum: album
-    };
+    const nextAlbum = albumString.substring(dashIndex + 3).trim();
+    console.log(`🎤 Artist: "${artist}"\n💿 Album: "${nextAlbum}"`);
+    return { artist, nextAlbum };
   }
 
   // Fallback for artistDisc format
-  const entry = dataset.find(item => item.Albums && item.Albums.length > 0);
-  if (!entry) return null;
-
-  return {
-    artist: entry.Artist,
-    nextAlbum: entry.Albums[0]
-  };
+  const entry = dataset.find(item => item.Albums?.length > 0);
+  return entry ? { artist: entry.Artist, nextAlbum: entry.Albums[0] } : null;
 }
 
 /* ==================================================
    ROCK HALL STRATEGY
-   Adds 10 tracks from various albums by the artist
 ================================================== */
 
 async function processRockHallArtist(artistName) {
   console.log(`🎵 Processing: ${artistName}`);
-
   const spotify = getSpotify();
 
   try {
-    // Find the artist
-    console.log(`🔍 Finding artist: ${artistName}`);
     const artistResults = await spotify.searchArtists(artistName, { limit: 5 });
-
-    if (artistResults.body.artists.items.length === 0) {
+    const artists = artistResults.body.artists.items;
+    if (artists.length === 0) {
       console.log(`⚠️ Artist not found: ${artistName}`);
-      return {
-        success: false,
-        reason: "ARTIST NOT FOUND",
-        trackUris: []
-      };
+      return { success: false, reason: "ARTIST NOT FOUND", trackUris: [] };
     }
 
-    const artist = artistResults.body.artists.items[0];
+    const artist = artists[0];
     console.log(`✅ Found artist: "${artist.name}" (ID: ${artist.id})`);
 
-    // Get artist's top tracks
-    console.log(`🎵 Getting top tracks...`);
-    const topTracksResponse = await spotify.getArtistTopTracks(artist.id, 'US');
-    const topTracks = topTracksResponse.body.tracks;
-
+    const { body: { tracks: topTracks } } = await spotify.getArtistTopTracks(artist.id, 'US');
     if (topTracks.length === 0) {
       console.log(`⚠️ No tracks found for ${artistName}`);
-      return {
-        success: false,
-        reason: "NO TRACKS",
-        trackUris: []
-      };
+      return { success: false, reason: "NO TRACKS", trackUris: [] };
     }
 
-    // Take up to 10 top tracks
     const trackUris = topTracks.slice(0, 10).map(t => t.uri);
-
     console.log(`   Found ${topTracks.length} top tracks, adding ${trackUris.length}:`);
-    topTracks.slice(0, 10).forEach((track, i) => {
-      console.log(`   ${i + 1}. "${track.name}" (popularity: ${track.popularity})`);
-    });
+    topTracks.slice(0, 10).forEach((t, i) =>
+      console.log(`   ${i + 1}. "${t.name}" (popularity: ${t.popularity})`)
+    );
 
-    return {
-      success: true,
-      trackUris: trackUris,
-      trackCount: trackUris.length
-    };
+    return { success: true, trackUris, trackCount: trackUris.length };
 
   } catch (error) {
     console.error(`❌ Error:`, error.message);
-    return {
-      success: false,
-      reason: "ERROR",
-      trackUris: [],
-      error: error.message
-    };
+    return { success: false, reason: "ERROR", trackUris: [], error: error.message };
   }
 }
 
 /* ==================================================
-   ADD NEXT ALBUM (OR ARTIST FOR ROCK HALL, OR WEEK FOR EDITORS CHOICE)
+   STRATEGY HANDLERS
 ================================================== */
 
-export async function addNextAlbum() {
-
-  // Reload current source at the start of each call
-  sourceIndex = JSON.parse(fs.readFileSync(sourceIndexFile, "utf-8")).index;
-  console.log(`🔀 Current data source: ${dataSources[sourceIndex].name}`);
-
-  const currentSource = dataSources[sourceIndex];
-  const dataFile = currentSource.file;
-  const data = JSON.parse(fs.readFileSync(dataFile, "utf-8"));
-
-    // Handle AllMusic Editors' Choice strategy
-   if (currentSource.strategy === "editorsChoice") {
-    console.log(`Source: ${currentSource.name}`);
-    console.log(`Strategy: ${currentSource.strategy}`);
-
-    const status = getEditorsChoiceStatus();
-    if (!status.available || status.pendingWeeks === 0) {
-      console.log(`🎉 No more weeks in ${currentSource.name}`);
-      advanceSource();
-      return;
-    }
-
-    if (status.nextWeek) {
-      console.log(`Week: ${status.nextWeek.date}`);
-      console.log(`Albums: ${status.nextWeek.enrichedAlbums}/${status.nextWeek.totalAlbums} ready`);
-    }
-
-    const ready = await initAuthIfNeeded();
-    if (!ready) {
-      console.error("❌ Authentication failed!");
-      return;
-    }
-
-    const result = await processEditorsChoiceWeek();
-
-    if (!result.success) {
-      console.log(`⚠️ Failed to process week: ${result.reason}`);
-      advanceSource();
-      return;
-    }
-
-    // Add to history
-    history.push({
-      action: "addEditorsChoice",
-      weekDate: result.weekDate,
-      tracksAdded: result.tracksAdded,
-      tracksSkipped: result.tracksSkipped,
-      sourceFile: dataFile,
-      strategy: currentSource.strategy,
-      timestamp: new Date().toISOString()
-    });
-
-    fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
-
-    advanceSource();
-    console.log(`✅ Completed: Week ${result.weekDate}`);
-    console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
-    return;
-  } 
-
-  let pick;
-
-  // Handle Rock Hall strategy differently
-  if (currentSource.strategy === "rockHall") {
-    if (!data.artists || data.artists.length === 0) {
-      console.log(`🎉 No more artists in ${currentSource.name}`);
-      advanceSource();
-      return;
-    }
-
-    const artistName = data.artists[0];
-    console.log("🎵 Next artist selected:");
-    console.log(`Source: ${currentSource.name}`);
-    console.log(`Strategy: ${currentSource.strategy}`);
-    console.log(`Artist: ${artistName}`);
-
-    const ready = await initAuthIfNeeded();
-    if (!ready) {
-      console.error("❌ Authentication failed!");
-      return;
-    }
-
-    const result = await processRockHallArtist(artistName);
-
-    if (!result.success) {
-      // Remove from queue even if failed
-      data.artists.shift();
-      data.added.push(`${artistName} [${result.reason}]`);
-      saveData(dataFile, data);
-      advanceSource();
-      return;
-    }
-
-    // Check playlist size
-    const sizes = await checkPlaylistSizes();
-    const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
-    const playlistSize = sizes.find(p => p.playlistId === targetPlaylistId);
-
-    if (playlistSize && (playlistSize.trackCount + result.trackCount) > 200) {
-      console.log(`⚠️ Playlist would exceed 200 tracks (currently ${playlistSize.trackCount}, adding ${result.trackCount} tracks).`);
-      console.log(`⏸️  Waiting for space in playlist before adding more tracks.`);
-      return false;
-    }
-
-    // Add tracks to playlist
-    await addTracks(targetPlaylistId, result.trackUris);
-    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
-
-    // Update data
-    data.artists.shift();
-    data.added.push(artistName);
-
-    history.push({
-      action: "addRockHall",
-      artist: artistName,
-      tracksAdded: result.trackCount,
-      sourceFile: dataFile,
-      strategy: currentSource.strategy,
-      timestamp: new Date().toISOString()
-    });
-
-    saveData(dataFile, data);
-    advanceSource();
-    console.log(`✅ Completed: ${artistName}`);
-    console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
-    return;
+async function handleEditorsChoice(source) {
+  const status = getEditorsChoiceStatus();
+  if (!status.available || status.pendingWeeks === 0) {
+    console.log(`🎉 No more weeks in ${source.name}`);
+    return null; // signal to advance
   }
 
-  // Original album-based strategies
-
-  if (currentSource.strategy === "fairness") {
-    pick = selectWithFairness(data);
-  } else {
-    pick = selectSequential(data);
+  if (status.nextWeek) {
+    console.log(`Week: ${status.nextWeek.date}`);
+    console.log(`Albums: ${status.nextWeek.enrichedAlbums}/${status.nextWeek.totalAlbums} ready`);
   }
+
+  const result = await processEditorsChoiceWeek();
+  if (!result.success) {
+    console.log(`⚠️ Failed to process week: ${result.reason}`);
+    return false;
+  }
+
+  pushHistory({
+    action: "addEditorsChoice",
+    weekDate: result.weekDate,
+    tracksAdded: result.tracksAdded,
+    tracksSkipped: result.tracksSkipped,
+    sourceFile: source.file,
+    strategy: source.strategy
+  });
+  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+  console.log(`✅ Completed: Week ${result.weekDate}`);
+  return true;
+}
+
+async function handleRockHall(source, data) {
+  if (!data.artists?.length) {
+    console.log(`🎉 No more artists in ${source.name}`);
+    return null;
+  }
+
+  const artistName = data.artists[0];
+  console.log(`Artist: ${artistName}`);
+
+  const result = await processRockHallArtist(artistName);
+
+  // Always remove from queue
+  data.artists.shift();
+  if (!result.success) {
+    data.added.push(`${artistName} [${result.reason}]`);
+    saveData(source.file, data);
+    return false;
+  }
+
+  if (await wouldExceedLimit(result.trackCount)) return false;
+
+  await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+  console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
+
+  data.added.push(artistName);
+  pushHistory({
+    action: "addRockHall",
+    artist: artistName,
+    tracksAdded: result.trackCount,
+    sourceFile: source.file,
+    strategy: source.strategy
+  });
+  saveData(source.file, data);
+  console.log(`✅ Completed: ${artistName}`);
+  return true;
+}
+
+async function handleAlbum(source, data) {
+  const pick = source.strategy === "fairness"
+    ? selectWithFairness(data)
+    : selectSequential(data);
 
   if (!pick) {
-    console.log(`🎉 No albums left in ${currentSource.name}`);
-    return false; // Return false when no albums available
+    console.log(`🎉 No albums left in ${source.name}`);
+    return null;
   }
 
-  const albumName = pick.nextAlbum;
+  console.log(`Artist: ${pick.artist}\nAlbum: ${pick.nextAlbum}`);
 
-  console.log("🎵 Next album selected:");
-  console.log(`Source: ${currentSource.name}`);
-  console.log(`Strategy: ${currentSource.strategy}`);
-  console.log(`Artist: ${pick.artist}`);
-  console.log(`Album: ${albumName}`);
-
-  const ready = await initAuthIfNeeded();
-  if (!ready) {
-    return false; // Return false on auth failure
-  }
-
-  const albumInfo = await getAlbumTrackCount(pick.artist, albumName);
+  const albumInfo = await getAlbumTrackCount(pick.artist, pick.nextAlbum);
   if (!albumInfo) {
     console.log("⚠️ Album not found on Spotify.");
-    // Remove from queue
-    if (currentSource.strategy === "sequential") {
+    if (source.strategy === "sequential") {
       data.master.shift();
-      data.added.push(`${pick.artist} - ${albumName} [NOT FOUND]`);
+      data.added.push(`${pick.artist} - ${pick.nextAlbum} [NOT FOUND]`);
     } else {
-      const artistEntry = data.find(a => a.Artist === pick.artist);
-      if (artistEntry) {
-        artistEntry.Albums.shift();
-        artistEntry.AddedAlbums.push(`${albumName} [NOT FOUND]`);
-      }
+      const entry = data.find(a => a.Artist === pick.artist);
+      if (entry) { entry.Albums.shift(); entry.AddedAlbums.push(`${pick.nextAlbum} [NOT FOUND]`); }
     }
-    fs.writeFileSync(dataFile, JSON.stringify(data, null, 2));
-    return false; // Return false when album not found
+    fs.writeFileSync(source.file, JSON.stringify(data, null, 2));
+    return false;
   }
 
-  const sizes = await checkPlaylistSizes();
-  const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
-  const playlistSize = sizes.find(p => p.playlistId === targetPlaylistId);
-
-  if (playlistSize && (playlistSize.trackCount + albumInfo.totalTracks) > 200) {
-    console.log(`⚠️ Playlist would exceed 200 tracks (currently ${playlistSize.trackCount}, album has ${albumInfo.totalTracks} tracks).`);
-    console.log(`⏸️  Waiting for space in playlist before adding more albums.`);
-    return false; // Return false when playlist would be too full
-  }
+  if (await wouldExceedLimit(albumInfo.totalTracks)) return false;
 
   const spotify = getSpotify();
   const tracks = await spotify.getAlbumTracks(albumInfo.id, { limit: 50 });
   const uris = tracks.body.items.map(t => t.uri);
 
-  await addTracks(targetPlaylistId, uris);
+  await addTracks(process.env.TARGET_PLAYLIST_ID, uris);
   console.log(`🎶 Added ${uris.length} tracks.`);
 
-  // Move album in dataset
-  if (currentSource.strategy === "sequential") {
+  if (source.strategy === "sequential") {
     data.master.shift();
-    data.added.push(`${pick.artist} - ${albumName}`);
+    data.added.push(`${pick.artist} - ${pick.nextAlbum}`);
   } else {
-    const artistEntry = data.find(a => a.Artist === pick.artist);
-    artistEntry.Albums.shift();
-    artistEntry.AddedAlbums.push(albumName);
+    const entry = data.find(a => a.Artist === pick.artist);
+    entry.Albums.shift();
+    entry.AddedAlbums.push(pick.nextAlbum);
   }
 
-  history.push({
+  pushHistory({
     action: "add",
     artist: pick.artist,
-    album: albumName,
-    sourceFile: dataFile,
-    strategy: currentSource.strategy,
-    timestamp: new Date().toISOString()
+    album: pick.nextAlbum,
+    sourceFile: source.file,
+    strategy: source.strategy
   });
-
-  saveData(dataFile, data); // This should handle both data and history saves
-  advanceSource();
-
-
+  saveData(source.file, data);
   console.log(`✅ Album added successfully`);
-  console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`);
-  return true; // Return true on success
+  return true;
 }
 
 /* ==================================================
- Continuously adds albums/artists until playlist reaches 200 tracks
- ================================================== */
+   ADD NEXT ALBUM (main entry point)
+================================================== */
+
+export async function addNextAlbum() {
+  readSourceIndex();
+  const source = dataSources[sourceIndex];
+  console.log(`🔀 Current data source: ${source.name} (strategy: ${source.strategy})`);
+
+  const ready = await initAuthIfNeeded();
+  if (!ready) {
+    console.error("❌ Authentication failed!");
+    return false;
+  }
+
+  const data = JSON.parse(fs.readFileSync(source.file, "utf-8"));
+
+  let result;
+  if (source.strategy === "editorsChoice") result = await handleEditorsChoice(source);
+  else if (source.strategy === "rockHall") result = await handleRockHall(source, data);
+  else result = await handleAlbum(source, data);
+
+  // null means "this source is exhausted, skip it"
+  if (result === null) { advanceSource(); return false; }
+  if (result) { advanceSource(); console.log(`🔀 Next data source: ${dataSources[sourceIndex].name}`); }
+
+  return result ?? false;
+}
+
+/* ==================================================
+   FILL PLAYLIST
+================================================== */
+
 export async function fillPlaylist() {
   console.log("🎯 Starting playlist fill process...\n");
-  
-  let continueAdding = true;
   let addCount = 0;
-  let consecutiveFailures = 0; // Track failures in a row
-  
-  while (continueAdding) {
-    const result = await addNextAlbum();
-    
-    // addNextAlbum returns false when:
-    // - No albums left in current source
-    // - Auth failed
-    // - Album not found
-    // - Playlist would exceed 200 tracks
-    if (result === false) {
-      consecutiveFailures++;
+  let consecutiveFailures = 0;
 
-      // If we fail 3 times in a row, stop (likely playlist is full)
-      if (consecutiveFailures >= 3) {
-        continueAdding = false;
-        console.log("\n🛑 Stopping: Playlist appears to be full (multiple items won't fit)");
-      }
+  while (consecutiveFailures < 3) {
+    const result = await addNextAlbum();
+    if (!result) {
+      consecutiveFailures++;
     } else {
-      consecutiveFailures = 0; // Reset on success
+      consecutiveFailures = 0;
       addCount++;
       console.log(`\n✨ Progress: ${addCount} item(s) added so far\n`);
     }
   }
-  
+
   console.log(`\n🎉 Fill complete! Added ${addCount} item(s) total.`);
-  
-  // Show final playlist status
-  const sizes = await checkPlaylistSizes();
-  const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
-  const finalSize = sizes.find(p => p.playlistId === targetPlaylistId);
-  if (finalSize) {
-    console.log(`📊 Final playlist size: ${finalSize.trackCount}/200 tracks`);
-  }
+  console.log("🛑 Stopping: Playlist appears to be full (multiple items won't fit)");
+
+  const trackCount = await getPlaylistTrackCount();
+  console.log(`📊 Final playlist size: ${trackCount}/${MAX_PLAYLIST_SIZE} tracks`);
 }
