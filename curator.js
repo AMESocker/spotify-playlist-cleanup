@@ -10,6 +10,7 @@ import { initAuthIfNeeded, getSpotify } from "./auth.js";
 import { checkPlaylistSizes } from "./playlistChecker.js";
 import { addTracks } from "./playlist.js";
 import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
+import { handleArtistGenre } from "./artistGenreStrategy.js";
 
 /* ==================================================
    DATA SOURCES
@@ -27,9 +28,7 @@ const dataSources = [
   { name: "1080albums", file: "data/1080albums.json", strategy: "sequential" },
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
-  /*
-  { name: "artistTopTracks", file: "data/artistTop10.json", strategy: "fairness", mode: "artistTopTracks" }
-  */
+  { name: "artistGenre", file: "data/artistTop10.json.json", strategy: "artistGenre" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -337,6 +336,7 @@ export async function addNextAlbum() {
   let result;
   if (source.strategy === "editorsChoice") result = await handleEditorsChoice(source);
   else if (source.strategy === "rockHall") result = await handleRockHall(source, data);
+  else if (source.strategy === "artistGenre") result = await handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData);
   else result = await handleAlbum(source, data);
 
   // null means "this source is exhausted, skip it"
