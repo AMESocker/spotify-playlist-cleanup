@@ -121,7 +121,8 @@ function selectWithFairness(dataset) {
 
 function selectSequential(dataset) {
   if (dataset.master?.length > 0) {
-    const albumString = dataset.master[0];
+    const randomIndex = Math.floor(Math.random() * dataset.master.length);
+    const albumString = dataset.master[randomIndex];
     console.log(`📀 Parsing: "${albumString}"`);
     const dashIndex = albumString.indexOf(' - ');
     if (dashIndex === -1) {
