@@ -28,7 +28,7 @@ const dataSources = [
   { name: "1080albums", file: "data/1080albums.json", strategy: "sequential" },
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
-  { name: "artistGenre", file: "data/artistTop10.json.json", strategy: "artistGenre" }
+  { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
