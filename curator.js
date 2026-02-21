@@ -1,7 +1,5 @@
 // File: curator.js
-// Usage:
-// Add Next Album   --- node curator.js add
-// Undo Last Action --- node curator.js undo
+
 
 import 'dotenv/config';
 import fs from "fs";
@@ -12,9 +10,7 @@ import { addTracks } from "./playlist.js";
 import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
 import { handleArtistGenre } from "./artistGenreStrategy.js";
 
-/* ==================================================
-   DATA SOURCES
-================================================== */
+//* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
 // Todo - Add Artist Top 10 source + format data + label genres
@@ -22,6 +18,8 @@ import { handleArtistGenre } from "./artistGenreStrategy.js";
 // Todo - Add Disney/Pixar Movie Soundtracks source
 // Todo - Add Classical Composers source
 // Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
+
+//* ─── DATA SOURCES ──────────────────────────────────────────────────────────────────────
 
 const dataSources = [
   { name: "artistDisc", file: "data/artistDisc.json", strategy: "fairness" },
@@ -35,9 +33,7 @@ const SOURCE_INDEX_FILE = "data/sourceIndex.json";
 const HISTORY_FILE = "history.json";
 const MAX_PLAYLIST_SIZE = 200;
 
-/* ==================================================
-   STATE
-================================================== */
+//* ─── STATE ──────────────────────────────────────────────────────────────────────
 
 if (!fs.existsSync(SOURCE_INDEX_FILE)) {
   fs.writeFileSync(SOURCE_INDEX_FILE, JSON.stringify({ index: 0 }, null, 2));
@@ -48,9 +44,7 @@ let history = fs.existsSync(HISTORY_FILE)
   ? JSON.parse(fs.readFileSync(HISTORY_FILE, "utf-8"))
   : [];
 
-/* ==================================================
-   UTILITIES
-================================================== */
+//* ─── UTILITIES ──────────────────────────────────────────────────────────────────
 
 function readSourceIndex() {
   sourceIndex = JSON.parse(fs.readFileSync(SOURCE_INDEX_FILE, "utf-8")).index;
@@ -86,9 +80,7 @@ async function wouldExceedLimit(tracksToAdd) {
   return false;
 }
 
-/* ==================================================
-   FAIRNESS STRATEGY
-================================================== */
+//* ─── FAIRNESS STRATEGY ───────────────────────────────────
 
 function calculateGroupStats(dataset) {
   return dataset.reduce((stats, artist) => {
@@ -125,9 +117,7 @@ function selectWithFairness(dataset) {
   return candidate ?? null;
 }
 
-/* ==================================================
-   SEQUENTIAL STRATEGY
-================================================== */
+//* ─── SEQUENTIAL STRATEGY ───────────────────────────────────
 
 function selectSequential(dataset) {
   if (dataset.master?.length > 0) {
@@ -149,9 +139,7 @@ function selectSequential(dataset) {
   return entry ? { artist: entry.Artist, nextAlbum: entry.Albums[0] } : null;
 }
 
-/* ==================================================
-   ROCK HALL STRATEGY
-================================================== */
+//* ─── ROCK HALL OF FAME STRATEGY ───────────────────────────────────
 
 async function processRockHallArtist(artistName) {
   console.log(`🎵 Processing: ${artistName}`);
@@ -188,9 +176,45 @@ async function processRockHallArtist(artistName) {
   }
 }
 
-/* ==================================================
-   STRATEGY HANDLERS
-================================================== */
+//* ─── MUSICBRAINZ - ORIGINAL RELEASE TRACK COUNT ───────────────────────────────────
+
+async function getOriginalTrackCount(artist, album) {
+  const query = `release:"${album}" AND artist:"${artist}"`;
+  const url = `https://musicbrainz.org/ws/2/release/?query=${encodeURIComponent(query)}&fmt=json&limit=10`;
+
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'PlaylistCurator/1.0 (your@email.com)' }
+    });
+    const json = await res.json();
+
+    if (!json.releases?.length) {
+      console.log(`⚠️ MusicBrainz: No releases found for "${artist} - ${album}"`);
+      return null;
+    }
+
+    // Sort by date ascending, pick the earliest official release
+    const official = json.releases
+      .filter(r => r.status === 'Official' && r.date)
+      .sort((a, b) => a.date.localeCompare(b.date));
+
+    if (!official.length) {
+      console.log(`⚠️ MusicBrainz: No official dated releases found`);
+      return null;
+    }
+
+    const earliest = official[0];
+    const trackCount = earliest['track-count'];
+    console.log(`📅 MusicBrainz original release: "${earliest.title}" (${earliest.date}) — ${trackCount} tracks`);
+    return trackCount;
+
+  } catch (err) {
+    console.error(`❌ MusicBrainz lookup failed:`, err.message);
+    return null;
+  }
+}
+
+//* ─── STRATEGY HANDLERS ───────────────────────────────────
 
 async function handleEditorsChoice(source) {
   const status = getEditorsChoiceStatus();
@@ -286,11 +310,21 @@ async function handleAlbum(source, data) {
     return false;
   }
 
-  if (await wouldExceedLimit(albumInfo.totalTracks)) return false;
 
   const spotify = getSpotify();
   const tracks = await spotify.getAlbumTracks(albumInfo.id, { limit: 50 });
   const uris = tracks.body.items.map(t => t.uri);
+
+  const originalCount = albumInfo.totalTracks > 30
+    ? await getOriginalTrackCount(pick.artist, pick.nextAlbum)
+    : null;
+
+  if (originalCount && originalCount < uris.length) {
+    console.log(`✂️  Trimming to ${originalCount} original tracks (Spotify has ${uris.length})`);
+    uris = uris.slice(0, originalCount);
+  }
+
+  if (await wouldExceedLimit(albumInfo.totalTracks)) return false;
 
   await addTracks(process.env.TARGET_PLAYLIST_ID, uris);
   console.log(`🎶 Added ${uris.length} tracks.`);
@@ -316,9 +350,7 @@ async function handleAlbum(source, data) {
   return true;
 }
 
-/* ==================================================
-   ADD NEXT ALBUM (main entry point)
-================================================== */
+//* ─── ADD NEXT ALBUM (main entry point) ───────────────────────────────────
 
 export async function addNextAlbum() {
   readSourceIndex();
@@ -346,9 +378,7 @@ export async function addNextAlbum() {
   return result ?? false;
 }
 
-/* ==================================================
-   FILL PLAYLIST
-================================================== */
+//* ─── FILL PLAYLIST ───────────────────────────────────
 
 export async function fillPlaylist() {
   console.log("🎯 Starting playlist fill process...\n");
