@@ -1147,5 +1147,40 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-19T22:14:01.584Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Young Rascals",
+    "album": "Groovin' (1967)",
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-02-21T00:54:49.658Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Dolly Parton",
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-21T00:56:37.859Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-01-30",
+    "tracksAdded": 4,
+    "tracksSkipped": 1,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-02-21T00:56:38.369Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World / Ambient / Experimental Electronic",
+    "artist": "Stars of the Lid",
+    "listeners": 101976,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-02-21T00:58:41.736Z"
   }
 ]
