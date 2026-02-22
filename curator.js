@@ -10,24 +10,25 @@ import { addTracks } from "./playlist.js";
 import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
 import { handleArtistGenre } from "./artistGenreStrategy.js";
 
-//* ─── TODOs ──────────────────────────────────────────────────────────────────────
+//* ─── TODOs ────────────────────────────────────────────────────────────────
 
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
 
 // Todo - Add Disney/Pixar Movie Soundtracks source
-// Todo - Add Classical Composers source
+// Todo - Add Classical Composers source ✅ Added: classicalMusic (1001 Pieces of Classical Music)
 // Todo - Add
 
 // Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
 
-//* ─── DATA SOURCES ──────────────────────────────────────────────────────────────────────
+//* ─── DATA SOURCES ─────────────────────────────────────────────────────────
 
 const dataSources = [
   { name: "artistDisc", file: "data/artistDisc.json", strategy: "fairness" },
   { name: "1080albums", file: "data/1080albums.json", strategy: "sequential" },
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
-  { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" }
+  { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
+  { name: "classicalMusic", file: "data/classicalMusic.json", strategy: "sequential" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -316,7 +317,7 @@ async function handleAlbum(source, data) {
 
   const spotify = getSpotify();
   const tracks = await spotify.getAlbumTracks(albumInfo.id, { limit: 50 });
-  const uris = tracks.body.items.map(t => t.uri);
+  let uris = tracks.body.items.map(t => t.uri);
 
   const originalCount = albumInfo.totalTracks > 30
     ? await getOriginalTrackCount(pick.artist, pick.nextAlbum)
