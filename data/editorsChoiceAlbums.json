@@ -1,97 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-01-23",
-      "albums": [
-        {
-          "title": "Boycott Heaven",
-          "artist": "The Format",
-          "spotifyTrack": {
-            "id": "1jUNEF8KHemuZZOhk2nhfs",
-            "name": "Depressed",
-            "uri": "spotify:track:1jUNEF8KHemuZZOhk2nhfs",
-            "popularity": 50,
-            "albumName": "Boycott Heaven",
-            "albumId": "4yMJnpezQRZr8MIkNUor1M",
-            "foundAt": "2026-02-05T18:42:27.618Z"
-          }
-        },
-        {
-          "title": "World's Gone Wrong",
-          "artist": "Lucinda Williams",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-19T10:54:12.987Z"
-          }
-        },
-        {
-          "title": "Yoo-Hoo",
-          "artist": "Shintaro Sakamoto",
-          "spotifyTrack": {
-            "id": "5kfgWXn6YD9ed6pPNsrcgY",
-            "name": "Numb",
-            "uri": "spotify:track:5kfgWXn6YD9ed6pPNsrcgY",
-            "popularity": 39,
-            "albumName": "Yoo-hoo",
-            "albumId": "2ovdkF5kkDDWfjJgk9rHtu",
-            "foundAt": "2026-02-05T18:42:30.282Z"
-          }
-        },
-        {
-          "title": "ElectroSoul",
-          "artist": "DJ Harrison",
-          "spotifyTrack": {
-            "id": "2mztDIJDXUXy0Oxd7WM6e5",
-            "name": "It’s All Love (feat. Yazmin Lacey)",
-            "uri": "spotify:track:2mztDIJDXUXy0Oxd7WM6e5",
-            "popularity": 40,
-            "albumName": "ElectroSoul",
-            "albumId": "0KwGULFHLHMz9qg84ahZZe",
-            "foundAt": "2026-02-05T18:42:31.895Z"
-          }
-        },
-        {
-          "title": "No More Like This",
-          "artist": "PVA",
-          "spotifyTrack": {
-            "id": "4r7S03Kt95iWLOlfNryZny",
-            "name": "Rain",
-            "uri": "spotify:track:4r7S03Kt95iWLOlfNryZny",
-            "popularity": 43,
-            "albumName": "No More Like This",
-            "albumId": "12DsfLStHj9iTWgbNQVoRK",
-            "foundAt": "2026-02-05T18:42:33.428Z"
-          }
-        },
-        {
-          "title": "A Constant Charade",
-          "artist": "Elujay",
-          "spotifyTrack": {
-            "id": "1IbcX5yIsTavsZmZKr2OGR",
-            "name": "Circles",
-            "uri": "spotify:track:1IbcX5yIsTavsZmZKr2OGR",
-            "popularity": 44,
-            "albumName": "A Constant Charade",
-            "albumId": "60rPZxVWJo6Gy8RduvuKlY",
-            "foundAt": "2026-02-05T18:42:35.011Z"
-          }
-        },
-        {
-          "title": "Yatta!",
-          "artist": "YĪN YĪN",
-          "spotifyTrack": {
-            "id": "6FR6o5mqPEVRffn9Jxsnqr",
-            "name": "In Search of Yang",
-            "uri": "spotify:track:6FR6o5mqPEVRffn9Jxsnqr",
-            "popularity": 49,
-            "albumName": "Yatta!",
-            "albumId": "14miHHQBXPPlt61Ax0SK2W",
-            "foundAt": "2026-02-05T18:42:36.625Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-01-16",
       "albums": [
         {
@@ -4954,6 +4863,99 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-01-23",
+      "albums": [
+        {
+          "title": "Boycott Heaven",
+          "artist": "The Format",
+          "spotifyTrack": {
+            "id": "1jUNEF8KHemuZZOhk2nhfs",
+            "name": "Depressed",
+            "uri": "spotify:track:1jUNEF8KHemuZZOhk2nhfs",
+            "popularity": 50,
+            "albumName": "Boycott Heaven",
+            "albumId": "4yMJnpezQRZr8MIkNUor1M",
+            "foundAt": "2026-02-05T18:42:27.618Z"
+          }
+        },
+        {
+          "title": "World's Gone Wrong",
+          "artist": "Lucinda Williams",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-19T10:54:12.987Z"
+          }
+        },
+        {
+          "title": "Yoo-Hoo",
+          "artist": "Shintaro Sakamoto",
+          "spotifyTrack": {
+            "id": "5kfgWXn6YD9ed6pPNsrcgY",
+            "name": "Numb",
+            "uri": "spotify:track:5kfgWXn6YD9ed6pPNsrcgY",
+            "popularity": 39,
+            "albumName": "Yoo-hoo",
+            "albumId": "2ovdkF5kkDDWfjJgk9rHtu",
+            "foundAt": "2026-02-05T18:42:30.282Z"
+          }
+        },
+        {
+          "title": "ElectroSoul",
+          "artist": "DJ Harrison",
+          "spotifyTrack": {
+            "id": "2mztDIJDXUXy0Oxd7WM6e5",
+            "name": "It’s All Love (feat. Yazmin Lacey)",
+            "uri": "spotify:track:2mztDIJDXUXy0Oxd7WM6e5",
+            "popularity": 40,
+            "albumName": "ElectroSoul",
+            "albumId": "0KwGULFHLHMz9qg84ahZZe",
+            "foundAt": "2026-02-05T18:42:31.895Z"
+          }
+        },
+        {
+          "title": "No More Like This",
+          "artist": "PVA",
+          "spotifyTrack": {
+            "id": "4r7S03Kt95iWLOlfNryZny",
+            "name": "Rain",
+            "uri": "spotify:track:4r7S03Kt95iWLOlfNryZny",
+            "popularity": 43,
+            "albumName": "No More Like This",
+            "albumId": "12DsfLStHj9iTWgbNQVoRK",
+            "foundAt": "2026-02-05T18:42:33.428Z"
+          }
+        },
+        {
+          "title": "A Constant Charade",
+          "artist": "Elujay",
+          "spotifyTrack": {
+            "id": "1IbcX5yIsTavsZmZKr2OGR",
+            "name": "Circles",
+            "uri": "spotify:track:1IbcX5yIsTavsZmZKr2OGR",
+            "popularity": 44,
+            "albumName": "A Constant Charade",
+            "albumId": "60rPZxVWJo6Gy8RduvuKlY",
+            "foundAt": "2026-02-05T18:42:35.011Z"
+          }
+        },
+        {
+          "title": "Yatta!",
+          "artist": "YĪN YĪN",
+          "spotifyTrack": {
+            "id": "6FR6o5mqPEVRffn9Jxsnqr",
+            "name": "In Search of Yang",
+            "uri": "spotify:track:6FR6o5mqPEVRffn9Jxsnqr",
+            "popularity": 49,
+            "albumName": "Yatta!",
+            "albumId": "14miHHQBXPPlt61Ax0SK2W",
+            "foundAt": "2026-02-05T18:42:36.625Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-02-22T04:21:27.428Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-01-30",
       "albums": [
