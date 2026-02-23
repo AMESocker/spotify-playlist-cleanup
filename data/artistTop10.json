@@ -526,12 +526,6 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
-        "artist": "Hammock",
-        "listeners": 191236,
-        "spotify_popularity": 47,
-        "spotify_id": "0VOR7Ie9xUSb45fzIIVJQ1"
-      },
-      {
         "artist": "Bob Marley",
         "listeners": 13632072,
         "spotify_popularity": 79,
@@ -799,6 +793,13 @@
         "artist": "Stars of the Lid",
         "listeners": 101976,
         "spotify_id": "36pCa1JHc6hlGbfEmLzJQc",
+        "recommended": false,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Hammock",
+        "listeners": 191236,
+        "spotify_id": "0VOR7Ie9xUSb45fzIIVJQ1",
         "recommended": false,
         "tracksAdded": 10
       }

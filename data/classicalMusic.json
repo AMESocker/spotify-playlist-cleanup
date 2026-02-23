@@ -1,6 +1,5 @@
 {
   "master": [
-    "Anonymous - Carmina Burana",
     "Hildegard of Bingen - Antiphons",
     "Guillaume De Machaut - Ballades",
     "Francesco Landini - Ballatas and Songs",
@@ -1002,5 +1001,7 @@
     "Wolfgang Rihm - Jagden Und Formen",
     "Julian Anderson - Book of Hours"
   ],
-  "added": []
+  "added": [
+    "Claude Debussy - Fêtes Galantes"
+  ]
 }
