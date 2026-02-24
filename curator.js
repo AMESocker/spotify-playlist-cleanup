@@ -125,7 +125,7 @@ function selectRandom(dataset) {
   if (dataset.master?.length > 0) {
     const randomIndex = Math.floor(Math.random() * dataset.master.length);
     const albumString = dataset.master[randomIndex];
-    console.log(`📀 Parsing: "${albumString}-${randomIndex}"`);
+    console.log(`📀 Parsing: "${albumString} - ${randomIndex}"`);
     const dashIndex = albumString.indexOf(' - ');
     if (dashIndex === -1) {
       console.log(`⚠️ Invalid format (no ' - ' separator): ${albumString}`);
@@ -258,12 +258,12 @@ async function handleRockHall(source, data) {
 
   const randomIndex = Math.floor(Math.random() * data.artists.length);
   const artistName = data.artists[randomIndex];
-  console.log(`Artist: ${artistName}-${randomIndex}`);
+  console.log(`Artist: ${artistName} - ${randomIndex}`);
 
   const result = await processRockHallArtist(artistName);
 
   // Always remove from queue
-  data.artists.shift();
+  data.artists.splice(randomIndex, 1);
   if (!result.success) {
     data.added.push(`${artistName} [${result.reason}]`);
     saveData(source.file, data);
@@ -334,7 +334,7 @@ async function handleAlbum(source, data) {
   console.log(`🎶 Added ${uris.length} tracks.`);
 
   if (source.strategy === "sequential") {
-    data.master.shift();
+    data.master.splice(pick.index, 1);
     data.added.push(`${pick.artist} - ${pick.nextAlbum}`);
   } else {
     const entry = data.find(a => a.Artist === pick.artist);

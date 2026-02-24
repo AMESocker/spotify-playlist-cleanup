@@ -526,12 +526,6 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
-        "artist": "Hammock",
-        "listeners": 191236,
-        "spotify_popularity": 47,
-        "spotify_id": "0VOR7Ie9xUSb45fzIIVJQ1"
-      },
-      {
         "artist": "Bob Marley",
         "listeners": 13632072,
         "spotify_popularity": 79,
@@ -548,12 +542,6 @@
         "listeners": 2777701,
         "spotify_popularity": 69,
         "spotify_id": "6FXMGgJwohJLUSr5nVlf9X"
-      },
-      {
-        "artist": "Lee Scratch Perry",
-        "listeners": 225787,
-        "spotify_popularity": 43,
-        "spotify_id": "1TsG4AumsMt1Tcq2nHpov9"
       },
       {
         "artist": "Peter Tosh",
@@ -799,6 +787,20 @@
         "artist": "Stars of the Lid",
         "listeners": 101976,
         "spotify_id": "36pCa1JHc6hlGbfEmLzJQc",
+        "recommended": false,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Hammock",
+        "listeners": 191236,
+        "spotify_id": "0VOR7Ie9xUSb45fzIIVJQ1",
+        "recommended": false,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Lee Scratch Perry",
+        "listeners": 225787,
+        "spotify_id": "1TsG4AumsMt1Tcq2nHpov9",
         "recommended": false,
         "tracksAdded": 10
       }
