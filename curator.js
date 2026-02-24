@@ -334,7 +334,7 @@ async function handleAlbum(source, data) {
   console.log(`🎶 Added ${uris.length} tracks.`);
 
   if (source.strategy === "sequential") {
-    data.master.shift();
+    data.master.splice(pick.index, 1);
     data.added.push(`${pick.artist} - ${pick.nextAlbum}`);
   } else {
     const entry = data.find(a => a.Artist === pick.artist);
