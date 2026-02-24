@@ -263,7 +263,7 @@ async function handleRockHall(source, data) {
   const result = await processRockHallArtist(artistName);
 
   // Always remove from queue
-  data.artists.shift();
+  data.artists.splice(randomIndex, 1);
   if (!result.success) {
     data.added.push(`${artistName} [${result.reason}]`);
     saveData(source.file, data);
