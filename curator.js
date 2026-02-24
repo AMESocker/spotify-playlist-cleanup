@@ -10,17 +10,17 @@ import { addTracks } from "./playlist.js";
 import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
 import { handleArtistGenre } from "./artistGenreStrategy.js";
 
-//* ─── TODOs ────────────────────────────────────────────────────────────────
+//* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
 
 // Todo - Add Disney/Pixar Movie Soundtracks source
+// Todo - Add Classical Composers source ✅ Added: classicalMusic (1001 Pieces of Classical Music)
 // Todo - Add
 
 // Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
 
-// Add Classical Composers source ✅ Added: classicalMusic (1001 Pieces of Classical Music)
-//* ─── DATA SOURCES ─────────────────────────────────────────────────────────
+//* ─── DATA SOURCES ──────────────────────────────────────────────────────────────────────
 
 const dataSources = [
   { name: "artistDisc", file: "data/artistDisc.json", strategy: "fairness" },
@@ -28,7 +28,8 @@ const dataSources = [
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
   { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
-  { name: "classicalMusic", file: "data/classicalMusic.json", strategy: "sequential" }
+  { name: "classicalMusic", file: "data/classicalMusic.json", strategy: "sequential" },
+  { name: "jazzAlbums", file: "data/jazzAlbums.json", strategy: "sequential" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -119,9 +120,9 @@ function selectWithFairness(dataset) {
   return candidate ?? null;
 }
 
-//* ─── RANDOM STRATEGY ───────────────────────────────────
+//* ─── SEQUENTIAL STRATEGY ───────────────────────────────────
 
-function selectRandom(dataset) {
+function selectSequential(dataset) {
   if (dataset.master?.length > 0) {
     const randomIndex = Math.floor(Math.random() * dataset.master.length);
     const albumString = dataset.master[randomIndex];
@@ -134,7 +135,7 @@ function selectRandom(dataset) {
     const artist = albumString.substring(0, dashIndex).trim();
     const nextAlbum = albumString.substring(dashIndex + 3).trim();
     console.log(`🎤 Artist: "${artist}"\n💿 Album: "${nextAlbum}"`);
-    return { artist, nextAlbum };
+    return { artist, nextAlbum, index: randomIndex };
   }
 
   // Fallback for artistDisc format
@@ -263,7 +264,7 @@ async function handleRockHall(source, data) {
   const result = await processRockHallArtist(artistName);
 
   // Always remove from queue
-  data.artists.splice(randomIndex, 1);
+  data.artists.shift();
   if (!result.success) {
     data.added.push(`${artistName} [${result.reason}]`);
     saveData(source.file, data);
@@ -279,6 +280,7 @@ async function handleRockHall(source, data) {
   pushHistory({
     action: "addRockHall",
     artist: artistName,
+    index: randomIndex,
     tracksAdded: result.trackCount,
     sourceFile: source.file,
     strategy: source.strategy
@@ -291,7 +293,7 @@ async function handleRockHall(source, data) {
 async function handleAlbum(source, data) {
   const pick = source.strategy === "fairness"
     ? selectWithFairness(data)
-    : selectRandom(data);
+    : selectSequential(data);
 
   if (!pick) {
     console.log(`🎉 No albums left in ${source.name}`);
@@ -334,7 +336,7 @@ async function handleAlbum(source, data) {
   console.log(`🎶 Added ${uris.length} tracks.`);
 
   if (source.strategy === "sequential") {
-    data.master.splice(pick.index, 1);
+    data.master.shift();
     data.added.push(`${pick.artist} - ${pick.nextAlbum}`);
   } else {
     const entry = data.find(a => a.Artist === pick.artist);
@@ -346,6 +348,7 @@ async function handleAlbum(source, data) {
     action: "add",
     artist: pick.artist,
     album: pick.nextAlbum,
+    index: pick.index ?? null,
     sourceFile: source.file,
     strategy: source.strategy
   });
