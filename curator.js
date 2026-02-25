@@ -15,7 +15,6 @@ import { handleArtistGenre } from "./artistGenreStrategy.js";
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
 
 // Todo - Add Disney/Pixar Movie Soundtracks source
-// Todo - Add Classical Composers source ✅ Added: classicalMusic (1001 Pieces of Classical Music)
 // Todo - Add
 
 // Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
@@ -28,8 +27,7 @@ const dataSources = [
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
   { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
-  { name: "classicalMusic", file: "data/classicalMusic.json", strategy: "sequential" },
-  { name: "jazzAlbums", file: "data/jazzAlbums.json", strategy: "sequential" }
+  { name: "spotifyTotmPlaylists", file: "data/spotifyPlaylists.json", strategy: "spotifyPlaylist" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -357,6 +355,90 @@ async function handleAlbum(source, data) {
   return true;
 }
 
+//* ─── SPOTIFY PLAYLIST STRATEGY ───────────────────────────────────
+
+function extractPlaylistId(url) {
+  const match = url.match(/playlist\/([a-zA-Z0-9]+)/);
+  return match ? match[1] : null;
+}
+
+async function handleSpotifyPlaylist(source, data) {
+  const remaining = data.playlists.filter(p => !p.added);
+  if (remaining.length === 0) {
+    console.log(`🎉 All playlists in ${source.name} have been added`);
+    return null;
+  }
+
+  const randomIndex = Math.floor(Math.random() * remaining.length);
+  const playlist = remaining[randomIndex];
+  const playlistId = extractPlaylistId(playlist.url);
+
+  if (!playlistId) {
+    console.log(`⚠️ Could not extract playlist ID from: ${playlist.url}`);
+    playlist.added = true;
+    saveData(source.file, data);
+    return false;
+  }
+
+  console.log(`🎵 Processing playlist: "${playlist.name}" (${playlistId})`);
+
+  try {
+    const spotify = getSpotify();
+
+    // Fetch all tracks (paginate if needed)
+    let trackUris = [];
+    let offset = 0;
+    const limit = 100;
+
+    while (true) {
+      const response = await spotify.getPlaylistTracks(playlistId, { limit, offset, fields: "items(track(uri,name)),next" });
+      const items = response.body.items;
+      const uris = items
+        .filter(item => item.track?.uri)
+        .map(item => item.track.uri);
+      trackUris.push(...uris);
+      console.log(`   Fetched ${uris.length} tracks (offset ${offset})`);
+      if (!response.body.next) break;
+      offset += limit;
+    }
+
+    if (trackUris.length === 0) {
+      console.log(`⚠️ No tracks found in playlist: ${playlist.name}`);
+      playlist.added = true;
+      data.added.push({ name: playlist.name, url: playlist.url, reason: "EMPTY" });
+      saveData(source.file, data);
+      return false;
+    }
+
+    console.log(`📋 Total tracks: ${trackUris.length}`);
+    if (await wouldExceedLimit(trackUris.length)) return false;
+
+    await addTracks(process.env.TARGET_PLAYLIST_ID, trackUris);
+    console.log(`🎶 Added ${trackUris.length} tracks from "${playlist.name}"`);
+
+    data.added.push({ name: playlist.name, url: playlist.url, tracksAdded: trackUris.length });
+
+    pushHistory({
+      action: "addSpotifyPlaylist",
+      playlistName: playlist.name,
+      playlistUrl: playlist.url,
+      playlistId,
+      index: randomIndex,
+      tracksAdded: trackUris.length,
+      sourceFile: source.file,
+      strategy: source.strategy
+    });
+
+    saveData(source.file, data);
+    console.log(`✅ Completed: "${playlist.name}"`);
+    return true;
+
+  } catch (error) {
+    console.error(`❌ Error fetching playlist:`, error.message);
+    return false;
+  }
+}
+
 //* ─── ADD NEXT ALBUM (main entry point) ───────────────────────────────────
 
 export async function addNextAlbum() {
@@ -376,6 +458,7 @@ export async function addNextAlbum() {
   if (source.strategy === "editorsChoice") result = await handleEditorsChoice(source);
   else if (source.strategy === "rockHall") result = await handleRockHall(source, data);
   else if (source.strategy === "artistGenre") result = await handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData);
+  else if (source.strategy === "spotifyPlaylist") result = await handleSpotifyPlaylist(source, data);
   else result = await handleAlbum(source, data);
 
   // null means "this source is exhausted, skip it"
