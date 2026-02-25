@@ -1305,5 +1305,23 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-02-25T03:48:24.929Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Ray Charles",
+    "index": 197,
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-25T18:20:34.216Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-01-16",
+    "tracksAdded": 2,
+    "tracksSkipped": 4,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-02-25T18:20:34.505Z"
   }
 ]
