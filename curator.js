@@ -83,8 +83,8 @@ async function wouldExceedLimit(tracksToAdd) {
 
 //* ─── FAIRNESS STRATEGY ───────────────────────────────────
 
-function calculateGroupStats(dataset) {
-  return dataset.reduce((stats, artist) => {
+function calculateGroupStats(artists) {
+  return artists.reduce((stats, artist) => {
     const group = artist.Group;
     if (!stats[group]) stats[group] = { albums: 0, added: 0 };
     stats[group].albums += artist.Albums.length + artist.AddedAlbums.length;
@@ -93,10 +93,11 @@ function calculateGroupStats(dataset) {
   }, {});
 }
 
-function selectWithFairness(dataset) {
-  const groupStats = calculateGroupStats(dataset);
+function selectWithFairness(data) {
+  const artists = data.artists;
+  const groupStats = calculateGroupStats(artists);
 
-  const candidate = dataset
+  const candidate = artists
     .filter(a => a.Albums.length > 0)
     .map(a => {
       const totalAlbums = a.Albums.length + a.AddedAlbums.length;
