@@ -1410,5 +1410,14 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-02-27T01:14:18.908Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Talking Heads",
+    "index": 94,
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-02-27T18:22:26.129Z"
   }
 ]

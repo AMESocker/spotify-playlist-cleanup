@@ -1,18 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-01-02",
-      "albums": []
-    },
-    {
-      "date": "2025-12-26",
-      "albums": []
-    },
-    {
-      "date": "2025-12-19",
-      "albums": []
-    },
-    {
       "date": "2025-12-12",
       "albums": [
         {
@@ -4782,6 +4770,24 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-12-19",
+      "albums": [],
+      "addedToPlaylist": "2026-02-27T18:22:26.147Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
+    {
+      "date": "2025-12-26",
+      "albums": [],
+      "addedToPlaylist": "2026-02-27T18:22:26.141Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
+    {
+      "date": "2026-01-02",
+      "albums": [],
+      "addedToPlaylist": "2026-02-27T18:22:26.135Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-01-09",
       "albums": [
