@@ -1419,5 +1419,24 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-02-27T18:22:26.129Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-12-12",
+    "tracksAdded": 4,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-02-27T21:26:16.727Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Folk / Country / Americana",
+    "artist": "Gnoss",
+    "listeners": 25282,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-02-27T21:26:18.541Z"
   }
 ]

@@ -1673,12 +1673,6 @@
         "spotify_id": "6AnrSlk5Gp1YMXgaI3mWCL"
       },
       {
-        "artist": "Gnoss",
-        "listeners": 25282,
-        "spotify_popularity": 35,
-        "spotify_id": "4QwjOokQ9W6ZEjk3b9Rplj"
-      },
-      {
         "artist": "Altan",
         "listeners": 36192,
         "spotify_popularity": 30,
@@ -1895,6 +1889,13 @@
         "listeners": 112252,
         "spotify_popularity": 41,
         "spotify_id": "7iPH2BRBF9wKa6ljxvdext"
+      },
+      {
+        "artist": "Gnoss",
+        "listeners": 25282,
+        "spotify_id": "4QwjOokQ9W6ZEjk3b9Rplj",
+        "recommended": false,
+        "tracksAdded": 10
       }
     ]
   },

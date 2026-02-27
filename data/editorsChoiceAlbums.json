@@ -1,87 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-12-12",
-      "albums": [
-        {
-          "title": "Wish You Were Here [50th Anniversary] [Blu-Ray Audio]",
-          "artist": "Pink Floyd",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-22T04:27:20.623Z"
-          }
-        },
-        {
-          "title": "Lightning Might Strike",
-          "artist": "Juliana Hatfield",
-          "spotifyTrack": {
-            "id": "1bfBGMj019pbumrBcr9Bfc",
-            "name": "Fall Apart",
-            "uri": "spotify:track:1bfBGMj019pbumrBcr9Bfc",
-            "popularity": 27,
-            "albumName": "Lightning Might Strike",
-            "albumId": "0xSOJeAt24wGT1mMnCvWa0",
-            "foundAt": "2026-02-05T18:42:46.665Z"
-          }
-        },
-        {
-          "title": "Holo Boy",
-          "artist": "This Is Lorelei",
-          "spotifyTrack": {
-            "id": "3O3qS7OEH1cIFfDzzWO3ym",
-            "name": "But You Just Woke Me Up",
-            "uri": "spotify:track:3O3qS7OEH1cIFfDzzWO3ym",
-            "popularity": 50,
-            "albumName": "Holo Boy",
-            "albumId": "7GXQ3XWkTEnfI37a8zX2TB",
-            "foundAt": "2026-02-05T18:42:48.403Z"
-          }
-        },
-        {
-          "title": "Fuzz's Fourth Dream",
-          "artist": "Fuzz",
-          "spotifyTrack": {
-            "id": "79k0KuFTunbKwoilo5lArb",
-            "name": "This Time I Got A Reason",
-            "uri": "spotify:track:79k0KuFTunbKwoilo5lArb",
-            "popularity": 34,
-            "albumName": "Fuzz's Fourth Dream: Singles, Demos And Rarities",
-            "albumId": "49BzaPYyP7DHGq3UeEXdHs",
-            "foundAt": "2026-02-05T18:42:50.250Z"
-          }
-        },
-        {
-          "title": "A Spirit Speaks",
-          "artist": "The Descendants of Mike and Phoebe",
-          "spotifyTrack": {
-            "id": "4WfWL2XBczYNTazNqJWhnK",
-            "name": "Two Songs for a Boy Named Mark: a) Little Bitty Baby, b) Soliloquy to a Man-Child",
-            "uri": "spotify:track:4WfWL2XBczYNTazNqJWhnK",
-            "popularity": 6,
-            "albumName": "A Spirit Speaks",
-            "albumId": "52LeXBU9sP2dEYvwTU7kZ5",
-            "foundAt": "2026-02-05T18:42:51.885Z"
-          }
-        },
-        {
-          "title": "Mozart: Idomeneo",
-          "artist": "Magdalena KoženáAndrew StaplesSimon RattleBavarian Radio Symphony Orchestra",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-22T04:27:21.265Z"
-          }
-        },
-        {
-          "title": "Beethoven: Sonatas 2 & 10",
-          "artist": "Viktoria MullovaAlasdair Beatson",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-22T04:27:21.999Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-12-05",
       "albums": [
         {
@@ -4770,6 +4689,89 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-12-12",
+      "albums": [
+        {
+          "title": "Wish You Were Here [50th Anniversary] [Blu-Ray Audio]",
+          "artist": "Pink Floyd",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-22T04:27:20.623Z"
+          }
+        },
+        {
+          "title": "Lightning Might Strike",
+          "artist": "Juliana Hatfield",
+          "spotifyTrack": {
+            "id": "1bfBGMj019pbumrBcr9Bfc",
+            "name": "Fall Apart",
+            "uri": "spotify:track:1bfBGMj019pbumrBcr9Bfc",
+            "popularity": 27,
+            "albumName": "Lightning Might Strike",
+            "albumId": "0xSOJeAt24wGT1mMnCvWa0",
+            "foundAt": "2026-02-05T18:42:46.665Z"
+          }
+        },
+        {
+          "title": "Holo Boy",
+          "artist": "This Is Lorelei",
+          "spotifyTrack": {
+            "id": "3O3qS7OEH1cIFfDzzWO3ym",
+            "name": "But You Just Woke Me Up",
+            "uri": "spotify:track:3O3qS7OEH1cIFfDzzWO3ym",
+            "popularity": 50,
+            "albumName": "Holo Boy",
+            "albumId": "7GXQ3XWkTEnfI37a8zX2TB",
+            "foundAt": "2026-02-05T18:42:48.403Z"
+          }
+        },
+        {
+          "title": "Fuzz's Fourth Dream",
+          "artist": "Fuzz",
+          "spotifyTrack": {
+            "id": "79k0KuFTunbKwoilo5lArb",
+            "name": "This Time I Got A Reason",
+            "uri": "spotify:track:79k0KuFTunbKwoilo5lArb",
+            "popularity": 34,
+            "albumName": "Fuzz's Fourth Dream: Singles, Demos And Rarities",
+            "albumId": "49BzaPYyP7DHGq3UeEXdHs",
+            "foundAt": "2026-02-05T18:42:50.250Z"
+          }
+        },
+        {
+          "title": "A Spirit Speaks",
+          "artist": "The Descendants of Mike and Phoebe",
+          "spotifyTrack": {
+            "id": "4WfWL2XBczYNTazNqJWhnK",
+            "name": "Two Songs for a Boy Named Mark: a) Little Bitty Baby, b) Soliloquy to a Man-Child",
+            "uri": "spotify:track:4WfWL2XBczYNTazNqJWhnK",
+            "popularity": 6,
+            "albumName": "A Spirit Speaks",
+            "albumId": "52LeXBU9sP2dEYvwTU7kZ5",
+            "foundAt": "2026-02-05T18:42:51.885Z"
+          }
+        },
+        {
+          "title": "Mozart: Idomeneo",
+          "artist": "Magdalena KoženáAndrew StaplesSimon RattleBavarian Radio Symphony Orchestra",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-22T04:27:21.265Z"
+          }
+        },
+        {
+          "title": "Beethoven: Sonatas 2 & 10",
+          "artist": "Viktoria MullovaAlasdair Beatson",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-22T04:27:21.999Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-02-27T21:26:16.725Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-12-19",
       "albums": [],
