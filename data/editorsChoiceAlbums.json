@@ -1,105 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-02-27",
-      "albums": [
-        {
-          "title": "The Mountain",
-          "artist": "Gorillaz",
-          "spotifyTrack": {
-            "id": "6VflG4mpZSlpKnqNRL3NO9",
-            "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
-            "uri": "spotify:track:6VflG4mpZSlpKnqNRL3NO9",
-            "popularity": 42,
-            "albumName": "The Mountain",
-            "albumId": "1RvJmGd47lKS4XMXs9j8hD",
-            "foundAt": "2026-02-28T10:15:10.929Z"
-          }
-        },
-        {
-          "title": "Nothing's About to Happen to Me",
-          "artist": "Mitski",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:11.657Z"
-          }
-        },
-        {
-          "title": "Highway to Heavenly",
-          "artist": "Heavenly",
-          "spotifyTrack": {
-            "id": "7HWsDgWCZYq21B7q8WC40w",
-            "name": "Scene Stealing",
-            "uri": "spotify:track:7HWsDgWCZYq21B7q8WC40w",
-            "popularity": 2,
-            "albumName": "Highway To Heavenly",
-            "albumId": "5YhrzQG6OpE1FtYJ4Erdsm",
-            "foundAt": "2026-02-28T10:15:13.049Z"
-          }
-        },
-        {
-          "title": "In My Dreams",
-          "artist": "Bill Frisell",
-          "spotifyTrack": {
-            "id": "0IenTvi3jzzt7TtDNPLANA",
-            "name": "Trapped in the Sky",
-            "uri": "spotify:track:0IenTvi3jzzt7TtDNPLANA",
-            "popularity": 5,
-            "albumName": "In My Dreams",
-            "albumId": "3ma8up3iKK2vemMsibROf7",
-            "foundAt": "2026-02-28T10:15:14.526Z"
-          }
-        },
-        {
-          "title": "Side-Eye III+",
-          "artist": "Pat Metheny",
-          "spotifyTrack": {
-            "id": "2SzqtnBIJZyKEZzwj6GoEX",
-            "name": "Make a New World",
-            "uri": "spotify:track:2SzqtnBIJZyKEZzwj6GoEX",
-            "popularity": 12,
-            "albumName": "Side-Eye III+",
-            "albumId": "4KsyZ4rh9jSNqtCy2aBAmm",
-            "foundAt": "2026-02-28T10:15:15.925Z"
-          }
-        },
-        {
-          "title": "Lost at Sea",
-          "artist": "The Legal Matters",
-          "spotifyTrack": {
-            "id": "4Co4Z993D63OH2kYWAPx1O",
-            "name": "Everybody Knows",
-            "uri": "spotify:track:4Co4Z993D63OH2kYWAPx1O",
-            "popularity": 0,
-            "albumName": "Lost At Sea",
-            "albumId": "4VhtjZjkiX7j5f42vveLNX",
-            "foundAt": "2026-02-28T10:15:17.419Z"
-          }
-        },
-        {
-          "title": "Haunted",
-          "artist": "Bill Pritchard",
-          "spotifyTrack": {
-            "id": "4uIY2p9Cib23fb1cVTUATy",
-            "name": "Perpetual Tourist",
-            "uri": "spotify:track:4uIY2p9Cib23fb1cVTUATy",
-            "popularity": 0,
-            "albumName": "Haunted",
-            "albumId": "56HjhyCUwLGyuTnMZVONYz",
-            "foundAt": "2026-02-28T10:15:18.850Z"
-          }
-        },
-        {
-          "title": "Vila",
-          "artist": "Fabiano do NascimentoVittor Santos",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:19.488Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-12-05",
       "albums": [
         {
@@ -4788,6 +4689,107 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-02-27",
+      "albums": [
+        {
+          "title": "The Mountain",
+          "artist": "Gorillaz",
+          "spotifyTrack": {
+            "id": "6VflG4mpZSlpKnqNRL3NO9",
+            "name": "The Moon Cave (feat. Asha Puthli, Bobby Womack, Dave Jolicoeur, Jalen Ngonda and Black Thought)",
+            "uri": "spotify:track:6VflG4mpZSlpKnqNRL3NO9",
+            "popularity": 42,
+            "albumName": "The Mountain",
+            "albumId": "1RvJmGd47lKS4XMXs9j8hD",
+            "foundAt": "2026-02-28T10:15:10.929Z"
+          }
+        },
+        {
+          "title": "Nothing's About to Happen to Me",
+          "artist": "Mitski",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:11.657Z"
+          }
+        },
+        {
+          "title": "Highway to Heavenly",
+          "artist": "Heavenly",
+          "spotifyTrack": {
+            "id": "7HWsDgWCZYq21B7q8WC40w",
+            "name": "Scene Stealing",
+            "uri": "spotify:track:7HWsDgWCZYq21B7q8WC40w",
+            "popularity": 2,
+            "albumName": "Highway To Heavenly",
+            "albumId": "5YhrzQG6OpE1FtYJ4Erdsm",
+            "foundAt": "2026-02-28T10:15:13.049Z"
+          }
+        },
+        {
+          "title": "In My Dreams",
+          "artist": "Bill Frisell",
+          "spotifyTrack": {
+            "id": "0IenTvi3jzzt7TtDNPLANA",
+            "name": "Trapped in the Sky",
+            "uri": "spotify:track:0IenTvi3jzzt7TtDNPLANA",
+            "popularity": 5,
+            "albumName": "In My Dreams",
+            "albumId": "3ma8up3iKK2vemMsibROf7",
+            "foundAt": "2026-02-28T10:15:14.526Z"
+          }
+        },
+        {
+          "title": "Side-Eye III+",
+          "artist": "Pat Metheny",
+          "spotifyTrack": {
+            "id": "2SzqtnBIJZyKEZzwj6GoEX",
+            "name": "Make a New World",
+            "uri": "spotify:track:2SzqtnBIJZyKEZzwj6GoEX",
+            "popularity": 12,
+            "albumName": "Side-Eye III+",
+            "albumId": "4KsyZ4rh9jSNqtCy2aBAmm",
+            "foundAt": "2026-02-28T10:15:15.925Z"
+          }
+        },
+        {
+          "title": "Lost at Sea",
+          "artist": "The Legal Matters",
+          "spotifyTrack": {
+            "id": "4Co4Z993D63OH2kYWAPx1O",
+            "name": "Everybody Knows",
+            "uri": "spotify:track:4Co4Z993D63OH2kYWAPx1O",
+            "popularity": 0,
+            "albumName": "Lost At Sea",
+            "albumId": "4VhtjZjkiX7j5f42vveLNX",
+            "foundAt": "2026-02-28T10:15:17.419Z"
+          }
+        },
+        {
+          "title": "Haunted",
+          "artist": "Bill Pritchard",
+          "spotifyTrack": {
+            "id": "4uIY2p9Cib23fb1cVTUATy",
+            "name": "Perpetual Tourist",
+            "uri": "spotify:track:4uIY2p9Cib23fb1cVTUATy",
+            "popularity": 0,
+            "albumName": "Haunted",
+            "albumId": "56HjhyCUwLGyuTnMZVONYz",
+            "foundAt": "2026-02-28T10:15:18.850Z"
+          }
+        },
+        {
+          "title": "Vila",
+          "artist": "Fabiano do NascimentoVittor Santos",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:19.488Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-02-28T17:09:48.201Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-12-12",
       "albums": [
