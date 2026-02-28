@@ -1449,5 +1449,14 @@
     "sourceFile": "data/spotifyPlaylists.json",
     "strategy": "spotifyPlaylist",
     "timestamp": "2026-02-28T00:28:56.457Z"
+  },
+  {
+    "action": "add",
+    "artist": "Sufjan Stevens",
+    "album": "Enjoy Your Rabbit",
+    "index": null,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-02-28T10:27:35.890Z"
   }
 ]
