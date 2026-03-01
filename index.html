@@ -398,8 +398,7 @@ function renderHistory(history) {
 
     let title = '';
     if (entry.action === 'add') {
-      title = `${entry.artist} <br>
-      <em> ${entry.album}</em>`;
+      title = `${entry.artist} <em>— ${entry.album}</em>`;
     } else if (entry.action === 'addRockHall') {
       title = `${entry.artist}`;
     } else if (entry.action === 'addSpotifyPlaylist') {
