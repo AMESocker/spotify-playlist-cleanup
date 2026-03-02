@@ -1626,6 +1626,12 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Altan",
+        "listeners": 36192,
+        "spotify_popularity": 30,
+        "spotify_id": "6koEjb4607APXtFtjxvA5T"
+      },
+      {
         "artist": "Johnny Cash",
         "listeners": 7038022,
         "spotify_popularity": 73,
@@ -1672,12 +1678,6 @@
         "listeners": 124770,
         "spotify_popularity": 45,
         "spotify_id": "6AnrSlk5Gp1YMXgaI3mWCL"
-      },
-      {
-        "artist": "Altan",
-        "listeners": 36192,
-        "spotify_popularity": 30,
-        "spotify_id": "6koEjb4607APXtFtjxvA5T"
       },
       {
         "artist": "Townes Van Zandt",

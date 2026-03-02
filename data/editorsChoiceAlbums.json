@@ -1,92 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-12-05",
-      "albums": [
-        {
-          "title": "The Universe Smiles Upon You ii",
-          "artist": "Khruangbin",
-          "spotifyTrack": {
-            "id": "4EGilW7VYfTULk4RENDfJp",
-            "name": "White Gloves ii",
-            "uri": "spotify:track:4EGilW7VYfTULk4RENDfJp",
-            "popularity": 67,
-            "albumName": "The Universe Smiles Upon You ii",
-            "albumId": "45ZWDMMVK0N0Hd2p7fLTCB",
-            "foundAt": "2026-02-05T18:42:54.750Z"
-          }
-        },
-        {
-          "title": "Memento Mori: Mexico City",
-          "artist": "Depeche Mode",
-          "spotifyTrack": {
-            "id": "1TQPAGhCAe85NT83438Mgk",
-            "name": "Sister Of Night - Live in Mexico City",
-            "uri": "spotify:track:1TQPAGhCAe85NT83438Mgk",
-            "popularity": 48,
-            "albumName": "Memento Mori: Mexico City",
-            "albumId": "3rWr9v5saPs29Pvu05extl",
-            "foundAt": "2026-02-05T18:42:56.392Z"
-          }
-        },
-        {
-          "title": "Unclouded",
-          "artist": "Melody's Echo Chamber",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:20.175Z"
-          }
-        },
-        {
-          "title": "Motion II",
-          "artist": "Out Of/Into",
-          "spotifyTrack": {
-            "id": "0AfHjDkvsE4aCDIg2wZsBa",
-            "name": "Finding Ways",
-            "uri": "spotify:track:0AfHjDkvsE4aCDIg2wZsBa",
-            "popularity": 38,
-            "albumName": "Motion II",
-            "albumId": "32sjyqbMI1JdpJoKXOuWVk",
-            "foundAt": "2026-02-05T18:42:58.746Z"
-          }
-        },
-        {
-          "title": "Vibrations in the Village: Live at the Village Gate",
-          "artist": "Rahsaan Roland Kirk",
-          "spotifyTrack": {
-            "id": "3o66cisAdVyFzQI96GGoR1",
-            "name": "Jump Up And Down (Live at the Village Gate in New York City November 1963)",
-            "uri": "spotify:track:3o66cisAdVyFzQI96GGoR1",
-            "popularity": 6,
-            "albumName": "Vibrations in the Village (Live at the Village Gate in New York City November 1963)",
-            "albumId": "1kItL4bc8ASkZBvrdxYbII",
-            "foundAt": "2026-02-05T18:43:00.281Z"
-          }
-        },
-        {
-          "title": "Golden Flower: Live in Sweden",
-          "artist": "Yusef Lateef",
-          "spotifyTrack": {
-            "id": "2rBfkOjtg3wh6I93fy4QGY",
-            "name": "The Golden Flute (Live in Sweden)",
-            "uri": "spotify:track:2rBfkOjtg3wh6I93fy4QGY",
-            "popularity": 16,
-            "albumName": "Golden Flower (Live in Sweden)",
-            "albumId": "7pWVGGQIoGMEIUCAXVz2CZ",
-            "foundAt": "2026-02-05T18:43:02.027Z"
-          }
-        },
-        {
-          "title": "Spíra",
-          "artist": "Ólöf ArnaldsDavíd Pór JónssonSkúli Sverrisson",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:20.778Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-11-28",
       "albums": [
         {
@@ -4689,6 +4603,94 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-12-05",
+      "albums": [
+        {
+          "title": "The Universe Smiles Upon You ii",
+          "artist": "Khruangbin",
+          "spotifyTrack": {
+            "id": "4EGilW7VYfTULk4RENDfJp",
+            "name": "White Gloves ii",
+            "uri": "spotify:track:4EGilW7VYfTULk4RENDfJp",
+            "popularity": 67,
+            "albumName": "The Universe Smiles Upon You ii",
+            "albumId": "45ZWDMMVK0N0Hd2p7fLTCB",
+            "foundAt": "2026-02-05T18:42:54.750Z"
+          }
+        },
+        {
+          "title": "Memento Mori: Mexico City",
+          "artist": "Depeche Mode",
+          "spotifyTrack": {
+            "id": "1TQPAGhCAe85NT83438Mgk",
+            "name": "Sister Of Night - Live in Mexico City",
+            "uri": "spotify:track:1TQPAGhCAe85NT83438Mgk",
+            "popularity": 48,
+            "albumName": "Memento Mori: Mexico City",
+            "albumId": "3rWr9v5saPs29Pvu05extl",
+            "foundAt": "2026-02-05T18:42:56.392Z"
+          }
+        },
+        {
+          "title": "Unclouded",
+          "artist": "Melody's Echo Chamber",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:20.175Z"
+          }
+        },
+        {
+          "title": "Motion II",
+          "artist": "Out Of/Into",
+          "spotifyTrack": {
+            "id": "0AfHjDkvsE4aCDIg2wZsBa",
+            "name": "Finding Ways",
+            "uri": "spotify:track:0AfHjDkvsE4aCDIg2wZsBa",
+            "popularity": 38,
+            "albumName": "Motion II",
+            "albumId": "32sjyqbMI1JdpJoKXOuWVk",
+            "foundAt": "2026-02-05T18:42:58.746Z"
+          }
+        },
+        {
+          "title": "Vibrations in the Village: Live at the Village Gate",
+          "artist": "Rahsaan Roland Kirk",
+          "spotifyTrack": {
+            "id": "3o66cisAdVyFzQI96GGoR1",
+            "name": "Jump Up And Down (Live at the Village Gate in New York City November 1963)",
+            "uri": "spotify:track:3o66cisAdVyFzQI96GGoR1",
+            "popularity": 6,
+            "albumName": "Vibrations in the Village (Live at the Village Gate in New York City November 1963)",
+            "albumId": "1kItL4bc8ASkZBvrdxYbII",
+            "foundAt": "2026-02-05T18:43:00.281Z"
+          }
+        },
+        {
+          "title": "Golden Flower: Live in Sweden",
+          "artist": "Yusef Lateef",
+          "spotifyTrack": {
+            "id": "2rBfkOjtg3wh6I93fy4QGY",
+            "name": "The Golden Flute (Live in Sweden)",
+            "uri": "spotify:track:2rBfkOjtg3wh6I93fy4QGY",
+            "popularity": 16,
+            "albumName": "Golden Flower (Live in Sweden)",
+            "albumId": "7pWVGGQIoGMEIUCAXVz2CZ",
+            "foundAt": "2026-02-05T18:43:02.027Z"
+          }
+        },
+        {
+          "title": "Spíra",
+          "artist": "Ólöf ArnaldsDavíd Pór JónssonSkúli Sverrisson",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:20.778Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-02T19:29:43.095Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-02-27",
       "albums": [
