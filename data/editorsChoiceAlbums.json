@@ -1,153 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-11-28",
-      "albums": [
-        {
-          "title": "Tonight's the Night [50th Anniversary Deluxe]",
-          "artist": "Neil Young",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:21.342Z"
-          }
-        },
-        {
-          "title": "Selenites, Selenites!",
-          "artist": "Jimi TenorJimi Tenor Band",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:21.911Z"
-          }
-        },
-        {
-          "title": "Back Stabbers/Ship Ahoy/Survival/Family Reunion",
-          "artist": "The O'Jays",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:22.464Z"
-          }
-        }
-      ]
-    },
-    {
-      "date": "2025-11-21",
-      "albums": [
-        {
-          "title": "Anthology 4",
-          "artist": "The Beatles",
-          "spotifyTrack": {
-            "id": "38BXrHTZhMkBZyThYMdwnY",
-            "name": "I Saw Her Standing There (Take 2)",
-            "uri": "spotify:track:38BXrHTZhMkBZyThYMdwnY",
-            "popularity": 51,
-            "albumName": "Anthology 4",
-            "albumId": "0L7ggz4vMdACCCnGV2lioZ",
-            "foundAt": "2026-02-05T18:43:06.429Z"
-          }
-        },
-        {
-          "title": "Let It Be [Deluxe Edition]",
-          "artist": "The Replacements",
-          "spotifyTrack": {
-            "id": "32UdJfwBl7UdAlJsYy9Zes",
-            "name": "I Will Dare - 2025 Remaster",
-            "uri": "spotify:track:32UdJfwBl7UdAlJsYy9Zes",
-            "popularity": 45,
-            "albumName": "Let It Be (Deluxe Edition)",
-            "albumId": "5ePgTxUYBrhKvE69AbxD0j",
-            "foundAt": "2026-02-05T18:43:08.275Z"
-          }
-        },
-        {
-          "title": "50th Anniversay Super Deluxe Edition [4CD/Blu-Ray]",
-          "artist": "Kiss",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:23.018Z"
-          }
-        },
-        {
-          "title": "Balloon Balloon Balloon",
-          "artist": "Sharp Pins",
-          "spotifyTrack": {
-            "id": "7bEHAHKACvKJNtxdTmm0fG",
-            "name": "Popafangout",
-            "uri": "spotify:track:7bEHAHKACvKJNtxdTmm0fG",
-            "popularity": 44,
-            "albumName": "Balloon Balloon Balloon",
-            "albumId": "4rCduWuK1sHdM4TNILadHp",
-            "foundAt": "2026-02-05T18:43:10.621Z"
-          }
-        },
-        {
-          "title": "I'm a Stranger Here Myself: Wainwright Does Weill",
-          "artist": "Pacific Jazz OrchestraRufus Wainwright",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:23.580Z"
-          }
-        },
-        {
-          "title": "Haunted Heart: The Legendary Riverside Studio Recordings",
-          "artist": "Bill EvansBill Evans Trio",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:24.146Z"
-          }
-        },
-        {
-          "title": "Parader",
-          "artist": "Keaton Henson",
-          "spotifyTrack": {
-            "id": "4VR1AQaLowk61kmFR5kgB4",
-            "name": "Don't I Just",
-            "uri": "spotify:track:4VR1AQaLowk61kmFR5kgB4",
-            "popularity": 34,
-            "albumName": "Parader",
-            "albumId": "2zv40AdcaUQOtGnRw7M1Dh",
-            "foundAt": "2026-02-05T18:43:13.592Z"
-          }
-        },
-        {
-          "title": "Supernature [20th Anniversary Edition] [Deluxe 2 CD/Blu-ray Audio]",
-          "artist": "Goldfrapp",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:24.858Z"
-          }
-        },
-        {
-          "title": "England Screaming",
-          "artist": "Wreckless Eric",
-          "spotifyTrack": {
-            "id": "3bDNR7pkobg3RW7POiwbKM",
-            "name": "Lifeline",
-            "uri": "spotify:track:3bDNR7pkobg3RW7POiwbKM",
-            "popularity": 18,
-            "albumName": "England Screaming",
-            "albumId": "7Im8tjO6SB342zgehoETBP",
-            "foundAt": "2026-02-05T18:43:15.845Z"
-          }
-        },
-        {
-          "title": "What of Our Nature",
-          "artist": "Max García ConoverHaley Heynderickx",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:25.422Z"
-          }
-        },
-        {
-          "title": "Implosion",
-          "artist": "The BugGhost Dubs",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:25.995Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-11-14",
       "albums": [
         {
@@ -4603,6 +4456,157 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-11-21",
+      "albums": [
+        {
+          "title": "Anthology 4",
+          "artist": "The Beatles",
+          "spotifyTrack": {
+            "id": "38BXrHTZhMkBZyThYMdwnY",
+            "name": "I Saw Her Standing There (Take 2)",
+            "uri": "spotify:track:38BXrHTZhMkBZyThYMdwnY",
+            "popularity": 51,
+            "albumName": "Anthology 4",
+            "albumId": "0L7ggz4vMdACCCnGV2lioZ",
+            "foundAt": "2026-02-05T18:43:06.429Z"
+          }
+        },
+        {
+          "title": "Let It Be [Deluxe Edition]",
+          "artist": "The Replacements",
+          "spotifyTrack": {
+            "id": "32UdJfwBl7UdAlJsYy9Zes",
+            "name": "I Will Dare - 2025 Remaster",
+            "uri": "spotify:track:32UdJfwBl7UdAlJsYy9Zes",
+            "popularity": 45,
+            "albumName": "Let It Be (Deluxe Edition)",
+            "albumId": "5ePgTxUYBrhKvE69AbxD0j",
+            "foundAt": "2026-02-05T18:43:08.275Z"
+          }
+        },
+        {
+          "title": "50th Anniversay Super Deluxe Edition [4CD/Blu-Ray]",
+          "artist": "Kiss",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:23.018Z"
+          }
+        },
+        {
+          "title": "Balloon Balloon Balloon",
+          "artist": "Sharp Pins",
+          "spotifyTrack": {
+            "id": "7bEHAHKACvKJNtxdTmm0fG",
+            "name": "Popafangout",
+            "uri": "spotify:track:7bEHAHKACvKJNtxdTmm0fG",
+            "popularity": 44,
+            "albumName": "Balloon Balloon Balloon",
+            "albumId": "4rCduWuK1sHdM4TNILadHp",
+            "foundAt": "2026-02-05T18:43:10.621Z"
+          }
+        },
+        {
+          "title": "I'm a Stranger Here Myself: Wainwright Does Weill",
+          "artist": "Pacific Jazz OrchestraRufus Wainwright",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:23.580Z"
+          }
+        },
+        {
+          "title": "Haunted Heart: The Legendary Riverside Studio Recordings",
+          "artist": "Bill EvansBill Evans Trio",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:24.146Z"
+          }
+        },
+        {
+          "title": "Parader",
+          "artist": "Keaton Henson",
+          "spotifyTrack": {
+            "id": "4VR1AQaLowk61kmFR5kgB4",
+            "name": "Don't I Just",
+            "uri": "spotify:track:4VR1AQaLowk61kmFR5kgB4",
+            "popularity": 34,
+            "albumName": "Parader",
+            "albumId": "2zv40AdcaUQOtGnRw7M1Dh",
+            "foundAt": "2026-02-05T18:43:13.592Z"
+          }
+        },
+        {
+          "title": "Supernature [20th Anniversary Edition] [Deluxe 2 CD/Blu-ray Audio]",
+          "artist": "Goldfrapp",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:24.858Z"
+          }
+        },
+        {
+          "title": "England Screaming",
+          "artist": "Wreckless Eric",
+          "spotifyTrack": {
+            "id": "3bDNR7pkobg3RW7POiwbKM",
+            "name": "Lifeline",
+            "uri": "spotify:track:3bDNR7pkobg3RW7POiwbKM",
+            "popularity": 18,
+            "albumName": "England Screaming",
+            "albumId": "7Im8tjO6SB342zgehoETBP",
+            "foundAt": "2026-02-05T18:43:15.845Z"
+          }
+        },
+        {
+          "title": "What of Our Nature",
+          "artist": "Max García ConoverHaley Heynderickx",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:25.422Z"
+          }
+        },
+        {
+          "title": "Implosion",
+          "artist": "The BugGhost Dubs",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:25.995Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-03T18:57:55.895Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
+    {
+      "date": "2025-11-28",
+      "albums": [
+        {
+          "title": "Tonight's the Night [50th Anniversary Deluxe]",
+          "artist": "Neil Young",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:21.342Z"
+          }
+        },
+        {
+          "title": "Selenites, Selenites!",
+          "artist": "Jimi TenorJimi Tenor Band",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:21.911Z"
+          }
+        },
+        {
+          "title": "Back Stabbers/Ship Ahoy/Survival/Family Reunion",
+          "artist": "The O'Jays",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:22.464Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-03T18:57:55.603Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-12-05",
       "albums": [

@@ -1982,12 +1982,6 @@
         "spotify_id": "5dCuFngSPyOOnTAvrC7v2s"
       },
       {
-        "artist": "Cliff Edwards",
-        "listeners": 12389,
-        "spotify_popularity": 41,
-        "spotify_id": "0aeRagbqQCOKkVURrvcMrn"
-      },
-      {
         "artist": "Fela Kuti",
         "listeners": 714797,
         "spotify_popularity": 49,
@@ -2168,6 +2162,13 @@
         "listeners": 168533,
         "spotify_popularity": 41,
         "spotify_id": "6nYo7m5cO64bANRvilwVBb"
+      },
+      {
+        "artist": "Cliff Edwards",
+        "listeners": 12389,
+        "spotify_id": "0aeRagbqQCOKkVURrvcMrn",
+        "recommended": false,
+        "tracksAdded": 10
       }
     ]
   }
