@@ -1663,5 +1663,15 @@
     "sourceFile": "data/spotifyPlaylists.json",
     "strategy": "spotifyPlaylist",
     "timestamp": "2026-03-05T00:49:05.268Z"
+  },
+  {
+    "action": "add",
+    "artist": "King Crimson",
+    "album": "In the Wake of Poseidon",
+    "index": null,
+    "tracksAdded": 11,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-03-05T19:19:21.577Z"
   }
 ]
