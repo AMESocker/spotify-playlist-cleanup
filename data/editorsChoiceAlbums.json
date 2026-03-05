@@ -1,170 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-11-07",
-      "albums": [
-        {
-          "title": "Sad and Beautiful World",
-          "artist": "Mavis Staples",
-          "spotifyTrack": {
-            "id": "6UFDma78AVAyHaN4i88R8i",
-            "name": "Sad and Beautiful World",
-            "uri": "spotify:track:6UFDma78AVAyHaN4i88R8i",
-            "popularity": 51,
-            "albumName": "Sad And Beautiful World",
-            "albumId": "07aZwFEzDfh0BALXf1o6FH",
-            "foundAt": "2026-02-05T18:43:31.312Z"
-          }
-        },
-        {
-          "title": "Liquorice",
-          "artist": "Hatchie",
-          "spotifyTrack": {
-            "id": "7nRGn3i9VjWrOzgktOoIMW",
-            "name": "Carousel",
-            "uri": "spotify:track:7nRGn3i9VjWrOzgktOoIMW",
-            "popularity": 47,
-            "albumName": "Liquorice",
-            "albumId": "0dtHFmAZG3WuxrpxxGoXlV",
-            "foundAt": "2026-02-05T18:43:33.049Z"
-          }
-        },
-        {
-          "title": "Through This Fire Across From Peter Balkan",
-          "artist": "The Mountain Goats",
-          "spotifyTrack": {
-            "id": "2yFSKzBynfMYUTRtkxjLx2",
-            "name": "Cold at Night",
-            "uri": "spotify:track:2yFSKzBynfMYUTRtkxjLx2",
-            "popularity": 44,
-            "albumName": "Through This Fire Across from Peter Balkan",
-            "albumId": "23wXSnurzNp56xCyGBPQ65",
-            "foundAt": "2026-02-05T18:43:34.689Z"
-          }
-        },
-        {
-          "title": "Small Talk",
-          "artist": "Whitney",
-          "spotifyTrack": {
-            "id": "05URVp6intVrFUYhIksYyB",
-            "name": "Evangeline",
-            "uri": "spotify:track:05URVp6intVrFUYhIksYyB",
-            "popularity": 48,
-            "albumName": "Small Talk",
-            "albumId": "0DV7ElSZhfGNknhxBnQeJk",
-            "foundAt": "2026-02-05T18:43:36.326Z"
-          }
-        },
-        {
-          "title": "Shish",
-          "artist": "Portugal. The Man",
-          "spotifyTrack": {
-            "id": "2eTPYfu84D0msm8ibxZ1La",
-            "name": "Tanana",
-            "uri": "spotify:track:2eTPYfu84D0msm8ibxZ1La",
-            "popularity": 52,
-            "albumName": "SHISH",
-            "albumId": "7pbhvtNUvp160w3qgtwCCg",
-            "foundAt": "2026-02-05T18:43:38.067Z"
-          }
-        },
-        {
-          "title": "1985: The Miracle Year",
-          "artist": "Hüsker Dü",
-          "spotifyTrack": {
-            "id": "4A7rCmz1xlZDtfMXBgrkOg",
-            "name": "New Day Rising",
-            "uri": "spotify:track:4A7rCmz1xlZDtfMXBgrkOg",
-            "popularity": 25,
-            "albumName": "1985: The Miracle Year",
-            "albumId": "1UAPT7a6MoGo3phDeskmKd",
-            "foundAt": "2026-02-05T18:43:39.912Z"
-          }
-        },
-        {
-          "title": "How You Been",
-          "artist": "SML",
-          "spotifyTrack": {
-            "id": "3le7tV5MtNCVpBQ1e2ubSD",
-            "name": "Taking out the Trash",
-            "uri": "spotify:track:3le7tV5MtNCVpBQ1e2ubSD",
-            "popularity": 31,
-            "albumName": "How You Been",
-            "albumId": "00xaBkvgiCZ7mMlcHIRgQy",
-            "foundAt": "2026-02-05T18:43:41.447Z"
-          }
-        },
-        {
-          "title": "Cosplay",
-          "artist": "Sorry",
-          "spotifyTrack": {
-            "id": "393Vol6T8l2Koj5QeKLEOV",
-            "name": "Echoes",
-            "uri": "spotify:track:393Vol6T8l2Koj5QeKLEOV",
-            "popularity": 46,
-            "albumName": "COSPLAY",
-            "albumId": "2y9KTl1MXK8jgH40zwh11X",
-            "foundAt": "2026-02-05T18:43:43.185Z"
-          }
-        },
-        {
-          "title": "Daylight Daylight",
-          "artist": "Steve Gunn",
-          "spotifyTrack": {
-            "id": "5L8Id6a2oAYbOHZjl14MEZ",
-            "name": "Nearly There",
-            "uri": "spotify:track:5L8Id6a2oAYbOHZjl14MEZ",
-            "popularity": 34,
-            "albumName": "Daylight Daylight",
-            "albumId": "1J0qV3wcKMtct7t1YSIALl",
-            "foundAt": "2026-02-05T18:43:44.723Z"
-          }
-        },
-        {
-          "title": "Lasting Impression",
-          "artist": "Brandon Sanders",
-          "spotifyTrack": {
-            "id": "3epFwp7ZHkBXYPdfa5zy5F",
-            "name": "8/4 Beat",
-            "uri": "spotify:track:3epFwp7ZHkBXYPdfa5zy5F",
-            "popularity": 28,
-            "albumName": "Lasting Impression",
-            "albumId": "1avyPXf8rP4eqgbfGHnnQN",
-            "foundAt": "2026-02-05T18:43:46.467Z"
-          }
-        },
-        {
-          "title": "No Time for Poetry",
-          "artist": "The Saxophones",
-          "spotifyTrack": {
-            "id": "5osNBPZZHKAtsFAqSsG6gO",
-            "name": "Winter Moon",
-            "uri": "spotify:track:5osNBPZZHKAtsFAqSsG6gO",
-            "popularity": 27,
-            "albumName": "No Time for Poetry",
-            "albumId": "2qgNl5E8KZZ14Z5Utlqy8h",
-            "foundAt": "2026-02-05T18:43:47.996Z"
-          }
-        },
-        {
-          "title": "Finding Ways",
-          "artist": "Finding Ways",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:28.240Z"
-          }
-        },
-        {
-          "title": "Birds & Insects: Arlene Sierra, Vol. 4",
-          "artist": "Sarah CahillSteven Beck",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-02-28T10:15:28.873Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-10-31",
       "albums": [
         {
@@ -4349,6 +4185,172 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-11-07",
+      "albums": [
+        {
+          "title": "Sad and Beautiful World",
+          "artist": "Mavis Staples",
+          "spotifyTrack": {
+            "id": "6UFDma78AVAyHaN4i88R8i",
+            "name": "Sad and Beautiful World",
+            "uri": "spotify:track:6UFDma78AVAyHaN4i88R8i",
+            "popularity": 51,
+            "albumName": "Sad And Beautiful World",
+            "albumId": "07aZwFEzDfh0BALXf1o6FH",
+            "foundAt": "2026-02-05T18:43:31.312Z"
+          }
+        },
+        {
+          "title": "Liquorice",
+          "artist": "Hatchie",
+          "spotifyTrack": {
+            "id": "7nRGn3i9VjWrOzgktOoIMW",
+            "name": "Carousel",
+            "uri": "spotify:track:7nRGn3i9VjWrOzgktOoIMW",
+            "popularity": 47,
+            "albumName": "Liquorice",
+            "albumId": "0dtHFmAZG3WuxrpxxGoXlV",
+            "foundAt": "2026-02-05T18:43:33.049Z"
+          }
+        },
+        {
+          "title": "Through This Fire Across From Peter Balkan",
+          "artist": "The Mountain Goats",
+          "spotifyTrack": {
+            "id": "2yFSKzBynfMYUTRtkxjLx2",
+            "name": "Cold at Night",
+            "uri": "spotify:track:2yFSKzBynfMYUTRtkxjLx2",
+            "popularity": 44,
+            "albumName": "Through This Fire Across from Peter Balkan",
+            "albumId": "23wXSnurzNp56xCyGBPQ65",
+            "foundAt": "2026-02-05T18:43:34.689Z"
+          }
+        },
+        {
+          "title": "Small Talk",
+          "artist": "Whitney",
+          "spotifyTrack": {
+            "id": "05URVp6intVrFUYhIksYyB",
+            "name": "Evangeline",
+            "uri": "spotify:track:05URVp6intVrFUYhIksYyB",
+            "popularity": 48,
+            "albumName": "Small Talk",
+            "albumId": "0DV7ElSZhfGNknhxBnQeJk",
+            "foundAt": "2026-02-05T18:43:36.326Z"
+          }
+        },
+        {
+          "title": "Shish",
+          "artist": "Portugal. The Man",
+          "spotifyTrack": {
+            "id": "2eTPYfu84D0msm8ibxZ1La",
+            "name": "Tanana",
+            "uri": "spotify:track:2eTPYfu84D0msm8ibxZ1La",
+            "popularity": 52,
+            "albumName": "SHISH",
+            "albumId": "7pbhvtNUvp160w3qgtwCCg",
+            "foundAt": "2026-02-05T18:43:38.067Z"
+          }
+        },
+        {
+          "title": "1985: The Miracle Year",
+          "artist": "Hüsker Dü",
+          "spotifyTrack": {
+            "id": "4A7rCmz1xlZDtfMXBgrkOg",
+            "name": "New Day Rising",
+            "uri": "spotify:track:4A7rCmz1xlZDtfMXBgrkOg",
+            "popularity": 25,
+            "albumName": "1985: The Miracle Year",
+            "albumId": "1UAPT7a6MoGo3phDeskmKd",
+            "foundAt": "2026-02-05T18:43:39.912Z"
+          }
+        },
+        {
+          "title": "How You Been",
+          "artist": "SML",
+          "spotifyTrack": {
+            "id": "3le7tV5MtNCVpBQ1e2ubSD",
+            "name": "Taking out the Trash",
+            "uri": "spotify:track:3le7tV5MtNCVpBQ1e2ubSD",
+            "popularity": 31,
+            "albumName": "How You Been",
+            "albumId": "00xaBkvgiCZ7mMlcHIRgQy",
+            "foundAt": "2026-02-05T18:43:41.447Z"
+          }
+        },
+        {
+          "title": "Cosplay",
+          "artist": "Sorry",
+          "spotifyTrack": {
+            "id": "393Vol6T8l2Koj5QeKLEOV",
+            "name": "Echoes",
+            "uri": "spotify:track:393Vol6T8l2Koj5QeKLEOV",
+            "popularity": 46,
+            "albumName": "COSPLAY",
+            "albumId": "2y9KTl1MXK8jgH40zwh11X",
+            "foundAt": "2026-02-05T18:43:43.185Z"
+          }
+        },
+        {
+          "title": "Daylight Daylight",
+          "artist": "Steve Gunn",
+          "spotifyTrack": {
+            "id": "5L8Id6a2oAYbOHZjl14MEZ",
+            "name": "Nearly There",
+            "uri": "spotify:track:5L8Id6a2oAYbOHZjl14MEZ",
+            "popularity": 34,
+            "albumName": "Daylight Daylight",
+            "albumId": "1J0qV3wcKMtct7t1YSIALl",
+            "foundAt": "2026-02-05T18:43:44.723Z"
+          }
+        },
+        {
+          "title": "Lasting Impression",
+          "artist": "Brandon Sanders",
+          "spotifyTrack": {
+            "id": "3epFwp7ZHkBXYPdfa5zy5F",
+            "name": "8/4 Beat",
+            "uri": "spotify:track:3epFwp7ZHkBXYPdfa5zy5F",
+            "popularity": 28,
+            "albumName": "Lasting Impression",
+            "albumId": "1avyPXf8rP4eqgbfGHnnQN",
+            "foundAt": "2026-02-05T18:43:46.467Z"
+          }
+        },
+        {
+          "title": "No Time for Poetry",
+          "artist": "The Saxophones",
+          "spotifyTrack": {
+            "id": "5osNBPZZHKAtsFAqSsG6gO",
+            "name": "Winter Moon",
+            "uri": "spotify:track:5osNBPZZHKAtsFAqSsG6gO",
+            "popularity": 27,
+            "albumName": "No Time for Poetry",
+            "albumId": "2qgNl5E8KZZ14Z5Utlqy8h",
+            "foundAt": "2026-02-05T18:43:47.996Z"
+          }
+        },
+        {
+          "title": "Finding Ways",
+          "artist": "Finding Ways",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:28.240Z"
+          }
+        },
+        {
+          "title": "Birds & Insects: Arlene Sierra, Vol. 4",
+          "artist": "Sarah CahillSteven Beck",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-02-28T10:15:28.873Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-05T21:30:55.347Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-11-14",
       "albums": [
