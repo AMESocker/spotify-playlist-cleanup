@@ -1414,11 +1414,12 @@
       "Artist": "Amber Pacific",
       "Group": "🟢 Pop-Punk / Emo / Ska",
       "Albums": [
-        "The Possibility and the Promise",
         "Truth in Sincerity",
         "Virtues"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "The Possibility and the Promise"
+      ]
     },
     {
       "Artist": "The Ataris",
