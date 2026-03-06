@@ -527,13 +527,6 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
-        "artist": "Dengue Fever",
-        "listeners": 56435,
-        "recommended": true,
-        "spotify_popularity": 29,
-        "spotify_id": "3wFHDAXLsjvclEtifEV7F5"
-      },
-      {
         "artist": "Peter Tosh",
         "listeners": 1242002,
         "recommended": true,
@@ -806,6 +799,13 @@
         "listeners": 13632072,
         "spotify_id": "2QsynagSdAqZj3U9HgDzjD",
         "recommended": false,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Dengue Fever",
+        "listeners": 56435,
+        "spotify_id": "3wFHDAXLsjvclEtifEV7F5",
+        "recommended": true,
         "tracksAdded": 10
       }
     ]
