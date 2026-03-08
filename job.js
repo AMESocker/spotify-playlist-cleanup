@@ -2,9 +2,10 @@
 import { getSpotify } from './auth.js';
 import { fetchAllPlaylistItems, removeTracks, getRecentlyPlayedIds } from './playlist.js';
 import { addTracksToArchive } from './archive.js';
-import { monitoredPlaylists, archivePlaylists } from './config.js';
+import { monitoredPlaylists, archivePlaylists, staleArchivePlaylistId } from './config.js';
 import { logInfo, logError } from './logger.js';
 
+const MAX_AGE_DAYS = 30;
 //? Main job function to manage playlist cleanup and archiving
 export async function runJob() {
   try {
@@ -31,13 +32,24 @@ export async function runJob() {
 
       //? Arrays to hold tracks that should be archived and removed
       const archiveTracks = [];
+      const staleArchiveTracks = [];
       const removals = [];
+
+      //? Cutoff timestamp for stale tracks
+      const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
 
       //? Check each track in the playlist
       items.forEach((item, idx) => {
-        //? If the track was played recently, mark it for archiving and removal
-        if (item.track && recentlyPlayed.has(item.track.id)) {
+        if (!item.track) return;
+
+        const isRecentlyPlayed = recentlyPlayed.has(item.track.id);
+        const isStale = new Date(item.added_at).getTime() < cutoff;
+
+        if (isRecentlyPlayed) {
           archiveTracks.push({ ...item.track, added_at: item.added_at });
+          removals.push({ uri: item.track.uri, positions: [idx] });
+        } else if (isStale) {
+          staleArchiveTracks.push({ ...item.track, added_at: item.added_at });
           removals.push({ uri: item.track.uri, positions: [idx] });
         }
       });
@@ -45,11 +57,18 @@ export async function runJob() {
       if (archiveTracks.length > 0) {
         logInfo(`Archiving ${archiveTracks.length} tracks to playlist ${archiveId}...`);
         await addTracksToArchive(archiveId, archiveTracks);
+      }
 
+      if (staleArchiveTracks.length > 0) {
+        logInfo(`Archiving ${staleArchiveTracks.length} stale tracks to stale archive...`);
+        await addTracksToArchive(staleArchivePlaylistId, staleArchiveTracks);
+      }
+
+      if (removals.length > 0) {
         logInfo(`Removing ${removals.length} tracks from playlist ${playlistId}...`);
         await removeTracks(playlistId, removals);
       } else {
-        logInfo(`No recently played tracks to remove for playlist ${playlistId}.`);
+        logInfo(`No tracks to remove for playlist ${playlistId}.`);
       }
     }
 
