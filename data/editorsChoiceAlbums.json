@@ -1,92 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-03-06",
-      "albums": [
-        {
-          "title": "Of the Earth",
-          "artist": "Shabaka",
-          "spotifyTrack": {
-            "id": "63jNzoFz5BpQw5bnD5kKzf",
-            "name": "A Future Untold",
-            "uri": "spotify:track:63jNzoFz5BpQw5bnD5kKzf",
-            "popularity": 0,
-            "albumName": "Of The Earth",
-            "albumId": "1WLCmU6lTy0OqC1ALX4wfJ",
-            "foundAt": "2026-03-07T10:16:10.460Z"
-          }
-        },
-        {
-          "title": "Mosquito",
-          "artist": "Hater",
-          "spotifyTrack": {
-            "id": "6xmfvJOanTz7lLPTOnPCG2",
-            "name": "Landslide",
-            "uri": "spotify:track:6xmfvJOanTz7lLPTOnPCG2",
-            "popularity": 0,
-            "albumName": "Mosquito",
-            "albumId": "2ajSzW4bjY8bGnRt0RBMhm",
-            "foundAt": "2026-03-07T10:16:12.177Z"
-          }
-        },
-        {
-          "title": "Twio, Vol. 2",
-          "artist": "Walter Smith III",
-          "spotifyTrack": {
-            "id": "1DFS3kMi6x9AmllIP764Uq",
-            "name": "My Ideal",
-            "uri": "spotify:track:1DFS3kMi6x9AmllIP764Uq",
-            "popularity": 0,
-            "albumName": "Twio Vol. 2",
-            "albumId": "6FeF2mRDXdsvuz5gNNHDBs",
-            "foundAt": "2026-03-07T10:16:13.689Z"
-          }
-        },
-        {
-          "title": "Images of Life",
-          "artist": "Ted Lucas",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:14.305Z"
-          }
-        },
-        {
-          "title": "These Frightening Machines",
-          "artist": "Katherine Priddy",
-          "spotifyTrack": {
-            "id": "6dTi6Qh0cgWov3x9eUOlh9",
-            "name": "Sirius",
-            "uri": "spotify:track:6dTi6Qh0cgWov3x9eUOlh9",
-            "popularity": 2,
-            "albumName": "These Frightening Machines",
-            "albumId": "55rUaoBod5UiqLtCcRrCH8",
-            "foundAt": "2026-03-07T10:16:15.907Z"
-          }
-        },
-        {
-          "title": "Never Turns To Night",
-          "artist": "Bory",
-          "spotifyTrack": {
-            "id": "1xJgvncMNcQGpc8sqtiQ2i",
-            "name": "We’ll Burn That Bridge When We Get To It",
-            "uri": "spotify:track:1xJgvncMNcQGpc8sqtiQ2i",
-            "popularity": 0,
-            "albumName": "Never Turns To Night",
-            "albumId": "35XuSHa8WP2pWNYaGITvJs",
-            "foundAt": "2026-03-07T10:16:17.427Z"
-          }
-        },
-        {
-          "title": "Extra Stars",
-          "artist": "Gregory Uhlmann",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:18.067Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-10-24",
       "albums": [
         {
@@ -4117,6 +4031,94 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-03-06",
+      "albums": [
+        {
+          "title": "Of the Earth",
+          "artist": "Shabaka",
+          "spotifyTrack": {
+            "id": "63jNzoFz5BpQw5bnD5kKzf",
+            "name": "A Future Untold",
+            "uri": "spotify:track:63jNzoFz5BpQw5bnD5kKzf",
+            "popularity": 0,
+            "albumName": "Of The Earth",
+            "albumId": "1WLCmU6lTy0OqC1ALX4wfJ",
+            "foundAt": "2026-03-07T10:16:10.460Z"
+          }
+        },
+        {
+          "title": "Mosquito",
+          "artist": "Hater",
+          "spotifyTrack": {
+            "id": "6xmfvJOanTz7lLPTOnPCG2",
+            "name": "Landslide",
+            "uri": "spotify:track:6xmfvJOanTz7lLPTOnPCG2",
+            "popularity": 0,
+            "albumName": "Mosquito",
+            "albumId": "2ajSzW4bjY8bGnRt0RBMhm",
+            "foundAt": "2026-03-07T10:16:12.177Z"
+          }
+        },
+        {
+          "title": "Twio, Vol. 2",
+          "artist": "Walter Smith III",
+          "spotifyTrack": {
+            "id": "1DFS3kMi6x9AmllIP764Uq",
+            "name": "My Ideal",
+            "uri": "spotify:track:1DFS3kMi6x9AmllIP764Uq",
+            "popularity": 0,
+            "albumName": "Twio Vol. 2",
+            "albumId": "6FeF2mRDXdsvuz5gNNHDBs",
+            "foundAt": "2026-03-07T10:16:13.689Z"
+          }
+        },
+        {
+          "title": "Images of Life",
+          "artist": "Ted Lucas",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:14.305Z"
+          }
+        },
+        {
+          "title": "These Frightening Machines",
+          "artist": "Katherine Priddy",
+          "spotifyTrack": {
+            "id": "6dTi6Qh0cgWov3x9eUOlh9",
+            "name": "Sirius",
+            "uri": "spotify:track:6dTi6Qh0cgWov3x9eUOlh9",
+            "popularity": 2,
+            "albumName": "These Frightening Machines",
+            "albumId": "55rUaoBod5UiqLtCcRrCH8",
+            "foundAt": "2026-03-07T10:16:15.907Z"
+          }
+        },
+        {
+          "title": "Never Turns To Night",
+          "artist": "Bory",
+          "spotifyTrack": {
+            "id": "1xJgvncMNcQGpc8sqtiQ2i",
+            "name": "We’ll Burn That Bridge When We Get To It",
+            "uri": "spotify:track:1xJgvncMNcQGpc8sqtiQ2i",
+            "popularity": 0,
+            "albumName": "Never Turns To Night",
+            "albumId": "35XuSHa8WP2pWNYaGITvJs",
+            "foundAt": "2026-03-07T10:16:17.427Z"
+          }
+        },
+        {
+          "title": "Extra Stars",
+          "artist": "Gregory Uhlmann",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:18.067Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-09T18:58:21.591Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-10-31",
       "albums": [

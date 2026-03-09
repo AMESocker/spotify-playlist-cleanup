@@ -1791,5 +1791,23 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-03-08T15:29:05.887Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Tom Waits",
+    "index": 51,
+    "tracksAdded": 10,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-09T18:58:21.344Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-03-06",
+    "tracksAdded": 5,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-03-09T18:58:21.593Z"
   }
 ]

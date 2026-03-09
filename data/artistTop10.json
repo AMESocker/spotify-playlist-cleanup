@@ -1906,6 +1906,12 @@
   "Jazz / Blues / Soul / Funk": {
     "not_added": [
       {
+        "artist": "Tony Allen",
+        "listeners": 143100,
+        "spotify_popularity": 46,
+        "spotify_id": "6JpZEemWmunccsrHXFUOgi"
+      },
+      {
         "artist": "Anderson .Paak",
         "listeners": 2746196,
         "spotify_popularity": 75,
@@ -1988,12 +1994,6 @@
         "listeners": 714797,
         "spotify_popularity": 49,
         "spotify_id": "5CG9X521RDFWCuAhlo6QoR"
-      },
-      {
-        "artist": "Tony Allen",
-        "listeners": 143100,
-        "spotify_popularity": 46,
-        "spotify_id": "6JpZEemWmunccsrHXFUOgi"
       },
       {
         "artist": "Miles Davis",
