@@ -1906,12 +1906,6 @@
   "Jazz / Blues / Soul / Funk": {
     "not_added": [
       {
-        "artist": "Tony Allen",
-        "listeners": 143100,
-        "spotify_popularity": 46,
-        "spotify_id": "6JpZEemWmunccsrHXFUOgi"
-      },
-      {
         "artist": "Anderson .Paak",
         "listeners": 2746196,
         "spotify_popularity": 75,
@@ -2169,6 +2163,13 @@
         "artist": "Cliff Edwards",
         "listeners": 12389,
         "spotify_id": "0aeRagbqQCOKkVURrvcMrn",
+        "recommended": false,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Tony Allen",
+        "listeners": 143100,
+        "spotify_id": "6JpZEemWmunccsrHXFUOgi",
         "recommended": false,
         "tracksAdded": 10
       }

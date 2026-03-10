@@ -1809,5 +1809,15 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-03-09T18:58:21.593Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues / Soul / Funk",
+    "artist": "Tony Allen",
+    "listeners": 143100,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-03-10T02:08:18.915Z"
   }
 ]
