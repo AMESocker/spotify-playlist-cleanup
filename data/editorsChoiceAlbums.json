@@ -1,152 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-10-24",
-      "albums": [
-        {
-          "title": "Returning to Myself",
-          "artist": "Brandi Carlile",
-          "spotifyTrack": {
-            "id": "63oBWU1UnEwk5z441Xjngq",
-            "name": "Human",
-            "uri": "spotify:track:63oBWU1UnEwk5z441Xjngq",
-            "popularity": 50,
-            "albumName": "Returning To Myself",
-            "albumId": "3e2Q0TkwIIfmWUAssLAJ8U",
-            "foundAt": "2026-02-05T18:44:09.096Z"
-          }
-        },
-        {
-          "title": "Nebraska 82: Expanded Edition",
-          "artist": "Bruce Springsteen",
-          "spotifyTrack": {
-            "id": "3nyE4s2ueZ03Q2czUMfJ88",
-            "name": "Losin' Kind - Nebraska Outtakes",
-            "uri": "spotify:track:3nyE4s2ueZ03Q2czUMfJ88",
-            "popularity": 46,
-            "albumName": "Nebraska '82: Expanded Edition",
-            "albumId": "6Cd23zUXeW83jRFlUiwcPM",
-            "foundAt": "2026-02-05T18:44:10.832Z"
-          }
-        },
-        {
-          "title": "FEMME FATALE",
-          "artist": "Mon Laferte",
-          "spotifyTrack": {
-            "id": "0ILCaNMr4s5CZdF1Km09Ln",
-            "name": "My One And Only Love",
-            "uri": "spotify:track:0ILCaNMr4s5CZdF1Km09Ln",
-            "popularity": 70,
-            "albumName": "FEMME FATALE",
-            "albumId": "7q2GxttTFDWOihvnSWdwWw",
-            "foundAt": "2026-02-05T18:44:12.570Z"
-          }
-        },
-        {
-          "title": "Teal Dreams",
-          "artist": "Yazmin Lacey",
-          "spotifyTrack": {
-            "id": "3gURB0TgRppQkfaFgU735h",
-            "name": "Longest Way Round",
-            "uri": "spotify:track:3gURB0TgRppQkfaFgU735h",
-            "popularity": 44,
-            "albumName": "Teal Dreams",
-            "albumId": "2AzTf9LVZzgJ7DoN1nE7uQ",
-            "foundAt": "2026-02-05T18:44:14.320Z"
-          }
-        },
-        {
-          "title": "Slacker",
-          "artist": "Oruã",
-          "spotifyTrack": {
-            "id": "0wqaJOgslL6LBOGLkR2Ovq",
-            "name": "Deus-Dará",
-            "uri": "spotify:track:0wqaJOgslL6LBOGLkR2Ovq",
-            "popularity": 16,
-            "albumName": "Slacker",
-            "albumId": "5Vn4wzALbme6dBvvgznJUa",
-            "foundAt": "2026-02-05T18:44:16.159Z"
-          }
-        },
-        {
-          "title": "More Colors of Sound",
-          "artist": "Major Stars",
-          "spotifyTrack": {
-            "id": "0lYDnvTInnGTryzmsz02Ht",
-            "name": "Blackout",
-            "uri": "spotify:track:0lYDnvTInnGTryzmsz02Ht",
-            "popularity": 10,
-            "albumName": "More Colors of Sound",
-            "albumId": "0DKT7wx8cN4jdLTw6SLh1d",
-            "foundAt": "2026-02-05T18:44:17.691Z"
-          }
-        },
-        {
-          "title": "Krok",
-          "artist": "Soyuz",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:18.810Z"
-          }
-        },
-        {
-          "title": "Stereotype",
-          "artist": "Squarepusher",
-          "spotifyTrack": {
-            "id": "2PDPho4GseHB4Gw925KjqR",
-            "name": "Whooshki",
-            "uri": "spotify:track:2PDPho4GseHB4Gw925KjqR",
-            "popularity": 20,
-            "albumName": "Stereotype",
-            "albumId": "6YoFtf2Ou3IrsoS4xybT3y",
-            "foundAt": "2026-02-05T18:44:20.000Z"
-          }
-        },
-        {
-          "title": "Amasia: Anamibia Sessions 2",
-          "artist": "Melvin Gibbs",
-          "spotifyTrack": {
-            "id": "2MbhhJlidYkFsxwhxZHf7z",
-            "name": "Gullah Jack Style",
-            "uri": "spotify:track:2MbhhJlidYkFsxwhxZHf7z",
-            "popularity": 17,
-            "albumName": "Amasia: Anamibia Sessions 2",
-            "albumId": "7DYAxLoCh9xtr9nbqbbmMS",
-            "foundAt": "2026-02-05T18:44:21.485Z"
-          }
-        },
-        {
-          "title": "Silver in Seattle: Live at the Penthouse",
-          "artist": "Horace SilverHorace Silver Quintet",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:19.458Z"
-          }
-        },
-        {
-          "title": "Unfold in the Sky",
-          "artist": "Cubzoa",
-          "spotifyTrack": {
-            "id": "7lDrZ6JVSWziyXAGzIUh1h",
-            "name": "Buckle Up",
-            "uri": "spotify:track:7lDrZ6JVSWziyXAGzIUh1h",
-            "popularity": 28,
-            "albumName": "Unfold In The Sky",
-            "albumId": "7fCGumjqMjzUV0fG2AMrdS",
-            "foundAt": "2026-02-05T18:44:23.941Z"
-          }
-        },
-        {
-          "title": "Mozart's Clavichord: Arias, Lieder and Keyboard Pieces",
-          "artist": "Georg NiglAlexander Gergelyfi",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:20.070Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-10-17",
       "albums": [
         {
@@ -4031,6 +3885,154 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-10-24",
+      "albums": [
+        {
+          "title": "Returning to Myself",
+          "artist": "Brandi Carlile",
+          "spotifyTrack": {
+            "id": "63oBWU1UnEwk5z441Xjngq",
+            "name": "Human",
+            "uri": "spotify:track:63oBWU1UnEwk5z441Xjngq",
+            "popularity": 50,
+            "albumName": "Returning To Myself",
+            "albumId": "3e2Q0TkwIIfmWUAssLAJ8U",
+            "foundAt": "2026-02-05T18:44:09.096Z"
+          }
+        },
+        {
+          "title": "Nebraska 82: Expanded Edition",
+          "artist": "Bruce Springsteen",
+          "spotifyTrack": {
+            "id": "3nyE4s2ueZ03Q2czUMfJ88",
+            "name": "Losin' Kind - Nebraska Outtakes",
+            "uri": "spotify:track:3nyE4s2ueZ03Q2czUMfJ88",
+            "popularity": 46,
+            "albumName": "Nebraska '82: Expanded Edition",
+            "albumId": "6Cd23zUXeW83jRFlUiwcPM",
+            "foundAt": "2026-02-05T18:44:10.832Z"
+          }
+        },
+        {
+          "title": "FEMME FATALE",
+          "artist": "Mon Laferte",
+          "spotifyTrack": {
+            "id": "0ILCaNMr4s5CZdF1Km09Ln",
+            "name": "My One And Only Love",
+            "uri": "spotify:track:0ILCaNMr4s5CZdF1Km09Ln",
+            "popularity": 70,
+            "albumName": "FEMME FATALE",
+            "albumId": "7q2GxttTFDWOihvnSWdwWw",
+            "foundAt": "2026-02-05T18:44:12.570Z"
+          }
+        },
+        {
+          "title": "Teal Dreams",
+          "artist": "Yazmin Lacey",
+          "spotifyTrack": {
+            "id": "3gURB0TgRppQkfaFgU735h",
+            "name": "Longest Way Round",
+            "uri": "spotify:track:3gURB0TgRppQkfaFgU735h",
+            "popularity": 44,
+            "albumName": "Teal Dreams",
+            "albumId": "2AzTf9LVZzgJ7DoN1nE7uQ",
+            "foundAt": "2026-02-05T18:44:14.320Z"
+          }
+        },
+        {
+          "title": "Slacker",
+          "artist": "Oruã",
+          "spotifyTrack": {
+            "id": "0wqaJOgslL6LBOGLkR2Ovq",
+            "name": "Deus-Dará",
+            "uri": "spotify:track:0wqaJOgslL6LBOGLkR2Ovq",
+            "popularity": 16,
+            "albumName": "Slacker",
+            "albumId": "5Vn4wzALbme6dBvvgznJUa",
+            "foundAt": "2026-02-05T18:44:16.159Z"
+          }
+        },
+        {
+          "title": "More Colors of Sound",
+          "artist": "Major Stars",
+          "spotifyTrack": {
+            "id": "0lYDnvTInnGTryzmsz02Ht",
+            "name": "Blackout",
+            "uri": "spotify:track:0lYDnvTInnGTryzmsz02Ht",
+            "popularity": 10,
+            "albumName": "More Colors of Sound",
+            "albumId": "0DKT7wx8cN4jdLTw6SLh1d",
+            "foundAt": "2026-02-05T18:44:17.691Z"
+          }
+        },
+        {
+          "title": "Krok",
+          "artist": "Soyuz",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:18.810Z"
+          }
+        },
+        {
+          "title": "Stereotype",
+          "artist": "Squarepusher",
+          "spotifyTrack": {
+            "id": "2PDPho4GseHB4Gw925KjqR",
+            "name": "Whooshki",
+            "uri": "spotify:track:2PDPho4GseHB4Gw925KjqR",
+            "popularity": 20,
+            "albumName": "Stereotype",
+            "albumId": "6YoFtf2Ou3IrsoS4xybT3y",
+            "foundAt": "2026-02-05T18:44:20.000Z"
+          }
+        },
+        {
+          "title": "Amasia: Anamibia Sessions 2",
+          "artist": "Melvin Gibbs",
+          "spotifyTrack": {
+            "id": "2MbhhJlidYkFsxwhxZHf7z",
+            "name": "Gullah Jack Style",
+            "uri": "spotify:track:2MbhhJlidYkFsxwhxZHf7z",
+            "popularity": 17,
+            "albumName": "Amasia: Anamibia Sessions 2",
+            "albumId": "7DYAxLoCh9xtr9nbqbbmMS",
+            "foundAt": "2026-02-05T18:44:21.485Z"
+          }
+        },
+        {
+          "title": "Silver in Seattle: Live at the Penthouse",
+          "artist": "Horace SilverHorace Silver Quintet",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:19.458Z"
+          }
+        },
+        {
+          "title": "Unfold in the Sky",
+          "artist": "Cubzoa",
+          "spotifyTrack": {
+            "id": "7lDrZ6JVSWziyXAGzIUh1h",
+            "name": "Buckle Up",
+            "uri": "spotify:track:7lDrZ6JVSWziyXAGzIUh1h",
+            "popularity": 28,
+            "albumName": "Unfold In The Sky",
+            "albumId": "7fCGumjqMjzUV0fG2AMrdS",
+            "foundAt": "2026-02-05T18:44:23.941Z"
+          }
+        },
+        {
+          "title": "Mozart's Clavichord: Arias, Lieder and Keyboard Pieces",
+          "artist": "Georg NiglAlexander Gergelyfi",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:20.070Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-11T01:45:01.807Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-03-06",
       "albums": [
