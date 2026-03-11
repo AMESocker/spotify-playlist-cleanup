@@ -1899,5 +1899,24 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-03-11T17:56:18.138Z"
+  },
+  {
+    "action": "add",
+    "artist": "The La's",
+    "album": "The La's",
+    "index": 526,
+    "tracksAdded": 1,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-11T21:29:28.451Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-10-17",
+    "tracksAdded": 7,
+    "tracksSkipped": 1,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-03-11T21:29:31.714Z"
   }
 ]

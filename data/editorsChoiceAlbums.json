@@ -1,110 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-10-17",
-      "albums": [
-        {
-          "title": "Deadbeat",
-          "artist": "Tame Impala",
-          "spotifyTrack": {
-            "id": "1NXbNEAcPvY5G1xvfN57aA",
-            "name": "Dracula",
-            "uri": "spotify:track:1NXbNEAcPvY5G1xvfN57aA",
-            "popularity": 84,
-            "albumName": "Deadbeat",
-            "albumId": "5WulAOx9ilWy1h8UGZ1gkI",
-            "foundAt": "2026-02-05T18:44:26.286Z"
-          }
-        },
-        {
-          "title": "THE BPM",
-          "artist": "Sudan Archives",
-          "spotifyTrack": {
-            "id": "1MRQ49rkgqahm7K51ZjtRf",
-            "name": "DEAD",
-            "uri": "spotify:track:1MRQ49rkgqahm7K51ZjtRf",
-            "popularity": 50,
-            "albumName": "THE BPM",
-            "albumId": "6xuXmpSyh7WqIct3bvsSfg",
-            "foundAt": "2026-02-05T18:44:28.039Z"
-          }
-        },
-        {
-          "title": "From the Pyre",
-          "artist": "The Last Dinner Party",
-          "spotifyTrack": {
-            "id": "4lC5STpnrBm7aXMls2zGqJ",
-            "name": "The Scythe",
-            "uri": "spotify:track:4lC5STpnrBm7aXMls2zGqJ",
-            "popularity": 60,
-            "albumName": "From The Pyre",
-            "albumId": "3xxkjx6Hgl8sWpNfuqhHtD",
-            "foundAt": "2026-02-05T18:44:29.675Z"
-          }
-        },
-        {
-          "title": "Sunlight in the Shadows",
-          "artist": "Miles Kane",
-          "spotifyTrack": {
-            "id": "6Y8ecenZetaPf69GfAnQNG",
-            "name": "Love Is Cruel",
-            "uri": "spotify:track:6Y8ecenZetaPf69GfAnQNG",
-            "popularity": 40,
-            "albumName": "Sunlight In The Shadows",
-            "albumId": "0LpQiuhhd5REbYe82Lo1F2",
-            "foundAt": "2026-02-05T18:44:31.311Z"
-          }
-        },
-        {
-          "title": "Some Like It Hot",
-          "artist": "bar italia",
-          "spotifyTrack": {
-            "id": "1IBsWEOUwPCDJLwyzsbiBP",
-            "name": "Fundraiser",
-            "uri": "spotify:track:1IBsWEOUwPCDJLwyzsbiBP",
-            "popularity": 45,
-            "albumName": "Some Like It Hot",
-            "albumId": "2CVovXC4S92eRgjtZazNEU",
-            "foundAt": "2026-02-05T18:44:32.923Z"
-          }
-        },
-        {
-          "title": "Diary of a Candle",
-          "artist": "Faten Kanaan",
-          "spotifyTrack": {
-            "id": "6BRzITRltQ3t0DxsTPvxtj",
-            "name": "Supercore",
-            "uri": "spotify:track:6BRzITRltQ3t0DxsTPvxtj",
-            "popularity": 12,
-            "albumName": "Diary of a Candle",
-            "albumId": "0NZsxneIVXSedijfpvTcgl",
-            "foundAt": "2026-02-05T18:44:34.696Z"
-          }
-        },
-        {
-          "title": "Talulah's Tape",
-          "artist": "Good Flying Birds",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:20.820Z"
-          }
-        },
-        {
-          "title": "Tower Block in a Jam Jar",
-          "artist": "Mozart Estate",
-          "spotifyTrack": {
-            "id": "249m4DlTf3fyjEHWIv2Le6",
-            "name": "Summer Is Here",
-            "uri": "spotify:track:249m4DlTf3fyjEHWIv2Le6",
-            "popularity": 15,
-            "albumName": "Tower Block In A Jam Jar",
-            "albumId": "3kVLOoqEzJEQrKocjAKAnX",
-            "foundAt": "2026-02-05T18:44:36.997Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-10-10",
       "albums": [
         {
@@ -3885,6 +3781,112 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-10-17",
+      "albums": [
+        {
+          "title": "Deadbeat",
+          "artist": "Tame Impala",
+          "spotifyTrack": {
+            "id": "1NXbNEAcPvY5G1xvfN57aA",
+            "name": "Dracula",
+            "uri": "spotify:track:1NXbNEAcPvY5G1xvfN57aA",
+            "popularity": 84,
+            "albumName": "Deadbeat",
+            "albumId": "5WulAOx9ilWy1h8UGZ1gkI",
+            "foundAt": "2026-02-05T18:44:26.286Z"
+          }
+        },
+        {
+          "title": "THE BPM",
+          "artist": "Sudan Archives",
+          "spotifyTrack": {
+            "id": "1MRQ49rkgqahm7K51ZjtRf",
+            "name": "DEAD",
+            "uri": "spotify:track:1MRQ49rkgqahm7K51ZjtRf",
+            "popularity": 50,
+            "albumName": "THE BPM",
+            "albumId": "6xuXmpSyh7WqIct3bvsSfg",
+            "foundAt": "2026-02-05T18:44:28.039Z"
+          }
+        },
+        {
+          "title": "From the Pyre",
+          "artist": "The Last Dinner Party",
+          "spotifyTrack": {
+            "id": "4lC5STpnrBm7aXMls2zGqJ",
+            "name": "The Scythe",
+            "uri": "spotify:track:4lC5STpnrBm7aXMls2zGqJ",
+            "popularity": 60,
+            "albumName": "From The Pyre",
+            "albumId": "3xxkjx6Hgl8sWpNfuqhHtD",
+            "foundAt": "2026-02-05T18:44:29.675Z"
+          }
+        },
+        {
+          "title": "Sunlight in the Shadows",
+          "artist": "Miles Kane",
+          "spotifyTrack": {
+            "id": "6Y8ecenZetaPf69GfAnQNG",
+            "name": "Love Is Cruel",
+            "uri": "spotify:track:6Y8ecenZetaPf69GfAnQNG",
+            "popularity": 40,
+            "albumName": "Sunlight In The Shadows",
+            "albumId": "0LpQiuhhd5REbYe82Lo1F2",
+            "foundAt": "2026-02-05T18:44:31.311Z"
+          }
+        },
+        {
+          "title": "Some Like It Hot",
+          "artist": "bar italia",
+          "spotifyTrack": {
+            "id": "1IBsWEOUwPCDJLwyzsbiBP",
+            "name": "Fundraiser",
+            "uri": "spotify:track:1IBsWEOUwPCDJLwyzsbiBP",
+            "popularity": 45,
+            "albumName": "Some Like It Hot",
+            "albumId": "2CVovXC4S92eRgjtZazNEU",
+            "foundAt": "2026-02-05T18:44:32.923Z"
+          }
+        },
+        {
+          "title": "Diary of a Candle",
+          "artist": "Faten Kanaan",
+          "spotifyTrack": {
+            "id": "6BRzITRltQ3t0DxsTPvxtj",
+            "name": "Supercore",
+            "uri": "spotify:track:6BRzITRltQ3t0DxsTPvxtj",
+            "popularity": 12,
+            "albumName": "Diary of a Candle",
+            "albumId": "0NZsxneIVXSedijfpvTcgl",
+            "foundAt": "2026-02-05T18:44:34.696Z"
+          }
+        },
+        {
+          "title": "Talulah's Tape",
+          "artist": "Good Flying Birds",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:20.820Z"
+          }
+        },
+        {
+          "title": "Tower Block in a Jam Jar",
+          "artist": "Mozart Estate",
+          "spotifyTrack": {
+            "id": "249m4DlTf3fyjEHWIv2Le6",
+            "name": "Summer Is Here",
+            "uri": "spotify:track:249m4DlTf3fyjEHWIv2Le6",
+            "popularity": 15,
+            "albumName": "Tower Block In A Jam Jar",
+            "albumId": "3kVLOoqEzJEQrKocjAKAnX",
+            "foundAt": "2026-02-05T18:44:36.997Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-11T21:29:31.713Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-10-24",
       "albums": [
