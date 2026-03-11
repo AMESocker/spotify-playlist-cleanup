@@ -263,6 +263,12 @@
   "Progressive / Experimental Rock & Metal": {
     "not_added": [
       {
+        "artist": "Fates Warning",
+        "listeners": 92866,
+        "spotify_popularity": 30,
+        "spotify_id": "4S6URhg3PMKnCv9clR4ejE"
+      },
+      {
         "artist": "Warlock",
         "listeners": 235569,
         "spotify_popularity": 39,
@@ -387,12 +393,6 @@
         "listeners": 125795,
         "spotify_popularity": 30,
         "spotify_id": "1UYhxPY1oqFUg1HfF8nV3k"
-      },
-      {
-        "artist": "Fates Warning",
-        "listeners": 92866,
-        "spotify_popularity": 30,
-        "spotify_id": "4S6URhg3PMKnCv9clR4ejE"
       },
       {
         "artist": "Rush",
