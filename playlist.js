@@ -1,6 +1,7 @@
 // File: playlist.js
 import { withRetry } from './utils.js';
 import { getSpotify } from './auth.js';
+import 'dotenv/config';
 
 export async function fetchAllPlaylistItems(playlistId) {
   const spotify = getSpotify();
@@ -21,9 +22,28 @@ export async function fetchAllPlaylistItems(playlistId) {
 export async function addTracks(playlistId, uris) {
   const spotify = getSpotify();
   const chunkSize = 100;
+
   for (let i = 0; i < uris.length; i += chunkSize) {
     const chunk = uris.slice(i, i + chunkSize);
     await withRetry(() => spotify.addTracksToPlaylist(playlistId, chunk));
+  }
+
+  // Add clean tracks to second playlist
+  if (process.env.CLEAN_PLAYLIST_ID) {
+    const cleanUris = [];
+    for (let i = 0; i < uris.length; i += chunkSize) {
+      const chunk = uris.slice(i, i + chunkSize);
+      const ids = chunk.map(uri => uri.split(':')[2]);
+      const res = await withRetry(() => spotify.getTracks(ids));
+      res.body.tracks.forEach(track => {
+        if (track && !track.explicit) cleanUris.push(track.uri);
+      });
+    }
+
+    for (let i = 0; i < cleanUris.length; i += chunkSize) {
+      const chunk = cleanUris.slice(i, i + chunkSize);
+      await withRetry(() => spotify.addTracksToPlaylist(process.env.CLEAN_PLAYLIST_ID, chunk));
+    }
   }
 }
 
