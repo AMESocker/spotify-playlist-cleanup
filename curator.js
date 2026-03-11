@@ -317,7 +317,7 @@ async function handleAlbum(source, data) {
       data.master.shift();
       data.added.push(`${pick.artist} - ${pick.nextAlbum} [NOT FOUND]`);
     } else {
-      const entry = data.find(a => a.Artist === pick.artist);
+      const entry = data.artists.find(a => a.Artist === pick.artist);
       if (entry) { entry.Albums.shift(); entry.AddedAlbums.push(`${pick.nextAlbum} [NOT FOUND]`); }
     }
     fs.writeFileSync(source.file, JSON.stringify(data, null, 2));
