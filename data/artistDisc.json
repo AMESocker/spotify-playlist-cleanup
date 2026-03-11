@@ -1890,7 +1890,6 @@
       "Artist": "Frank Sinatra",
       "Group": "⚪ Classic Rock",
       "Albums": [
-        "In the Wee Small Hours (1955)",
         "Songs for Swingin' Lovers! (1956)",
         "Where Are You? (1957)",
         "A Swingin' Affair! (1957)",
@@ -1899,7 +1898,9 @@
         "Nice 'n' Easy (1960)",
         "Sinatra at the Sands (1966)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "In the Wee Small Hours (1955)"
+      ]
     }
   ],
   "archived": [
