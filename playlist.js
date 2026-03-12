@@ -29,7 +29,7 @@ export async function addTracks(playlistId, uris) {
   }
 
   // Add clean tracks to second playlist
-  if (process.env.CLEAN_PLAYLIST_ID) {
+  // if (process.env.CLEAN_PLAYLIST_ID) {
     const cleanUris = [];
     for (let i = 0; i < uris.length; i += chunkSize) {
       const chunk = uris.slice(i, i + chunkSize);
@@ -44,7 +44,7 @@ export async function addTracks(playlistId, uris) {
       const chunk = cleanUris.slice(i, i + chunkSize);
       await withRetry(() => spotify.addTracksToPlaylist(process.env.CLEAN_PLAYLIST_ID, chunk));
     }
-  }
+  // }
 }
 
 export async function removeTracks(playlistId, tracks) {
