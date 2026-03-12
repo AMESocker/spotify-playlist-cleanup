@@ -9,14 +9,16 @@ on:
   workflow_dispatch: # Allow manual trigger
 permissions:
   contents: write 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 jobs:
   run-cleanup:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.4.0
         with:
           node-version: 24
           cache: 'npm'
@@ -30,6 +32,7 @@ jobs:
           MONITORED_PLAYLISTS: ${{ secrets.MONITORED_PLAYLISTS }}
           ARCHIVE_PLAYLISTS: ${{ secrets.ARCHIVE_PLAYLISTS }}
           TARGET_PLAYLIST_ID: ${{ secrets.TARGET_PLAYLIST_ID }}
+          CLEAN_PLAYLIST_ID: ${{ secrets.CLEAN_PLAYLIST_ID }}
           RUN_MODE: once
         run: node index.js
       - name: Commit and push all changes
