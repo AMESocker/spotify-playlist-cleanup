@@ -528,6 +528,13 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
+        "artist": "Actress",
+        "listeners": 106124,
+        "recommended": true,
+        "spotify_popularity": 34,
+        "spotify_id": "3bg5rmICvmA8dmYVAdKGYH"
+      },
+      {
         "artist": "Peter Tosh",
         "listeners": 1242002,
         "recommended": true,
@@ -666,13 +673,6 @@
         "recommended": true,
         "spotify_popularity": 84,
         "spotify_id": "4SsVbpTthjScTS7U2hmr1X"
-      },
-      {
-        "artist": "Actress",
-        "listeners": 106124,
-        "recommended": true,
-        "spotify_popularity": 34,
-        "spotify_id": "3bg5rmICvmA8dmYVAdKGYH"
       },
       {
         "artist": "Floating Points",
