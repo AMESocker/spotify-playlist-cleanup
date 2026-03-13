@@ -61,7 +61,7 @@ export async function addTracks(playlistId, uris) {
 
   for (let i = 0; i < carExplicitUris.length; i += chunkSize) {
     const chunk = carExplicitUris.slice(i, i + chunkSize);
-    if (explicitId) await withRetry(() => spotify.addTracksToPlaylist(explicitId, chunk));
+    if (carAllId) await withRetry(() => spotify.addTracksToPlaylist(carAllId, chunk));
   }
 }
 
