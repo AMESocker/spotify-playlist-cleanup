@@ -1,118 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-10-10",
-      "albums": [
-        {
-          "title": "Belong",
-          "artist": "Jay Som",
-          "spotifyTrack": {
-            "id": "1oABrgkUeG6UEtaBcCBqKn",
-            "name": "What You Need",
-            "uri": "spotify:track:1oABrgkUeG6UEtaBcCBqKn",
-            "popularity": 48,
-            "albumName": "Belong",
-            "albumId": "2sdK35lVZvkcOvztZYpG3a",
-            "foundAt": "2026-02-05T18:44:38.508Z"
-          }
-        },
-        {
-          "title": "Figure in Blue",
-          "artist": "Charles Lloyd",
-          "spotifyTrack": {
-            "id": "3ivpMHUv87YqLNcbqzIJda",
-            "name": "Figure In Blue, memories of Duke",
-            "uri": "spotify:track:3ivpMHUv87YqLNcbqzIJda",
-            "popularity": 35,
-            "albumName": "Figure In Blue",
-            "albumId": "1qMMVXxfxe0rPsHunQzFe0",
-            "foundAt": "2026-02-05T18:44:40.453Z"
-          }
-        },
-        {
-          "title": "Fatal Optimist",
-          "artist": "Madi Diaz",
-          "spotifyTrack": {
-            "id": "5YM9jQQsPGrZdQWyUM33cR",
-            "name": "Heavy Metal",
-            "uri": "spotify:track:5YM9jQQsPGrZdQWyUM33cR",
-            "popularity": 34,
-            "albumName": "Fatal Optimist",
-            "albumId": "5nr1WsFgzermy9sTeuAqGC",
-            "foundAt": "2026-02-05T18:44:42.066Z"
-          }
-        },
-        {
-          "title": "A Lifetime of Riding by Night",
-          "artist": "Rhett Miller",
-          "spotifyTrack": {
-            "id": "1FhwWoZxYFDM9XL9TV1Hhi",
-            "name": "Come As You Are (feat. Evan Felker of Turnpike Troubadours)",
-            "uri": "spotify:track:1FhwWoZxYFDM9XL9TV1Hhi",
-            "popularity": 18,
-            "albumName": "A lifetime of riding by night",
-            "albumId": "3UOoAa8224RuBwga4SmYpW",
-            "foundAt": "2026-02-05T18:44:43.539Z"
-          }
-        },
-        {
-          "title": "Ace",
-          "artist": "Madison Cunningham",
-          "spotifyTrack": {
-            "id": "1s28bDyZPvFl8OPKOPgYdN",
-            "name": "Break The Jaw",
-            "uri": "spotify:track:1s28bDyZPvFl8OPKOPgYdN",
-            "popularity": 42,
-            "albumName": "Ace",
-            "albumId": "1A8y28WkLlz79cpf843cWV",
-            "foundAt": "2026-02-05T18:44:45.141Z"
-          }
-        },
-        {
-          "title": "Off the Record",
-          "artist": "Makaya McCraven",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:21.628Z"
-          }
-        },
-        {
-          "title": "Corporal",
-          "artist": "Lorelle Meets the Obsolete",
-          "spotifyTrack": {
-            "id": "7b7OYhA5osF3pkZbkjypS3",
-            "name": "Ker",
-            "uri": "spotify:track:7b7OYhA5osF3pkZbkjypS3",
-            "popularity": 12,
-            "albumName": "Corporal",
-            "albumId": "3cU4MZCA5sOTWdmbs0aBUV",
-            "foundAt": "2026-02-05T18:44:47.697Z"
-          }
-        },
-        {
-          "title": "Here and Nowhere",
-          "artist": "The Autumn Defense",
-          "spotifyTrack": {
-            "id": "0zE0HZAVXatnwGbtrRnLNP",
-            "name": "Love Lives",
-            "uri": "spotify:track:0zE0HZAVXatnwGbtrRnLNP",
-            "popularity": 32,
-            "albumName": "Here and Nowhere",
-            "albumId": "2pkCGwlUid7rQgcUGvjfw7",
-            "foundAt": "2026-02-05T18:44:49.273Z"
-          }
-        },
-        {
-          "title": "Max Reger: Four Tone Poems after Böcklin; Romantic Suite",
-          "artist": "Jaime MartínGävle Symphony Orchestra",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:22.273Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-10-03",
       "albums": [
         {
@@ -3781,6 +3669,120 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-10-10",
+      "albums": [
+        {
+          "title": "Belong",
+          "artist": "Jay Som",
+          "spotifyTrack": {
+            "id": "1oABrgkUeG6UEtaBcCBqKn",
+            "name": "What You Need",
+            "uri": "spotify:track:1oABrgkUeG6UEtaBcCBqKn",
+            "popularity": 48,
+            "albumName": "Belong",
+            "albumId": "2sdK35lVZvkcOvztZYpG3a",
+            "foundAt": "2026-02-05T18:44:38.508Z"
+          }
+        },
+        {
+          "title": "Figure in Blue",
+          "artist": "Charles Lloyd",
+          "spotifyTrack": {
+            "id": "3ivpMHUv87YqLNcbqzIJda",
+            "name": "Figure In Blue, memories of Duke",
+            "uri": "spotify:track:3ivpMHUv87YqLNcbqzIJda",
+            "popularity": 35,
+            "albumName": "Figure In Blue",
+            "albumId": "1qMMVXxfxe0rPsHunQzFe0",
+            "foundAt": "2026-02-05T18:44:40.453Z"
+          }
+        },
+        {
+          "title": "Fatal Optimist",
+          "artist": "Madi Diaz",
+          "spotifyTrack": {
+            "id": "5YM9jQQsPGrZdQWyUM33cR",
+            "name": "Heavy Metal",
+            "uri": "spotify:track:5YM9jQQsPGrZdQWyUM33cR",
+            "popularity": 34,
+            "albumName": "Fatal Optimist",
+            "albumId": "5nr1WsFgzermy9sTeuAqGC",
+            "foundAt": "2026-02-05T18:44:42.066Z"
+          }
+        },
+        {
+          "title": "A Lifetime of Riding by Night",
+          "artist": "Rhett Miller",
+          "spotifyTrack": {
+            "id": "1FhwWoZxYFDM9XL9TV1Hhi",
+            "name": "Come As You Are (feat. Evan Felker of Turnpike Troubadours)",
+            "uri": "spotify:track:1FhwWoZxYFDM9XL9TV1Hhi",
+            "popularity": 18,
+            "albumName": "A lifetime of riding by night",
+            "albumId": "3UOoAa8224RuBwga4SmYpW",
+            "foundAt": "2026-02-05T18:44:43.539Z"
+          }
+        },
+        {
+          "title": "Ace",
+          "artist": "Madison Cunningham",
+          "spotifyTrack": {
+            "id": "1s28bDyZPvFl8OPKOPgYdN",
+            "name": "Break The Jaw",
+            "uri": "spotify:track:1s28bDyZPvFl8OPKOPgYdN",
+            "popularity": 42,
+            "albumName": "Ace",
+            "albumId": "1A8y28WkLlz79cpf843cWV",
+            "foundAt": "2026-02-05T18:44:45.141Z"
+          }
+        },
+        {
+          "title": "Off the Record",
+          "artist": "Makaya McCraven",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:21.628Z"
+          }
+        },
+        {
+          "title": "Corporal",
+          "artist": "Lorelle Meets the Obsolete",
+          "spotifyTrack": {
+            "id": "7b7OYhA5osF3pkZbkjypS3",
+            "name": "Ker",
+            "uri": "spotify:track:7b7OYhA5osF3pkZbkjypS3",
+            "popularity": 12,
+            "albumName": "Corporal",
+            "albumId": "3cU4MZCA5sOTWdmbs0aBUV",
+            "foundAt": "2026-02-05T18:44:47.697Z"
+          }
+        },
+        {
+          "title": "Here and Nowhere",
+          "artist": "The Autumn Defense",
+          "spotifyTrack": {
+            "id": "0zE0HZAVXatnwGbtrRnLNP",
+            "name": "Love Lives",
+            "uri": "spotify:track:0zE0HZAVXatnwGbtrRnLNP",
+            "popularity": 32,
+            "albumName": "Here and Nowhere",
+            "albumId": "2pkCGwlUid7rQgcUGvjfw7",
+            "foundAt": "2026-02-05T18:44:49.273Z"
+          }
+        },
+        {
+          "title": "Max Reger: Four Tone Poems after Böcklin; Romantic Suite",
+          "artist": "Jaime MartínGävle Symphony Orchestra",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:22.273Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-12T18:59:42.600Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-10-17",
       "albums": [

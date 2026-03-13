@@ -528,13 +528,6 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
-        "artist": "Actress",
-        "listeners": 106124,
-        "recommended": true,
-        "spotify_popularity": 34,
-        "spotify_id": "3bg5rmICvmA8dmYVAdKGYH"
-      },
-      {
         "artist": "Peter Tosh",
         "listeners": 1242002,
         "recommended": true,
@@ -806,6 +799,13 @@
         "artist": "Dengue Fever",
         "listeners": 56435,
         "spotify_id": "3wFHDAXLsjvclEtifEV7F5",
+        "recommended": true,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Actress",
+        "listeners": 106124,
+        "spotify_id": "3bg5rmICvmA8dmYVAdKGYH",
         "recommended": true,
         "tracksAdded": 10
       }
@@ -1628,6 +1628,12 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Gillian Welch",
+        "listeners": 267599,
+        "spotify_popularity": 49,
+        "spotify_id": "2H5elA2mJKrHmqkN9GSfkz"
+      },
+      {
         "artist": "Johnny Cash",
         "listeners": 7038022,
         "spotify_popularity": 73,
@@ -1662,12 +1668,6 @@
         "listeners": 644386,
         "spotify_popularity": 57,
         "spotify_id": "0nJUwPwC9Ti4vvuJ0q3MfT"
-      },
-      {
-        "artist": "Gillian Welch",
-        "listeners": 267599,
-        "spotify_popularity": 49,
-        "spotify_id": "2H5elA2mJKrHmqkN9GSfkz"
       },
       {
         "artist": "Townes Van Zandt",
