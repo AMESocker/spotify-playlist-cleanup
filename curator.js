@@ -1,5 +1,7 @@
 // File: curator.js
-
+//TARGET_PLAYLIST_ID = AMPS
+//    Also Home playlist with tracks greater then 6:59
+//CLEAN_PLAYLIST_ID = Car-AMPS (Clean)
 
 import 'dotenv/config';
 import fs from "fs";
@@ -80,10 +82,19 @@ async function getPlaylistTrackCount() {
   return sizes.find(p => p.playlistId === targetPlaylistId)?.trackCount ?? 0;
 }
 
+async function getCarPlaylistTrackCount() {
+  const sizes = await checkPlaylistSizes();
+  const cleanId    = process.env.CLEAN_PLAYLIST_ID;
+  const explicitId = process.env.CAR_PLAYLIST_ALL_ID;
+  const cleanCount    = cleanId    ? (sizes.find(p => p.playlistId === cleanId)?.trackCount    ?? 0) : 0;
+  const explicitCount = explicitId ? (sizes.find(p => p.playlistId === explicitId)?.trackCount ?? 0) : 0;
+  return Math.min(cleanCount, explicitCount);
+}
+
 async function wouldExceedLimit(tracksToAdd) {
-  const current = await getPlaylistTrackCount();
+  const current = await getCarPlaylistTrackCount();
   if (current + tracksToAdd > MAX_PLAYLIST_SIZE) {
-    console.log(`⚠️ Playlist would exceed ${MAX_PLAYLIST_SIZE} tracks (currently ${current}, adding ${tracksToAdd}).`);
+    console.log(`⚠️ Car playlist would exceed ${MAX_PLAYLIST_SIZE} tracks (currently ${current}, adding ${tracksToAdd}).`);
     console.log(`⏸️  Waiting for space before adding more.`);
     return true;
   }
