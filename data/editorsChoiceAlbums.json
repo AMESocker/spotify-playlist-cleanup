@@ -1,157 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-09-26",
-      "albums": [
-        {
-          "title": "Twilight Override",
-          "artist": "Jeff Tweedy",
-          "spotifyTrack": {
-            "id": "5KC9mJ9jRDbGOHzMmINjAl",
-            "name": "One Tiny Flower",
-            "uri": "spotify:track:5KC9mJ9jRDbGOHzMmINjAl",
-            "popularity": 41,
-            "albumName": "Twilight Override",
-            "albumId": "4nczkBnxvOZNewjhxws5q6",
-            "foundAt": "2026-02-05T18:45:05.111Z"
-          }
-        },
-        {
-          "title": "Saving Grace",
-          "artist": "Robert Plant",
-          "spotifyTrack": {
-            "id": "6wn3ZYA7XiXqfUCJCBo7q0",
-            "name": "It's A Beautiful Day Today",
-            "uri": "spotify:track:6wn3ZYA7XiXqfUCJCBo7q0",
-            "popularity": 43,
-            "albumName": "Saving Grace",
-            "albumId": "3E3qeXLdDtaX16OV4kbNoF",
-            "foundAt": "2026-02-05T18:45:07.048Z"
-          }
-        },
-        {
-          "title": "Midnight Sun",
-          "artist": "Zara Larsson",
-          "spotifyTrack": {
-            "id": "1qRV1dKLOfH1s00b9J2LUQ",
-            "name": "Midnight Sun",
-            "uri": "spotify:track:1qRV1dKLOfH1s00b9J2LUQ",
-            "popularity": 81,
-            "albumName": "Midnight Sun",
-            "albumId": "2IdHrETl3jsOYQRsF0nV16",
-            "foundAt": "2026-02-05T18:45:09.098Z"
-          }
-        },
-        {
-          "title": "Neon Grey Midnight Green",
-          "artist": "Neko Case",
-          "spotifyTrack": {
-            "id": "2N0e3WdwtkeDSAC8sqvP9a",
-            "name": "Wreck",
-            "uri": "spotify:track:2N0e3WdwtkeDSAC8sqvP9a",
-            "popularity": 43,
-            "albumName": "Neon Grey Midnight Green",
-            "albumId": "6iTA9mrYpN3l5P3nJbq1BU",
-            "foundAt": "2026-02-05T18:45:10.759Z"
-          }
-        },
-        {
-          "title": "Michelangelo Dying",
-          "artist": "Cate Le Bon",
-          "spotifyTrack": {
-            "id": "6QyDopDgclGYNXf3UeuDZv",
-            "name": "Heaven Is No Feeling",
-            "uri": "spotify:track:6QyDopDgclGYNXf3UeuDZv",
-            "popularity": 48,
-            "albumName": "Michelangelo Dying",
-            "albumId": "1Ce9FPiBLS0PBkYjg2NKho",
-            "foundAt": "2026-02-05T18:45:12.480Z"
-          }
-        },
-        {
-          "title": "Odessey and Oracle",
-          "artist": "The Zombies",
-          "spotifyTrack": {
-            "id": "6lx1n63qJmhzPpirxxksbI",
-            "name": "Time of the Season - Mono Remastered",
-            "uri": "spotify:track:6lx1n63qJmhzPpirxxksbI",
-            "popularity": 71,
-            "albumName": "Odessey and Oracle (Mono Remastered)",
-            "albumId": "1Rad3I77vbl5L65DjbSIzJ",
-            "foundAt": "2026-02-05T18:45:14.247Z"
-          }
-        },
-        {
-          "title": "Cover Girl",
-          "artist": "Lady Wray",
-          "spotifyTrack": {
-            "id": "0QEb6GsOltzSeCj4iMuBFr",
-            "name": "Best For Us",
-            "uri": "spotify:track:0QEb6GsOltzSeCj4iMuBFr",
-            "popularity": 38,
-            "albumName": "Cover Girl",
-            "albumId": "4SvP99rd8lr8wpDW8p55uq",
-            "foundAt": "2026-02-05T18:45:15.852Z"
-          }
-        },
-        {
-          "title": "The Cords",
-          "artist": "The Cords",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:24.389Z"
-          }
-        },
-        {
-          "title": "Mulatu Plays Mulatu",
-          "artist": "Mulatu Astatke",
-          "spotifyTrack": {
-            "id": "0oFChZRso5GydtIoSCv9Kz",
-            "name": "Yèkèrmo Sèw",
-            "uri": "spotify:track:0oFChZRso5GydtIoSCv9Kz",
-            "popularity": 42,
-            "albumName": "Mulatu Plays Mulatu",
-            "albumId": "7p6BngLDdLeAeY38yptAjc",
-            "foundAt": "2026-02-05T18:45:18.214Z"
-          }
-        },
-        {
-          "title": "Purity Ring",
-          "artist": "Purity Ring",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-07T10:16:25.005Z"
-          }
-        },
-        {
-          "title": "Through the Wall",
-          "artist": "Rochelle Jordan",
-          "spotifyTrack": {
-            "id": "71opuLWkFhYlqcYYKPkkQw",
-            "name": "The Boy",
-            "uri": "spotify:track:71opuLWkFhYlqcYYKPkkQw",
-            "popularity": 54,
-            "albumName": "Through The Wall",
-            "albumId": "1vTquD47VNHtfuc5tVLI98",
-            "foundAt": "2026-02-05T18:45:20.569Z"
-          }
-        },
-        {
-          "title": "Diabolico",
-          "artist": "Laura Lootens",
-          "spotifyTrack": {
-            "id": "0mquPRhalxCjmcv8Ffqk2y",
-            "name": "Violin Sonata in G Minor, B.g5 \"Il trillo del diavolo\": I. Larghetto affettuoso - Arr. for Solo Guitar by Roberto Zadra",
-            "uri": "spotify:track:0mquPRhalxCjmcv8Ffqk2y",
-            "popularity": 7,
-            "albumName": "Diabolico",
-            "albumId": "3jFPFLxeIpdyv4CiuwvT6J",
-            "foundAt": "2026-02-05T18:45:22.319Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-09-19",
       "albums": [
         {
@@ -3557,6 +3406,159 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-09-26",
+      "albums": [
+        {
+          "title": "Twilight Override",
+          "artist": "Jeff Tweedy",
+          "spotifyTrack": {
+            "id": "5KC9mJ9jRDbGOHzMmINjAl",
+            "name": "One Tiny Flower",
+            "uri": "spotify:track:5KC9mJ9jRDbGOHzMmINjAl",
+            "popularity": 41,
+            "albumName": "Twilight Override",
+            "albumId": "4nczkBnxvOZNewjhxws5q6",
+            "foundAt": "2026-02-05T18:45:05.111Z"
+          }
+        },
+        {
+          "title": "Saving Grace",
+          "artist": "Robert Plant",
+          "spotifyTrack": {
+            "id": "6wn3ZYA7XiXqfUCJCBo7q0",
+            "name": "It's A Beautiful Day Today",
+            "uri": "spotify:track:6wn3ZYA7XiXqfUCJCBo7q0",
+            "popularity": 43,
+            "albumName": "Saving Grace",
+            "albumId": "3E3qeXLdDtaX16OV4kbNoF",
+            "foundAt": "2026-02-05T18:45:07.048Z"
+          }
+        },
+        {
+          "title": "Midnight Sun",
+          "artist": "Zara Larsson",
+          "spotifyTrack": {
+            "id": "1qRV1dKLOfH1s00b9J2LUQ",
+            "name": "Midnight Sun",
+            "uri": "spotify:track:1qRV1dKLOfH1s00b9J2LUQ",
+            "popularity": 81,
+            "albumName": "Midnight Sun",
+            "albumId": "2IdHrETl3jsOYQRsF0nV16",
+            "foundAt": "2026-02-05T18:45:09.098Z"
+          }
+        },
+        {
+          "title": "Neon Grey Midnight Green",
+          "artist": "Neko Case",
+          "spotifyTrack": {
+            "id": "2N0e3WdwtkeDSAC8sqvP9a",
+            "name": "Wreck",
+            "uri": "spotify:track:2N0e3WdwtkeDSAC8sqvP9a",
+            "popularity": 43,
+            "albumName": "Neon Grey Midnight Green",
+            "albumId": "6iTA9mrYpN3l5P3nJbq1BU",
+            "foundAt": "2026-02-05T18:45:10.759Z"
+          }
+        },
+        {
+          "title": "Michelangelo Dying",
+          "artist": "Cate Le Bon",
+          "spotifyTrack": {
+            "id": "6QyDopDgclGYNXf3UeuDZv",
+            "name": "Heaven Is No Feeling",
+            "uri": "spotify:track:6QyDopDgclGYNXf3UeuDZv",
+            "popularity": 48,
+            "albumName": "Michelangelo Dying",
+            "albumId": "1Ce9FPiBLS0PBkYjg2NKho",
+            "foundAt": "2026-02-05T18:45:12.480Z"
+          }
+        },
+        {
+          "title": "Odessey and Oracle",
+          "artist": "The Zombies",
+          "spotifyTrack": {
+            "id": "6lx1n63qJmhzPpirxxksbI",
+            "name": "Time of the Season - Mono Remastered",
+            "uri": "spotify:track:6lx1n63qJmhzPpirxxksbI",
+            "popularity": 71,
+            "albumName": "Odessey and Oracle (Mono Remastered)",
+            "albumId": "1Rad3I77vbl5L65DjbSIzJ",
+            "foundAt": "2026-02-05T18:45:14.247Z"
+          }
+        },
+        {
+          "title": "Cover Girl",
+          "artist": "Lady Wray",
+          "spotifyTrack": {
+            "id": "0QEb6GsOltzSeCj4iMuBFr",
+            "name": "Best For Us",
+            "uri": "spotify:track:0QEb6GsOltzSeCj4iMuBFr",
+            "popularity": 38,
+            "albumName": "Cover Girl",
+            "albumId": "4SvP99rd8lr8wpDW8p55uq",
+            "foundAt": "2026-02-05T18:45:15.852Z"
+          }
+        },
+        {
+          "title": "The Cords",
+          "artist": "The Cords",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:24.389Z"
+          }
+        },
+        {
+          "title": "Mulatu Plays Mulatu",
+          "artist": "Mulatu Astatke",
+          "spotifyTrack": {
+            "id": "0oFChZRso5GydtIoSCv9Kz",
+            "name": "Yèkèrmo Sèw",
+            "uri": "spotify:track:0oFChZRso5GydtIoSCv9Kz",
+            "popularity": 42,
+            "albumName": "Mulatu Plays Mulatu",
+            "albumId": "7p6BngLDdLeAeY38yptAjc",
+            "foundAt": "2026-02-05T18:45:18.214Z"
+          }
+        },
+        {
+          "title": "Purity Ring",
+          "artist": "Purity Ring",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-07T10:16:25.005Z"
+          }
+        },
+        {
+          "title": "Through the Wall",
+          "artist": "Rochelle Jordan",
+          "spotifyTrack": {
+            "id": "71opuLWkFhYlqcYYKPkkQw",
+            "name": "The Boy",
+            "uri": "spotify:track:71opuLWkFhYlqcYYKPkkQw",
+            "popularity": 54,
+            "albumName": "Through The Wall",
+            "albumId": "1vTquD47VNHtfuc5tVLI98",
+            "foundAt": "2026-02-05T18:45:20.569Z"
+          }
+        },
+        {
+          "title": "Diabolico",
+          "artist": "Laura Lootens",
+          "spotifyTrack": {
+            "id": "0mquPRhalxCjmcv8Ffqk2y",
+            "name": "Violin Sonata in G Minor, B.g5 \"Il trillo del diavolo\": I. Larghetto affettuoso - Arr. for Solo Guitar by Roberto Zadra",
+            "uri": "spotify:track:0mquPRhalxCjmcv8Ffqk2y",
+            "popularity": 7,
+            "albumName": "Diabolico",
+            "albumId": "3jFPFLxeIpdyv4CiuwvT6J",
+            "foundAt": "2026-02-05T18:45:22.319Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-13T18:44:56.623Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-10-03",
       "albums": [
