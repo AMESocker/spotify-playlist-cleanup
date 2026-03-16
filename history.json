@@ -2163,5 +2163,16 @@
     "sourceFile": "data/artistTop10.json",
     "strategy": "artistGenre",
     "timestamp": "2026-03-16T06:22:30.639Z"
+  },
+  {
+    "action": "addSpotifyPlaylist",
+    "playlistName": "2007-04",
+    "playlistUrl": "https://open.spotify.com/playlist/5Xb3MAlGabKOy5IBkwu5dE?si=d6eb8e0fde884efe",
+    "playlistId": "5Xb3MAlGabKOy5IBkwu5dE",
+    "index": 12,
+    "tracksAdded": 10,
+    "sourceFile": "data/spotifyPlaylists.json",
+    "strategy": "spotifyPlaylist",
+    "timestamp": "2026-03-16T10:56:36.547Z"
   }
 ]
