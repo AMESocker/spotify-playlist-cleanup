@@ -30,7 +30,7 @@ import { handleArtistGenre } from "./artistGenreStrategy.js";
 
 // Todo - Add retry logic for Spotify API calls in case of transient errors (e.g. 429 rate limits or network issues).
 
-//* ─── DATA SOURCES ──────────────────────────────────────────────────────────────────────
+//* ─── DATA SOURCES ───────────────────────────────────────────────────────────────
 
 const dataSources = [
   { name: "artistDisc", file: "data/artistDisc.json", strategy: "fairness" },
@@ -188,9 +188,10 @@ async function processRockHallArtist(artistName, trackCount = 10) {
       return { success: false, reason: "NO TRACKS", trackUris: [] };
     }
 
-    const trackUris = topTracks.slice(0, trackCount).map(t => t.uri);
-    console.log(`   Found ${topTracks.length} top tracks, adding ${trackUris.length}:`);
-    topTracks.slice(0, trackCount).forEach((t, i) =>
+    const shuffled = topTracks.sort(() => Math.random() - 0.5);
+    const trackUris = shuffled.slice(0, trackCount).map(t => t.uri);
+    console.log(`   Found ${topTracks.length} top tracks, randomly adding ${trackUris.length}:`);
+    shuffled.slice(0, trackCount).forEach((t, i) =>
       console.log(`   ${i + 1}. "${t.name}" (popularity: ${t.popularity})`)
     );
 
