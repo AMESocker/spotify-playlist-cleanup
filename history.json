@@ -2192,5 +2192,34 @@
     "sourceFile": "data/glastonbury25.json",
     "strategy": "glastonbury",
     "timestamp": "2026-03-16T18:14:22.935Z"
+  },
+  {
+    "action": "add",
+    "artist": "Static-X",
+    "album": "Machine",
+    "index": null,
+    "tracksAdded": 12,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-03-16T21:35:55.702Z"
+  },
+  {
+    "action": "add",
+    "artist": "Neil Young",
+    "album": "After the Gold Rush (1970)",
+    "index": 62,
+    "tracksAdded": 11,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-16T21:36:01.432Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-09-19",
+    "tracksAdded": 8,
+    "tracksSkipped": 4,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-03-16T21:36:04.724Z"
   }
 ]
