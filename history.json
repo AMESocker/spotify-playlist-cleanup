@@ -2153,5 +2153,15 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-03-16T04:01:15.257Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World / Ambient / Experimental Electronic",
+    "artist": "Peter Tosh",
+    "listeners": 1242002,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-03-16T06:22:30.639Z"
   }
 ]

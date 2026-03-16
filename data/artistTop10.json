@@ -571,13 +571,6 @@
         "spotify_id": "0DoNSZa1R1DV69oY1djlbf"
       },
       {
-        "artist": "Peter Tosh",
-        "listeners": 1242002,
-        "recommended": true,
-        "spotify_popularity": 56,
-        "spotify_id": "0oea1hwGMfUxZbLxJc1XUN"
-      },
-      {
         "artist": "Burning Spear",
         "listeners": 597685,
         "recommended": true,
@@ -807,6 +800,13 @@
         "artist": "Actress",
         "listeners": 106124,
         "spotify_id": "3bg5rmICvmA8dmYVAdKGYH",
+        "recommended": true,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Peter Tosh",
+        "listeners": 1242002,
+        "spotify_id": "0oea1hwGMfUxZbLxJc1XUN",
         "recommended": true,
         "tracksAdded": 10
       }
