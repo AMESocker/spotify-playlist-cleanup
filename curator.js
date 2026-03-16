@@ -38,7 +38,8 @@ const dataSources = [
   { name: "allMusicEditorsChoice", file: "data/editorsChoiceAlbums.json", strategy: "editorsChoice" },
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
-  { name: "spotifyTotmPlaylists", file: "data/spotifyPlaylists.json", strategy: "spotifyPlaylist" }
+  { name: "spotifyTotmPlaylists", file: "data/spotifyPlaylists.json", strategy: "spotifyPlaylist" },
+  { name: "glastonbury25", file: "data/glastonbury25.json", strategy: "glastonbury" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -84,9 +85,9 @@ async function getPlaylistTrackCount() {
 
 async function getCarPlaylistTrackCount() {
   const sizes = await checkPlaylistSizes();
-  const cleanId    = process.env.CLEAN_PLAYLIST_ID;
+  const cleanId = process.env.CLEAN_PLAYLIST_ID;
   const explicitId = process.env.CAR_PLAYLIST_ALL_ID;
-  const cleanCount    = cleanId    ? (sizes.find(p => p.playlistId === cleanId)?.trackCount    ?? 0) : 0;
+  const cleanCount = cleanId ? (sizes.find(p => p.playlistId === cleanId)?.trackCount ?? 0) : 0;
   const explicitCount = explicitId ? (sizes.find(p => p.playlistId === explicitId)?.trackCount ?? 0) : 0;
   return Math.min(cleanCount, explicitCount);
 }
@@ -166,7 +167,7 @@ function selectSequential(dataset) {
 
 //* ─── ROCK HALL OF FAME STRATEGY ───────────────────────────────────
 
-async function processRockHallArtist(artistName) {
+async function processRockHallArtist(artistName, trackCount = 10) {
   console.log(`🎵 Processing: ${artistName}`);
   const spotify = getSpotify();
 
@@ -187,9 +188,9 @@ async function processRockHallArtist(artistName) {
       return { success: false, reason: "NO TRACKS", trackUris: [] };
     }
 
-    const trackUris = topTracks.slice(0, 10).map(t => t.uri);
+    const trackUris = topTracks.slice(0, trackCount).map(t => t.uri);
     console.log(`   Found ${topTracks.length} top tracks, adding ${trackUris.length}:`);
-    topTracks.slice(0, 10).forEach((t, i) =>
+    topTracks.slice(0, trackCount).forEach((t, i) =>
       console.log(`   ${i + 1}. "${t.name}" (popularity: ${t.popularity})`)
     );
 
@@ -278,37 +279,96 @@ async function handleRockHall(source, data) {
     return null;
   }
 
-  const randomIndex = Math.floor(Math.random() * data.artists.length);
-  const artistName = data.artists[randomIndex];
-  console.log(`Artist: ${artistName} - ${randomIndex}`);
+  let anyAdded = false;
 
-  const result = await processRockHallArtist(artistName);
+  for (let i = 0; i < 2; i++) {
+    if (!data.artists.length) break;
 
-  // Always remove from queue
-  data.artists.shift();
-  if (!result.success) {
-    data.added.push(`${artistName} [${result.reason}]`);
+    const randomIndex = Math.floor(Math.random() * data.artists.length);
+    const artistName = data.artists[randomIndex];
+    console.log(`Artist: ${artistName} - ${randomIndex}`);
+
+    const result = await processRockHallArtist(artistName, 5);
+
+    data.artists.shift();
+    if (!result.success) {
+      data.added.push(`${artistName} [${result.reason}]`);
+      saveData(source.file, data);
+      continue;
+    }
+
+    if (await wouldExceedLimit(result.trackCount)) {
+      saveData(source.file, data);
+      return false;
+    }
+
+    await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
+
+    data.added.push(artistName);
+    pushHistory({
+      action: "addRockHall",
+      artist: artistName,
+      index: randomIndex,
+      tracksAdded: result.trackCount,
+      sourceFile: source.file,
+      strategy: source.strategy
+    });
     saveData(source.file, data);
-    return false;
+    console.log(`✅ Completed: ${artistName}`);
+    anyAdded = true;
   }
 
-  if (await wouldExceedLimit(result.trackCount)) return false;
+  return anyAdded;
+}
 
-  await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
-  console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
+async function handleGlastonbury(source, data) {
+  if (!data.artists?.length) {
+    console.log(`🎉 No more artists in ${source.name}`);
+    return null;
+  }
 
-  data.added.push(artistName);
-  pushHistory({
-    action: "addRockHall",
-    artist: artistName,
-    index: randomIndex,
-    tracksAdded: result.trackCount,
-    sourceFile: source.file,
-    strategy: source.strategy
-  });
-  saveData(source.file, data);
-  console.log(`✅ Completed: ${artistName}`);
-  return true;
+  let anyAdded = false;
+
+  for (let i = 0; i < 2; i++) {
+    if (!data.artists.length) break;
+
+    const randomIndex = Math.floor(Math.random() * data.artists.length);
+    const artistName = data.artists[randomIndex];
+    console.log(`Artist: ${artistName} - ${randomIndex}`);
+
+    const result = await processRockHallArtist(artistName, 5);
+
+    data.artists.shift();
+    if (!result.success) {
+      data.added.push(`${artistName} [${result.reason}]`);
+      saveData(source.file, data);
+      continue;
+    }
+
+    if (await wouldExceedLimit(result.trackCount)) {
+      saveData(source.file, data);
+      return false;
+    }
+
+    await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
+
+    data.added.push(artistName);
+    pushHistory({
+      action: "addGlastonbury",
+      artist: artistName,
+      index: randomIndex,
+      tracksAdded: result.trackCount,
+      sourceFile: source.file,
+      strategy: source.strategy
+    });
+    saveData(source.file, data);
+    console.log(`✅ Completed: ${artistName}`);
+    anyAdded = true;
+  }
+
+  return anyAdded;
 }
 
 async function handleAlbum(source, data) {
@@ -360,7 +420,7 @@ async function handleAlbum(source, data) {
     data.master.shift();
     data.added.push(`${pick.artist} - ${pick.nextAlbum}`);
   } else {
-    const entry = data.artists.find(a => a.Artist === pick.artist); 
+    const entry = data.artists.find(a => a.Artist === pick.artist);
     entry.Albums.shift();
     entry.AddedAlbums.push(pick.nextAlbum);
   }
@@ -481,6 +541,7 @@ export async function addNextAlbum() {
   let result;
   if (source.strategy === "editorsChoice") result = await handleEditorsChoice(source);
   else if (source.strategy === "rockHall") result = await handleRockHall(source, data);
+  else if (source.strategy === "glastonbury") result = await handleGlastonbury(source, data);
   else if (source.strategy === "artistGenre") result = await handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData);
   else if (source.strategy === "spotifyPlaylist") result = await handleSpotifyPlaylist(source, data);
   else result = await handleAlbum(source, data);
