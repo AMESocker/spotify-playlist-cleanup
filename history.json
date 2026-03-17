@@ -2221,5 +2221,23 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-03-16T21:36:04.724Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The (Young) Rascals",
+    "index": 102,
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-17T16:35:19.996Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Kiss",
+    "index": 9,
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-17T16:35:22.186Z"
   }
 ]
