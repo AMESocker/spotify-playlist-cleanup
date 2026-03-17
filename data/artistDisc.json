@@ -1400,7 +1400,6 @@
         "The Possibility and the Promise"
       ]
     },
-
     {
       "Artist": "Bowling for Soup",
       "Group": "🟢 Pop-Punk / Emo / Ska",
@@ -1840,10 +1839,28 @@
       "AddedAlbums": [
         "In the Wee Small Hours (1955)"
       ]
+    },
+    {
+      "Artist": "The Black Crowes",
+      "Group": "⚪ Classic Rock",
+      "Albums": [
+        "Shake Your Money Maker (1990)",
+        "The Southern Harmony and Musical Companion (1992)",
+        "Amorica (1994)",
+        "Three Snakes and One Charm (1996)",
+        "By Your Side (1999)",
+        "Lions (2001)",
+        "Warpaint (2008)",
+        "Before the Frost...Until the Freeze (2009)",
+        "Croweology (2010)",
+        "Happiness Bastards (2024)",
+        "A Pound of Feathers (2026)"
+      ],
+      "AddedAlbums": []
     }
   ],
   "archived": [
-        {
+    {
       "Artist": "The Ataris",
       "Group": "🟢 Pop-Punk / Emo / Ska",
       "Albums": [
