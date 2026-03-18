@@ -2335,5 +2335,25 @@
     "sourceFile": "data/artistTop10.json",
     "strategy": "artistGenre",
     "timestamp": "2026-03-18T19:05:49.731Z"
+  },
+  {
+    "action": "addSpotifyPlaylist",
+    "playlistName": "2005-12",
+    "playlistUrl": "https://open.spotify.com/playlist/1B8RJk1uikAi2fBrC9bkBo?si=bf6bd5b5371f4938",
+    "playlistId": "1B8RJk1uikAi2fBrC9bkBo",
+    "index": 1,
+    "tracksAdded": 10,
+    "sourceFile": "data/spotifyPlaylists.json",
+    "strategy": "spotifyPlaylist",
+    "timestamp": "2026-03-18T21:31:06.358Z"
+  },
+  {
+    "action": "addGlastonbury",
+    "artist": "Ani DiFranco",
+    "index": 114,
+    "tracksAdded": 5,
+    "sourceFile": "data/glastonbury25.json",
+    "strategy": "glastonbury",
+    "timestamp": "2026-03-18T21:31:11.985Z"
   }
 ]
