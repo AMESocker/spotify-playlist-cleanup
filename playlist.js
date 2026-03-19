@@ -24,11 +24,13 @@ export async function addTracks(playlistId, uris) {
   const spotify = getSpotify();
   const chunkSize = 100;
 
+  // Add everything to main playlist
   for (let i = 0; i < uris.length; i += chunkSize) {
     const chunk = uris.slice(i, i + chunkSize);
     await withRetry(() => spotify.addTracksToPlaylist(playlistId, chunk));
   }
 
+  // Add instrumentals to instrumental playlist
   const instrumentalId = process.env.CAR_PLAYLIST_ALL_ID;
   if (instrumentalId) {
     const instrumentalUris = [];
@@ -40,7 +42,7 @@ export async function addTracks(playlistId, uris) {
 
       for (const track of res.body.tracks) {
         if (!track) continue;
-        await new Promise(resolve => setTimeout(resolve, 1100)); // MusicBrainz rate limit
+        await new Promise(resolve => setTimeout(resolve, 1100));
         const instrumental = await isInstrumental(track.artists[0].name, track.name);
         if (instrumental) instrumentalUris.push(track.uri);
       }
@@ -51,7 +53,6 @@ export async function addTracks(playlistId, uris) {
       await withRetry(() => spotify.addTracksToPlaylist(instrumentalId, chunk));
     }
   }
-
 }
 
 
