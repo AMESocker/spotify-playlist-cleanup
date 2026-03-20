@@ -2468,5 +2468,15 @@
     "sourceFile": "data/glastonbury25.json",
     "strategy": "glastonbury",
     "timestamp": "2026-03-20T02:13:24.778Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Black Crowes",
+    "album": "Croweology (2010)",
+    "index": null,
+    "tracksAdded": 20,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-03-20T03:47:23.219Z"
   }
 ]
