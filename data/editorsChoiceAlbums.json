@@ -1,87 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-08-29",
-      "albums": [
-        {
-          "title": "Straight Line Was a Lie",
-          "artist": "The Beths",
-          "spotifyTrack": {
-            "id": "0fQTTO4Bn2qM017W8iw5BH",
-            "name": "Til My Heart Stops",
-            "uri": "spotify:track:0fQTTO4Bn2qM017W8iw5BH",
-            "popularity": 49,
-            "albumName": "Straight Line Was A Lie",
-            "albumId": "5XbVk30ifqaiI6EiVVjA1p",
-            "foundAt": "2026-02-05T18:46:08.490Z"
-          }
-        },
-        {
-          "title": "Essex Honey",
-          "artist": "Blood Orange",
-          "spotifyTrack": {
-            "id": "04KHyqdGs5sVEWX6UnukF2",
-            "name": "Mind Loaded (feat. Caroline Polachek, Lorde & Mustafa)",
-            "uri": "spotify:track:04KHyqdGs5sVEWX6UnukF2",
-            "popularity": 62,
-            "albumName": "Essex Honey",
-            "albumId": "5RUma3H9uzDLXxwT7JzTel",
-            "foundAt": "2026-02-05T18:46:10.071Z"
-          }
-        },
-        {
-          "title": "The Hives Forever Forever the Hives",
-          "artist": "The Hives",
-          "spotifyTrack": {
-            "id": "4BKlAqMNx0YMFTuU39aKb3",
-            "name": "Enough Is Enough",
-            "uri": "spotify:track:4BKlAqMNx0YMFTuU39aKb3",
-            "popularity": 52,
-            "albumName": "The Hives Forever Forever The Hives",
-            "albumId": "3iE2EtiK9bWxYqhkzCgea0",
-            "foundAt": "2026-02-05T18:46:11.977Z"
-          }
-        },
-        {
-          "title": "Rwanda Sings With Strings",
-          "artist": "The Good Ones",
-          "spotifyTrack": {
-            "id": "7A64mpl63uOmATXJ57QEc6",
-            "name": "Agnes Dreams of Being an Artist",
-            "uri": "spotify:track:7A64mpl63uOmATXJ57QEc6",
-            "popularity": 9,
-            "albumName": "Rwanda Sings With Strings",
-            "albumId": "3qyCrDaiUhovbugDOD3CD2",
-            "foundAt": "2026-02-05T18:46:13.583Z"
-          }
-        },
-        {
-          "title": "Pareidolia",
-          "artist": "Eiko IshibashiJim O'Rourke",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-14T10:20:48.849Z"
-          }
-        },
-        {
-          "title": "Hotel Pupik",
-          "artist": "Led Bib",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-14T10:20:49.542Z"
-          }
-        },
-        {
-          "title": "Wao",
-          "artist": "Nicholas KrgovichJoseph ShabasonTenniscoats",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-14T10:20:50.165Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-08-22",
       "albums": [
         {
@@ -3028,6 +2947,89 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-08-29",
+      "albums": [
+        {
+          "title": "Straight Line Was a Lie",
+          "artist": "The Beths",
+          "spotifyTrack": {
+            "id": "0fQTTO4Bn2qM017W8iw5BH",
+            "name": "Til My Heart Stops",
+            "uri": "spotify:track:0fQTTO4Bn2qM017W8iw5BH",
+            "popularity": 49,
+            "albumName": "Straight Line Was A Lie",
+            "albumId": "5XbVk30ifqaiI6EiVVjA1p",
+            "foundAt": "2026-02-05T18:46:08.490Z"
+          }
+        },
+        {
+          "title": "Essex Honey",
+          "artist": "Blood Orange",
+          "spotifyTrack": {
+            "id": "04KHyqdGs5sVEWX6UnukF2",
+            "name": "Mind Loaded (feat. Caroline Polachek, Lorde & Mustafa)",
+            "uri": "spotify:track:04KHyqdGs5sVEWX6UnukF2",
+            "popularity": 62,
+            "albumName": "Essex Honey",
+            "albumId": "5RUma3H9uzDLXxwT7JzTel",
+            "foundAt": "2026-02-05T18:46:10.071Z"
+          }
+        },
+        {
+          "title": "The Hives Forever Forever the Hives",
+          "artist": "The Hives",
+          "spotifyTrack": {
+            "id": "4BKlAqMNx0YMFTuU39aKb3",
+            "name": "Enough Is Enough",
+            "uri": "spotify:track:4BKlAqMNx0YMFTuU39aKb3",
+            "popularity": 52,
+            "albumName": "The Hives Forever Forever The Hives",
+            "albumId": "3iE2EtiK9bWxYqhkzCgea0",
+            "foundAt": "2026-02-05T18:46:11.977Z"
+          }
+        },
+        {
+          "title": "Rwanda Sings With Strings",
+          "artist": "The Good Ones",
+          "spotifyTrack": {
+            "id": "7A64mpl63uOmATXJ57QEc6",
+            "name": "Agnes Dreams of Being an Artist",
+            "uri": "spotify:track:7A64mpl63uOmATXJ57QEc6",
+            "popularity": 9,
+            "albumName": "Rwanda Sings With Strings",
+            "albumId": "3qyCrDaiUhovbugDOD3CD2",
+            "foundAt": "2026-02-05T18:46:13.583Z"
+          }
+        },
+        {
+          "title": "Pareidolia",
+          "artist": "Eiko IshibashiJim O'Rourke",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-14T10:20:48.849Z"
+          }
+        },
+        {
+          "title": "Hotel Pupik",
+          "artist": "Led Bib",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-14T10:20:49.542Z"
+          }
+        },
+        {
+          "title": "Wao",
+          "artist": "Nicholas KrgovichJoseph ShabasonTenniscoats",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-14T10:20:50.165Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-20T15:58:40.539Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-09-05",
       "albums": [
