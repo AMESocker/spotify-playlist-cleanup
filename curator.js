@@ -281,6 +281,9 @@ async function handleRockHall(source, data) {
     return null;
   }
 
+  // Pre-flight: check if there's room for the full batch
+  if (await wouldExceedLimit(10)) return false;
+
   let anyAdded = false;
 
   for (let i = 0; i < 2; i++) {
@@ -329,6 +332,9 @@ async function handleGlastonbury(source, data) {
     console.log(`🎉 No more artists in ${source.name}`);
     return null;
   }
+
+  // Pre-flight: check if there's room for the full batch
+  if (await wouldExceedLimit(10)) return false;
 
   let anyAdded = false;
 
