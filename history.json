@@ -2620,5 +2620,25 @@
     "sourceFile": "data/artistTop10.json",
     "strategy": "artistGenre",
     "timestamp": "2026-03-21T00:19:33.192Z"
+  },
+  {
+    "action": "addSpotifyPlaylist",
+    "playlistName": "2007-05",
+    "playlistUrl": "https://open.spotify.com/playlist/1kD2xXdASvHO28zeaMeN6D?si=9f9bda572e8a4528",
+    "playlistId": "1kD2xXdASvHO28zeaMeN6D",
+    "index": 13,
+    "tracksAdded": 10,
+    "sourceFile": "data/spotifyPlaylists.json",
+    "strategy": "spotifyPlaylist",
+    "timestamp": "2026-03-21T10:31:30.931Z"
+  },
+  {
+    "action": "addGlastonbury",
+    "artist": "Girl in Red",
+    "index": 76,
+    "tracksAdded": 5,
+    "sourceFile": "data/glastonbury25.json",
+    "strategy": "glastonbury",
+    "timestamp": "2026-03-21T10:31:42.292Z"
   }
 ]
