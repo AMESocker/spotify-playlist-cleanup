@@ -1,126 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-03-20",
-      "albums": [
-        {
-          "title": "Live Forever",
-          "artist": "Hurray for the Riff Raff",
-          "spotifyTrack": {
-            "id": "6zbqnLcIRsKipWryv8socx",
-            "name": "Alibi - Live",
-            "uri": "spotify:track:6zbqnLcIRsKipWryv8socx",
-            "popularity": 3,
-            "albumName": "Live Forever",
-            "albumId": "0cSLxDepK8MflqAdk8dLZo",
-            "foundAt": "2026-03-21T10:18:23.675Z"
-          }
-        },
-        {
-          "title": "Sunya",
-          "artist": "The Dear Hunter",
-          "spotifyTrack": {
-            "id": "5ZdUJHu3SEkyaJiKPa1b2c",
-            "name": "The Wasteland",
-            "uri": "spotify:track:5ZdUJHu3SEkyaJiKPa1b2c",
-            "popularity": 8,
-            "albumName": "Sunya",
-            "albumId": "4BbRLsKsCkQBh3z2e5DWTC",
-            "foundAt": "2026-03-21T10:18:24.990Z"
-          }
-        },
-        {
-          "title": "Libres antes del final",
-          "artist": "Colleen",
-          "spotifyTrack": {
-            "id": "7KzGpzSRnS12Pw3RSJrEGe",
-            "name": "Aguas abiertas",
-            "uri": "spotify:track:7KzGpzSRnS12Pw3RSJrEGe",
-            "popularity": 2,
-            "albumName": "Libres antes del final",
-            "albumId": "31ma1VIIRX5LubeBwpUP8X",
-            "foundAt": "2026-03-21T10:18:26.334Z"
-          }
-        },
-        {
-          "title": "Immanuel Wilkins Quartet: Live At The Village Vanguard, Vol. 1",
-          "artist": "Immanuel Wilkins",
-          "spotifyTrack": {
-            "id": "3jeyzvlcX206pkBTM39Yqw",
-            "name": "WARRIORS - Live",
-            "uri": "spotify:track:3jeyzvlcX206pkBTM39Yqw",
-            "popularity": 3,
-            "albumName": "Immanuel Wilkins Quartet: Live at the Village Vanguard Vol. 1",
-            "albumId": "3hF2wgxqoKyx9MI3ZOkB91",
-            "foundAt": "2026-03-21T10:18:27.704Z"
-          }
-        },
-        {
-          "title": "Tirakat",
-          "artist": "AliCharif Megarbane",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-21T10:18:28.283Z"
-          }
-        },
-        {
-          "title": "Chasing Shadows",
-          "artist": "Nubiyan Twist",
-          "spotifyTrack": {
-            "id": "4c3iegw9CfKT3ZjeyzevQW",
-            "name": "Threads",
-            "uri": "spotify:track:4c3iegw9CfKT3ZjeyzevQW",
-            "popularity": 16,
-            "albumName": "Chasing Shadows",
-            "albumId": "3ehJxu0Y4xuXMJyaYCpv0a",
-            "foundAt": "2026-03-21T10:18:29.636Z"
-          }
-        },
-        {
-          "title": "No Need to Be Lonely",
-          "artist": "Gladie",
-          "spotifyTrack": {
-            "id": "5FXG0uc1IFdkn2FSBQ5A4L",
-            "name": "Push Me Down",
-            "uri": "spotify:track:5FXG0uc1IFdkn2FSBQ5A4L",
-            "popularity": 0,
-            "albumName": "No Need To Be Lonely",
-            "albumId": "1mficSVPDsJaBQoa5k9fTk",
-            "foundAt": "2026-03-21T10:18:31.024Z"
-          }
-        },
-        {
-          "title": "If You Wanna Laugh, You Gotta Cry Sometimes: Archives: 1972-1975, Vol. 3",
-          "artist": "Robert Lester Folsom",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-21T10:18:31.628Z"
-          }
-        },
-        {
-          "title": "Luke Una Presents É Soul Cultura, Vol. 3",
-          "artist": "Luke Una",
-          "spotifyTrack": {
-            "id": "3rc845wmkiQJWfhmIrYAPs",
-            "name": "Spread Love",
-            "uri": "spotify:track:3rc845wmkiQJWfhmIrYAPs",
-            "popularity": 0,
-            "albumName": "Luke Una Presents É Soul Cultura, Vol. 3",
-            "albumId": "6RZQyQtSpP26vDvNmO72Ll",
-            "foundAt": "2026-03-21T10:18:33.047Z"
-          }
-        },
-        {
-          "title": "BODY SOUND",
-          "artist": "Whitney JohnsonLia KohlMacie Stewart",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-21T10:18:33.670Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-08-15",
       "albums": [
         {
@@ -2971,6 +2851,128 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-03-20",
+      "albums": [
+        {
+          "title": "Live Forever",
+          "artist": "Hurray for the Riff Raff",
+          "spotifyTrack": {
+            "id": "6zbqnLcIRsKipWryv8socx",
+            "name": "Alibi - Live",
+            "uri": "spotify:track:6zbqnLcIRsKipWryv8socx",
+            "popularity": 3,
+            "albumName": "Live Forever",
+            "albumId": "0cSLxDepK8MflqAdk8dLZo",
+            "foundAt": "2026-03-21T10:18:23.675Z"
+          }
+        },
+        {
+          "title": "Sunya",
+          "artist": "The Dear Hunter",
+          "spotifyTrack": {
+            "id": "5ZdUJHu3SEkyaJiKPa1b2c",
+            "name": "The Wasteland",
+            "uri": "spotify:track:5ZdUJHu3SEkyaJiKPa1b2c",
+            "popularity": 8,
+            "albumName": "Sunya",
+            "albumId": "4BbRLsKsCkQBh3z2e5DWTC",
+            "foundAt": "2026-03-21T10:18:24.990Z"
+          }
+        },
+        {
+          "title": "Libres antes del final",
+          "artist": "Colleen",
+          "spotifyTrack": {
+            "id": "7KzGpzSRnS12Pw3RSJrEGe",
+            "name": "Aguas abiertas",
+            "uri": "spotify:track:7KzGpzSRnS12Pw3RSJrEGe",
+            "popularity": 2,
+            "albumName": "Libres antes del final",
+            "albumId": "31ma1VIIRX5LubeBwpUP8X",
+            "foundAt": "2026-03-21T10:18:26.334Z"
+          }
+        },
+        {
+          "title": "Immanuel Wilkins Quartet: Live At The Village Vanguard, Vol. 1",
+          "artist": "Immanuel Wilkins",
+          "spotifyTrack": {
+            "id": "3jeyzvlcX206pkBTM39Yqw",
+            "name": "WARRIORS - Live",
+            "uri": "spotify:track:3jeyzvlcX206pkBTM39Yqw",
+            "popularity": 3,
+            "albumName": "Immanuel Wilkins Quartet: Live at the Village Vanguard Vol. 1",
+            "albumId": "3hF2wgxqoKyx9MI3ZOkB91",
+            "foundAt": "2026-03-21T10:18:27.704Z"
+          }
+        },
+        {
+          "title": "Tirakat",
+          "artist": "AliCharif Megarbane",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-21T10:18:28.283Z"
+          }
+        },
+        {
+          "title": "Chasing Shadows",
+          "artist": "Nubiyan Twist",
+          "spotifyTrack": {
+            "id": "4c3iegw9CfKT3ZjeyzevQW",
+            "name": "Threads",
+            "uri": "spotify:track:4c3iegw9CfKT3ZjeyzevQW",
+            "popularity": 16,
+            "albumName": "Chasing Shadows",
+            "albumId": "3ehJxu0Y4xuXMJyaYCpv0a",
+            "foundAt": "2026-03-21T10:18:29.636Z"
+          }
+        },
+        {
+          "title": "No Need to Be Lonely",
+          "artist": "Gladie",
+          "spotifyTrack": {
+            "id": "5FXG0uc1IFdkn2FSBQ5A4L",
+            "name": "Push Me Down",
+            "uri": "spotify:track:5FXG0uc1IFdkn2FSBQ5A4L",
+            "popularity": 0,
+            "albumName": "No Need To Be Lonely",
+            "albumId": "1mficSVPDsJaBQoa5k9fTk",
+            "foundAt": "2026-03-21T10:18:31.024Z"
+          }
+        },
+        {
+          "title": "If You Wanna Laugh, You Gotta Cry Sometimes: Archives: 1972-1975, Vol. 3",
+          "artist": "Robert Lester Folsom",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-21T10:18:31.628Z"
+          }
+        },
+        {
+          "title": "Luke Una Presents É Soul Cultura, Vol. 3",
+          "artist": "Luke Una",
+          "spotifyTrack": {
+            "id": "3rc845wmkiQJWfhmIrYAPs",
+            "name": "Spread Love",
+            "uri": "spotify:track:3rc845wmkiQJWfhmIrYAPs",
+            "popularity": 0,
+            "albumName": "Luke Una Presents É Soul Cultura, Vol. 3",
+            "albumId": "6RZQyQtSpP26vDvNmO72Ll",
+            "foundAt": "2026-03-21T10:18:33.047Z"
+          }
+        },
+        {
+          "title": "BODY SOUND",
+          "artist": "Whitney JohnsonLia KohlMacie Stewart",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-21T10:18:33.670Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-22T18:42:38.217Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-08-22",
       "albums": [

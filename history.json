@@ -2668,5 +2668,24 @@
     "sourceFile": "data/artistDisc.json",
     "strategy": "fairness",
     "timestamp": "2026-03-22T10:35:28.761Z"
+  },
+  {
+    "action": "add",
+    "artist": "Rolling Stones",
+    "album": "Sticky Fingers",
+    "index": 100,
+    "tracksAdded": 10,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-22T18:42:24.655Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-03-20",
+    "tracksAdded": 7,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-03-22T18:42:38.219Z"
   }
 ]
