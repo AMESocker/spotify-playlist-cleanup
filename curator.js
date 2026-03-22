@@ -39,7 +39,7 @@ const dataSources = [
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
   { name: "spotifyTotmPlaylists", file: "data/spotifyPlaylists.json", strategy: "spotifyPlaylist" },
-  { name: "glastonbury25", file: "data/glastonbury25.json", strategy: "glastonbury" }
+  { name: "festivals", file: "data/festivals.json", strategy: "festival" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -281,7 +281,7 @@ async function handleRockHall(source, data) {
     return null;
   }
 
-  // Pre-flight: check if there's room for the full batch
+  // Batch check: ensure room for full run before starting
   if (await wouldExceedLimit(10)) return false;
 
   let anyAdded = false;
@@ -327,29 +327,46 @@ async function handleRockHall(source, data) {
   return anyAdded;
 }
 
-async function handleGlastonbury(source, data) {
-  if (!data.artists?.length) {
-    console.log(`🎉 No more artists in ${source.name}`);
+async function handleFestival(source, data) {
+  // Find festivals that still have artists remaining
+  const active = data.festivals.filter(f => f.artists.length > 0);
+
+  if (!active.length) {
+    console.log(`🎉 No more artists in any festival`);
     return null;
   }
 
-  // Pre-flight: check if there's room for the full batch
+  // Batch check: ensure room for full run before starting
   if (await wouldExceedLimit(10)) return false;
+
+  // Pick a random active festival
+  const festival = active[Math.floor(Math.random() * active.length)];
+  console.log(`🎪 Festival: ${festival.name}`);
 
   let anyAdded = false;
 
   for (let i = 0; i < 2; i++) {
-    if (!data.artists.length) break;
+    if (!festival.artists.length) break;
 
-    const randomIndex = Math.floor(Math.random() * data.artists.length);
-    const artistName = data.artists[randomIndex];
+    const randomIndex = Math.floor(Math.random() * festival.artists.length);
+    const artistName = festival.artists[randomIndex];
     console.log(`Artist: ${artistName} - ${randomIndex}`);
 
+    const alreadyAdded = data.festivals
+      .some(f => f.added.some(a => a.replace(/\s*\[.*?\]$/, '') === artistName));
+
+    if (alreadyAdded) {
+      console.log(`⏭️ Skipping ${artistName} — already added from another festival`);
+      festival.artists.splice(randomIndex, 1);
+      festival.added.push(`${artistName} [DUPLICATE]`);
+      saveData(source.file, data);
+      continue;
+    }
     const result = await processRockHallArtist(artistName, 5);
 
-    data.artists.shift();
+    festival.artists.splice(randomIndex, 1);
     if (!result.success) {
-      data.added.push(`${artistName} [${result.reason}]`);
+      festival.added.push(`${artistName} [${result.reason}]`);
       saveData(source.file, data);
       continue;
     }
@@ -362,9 +379,10 @@ async function handleGlastonbury(source, data) {
     await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
     console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
 
-    data.added.push(artistName);
+    festival.added.push(artistName);
     pushHistory({
-      action: "addGlastonbury",
+      action: "addFestival",
+      festival: festival.name,
       artist: artistName,
       index: randomIndex,
       tracksAdded: result.trackCount,
@@ -549,7 +567,7 @@ export async function addNextAlbum() {
   let result;
   if (source.strategy === "editorsChoice") result = await handleEditorsChoice(source);
   else if (source.strategy === "rockHall") result = await handleRockHall(source, data);
-  else if (source.strategy === "glastonbury") result = await handleGlastonbury(source, data);
+  else if (source.strategy === "festival") result = await handleFestival(source, data);
   else if (source.strategy === "artistGenre") result = await handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData);
   else if (source.strategy === "spotifyPlaylist") result = await handleSpotifyPlaylist(source, data);
   else result = await handleAlbum(source, data);
