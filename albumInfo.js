@@ -10,11 +10,13 @@ export async function getAlbumTrackCount(artist, albumName) {
     const tokenData = await spotify.refreshAccessToken();
     spotify.setAccessToken(tokenData.body['access_token']);
 
-    // Search album by name + artist
-    const searchRes = await spotify.searchAlbums(`${albumName} artist:${artist}`, { limit: 1 });
+    // Strip trailing year e.g. "(1995)" or "(1995)^"
+    const cleanAlbum = albumName.replace(/\s*\(\d{4}\)\^?$/, '').trim();
+
+    const searchRes = await spotify.searchAlbums(`${cleanAlbum} artist:${artist}`, { limit: 1 });
 
     if (!searchRes.body.albums.items.length) {
-      logError(`No album found for "${albumName}" by ${artist}`);
+      logError(`No album found for "${cleanAlbum}" by ${artist}`);
       return null;
     }
 
