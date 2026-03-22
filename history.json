@@ -2726,5 +2726,23 @@
     "sourceFile": "data/spotifyPlaylists.json",
     "strategy": "spotifyPlaylist",
     "timestamp": "2026-03-22T21:00:34.811Z"
+  },
+  {
+    "action": "addGlastonbury",
+    "artist": "Shed Seven",
+    "index": 54,
+    "tracksAdded": 5,
+    "sourceFile": "data/glastonbury25.json",
+    "strategy": "glastonbury",
+    "timestamp": "2026-03-22T22:36:58.798Z"
+  },
+  {
+    "action": "addGlastonbury",
+    "artist": "The Magic Numbers",
+    "index": 141,
+    "tracksAdded": 5,
+    "sourceFile": "data/glastonbury25.json",
+    "strategy": "glastonbury",
+    "timestamp": "2026-03-22T22:37:08.222Z"
   }
 ]
