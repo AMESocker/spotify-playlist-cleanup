@@ -15,19 +15,9 @@ import { handleArtistGenre } from "./artistGenreStrategy.js";
 //* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
 // Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
-
 // Todo - Add Disney/Pixar Movie Soundtracks source
-
 // Todo - Add Random Index to ArtistDisc strategy to add some variability (currently just picks first album).
-
 // Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
-
-// Todo - Create a dashboard to visualize source queues, history, and playlist growth over time (could be a simple web page reading from history.json).
-
-// Todo - Clean 1080albums.json with entries that don't have " - " format.
-
-// Todo - Remove songs older then one month from playlist and add to a separate playlist called old or stale.
-
 // Todo - Add retry logic for Spotify API calls in case of transient errors (e.g. 429 rate limits or network issues).
 
 //* ─── DATA SOURCES ───────────────────────────────────────────────────────────────
@@ -39,7 +29,8 @@ const dataSources = [
   { name: "rockNRollHallOfFame", file: "data/rockNRollHallofFame.json", strategy: "rockHall" },
   { name: "artistGenre", file: "data/artistTop10.json", strategy: "artistGenre" },
   { name: "spotifyTotmPlaylists", file: "data/spotifyPlaylists.json", strategy: "spotifyPlaylist" },
-  { name: "festivals", file: "data/festivals.json", strategy: "festival" }
+  { name: "festivals", file: "data/festivals.json", strategy: "festival" },
+  { name: "billboardHot100", file: "data/billboardHot100.json", strategy: "singleTrack" }
 ];
 
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
@@ -465,6 +456,78 @@ async function handleAlbum(source, data) {
   return true;
 }
 
+async function handleSingleTrack(source, data) {
+  if (!data.master?.length) {
+    console.log(`🎉 No more tracks in ${source.name}`);
+    return null;
+  }
+
+  if (await wouldExceedLimit(10)) return false;
+
+  const spotify = getSpotify();
+  let addedCount = 0;
+  const uris = [];
+
+  for (let i = 0; i < 10; i++) {
+    if (!data.master.length) break;
+
+    const randomIndex = Math.floor(Math.random() * data.master.length);
+    const entry = data.master[randomIndex];
+    const dashIndex = entry.indexOf(' - ');
+    if (dashIndex === -1) {
+      data.master.splice(randomIndex, 1);
+      data.added.push(`${entry} [INVALID FORMAT]`);
+      continue;
+    }
+
+    const artist = entry.substring(0, dashIndex).trim();
+    const title  = entry.substring(dashIndex + 3).trim();
+
+    console.log(`🎵 Searching: "${title}" by ${artist}`);
+
+    try {
+      const res = await spotify.searchTracks(`track:"${title}" artist:"${artist}"`, { limit: 1 });
+      const tracks = res.body.tracks.items;
+
+      if (!tracks.length) {
+        console.log(`⚠️ Not found: ${entry}`);
+        data.master.splice(randomIndex, 1);
+        data.added.push(`${entry} [NOT FOUND]`);
+        continue;
+      }
+
+      uris.push(tracks[0].uri);
+      data.master.splice(randomIndex, 1);
+      data.added.push(entry);
+      addedCount++;
+      console.log(`✅ Found: "${tracks[0].name}" by ${tracks[0].artists[0].name}`);
+
+    } catch (err) {
+      console.error(`❌ Search error for ${entry}:`, err.message);
+      continue;
+    }
+  }
+
+  if (!uris.length) return false;
+
+  if (await wouldExceedLimit(uris.length)) {
+    // Put them back since we haven't added yet
+    return false;
+  }
+
+  await addTracks(process.env.TARGET_PLAYLIST_ID, uris);
+  console.log(`🎶 Added ${uris.length} tracks`);
+
+  pushHistory({
+    action: "addBillboard",
+    tracksAdded: uris.length,
+    sourceFile: source.file,
+    strategy: source.strategy
+  });
+  saveData(source.file, data);
+
+  return true;
+}
 //* ─── SPOTIFY PLAYLIST STRATEGY ───────────────────────────────────
 
 function extractPlaylistId(url) {
@@ -570,6 +633,7 @@ export async function addNextAlbum() {
   else if (source.strategy === "festival") result = await handleFestival(source, data);
   else if (source.strategy === "artistGenre") result = await handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData);
   else if (source.strategy === "spotifyPlaylist") result = await handleSpotifyPlaylist(source, data);
+  else if (source.strategy === "singleTrack") result = await handleSingleTrack(source, data);
   else result = await handleAlbum(source, data);
 
   // null means "this source is exhausted, skip it"
