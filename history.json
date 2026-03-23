@@ -2868,5 +2868,23 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-03-23T13:11:32.284Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Ritchie Valens",
+    "index": 35,
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-23T19:00:26.057Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Patti Smith",
+    "index": 5,
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-23T19:00:35.137Z"
   }
 ]

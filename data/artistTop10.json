@@ -531,6 +531,27 @@
   "Reggae / World / Ambient / Experimental Electronic": {
     "not_added": [
       {
+        "artist": "The Orb",
+        "listeners": 207477,
+        "recommended": true,
+        "spotify_popularity": 42,
+        "spotify_id": "5HAtRoEPUvGSA7ziTGB1cF"
+      },
+      {
+        "artist": "Aphex Twin",
+        "listeners": 1919318,
+        "recommended": true,
+        "spotify_popularity": 65,
+        "spotify_id": "6kBDZFXuLrZgHnvmPu9NsG"
+      },
+      {
+        "artist": "Portishead",
+        "listeners": 2426842,
+        "recommended": true,
+        "spotify_popularity": 65,
+        "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y"
+      },
+      {
         "artist": "Damian Marley",
         "listeners": 1938005,
         "recommended": true,
@@ -608,13 +629,6 @@
         "spotify_id": "0uCCBpmg6MrPb1KY2msceF"
       },
       {
-        "artist": "Aphex Twin",
-        "listeners": 1919318,
-        "recommended": true,
-        "spotify_popularity": 65,
-        "spotify_id": "6kBDZFXuLrZgHnvmPu9NsG"
-      },
-      {
         "artist": "Boards of Canada",
         "listeners": 762055,
         "recommended": true,
@@ -634,13 +648,6 @@
         "recommended": true,
         "spotify_popularity": 42,
         "spotify_id": "3mvkWMe6swnknwscwvGCHO"
-      },
-      {
-        "artist": "Portishead",
-        "listeners": 2426842,
-        "recommended": true,
-        "spotify_popularity": 65,
-        "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y"
       },
       {
         "artist": "Tricky",
@@ -718,13 +725,6 @@
         "recommended": true,
         "spotify_popularity": 50,
         "spotify_id": "2sf2owtFSCvz2MLfxmNdkb"
-      },
-      {
-        "artist": "The Orb",
-        "listeners": 207477,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "5HAtRoEPUvGSA7ziTGB1cF"
       }
     ],
     "added": [
