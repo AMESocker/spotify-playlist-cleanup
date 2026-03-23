@@ -219,6 +219,109 @@
       ]
     },
     {
+      "Artist": "A",
+      "Group": "🔵 Alternative / Indie / Folk-Rock",
+      "Albums": [
+        "How Ace Are Buildings (1997)",
+        "A vs. Monkey Kong (1999)",
+        "Hi-Fi Serious (2002)",
+        "Teen Dance Ordinance (2005)",
+        "Prang (2026)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist": "Sepultura",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Morbid Visions (1986)",
+        "Schizophrenia (1987)",
+        "Beneath the Remains (1989)",
+        "Arise (1991)",
+        "Chaos A.D. (1993)",
+        "Roots (1996)",
+        "Against (1998)",
+        "Nation (2001)",
+        "Roorback (2003)",
+        "Dante XXI (2006)",
+        "A-Lex (2009)",
+        "Kairos (2011)",
+        "The Mediator Between Head and Hands Must Be the Heart (2013)",
+        "Machine Messiah (2017)",
+        "Quadra (2020)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist": "Corrosion of Conformity",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Eye for an Eye",
+        "Animosity",
+        "Blind (1990)",
+        "Deliverance (1994)",
+        "Wiseblood (1996)",
+        "America's Volume Dealer (2000)",
+        "In the Arms of God (2005)",
+        "Corrosion of Conformity (2012)",
+        "IX",
+        "No Cross No Crown (2018)",
+        "Good God / Baad Man"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist": "Exodus",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Bonded by Blood (1985)",
+        "Pleasures of the Flesh (1987)",
+        "Fabulous Disaster (1989)",
+        "Impact Is Imminent (1990)",
+        "Force of Habit (1992)",
+        "Tempo of the Damned (2004)",
+        "Shovel Headed Kill Machine (2005)",
+        "The Atrocity Exhibition... Exhibit A (2007)",
+        "Let There Be Blood (2008)",
+        "Exhibit B: The Human Condition (2010)",
+        "Blood In, Blood Out (2014)",
+        "Persona Non Grata (2021)",
+        "Goliath (2026)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist": "Machine Head",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Burn My Eyes (1994)",
+        "The More Things Change... (1997)",
+        "The Burning Red (1999)",
+        "Supercharger (2001)",
+        "Through the Ashes of Empires (2003)",
+        "The Blackening (2007)",
+        "Unto the Locust (2011)",
+        "Bloodstone & Diamonds (2014)",
+        "Catharsis (2018)",
+        "Of Kingdom and Crown (2022)",
+        "Unatoned (2025)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist":"Young the Giant",
+      "Group":"🔵 Alternative / Indie / Folk-Rock",
+      "Albums":[
+        "Young the Giant",
+        "Mind Over Matter (2014)",
+        "Home of the Strange (2016)",
+        "Mirror Master (2018)",
+        "American Bollywood (2022)",
+        "Victory Garden"
+      ],
+      "AddedAlbums":[]
+    },
+    {
       "Artist": "The White Stripes",
       "Group": "🔵 Alternative / Indie / Folk-Rock",
       "Albums": [
@@ -390,7 +493,8 @@
         "Hellbilly Deluxe 2 (2010)",
         "Venomous Rat Regeneration Vendor (2013)",
         "The Electric Warlock Acid Witch Satanic Orgy Celebration Dispenser (2016)",
-        "The Lunar Injection Kool Aid Eclipse Conspiracy (2021)"
+        "The Lunar Injection Kool Aid Eclipse Conspiracy (2021)",
+        "The Great Satan"
       ],
       "AddedAlbums": [
         "Hellbilly Deluxe (1998)",
@@ -667,7 +771,8 @@
         "Echoes, Silence, Patience & Grace (2007)",
         "Sonic Highways (2014)",
         "Concrete and Gold (2017)",
-        "Medicine at Midnight (2021)"
+        "Medicine at Midnight (2021)",
+        "Your Favorite Toy"
       ],
       "AddedAlbums": [
         "Foo Fighters (1995)^",
@@ -795,7 +900,8 @@
         "Endgame (2009)",
         "Thirteen (2011)",
         "Super Collider (2013)",
-        "Dystopia (2016)"
+        "Dystopia (2016)",
+        "Megadeth"
       ],
       "AddedAlbums": [
         "Countdown to Extinction (1992)",
@@ -878,7 +984,8 @@
         "Makes Me Sick (2017)",
         "Forever + Ever x Infinity (2020)",
         "December's Here (2021)",
-        "Make the Most of It (2023)"
+        "Make the Most of It (2023)",
+        "Listen Up!"
       ],
       "AddedAlbums": [
         "Coming Home (2006)",
@@ -1777,7 +1884,8 @@
         "Cory and The Wongnotes (2021)",
         "Power Station (2022)",
         "The Lucky One (2023)",
-        "Starship Syncopation (2024)"
+        "Starship Syncopation (2024)",
+        "Lost in the Wonder"
       ],
       "AddedAlbums": [
         "Elevator Music for an Elevated Mood (2020)",
@@ -1821,7 +1929,6 @@
       ],
       "AddedAlbums": [
         "Elvis Presley (1956)"
-        
       ]
     },
     {
@@ -1951,9 +2058,7 @@
         "Here to Eternity (2024)",
         "Touch and Go (2026)"
       ],
-      "AddedAlbums": [
-        
-      ]
+      "AddedAlbums": []
     },
     {
       "Artist": "Pantera",
