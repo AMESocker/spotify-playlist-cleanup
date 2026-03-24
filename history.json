@@ -2930,6 +2930,53 @@
   },
   {
     "action": "addFestival",
+    "festival": "Glastonbury",
+    "artist": "Floating Points",
+    "index": 41,
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-24T04:50:08.048Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Glastonbury",
+    "artist": "Future Islands",
+    "index": 64,
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-24T04:50:16.605Z"
+  },
+  {
+    "action": "add",
+    "artist": "Exodus",
+    "album": "Goliath (2026)",
+    "index": null,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-03-24T04:50:34.429Z"
+  },
+  {
+    "action": "addBillboard",
+    "tracksAdded": 10,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-03-24T04:50:55.939Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Band",
+    "album": "The Band (1969)",
+    "index": 32,
+    "tracksAdded": 9,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-24T10:55:03.004Z"
+  },
+  {
+    "action": "addFestival",
     "festival": "Lollapalooza",
     "artist": "Spacey Jane",
     "index": 55,
