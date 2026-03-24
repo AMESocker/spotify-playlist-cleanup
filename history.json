@@ -2964,5 +2964,15 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-03-24T04:50:55.939Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Band",
+    "album": "The Band (1969)",
+    "index": 32,
+    "tracksAdded": 9,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-24T10:55:03.004Z"
   }
 ]
