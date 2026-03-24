@@ -594,13 +594,6 @@
         "spotify_id": "0cmWgDlu9CwTgxPhf403hb"
       },
       {
-        "artist": "Royksopp",
-        "listeners": 1010645,
-        "recommended": true,
-        "spotify_popularity": 59,
-        "spotify_id": "5nPOO9iTcrs9k6yFffPxjH"
-      },
-      {
         "artist": "Culture",
         "listeners": 113762,
         "recommended": true,
@@ -809,6 +802,13 @@
         "artist": "Burning Spear",
         "listeners": 597685,
         "spotify_id": "6qaKS0nzGP4hfjl4aFZmEU",
+        "recommended": true,
+        "tracksAdded": 10
+      },
+      {
+        "artist": "Royksopp",
+        "listeners": 1010645,
+        "spotify_id": "5nPOO9iTcrs9k6yFffPxjH",
         "recommended": true,
         "tracksAdded": 10
       }
