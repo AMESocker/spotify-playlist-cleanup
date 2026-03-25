@@ -11,6 +11,7 @@ import { checkPlaylistSizes } from "./playlistChecker.js";
 import { addTracks } from "./playlist.js";
 import { processEditorsChoiceWeek, getEditorsChoiceStatus } from "./allMusicIntegration.js";
 import { handleArtistGenre } from "./artistGenreStrategy.js";
+import { runArtistBatch } from "./topTracksUtil.js";
 
 //* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
@@ -196,44 +197,6 @@ function selectSequential(dataset) {
   return entry ? { artist: entry.Artist, nextAlbum: entry.Albums[0] } : null;
 }
 
-//* ─── ROCK HALL OF FAME STRATEGY ───────────────────────────────────
-
-async function processRockHallArtist(artistName, trackCount = 10) {
-  console.log(`🎵 Processing: ${artistName}`);
-  const spotify = getSpotify();
-
-  try {
-    const artistResults = await spotify.searchArtists(artistName, { limit: 5 });
-    const artists = artistResults.body.artists.items;
-    if (artists.length === 0) {
-      console.log(`⚠️ Artist not found: ${artistName}`);
-      return { success: false, reason: "ARTIST NOT FOUND", trackUris: [] };
-    }
-
-    const artist = artists[0];
-    console.log(`✅ Found artist: "${artist.name}" (ID: ${artist.id})`);
-
-    const { body: { tracks: topTracks } } = await spotify.getArtistTopTracks(artist.id, 'US');
-    if (topTracks.length === 0) {
-      console.log(`⚠️ No tracks found for ${artistName}`);
-      return { success: false, reason: "NO TRACKS", trackUris: [] };
-    }
-
-    const shuffled = topTracks.sort(() => Math.random() - 0.5);
-    const trackUris = shuffled.slice(0, trackCount).map(t => t.uri);
-    console.log(`   Found ${topTracks.length} top tracks, randomly adding ${trackUris.length}:`);
-    shuffled.slice(0, trackCount).forEach((t, i) =>
-      console.log(`   ${i + 1}. "${t.name}" (popularity: ${t.popularity})`)
-    );
-
-    return { success: true, trackUris, trackCount: trackUris.length };
-
-  } catch (error) {
-    console.error(`❌ Error:`, error.message);
-    return { success: false, reason: "ERROR", trackUris: [], error: error.message };
-  }
-}
-
 //* ─── MUSICBRAINZ - ORIGINAL RELEASE TRACK COUNT ───────────────────────────────────
 
 async function getOriginalTrackCount(artist, album) {
@@ -306,57 +269,58 @@ async function handleEditorsChoice(source) {
   return true;
 }
 
+//* ─── ROCK HALL STRATEGY ───────────────────────────────────
+
 async function handleRockHall(source, data) {
   if (!data.artists?.length) {
     console.log(`🎉 No more artists in ${source.name}`);
     return null;
   }
 
-  // Batch check: ensure room for full run before starting
-  if (await wouldExceedLimit(10)) return false;
+  // Build a working copy so we can requeue on REQUEUE signal
+  let pendingRequeue = null;
 
-  let anyAdded = false;
-
-  for (let i = 0; i < 2; i++) {
-    if (!data.artists.length) break;
-
+  function pickArtist() {
+    if (!data.artists.length) return null;
     const randomIndex = Math.floor(Math.random() * data.artists.length);
-    const artistName = data.artists[randomIndex];
-    console.log(`Artist: ${artistName} - ${randomIndex}`);
-
-    const result = await processRockHallArtist(artistName, 5);
-
-    data.artists.shift();
-    if (!result.success) {
-      data.added.push(`${artistName} [${result.reason}]`);
-      saveData(source.file, data);
-      continue;
-    }
-
-    if (await wouldExceedLimit(result.trackCount)) {
-      saveData(source.file, data);
-      return false;
-    }
-
-    await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
-    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
-
-    data.added.push(artistName);
-    pushHistory({
-      action: "addRockHall",
-      artist: artistName,
-      index: randomIndex,
-      tracksAdded: result.trackCount,
-      sourceFile: source.file,
-      strategy: source.strategy
-    });
-    saveData(source.file, data);
-    console.log(`✅ Completed: ${artistName}`);
-    anyAdded = true;
+    const name = data.artists[randomIndex];
+    console.log(`Artist: ${name} - index ${randomIndex}`);
+    data.artists.splice(randomIndex, 1);
+    return { name };
   }
 
-  return anyAdded;
+  async function onResult(name, success, trackUris, reason) {
+    if (success === "REQUEUE") {
+      data.artists.unshift(name);
+      saveData(source.file, data);
+      return;
+    }
+    if (!success) {
+      data.added.push(`${name} [${reason}]`);
+    } else {
+      data.added.push(name);
+      pushHistory({
+        action: "addRockHall",
+        artist: name,
+        tracksAdded: trackUris.length,
+        sourceFile: source.file,
+        strategy: source.strategy,
+      });
+    }
+    saveData(source.file, data);
+  }
+
+  return runArtistBatch({
+    batchSize: 2,
+    tracksPerArtist: 5,
+    targetPlaylistId: process.env.TARGET_PLAYLIST_ID,
+    wouldExceedLimit,
+    pickArtist,
+    onResult,
+  });
 }
+
+//* ─── FESTIVAL STRATEGY ───────────────────────────────────
 
 async function handleFestival(source, data) {
   // Find festivals that still have artists remaining
@@ -367,69 +331,77 @@ async function handleFestival(source, data) {
     return null;
   }
 
-  // Batch check: ensure room for full run before starting
-  if (await wouldExceedLimit(10)) return false;
-
-  // Pick a random active festival
-    const festival = active.sort((a, b) => {
+  // Pick the festival with the lowest completion percentage
+  const festival = active.sort((a, b) => {
     const pctA = a.added.length / (a.artists.length + a.added.length);
     const pctB = b.added.length / (b.artists.length + b.added.length);
     return pctA - pctB;
   })[0];
+
   console.log(`🎪 Festival: ${festival.name}`);
 
-  let anyAdded = false;
+  // Build a set of all already-added artist names across all festivals for dedup
+  const globalAdded = new Set(
+    data.festivals.flatMap(f => f.added.map(a => a.replace(/\s*\[.*?\]$/, '')))
+  );
 
-  for (let i = 0; i < 2; i++) {
-    if (!festival.artists.length) break;
+  function pickArtist() {
+    if (!festival.artists.length) return null;
 
-    const randomIndex = Math.floor(Math.random() * festival.artists.length);
-    const artistName = festival.artists[randomIndex];
-    console.log(`Artist: ${artistName} - ${randomIndex}`);
+    // Skip duplicates inline; try up to festival.artists.length times
+    for (let attempt = 0; attempt < festival.artists.length; attempt++) {
+      const randomIndex = Math.floor(Math.random() * festival.artists.length);
+      const name = festival.artists[randomIndex];
 
-    const alreadyAdded = data.festivals
-      .some(f => f.added.some(a => a.replace(/\s*\[.*?\]$/, '') === artistName));
+      if (globalAdded.has(name)) {
+        console.log(`⏭️ Skipping ${name} — already added from another festival`);
+        festival.artists.splice(randomIndex, 1);
+        festival.added.push(`${name} [DUPLICATE]`);
+        saveData(source.file, data);
+        globalAdded.add(name); // already there, no-op
+        continue;
+      }
 
-    if (alreadyAdded) {
-      console.log(`⏭️ Skipping ${artistName} — already added from another festival`);
+      console.log(`Artist: ${name} - index ${randomIndex}`);
       festival.artists.splice(randomIndex, 1);
-      festival.added.push(`${artistName} [DUPLICATE]`);
-      saveData(source.file, data);
-      continue;
-    }
-    const result = await processRockHallArtist(artistName, 5);
-
-    festival.artists.splice(randomIndex, 1);
-    if (!result.success) {
-      festival.added.push(`${artistName} [${result.reason}]`);
-      saveData(source.file, data);
-      continue;
+      globalAdded.add(name);
+      return { name };
     }
 
-    if (await wouldExceedLimit(result.trackCount)) {
-      saveData(source.file, data);
-      return false;
-    }
-
-    await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
-    console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
-
-    festival.added.push(artistName);
-    pushHistory({
-      action: "addFestival",
-      festival: festival.name,
-      artist: artistName,
-      index: randomIndex,
-      tracksAdded: result.trackCount,
-      sourceFile: source.file,
-      strategy: source.strategy
-    });
-    saveData(source.file, data);
-    console.log(`✅ Completed: ${artistName}`);
-    anyAdded = true;
+    return null; // all remaining were duplicates
   }
 
-  return anyAdded;
+  async function onResult(name, success, trackUris, reason) {
+    if (success === "REQUEUE") {
+      festival.artists.unshift(name);
+      globalAdded.delete(name); // allow retry next time
+      saveData(source.file, data);
+      return;
+    }
+    if (!success) {
+      festival.added.push(`${name} [${reason}]`);
+    } else {
+      festival.added.push(name);
+      pushHistory({
+        action: "addFestival",
+        festival: festival.name,
+        artist: name,
+        tracksAdded: trackUris.length,
+        sourceFile: source.file,
+        strategy: source.strategy,
+      });
+    }
+    saveData(source.file, data);
+  }
+
+  return runArtistBatch({
+    batchSize: 2,
+    tracksPerArtist: 5,
+    targetPlaylistId: process.env.TARGET_PLAYLIST_ID,
+    wouldExceedLimit,
+    pickArtist,
+    onResult,
+  });
 }
 
 async function handleAlbum(source, data) {
@@ -572,7 +544,8 @@ async function handleSingleTrack(source, data) {
 
   return true;
 }
-//* ─── SPOTIFY PLAYLIST STRATEGY ───────────────────────────────────
+
+//* ─── SPOTIFY TotM PLAYLIST STRATEGY ───────────────────────────────────
 
 function extractPlaylistId(url) {
   const match = url.match(/playlist\/([a-zA-Z0-9]+)/);

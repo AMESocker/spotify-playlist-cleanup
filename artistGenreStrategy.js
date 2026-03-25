@@ -4,7 +4,7 @@
 
 import 'dotenv/config';
 import fs from "fs";
-import { getSpotify } from "./auth.js";
+import { fetchRandomTopTracks } from "./topTracksUtil.js";
 import { addTracks } from "./playlist.js";
 
 const DATA_FILE = "data/artistTop10.json";
@@ -34,8 +34,8 @@ function calculateGenreStats(data) {
 /**
  * Select the next artist to add:
  * 1. Pick the genre with the lowest added-to-total ratio (least % complete)
- * 2. Within that genre, pick the not_added artist with the lowest listener count
- *    (prioritising recommended artists last, since they were added for coverage not discovery)
+ * 2. Within that genre, pick a random not_added artist
+ *    (non-recommended first, then lowest listener count as tiebreaker)
  */
 function selectNextArtist(data) {
   const genreStats = calculateGenreStats(data);
@@ -58,57 +58,8 @@ function selectNextArtist(data) {
   const candidates = data[genre].not_added;
   const randomIndex = Math.floor(Math.random() * candidates.length);
 
-  // Sort by: non-recommended first, then lowest listeners
-  const sorted = [...candidates].sort((a, b) => {
-    const aRec = a.recommended ? 1 : 0;
-    const bRec = b.recommended ? 1 : 0;
-    if (aRec !== bRec) return aRec - bRec;
-
-    const aListeners = a.listeners ?? Infinity;
-    const bListeners = b.listeners ?? Infinity;
-    return aListeners - bListeners;
-  });
-
   console.log(`🎯 Selected genre: ${genre} - Artist: ${candidates[randomIndex].artist}`);
   return { genre, artist: candidates[randomIndex] };
-}
-
-/* ==================================================
-   SPOTIFY: TOP 10 TRACKS
-================================================== */
-
-async function getTopTracks(artistName, spotifyId) {
-  const spotify = getSpotify();
-
-  let artistId = spotifyId;
-
-  // Use stored ID if available, otherwise search
-  if (!artistId) {
-    console.log(`  🔍 Searching Spotify for "${artistName}"...`);
-    const results = await spotify.searchArtists(artistName, { limit: 1 });
-    const found = results.body.artists.items[0];
-    if (!found) {
-      console.log(`  ⚠️  Artist not found on Spotify: "${artistName}"`);
-      return null;
-    }
-    artistId = found.id;
-    console.log(`  ✅ Found: "${found.name}" (ID: ${artistId})`);
-  }
-
-  const { body: { tracks } } = await spotify.getArtistTopTracks(artistId, "US");
-
-  if (!tracks.length) {
-    console.log(`  ⚠️  No top tracks found for "${artistName}"`);
-    return null;
-  }
-
-  const topTen = tracks.slice(0, 10);
-  console.log(`  🎵 Top tracks for "${artistName}":`);
-  topTen.forEach((t, i) =>
-    console.log(`     ${i + 1}. "${t.name}" (popularity: ${t.popularity})`)
-  );
-
-  return topTen.map((t) => t.uri);
 }
 
 /* ==================================================
@@ -138,41 +89,42 @@ export async function handleArtistGenre(source, wouldExceedLimit, pushHistory, s
   console.log(`👂 Listeners: ${artist.listeners?.toLocaleString() ?? "unknown"}`);
   if (artist.recommended) console.log(`   (recommended artist)`);
 
-  const trackUris = await getTopTracks(artist.artist, artist.spotify_id);
+  // Remove from not_added before the async fetch so we don't double-add on retry
+  data[genre].not_added = data[genre].not_added.filter(a => a.artist !== artist.artist);
 
-  // Remove from not_added regardless of outcome
-  data[genre].not_added = data[genre].not_added.filter(
-    (a) => a.artist !== artist.artist
-  );
+  const result = await fetchRandomTopTracks(artist.artist, {
+    spotifyId: artist.spotify_id ?? null,
+    count: 5,
+  });
 
-  if (!trackUris) {
+  if (!result.success) {
     data[genre].added.push({
       artist: artist.artist,
       listeners: artist.listeners ?? null,
       spotify_id: artist.spotify_id ?? null,
       recommended: artist.recommended ?? false,
-      result: "NOT FOUND",
+      result: result.reason,
     });
     saveData(DATA_FILE, data);
     return false;
   }
 
-  if (await wouldExceedLimit(trackUris.length)) {
+  if (await wouldExceedLimit(result.trackUris.length)) {
     // Put the artist back — we'll try again next time
     data[genre].not_added.unshift(artist);
     fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
     return false;
   }
 
-  await addTracks(process.env.TARGET_PLAYLIST_ID, trackUris);
-  console.log(`🎶 Added ${trackUris.length} tracks to playlist`);
+  await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+  console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
 
   data[genre].added.push({
     artist: artist.artist,
     listeners: artist.listeners ?? null,
     spotify_id: artist.spotify_id ?? null,
     recommended: artist.recommended ?? false,
-    tracksAdded: trackUris.length,
+    tracksAdded: result.trackCount,
   });
 
   pushHistory({
@@ -180,7 +132,7 @@ export async function handleArtistGenre(source, wouldExceedLimit, pushHistory, s
     genre,
     artist: artist.artist,
     listeners: artist.listeners ?? null,
-    tracksAdded: trackUris.length,
+    tracksAdded: result.trackCount,
     sourceFile: DATA_FILE,
     strategy: source.strategy,
   });
