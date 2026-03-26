@@ -3171,5 +3171,23 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-03-26T05:01:27.602Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "Die Spitz",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-26T15:41:10.635Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "Thornhill",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-26T15:41:13.016Z"
   }
 ]

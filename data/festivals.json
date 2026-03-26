@@ -545,7 +545,6 @@
         "Black Veil Brides",
         "Landmvrks",
         "South Arcade",
-        "Thornhill",
         "Architects",
         "Behemoth",
         "Bush",
@@ -559,7 +558,6 @@
         "As It Is",
         "Melrose Avenue",
         "Mouth Culture",
-        "Die Spitz",
         "Nevertel",
         "Frozemode",
         "Blood Incantation",
@@ -615,7 +613,9 @@
         "Spitting Glass"
       ],
       "added": [
-        "We Came as Romans"
+        "We Came as Romans",
+        "Die Spitz",
+        "Thornhill"
       ]
     }
   ]
