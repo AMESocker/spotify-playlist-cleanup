@@ -3297,5 +3297,15 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-03-27T19:00:47.956Z"
+  },
+  {
+    "action": "add",
+    "artist": "Rush",
+    "album": "Moving Pictures",
+    "index": 325,
+    "tracksAdded": 7,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-27T21:30:26.220Z"
   }
 ]
