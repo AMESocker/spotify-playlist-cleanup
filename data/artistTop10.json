@@ -644,13 +644,6 @@
         "spotify_id": "3mvkWMe6swnknwscwvGCHO"
       },
       {
-        "artist": "Tricky",
-        "listeners": 575435,
-        "recommended": true,
-        "spotify_popularity": 52,
-        "spotify_id": "6hhA8TKRNryM8FNzqCqdDO"
-      },
-      {
         "artist": "Caribou",
         "listeners": 732092,
         "recommended": true,
@@ -812,6 +805,13 @@
         "spotify_id": "5nPOO9iTcrs9k6yFffPxjH",
         "recommended": true,
         "tracksAdded": 10
+      },
+      {
+        "artist": "Tricky",
+        "listeners": 575435,
+        "spotify_id": "6hhA8TKRNryM8FNzqCqdDO",
+        "recommended": true,
+        "tracksAdded": 5
       }
     ]
   },

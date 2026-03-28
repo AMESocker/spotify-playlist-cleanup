@@ -1,131 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-03-27",
-      "albums": [
-        {
-          "title": "Creature of Habit",
-          "artist": "Courtney Barnett",
-          "spotifyTrack": {
-            "id": "4z2ujO5HsgeKg8HztQhc16",
-            "name": "Stay In Your Lane",
-            "uri": "spotify:track:4z2ujO5HsgeKg8HztQhc16",
-            "popularity": 0,
-            "albumName": "Creature of Habit",
-            "albumId": "6d8sED7egAL2q09h2j3A16",
-            "foundAt": "2026-03-28T10:24:13.641Z"
-          }
-        },
-        {
-          "title": "Sexistential",
-          "artist": "Robyn",
-          "spotifyTrack": {
-            "id": "6rY4CO2ko4iWpSIm93fWJv",
-            "name": "Talk To Me",
-            "uri": "spotify:track:6rY4CO2ko4iWpSIm93fWJv",
-            "popularity": 66,
-            "albumName": "Sexistential / Talk To Me",
-            "albumId": "5aBcnDmgAwjKxJRnEG6gvk",
-            "foundAt": "2026-03-28T10:24:14.996Z"
-          }
-        },
-        {
-          "title": "Against the Dying of the Light",
-          "artist": "José González",
-          "spotifyTrack": {
-            "id": "3MjiUnri8uwPoo9pxRMiam",
-            "name": "A Perfect Storm",
-            "uri": "spotify:track:3MjiUnri8uwPoo9pxRMiam",
-            "popularity": 0,
-            "albumName": "Against The Dying Of The Light",
-            "albumId": "6tfCh6LUufsg9neWwD6E5X",
-            "foundAt": "2026-03-28T10:24:16.364Z"
-          }
-        },
-        {
-          "title": "Whatever's Clever!",
-          "artist": "Charlie Puth",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-28T10:24:17.129Z"
-          }
-        },
-        {
-          "title": "Attempted Martyr",
-          "artist": "Prostitute",
-          "spotifyTrack": {
-            "id": "5WFI9ZULJphbZ9E3qkBoOb",
-            "name": "All Hail",
-            "uri": "spotify:track:5WFI9ZULJphbZ9E3qkBoOb",
-            "popularity": 36,
-            "albumName": "Attempted Martyr",
-            "albumId": "5rllu0aAZBaCZsllQTzYTm",
-            "foundAt": "2026-03-28T10:24:18.434Z"
-          }
-        },
-        {
-          "title": "It's the Long Goodbye",
-          "artist": "The Twilight Sad",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-28T10:24:19.083Z"
-          }
-        },
-        {
-          "title": "All Clouds Bring Not Rain",
-          "artist": "MEMORIALS",
-          "spotifyTrack": {
-            "id": "3xP5vrK9Am5kRZyrgrwhzQ",
-            "name": "Life Could Be A Cloud",
-            "uri": "spotify:track:3xP5vrK9Am5kRZyrgrwhzQ",
-            "popularity": 1,
-            "albumName": "All Clouds Bring Not Rain",
-            "albumId": "7mff4WyO4K87HPZm3HkRDG",
-            "foundAt": "2026-03-28T10:24:20.444Z"
-          }
-        },
-        {
-          "title": "Hurts Like Hell",
-          "artist": "Charlotte Cornfield",
-          "spotifyTrack": {
-            "id": "4WQAgEj74wP1EymrBn0tvZ",
-            "name": "Hurts Like Hell",
-            "uri": "spotify:track:4WQAgEj74wP1EymrBn0tvZ",
-            "popularity": 41,
-            "albumName": "Hurts Like Hell",
-            "albumId": "2M3VKE8FLQJ6DEAHj7YA7E",
-            "foundAt": "2026-03-28T10:24:21.766Z"
-          }
-        },
-        {
-          "title": "Electric Swamp Funkin' Blues",
-          "artist": "Selwyn Birchwood",
-          "spotifyTrack": {
-            "id": "3acGmmaFY7LYjwMOFFYAj3",
-            "name": "The Struggle Is Real",
-            "uri": "spotify:track:3acGmmaFY7LYjwMOFFYAj3",
-            "popularity": 1,
-            "albumName": "Electric Swamp Funkin' Blues",
-            "albumId": "6kjr8SHLTXYM1dmILrEREx",
-            "foundAt": "2026-03-28T10:24:23.152Z"
-          }
-        },
-        {
-          "title": "Blinking as the Starlight Burns Out",
-          "artist": "Paula Kelley",
-          "spotifyTrack": {
-            "id": "0hGwyj43mu0J28bkU0Rx1I",
-            "name": "Party Line",
-            "uri": "spotify:track:0hGwyj43mu0J28bkU0Rx1I",
-            "popularity": 0,
-            "albumName": "Blinking As The Starlight Burns Out",
-            "albumId": "1Mq7TWjU14jbjjtyKZS8ve",
-            "foundAt": "2026-03-28T10:24:24.579Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-07-11",
       "albums": [
         {
@@ -2564,6 +2439,133 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2026-03-27",
+      "albums": [
+        {
+          "title": "Creature of Habit",
+          "artist": "Courtney Barnett",
+          "spotifyTrack": {
+            "id": "4z2ujO5HsgeKg8HztQhc16",
+            "name": "Stay In Your Lane",
+            "uri": "spotify:track:4z2ujO5HsgeKg8HztQhc16",
+            "popularity": 0,
+            "albumName": "Creature of Habit",
+            "albumId": "6d8sED7egAL2q09h2j3A16",
+            "foundAt": "2026-03-28T10:24:13.641Z"
+          }
+        },
+        {
+          "title": "Sexistential",
+          "artist": "Robyn",
+          "spotifyTrack": {
+            "id": "6rY4CO2ko4iWpSIm93fWJv",
+            "name": "Talk To Me",
+            "uri": "spotify:track:6rY4CO2ko4iWpSIm93fWJv",
+            "popularity": 66,
+            "albumName": "Sexistential / Talk To Me",
+            "albumId": "5aBcnDmgAwjKxJRnEG6gvk",
+            "foundAt": "2026-03-28T10:24:14.996Z"
+          }
+        },
+        {
+          "title": "Against the Dying of the Light",
+          "artist": "José González",
+          "spotifyTrack": {
+            "id": "3MjiUnri8uwPoo9pxRMiam",
+            "name": "A Perfect Storm",
+            "uri": "spotify:track:3MjiUnri8uwPoo9pxRMiam",
+            "popularity": 0,
+            "albumName": "Against The Dying Of The Light",
+            "albumId": "6tfCh6LUufsg9neWwD6E5X",
+            "foundAt": "2026-03-28T10:24:16.364Z"
+          }
+        },
+        {
+          "title": "Whatever's Clever!",
+          "artist": "Charlie Puth",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-28T10:24:17.129Z"
+          }
+        },
+        {
+          "title": "Attempted Martyr",
+          "artist": "Prostitute",
+          "spotifyTrack": {
+            "id": "5WFI9ZULJphbZ9E3qkBoOb",
+            "name": "All Hail",
+            "uri": "spotify:track:5WFI9ZULJphbZ9E3qkBoOb",
+            "popularity": 36,
+            "albumName": "Attempted Martyr",
+            "albumId": "5rllu0aAZBaCZsllQTzYTm",
+            "foundAt": "2026-03-28T10:24:18.434Z"
+          }
+        },
+        {
+          "title": "It's the Long Goodbye",
+          "artist": "The Twilight Sad",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-28T10:24:19.083Z"
+          }
+        },
+        {
+          "title": "All Clouds Bring Not Rain",
+          "artist": "MEMORIALS",
+          "spotifyTrack": {
+            "id": "3xP5vrK9Am5kRZyrgrwhzQ",
+            "name": "Life Could Be A Cloud",
+            "uri": "spotify:track:3xP5vrK9Am5kRZyrgrwhzQ",
+            "popularity": 1,
+            "albumName": "All Clouds Bring Not Rain",
+            "albumId": "7mff4WyO4K87HPZm3HkRDG",
+            "foundAt": "2026-03-28T10:24:20.444Z"
+          }
+        },
+        {
+          "title": "Hurts Like Hell",
+          "artist": "Charlotte Cornfield",
+          "spotifyTrack": {
+            "id": "4WQAgEj74wP1EymrBn0tvZ",
+            "name": "Hurts Like Hell",
+            "uri": "spotify:track:4WQAgEj74wP1EymrBn0tvZ",
+            "popularity": 41,
+            "albumName": "Hurts Like Hell",
+            "albumId": "2M3VKE8FLQJ6DEAHj7YA7E",
+            "foundAt": "2026-03-28T10:24:21.766Z"
+          }
+        },
+        {
+          "title": "Electric Swamp Funkin' Blues",
+          "artist": "Selwyn Birchwood",
+          "spotifyTrack": {
+            "id": "3acGmmaFY7LYjwMOFFYAj3",
+            "name": "The Struggle Is Real",
+            "uri": "spotify:track:3acGmmaFY7LYjwMOFFYAj3",
+            "popularity": 1,
+            "albumName": "Electric Swamp Funkin' Blues",
+            "albumId": "6kjr8SHLTXYM1dmILrEREx",
+            "foundAt": "2026-03-28T10:24:23.152Z"
+          }
+        },
+        {
+          "title": "Blinking as the Starlight Burns Out",
+          "artist": "Paula Kelley",
+          "spotifyTrack": {
+            "id": "0hGwyj43mu0J28bkU0Rx1I",
+            "name": "Party Line",
+            "uri": "spotify:track:0hGwyj43mu0J28bkU0Rx1I",
+            "popularity": 0,
+            "albumName": "Blinking As The Starlight Burns Out",
+            "albumId": "1Mq7TWjU14jbjjtyKZS8ve",
+            "foundAt": "2026-03-28T10:24:24.579Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-03-28T17:35:23.188Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-07-18",
       "albums": [
