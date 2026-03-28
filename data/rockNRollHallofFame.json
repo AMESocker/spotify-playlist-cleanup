@@ -64,7 +64,6 @@
     "Little Willie John",
     "Neil Young",
     "Al Green",
-    "Janis Joplin",
     "The Allman Brothers Band",
     "Martha and the Vandellas",
     "Frank Zappa",
@@ -89,7 +88,6 @@
     "The Yardbirds",
     "Wilson Pickett",
     "John Lee Hooker",
-    "The Byrds",
     "Ike & Tina Turner",
     "The Impressions",
     "Jimmy Reed",
@@ -231,6 +229,8 @@
     "Buffalo Springfield",
     "Buddy Holly",
     "Etta James",
-    "The Temptations"
+    "The Temptations",
+    "Janis Joplin",
+    "The Byrds"
   ]
 }

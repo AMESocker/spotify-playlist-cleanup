@@ -3307,5 +3307,21 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-03-27T21:30:26.220Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Janis Joplin",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-28T02:24:42.544Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Byrds",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-28T02:24:44.421Z"
   }
 ]
