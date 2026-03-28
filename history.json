@@ -3262,5 +3262,96 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-03-26T23:56:40.216Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "BIGBANG",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-27T02:00:54.840Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Devo",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-03-27T02:00:56.703Z"
+  },
+  {
+    "action": "add",
+    "artist": "Pantera",
+    "album": "The Great Southern Trendkill (1996)",
+    "index": null,
+    "tracksAdded": 11,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-03-27T10:53:05.684Z"
+  },
+  {
+    "action": "addBillboard",
+    "tracksAdded": 8,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-03-27T19:00:47.956Z"
+  },
+  {
+    "action": "add",
+    "artist": "Rush",
+    "album": "Moving Pictures",
+    "index": 325,
+    "tracksAdded": 7,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-27T21:30:26.220Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Janis Joplin",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-28T02:24:42.544Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Byrds",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-28T02:24:44.421Z"
+  },
+  {
+    "action": "addSpotifyPlaylist",
+    "playlistName": "2011-11",
+    "playlistUrl": "https://open.spotify.com/playlist/2TgTxLjLMJZFubueA6yM9z?si=ac11de8408104034",
+    "playlistId": "2TgTxLjLMJZFubueA6yM9z",
+    "index": 65,
+    "tracksAdded": 10,
+    "sourceFile": "data/spotifyPlaylists.json",
+    "strategy": "spotifyPlaylist",
+    "timestamp": "2026-03-28T17:35:15.016Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World / Ambient / Experimental Electronic",
+    "artist": "Tricky",
+    "listeners": 575435,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-03-28T17:35:19.777Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-03-27",
+    "tracksAdded": 8,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-03-28T17:35:23.189Z"
   }
 ]
