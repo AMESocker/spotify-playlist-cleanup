@@ -3388,5 +3388,15 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-03-28T21:23:51.330Z"
+  },
+  {
+    "action": "add",
+    "artist": "Emmylou Harris",
+    "album": "Red Dirt Girl",
+    "index": 727,
+    "tracksAdded": 12,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-03-29T02:36:23.976Z"
   }
 ]
