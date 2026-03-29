@@ -7,6 +7,7 @@ import { monitoredPlaylists, archivePlaylists, staleArchivePlaylistId } from './
 import { logInfo, logError } from './logger.js';
 
 const MAX_AGE_DAYS = 30;
+const HISTORY_FILE = './data/history.json';
 
 //? Dynamically calculate stale window based on recent add rate to playlists
 async function getStaleWindowDays() {
