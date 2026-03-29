@@ -1632,11 +1632,11 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
-        "artist": "Fleet Foxes",
-        "listeners": 1474085,
+        "artist": "Kris Kristofferson",
+        "listeners": 720708,
         "recommended": true,
-        "spotify_popularity": 63,
-        "spotify_id": "4EVpmkEwrLYEg6jIsiPMIb"
+        "spotify_popularity": 61,
+        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
       },
       {
         "artist": "Jason Isbell",
@@ -1644,6 +1644,20 @@
         "recommended": true,
         "spotify_popularity": 51,
         "spotify_id": "3Q8wgwyVVv0z4UEh1HB0KY"
+      },
+      {
+        "artist": "Phosphorescent",
+        "listeners": 259498,
+        "recommended": true,
+        "spotify_popularity": 48,
+        "spotify_id": "57kIMCLPgkzQlXjblX7XXP"
+      },
+      {
+        "artist": "Fleet Foxes",
+        "listeners": 1474085,
+        "recommended": true,
+        "spotify_popularity": 63,
+        "spotify_id": "4EVpmkEwrLYEg6jIsiPMIb"
       },
       {
         "artist": "Johnny Cash",
@@ -1739,13 +1753,6 @@
         "spotify_id": "4KDyYWR7IpxZ7xrdYbKrqY"
       },
       {
-        "artist": "Kris Kristofferson",
-        "listeners": 720708,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
-      },
-      {
         "artist": "Hank Williams",
         "listeners": 1088229,
         "recommended": true,
@@ -1807,13 +1814,6 @@
         "recommended": true,
         "spotify_popularity": 53,
         "spotify_id": "1YZEoYFXx4AxVv13OiOPvZ"
-      },
-      {
-        "artist": "Phosphorescent",
-        "listeners": 259498,
-        "recommended": true,
-        "spotify_popularity": 48,
-        "spotify_id": "57kIMCLPgkzQlXjblX7XXP"
       }
     ],
     "added": [
