@@ -1,4 +1,5 @@
 // File: job.js
+import fs from "fs";
 import { getSpotify } from './auth.js';
 import { fetchAllPlaylistItems, removeTracks, getRecentlyPlayedIds } from './playlist.js';
 import { addTracksToArchive } from './archive.js';
