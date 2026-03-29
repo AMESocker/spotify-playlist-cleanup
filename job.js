@@ -6,6 +6,28 @@ import { monitoredPlaylists, archivePlaylists, staleArchivePlaylistId } from './
 import { logInfo, logError } from './logger.js';
 
 const MAX_AGE_DAYS = 30;
+
+//? Dynamically calculate stale window based on recent add rate to playlists
+async function getStaleWindowDays() {
+  const history = JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf-8'));
+  const sevenDaysAgo = Date.now() - 7 * 86400000;
+
+  let recentTracks = 0;
+  history
+    .filter(e => new Date(e.timestamp).getTime() > sevenDaysAgo)
+    .forEach(e => { recentTracks += e.tracksAdded ?? (e.action === 'add' ? 1 : 0); });
+
+  const tracksPerDay = recentTracks / 7;
+
+  // Target: tracks stay long enough to be heard but playlist keeps turning over
+  // Aim for ~2x playlist size worth of content per stale window
+  const days = Math.round((MAX_PLAYLIST_SIZE * 2) / tracksPerDay);
+  const clamped = Math.max(3, Math.min(28, days)); // floor 3 days, ceiling 28 days
+
+  console.log(`📊 Add rate: ${tracksPerDay.toFixed(1)} tracks/day → stale window: ${clamped} days`);
+  return clamped;
+}
+
 //? Main job function to manage playlist cleanup and archiving
 export async function runJob() {
   try {
@@ -36,7 +58,9 @@ export async function runJob() {
       const removals = [];
 
       //? Cutoff timestamp for stale tracks
-      const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+      const staleDays = await getStaleWindowDays();
+      console.log(`🗓️ Stale window: ${staleDays} days`);
+      const cutoff = Date.now() - staleDays * 24 * 60 * 60 * 1000;
 
       //? Check each track in the playlist
       items.forEach((item, idx) => {
