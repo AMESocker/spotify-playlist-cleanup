@@ -8,6 +8,7 @@ import { logInfo, logError } from './logger.js';
 
 const MAX_AGE_DAYS = 30;
 const HISTORY_FILE = './history.json';
+const MAX_PLAYLIST_SIZE = 200;
 
 //? Dynamically calculate stale window based on recent add rate to playlists
 async function getStaleWindowDays() {
