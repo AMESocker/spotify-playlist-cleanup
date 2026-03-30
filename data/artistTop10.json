@@ -1938,12 +1938,6 @@
         "spotify_id": "2aAHdB5HweT3mFcRzm0swc"
       },
       {
-        "artist": "Buddy Guy",
-        "listeners": 890726,
-        "spotify_popularity": 51,
-        "spotify_id": "2gCsNOpiBaMNh20jQ5prf0"
-      },
-      {
         "artist": "Anderson .Paak",
         "listeners": 2746196,
         "spotify_popularity": 75,
@@ -2179,6 +2173,13 @@
         "listeners": 1113102,
         "spotify_id": "5m8H6zSadhu1j9Yi04VLqD",
         "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Buddy Guy",
+        "listeners": 890726,
+        "spotify_id": "2gCsNOpiBaMNh20jQ5prf0",
+        "recommended": false,
         "tracksAdded": 5
       }
     ]
