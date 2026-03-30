@@ -75,70 +75,78 @@ function selectNextArtist(data) {
 export async function handleArtistGenre(source, wouldExceedLimit, pushHistory, saveData) {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
 
-  const pick = selectNextArtist(data);
+  const picks = [selectNextArtist(data), selectNextArtist(data)].filter(Boolean);
 
-  if (!pick) {
+  if (picks.length === 0) {
     console.log(`🎉 All genres complete in ${source.name}`);
     return null;
   }
 
-  const { genre, artist } = pick;
+  // Fetch tracks for all picks in parallel
+  const results = await Promise.all(
+    picks.map(async ({ genre, artist }) => {
+      console.log(`🎸 Genre:    ${genre}`);
+      console.log(`👤 Artist:   ${artist.artist}`);
+      console.log(`👂 Listeners: ${artist.listeners?.toLocaleString() ?? "unknown"}`);
+      if (artist.recommended) console.log(`   (recommended artist)`);
 
-  console.log(`🎸 Genre:    ${genre}`);
-  console.log(`👤 Artist:   ${artist.artist}`);
-  console.log(`👂 Listeners: ${artist.listeners?.toLocaleString() ?? "unknown"}`);
-  if (artist.recommended) console.log(`   (recommended artist)`);
+      // Remove from not_added before the async fetch so we don't double-add on retry
+      data[genre].not_added = data[genre].not_added.filter(a => a.artist !== artist.artist);
 
-  // Remove from not_added before the async fetch so we don't double-add on retry
-  data[genre].not_added = data[genre].not_added.filter(a => a.artist !== artist.artist);
+      return fetchRandomTopTracks(artist.artist, {
+        spotifyId: artist.spotify_id ?? null,
+        count: 5,
+      }).then(result => ({ genre, artist, result }));
+    })
+  );
 
-  const result = await fetchRandomTopTracks(artist.artist, {
-    spotifyId: artist.spotify_id ?? null,
-    count: 5,
-  });
+     const totalTracks = results
+    .filter(r => r.result.success)
+    .reduce((sum, r) => sum + r.result.trackUris.length, 0);
 
-  if (!result.success) {
+  if (await wouldExceedLimit(totalTracks)) {
+    picks.forEach(({ genre, artist }) => data[genre].not_added.unshift(artist));
+    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+    return false;
+  }
+
+  for (const { genre, artist, result } of results) {
+    if (!result.success) {
+      data[genre].added.push({
+        artist: artist.artist,
+        listeners: artist.listeners ?? null,
+        spotify_id: artist.spotify_id ?? null,
+        recommended: artist.recommended ?? false,
+        result: result.reason,
+      });
+      continue;
+    }
+
+    await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+    console.log(`🎶 Added ${result.trackCount} tracks for ${artist.artist}`);
+
     data[genre].added.push({
       artist: artist.artist,
       listeners: artist.listeners ?? null,
       spotify_id: artist.spotify_id ?? null,
       recommended: artist.recommended ?? false,
-      result: result.reason,
+      tracksAdded: result.trackCount,
     });
-    saveData(DATA_FILE, data);
-    return false;
+
+    pushHistory({
+      action: "addArtistGenre",
+      genre,
+      artist: artist.artist,
+      listeners: artist.listeners ?? null,
+      tracksAdded: result.trackCount,
+      sourceFile: DATA_FILE,
+      strategy: source.strategy,
+    });
+
+    console.log(`✅ Completed: ${artist.artist}`);
   }
-
-  if (await wouldExceedLimit(result.trackUris.length)) {
-    // Put the artist back — we'll try again next time
-    data[genre].not_added.unshift(artist);
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-    return false;
-  }
-
-  await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
-  console.log(`🎶 Added ${result.trackCount} tracks to playlist`);
-
-  data[genre].added.push({
-    artist: artist.artist,
-    listeners: artist.listeners ?? null,
-    spotify_id: artist.spotify_id ?? null,
-    recommended: artist.recommended ?? false,
-    tracksAdded: result.trackCount,
-  });
-
-  pushHistory({
-    action: "addArtistGenre",
-    genre,
-    artist: artist.artist,
-    listeners: artist.listeners ?? null,
-    tracksAdded: result.trackCount,
-    sourceFile: DATA_FILE,
-    strategy: source.strategy,
-  });
 
   saveData(DATA_FILE, data);
-  console.log(`✅ Completed: ${artist.artist}`);
   return true;
 }
 
@@ -147,26 +155,26 @@ export async function handleArtistGenre(source, wouldExceedLimit, pushHistory, s
 ================================================== */
 
 if (process.argv[1].endsWith("artistGenreStrategy.js")) {
-  const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
-  const pick = selectNextArtist(data);
+    const data = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
+    const pick = selectNextArtist(data);
 
-  if (!pick) {
-    console.log("All genres complete.");
-  } else {
-    const genreStats = calculateGenreStats(data);
-    console.log("\n📊 Genre Progress:");
-    Object.entries(genreStats)
-      .sort((a, b) => a[1].added / a[1].total - b[1].added / b[1].total)
-      .forEach(([genre, s]) => {
-        const pct = ((s.added / s.total) * 100).toFixed(1);
-        const bar = "█".repeat(Math.round(s.added / s.total * 20)).padEnd(20, "░");
-        console.log(`  ${bar} ${pct}%  ${genre} (${s.added}/${s.total})`);
-      });
+    if (!pick) {
+      console.log("All genres complete.");
+    } else {
+      const genreStats = calculateGenreStats(data);
+      console.log("\n📊 Genre Progress:");
+      Object.entries(genreStats)
+        .sort((a, b) => a[1].added / a[1].total - b[1].added / b[1].total)
+        .forEach(([genre, s]) => {
+          const pct = ((s.added / s.total) * 100).toFixed(1);
+          const bar = "█".repeat(Math.round(s.added / s.total * 20)).padEnd(20, "░");
+          console.log(`  ${bar} ${pct}%  ${genre} (${s.added}/${s.total})`);
+        });
 
-    console.log(`\n🎯 Next pick:`);
-    console.log(`   Genre:    ${pick.genre}`);
-    console.log(`   Artist:   ${pick.artist.artist}`);
-    console.log(`   Listeners: ${pick.artist.listeners?.toLocaleString() ?? "unknown"}`);
-    console.log(`   Recommended: ${pick.artist.recommended ?? false}`);
+      console.log(`\n🎯 Next pick:`);
+      console.log(`   Genre:    ${pick.genre}`);
+      console.log(`   Artist:   ${pick.artist.artist}`);
+      console.log(`   Listeners: ${pick.artist.listeners?.toLocaleString() ?? "unknown"}`);
+      console.log(`   Recommended: ${pick.artist.recommended ?? false}`);
+    }
   }
-}
