@@ -1956,13 +1956,14 @@
       "Artist": "The Black Crowes",
       "Group": "⚪ Classic Rock",
       "Albums": [
+        "Shake Your Money Maker (1990)",
+        "The Southern Harmony and Musical Companion (1991)",
         "Amorica (1994)",
         "Three Snakes and One Charm (1996)",
         "By Your Side",
         "Lions (2001)",
         "Warpaint (2008)",
         "Before the Frost...Until the Freeze (2009)",
-        "Croweology (2010)",
         "Happiness Bastards (2024)",
         "A Pound of Feathers (2026)"
       ],
@@ -2125,6 +2126,62 @@
         "Rush (1974)",
         "Clockwork Angels (2012)"
       ]
+    },
+    {
+      "Artist": "Slipknot",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Slipknot (1999)",
+        "Iowa (2001)",
+        "Vol. 3: The Subliminal Verses (2004)",
+        "All Hope Is Gone (2008)",
+        ".5: The Gray Chapter (2014)",
+        "We Are Not Your Kind (2019)",
+        "The End, So Far (2022)"
+      ],
+      "AddedAlbums": [
+      ]
+    },
+    {
+      "Artist": "Stone Sour",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Stone Sour (2002)",
+        "Come What(ever) May (2006)",
+        "Audio Secrecy (2010)",
+        "House of Gold & Bones – Part 1 (2012)",
+        "House of Gold & Bones – Part 2 (2013)",
+        "Hydrograd (2017)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist":"Disturbed",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "The Sickness (2000)",
+        "Believe (2002)",
+        "Ten Thousand Fists (2005)",
+        "Indestructible (2008)",
+        "Asylum (2010)",
+        "Immortalized (2015)",
+        "Evolution (2018)",
+        "Divisive (2022)"
+      ],
+      "AddedAlbums": []
+    },
+    {
+      "Artist": "Breaking Benjamin",
+      "Group": "🔴 Metal / Hard Rock",
+      "Albums": [
+        "Saturate (2002)",
+        "We Are Not Alone (2004)",
+        "Phobia (2006)",
+        "Dear Agony (2009)",
+        "Dark Before Dawn (2015)",
+        "Ember (2018)"
+      ],
+      "AddedAlbums": []
     }
   ],
   "archived": [
