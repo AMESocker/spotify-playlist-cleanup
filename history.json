@@ -3594,5 +3594,21 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-03-30T21:36:10.496Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Ramones",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-31T02:34:01.248Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Joni Mitchell",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-03-31T02:34:03.109Z"
   }
 ]
