@@ -3610,5 +3610,16 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-03-31T02:34:03.109Z"
+  },
+  {
+    "action": "addSpotifyPlaylist",
+    "playlistName": "2017-04",
+    "playlistUrl": "https://open.spotify.com/playlist/5UJzViAhthbZefV6BedobR?si=2d10fc55242f4fa6",
+    "playlistId": "5UJzViAhthbZefV6BedobR",
+    "index": 115,
+    "tracksAdded": 10,
+    "sourceFile": "data/spotifyPlaylists.json",
+    "strategy": "spotifyPlaylist",
+    "timestamp": "2026-03-31T10:56:38.280Z"
   }
 ]
