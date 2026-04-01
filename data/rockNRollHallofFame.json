@@ -8,7 +8,6 @@
     "Blondie",
     "Miles Davis",
     "Sex Pistols",
-    "U2",
     "The Pretenders",
     "Percy Sledge",
     "Buddy Guy",
@@ -18,7 +17,6 @@
     "Bob Seger",
     "Traffic",
     "The Dells",
-    "The Police",
     "The Righteous Brothers",
     "Elvis Costello & the Attractions",
     "Talking Heads",
@@ -231,6 +229,8 @@
     "Solomon Burke",
     "The Impressions",
     "Ramones",
-    "Joni Mitchell"
+    "Joni Mitchell",
+    "U2",
+    "The Police"
   ]
 }

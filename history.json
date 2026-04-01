@@ -3702,5 +3702,21 @@
     "sourceFile": "data/1080albums.json",
     "strategy": "sequential",
     "timestamp": "2026-04-01T13:49:25.491Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "U2",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-01T19:07:26.134Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Police",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-01T19:07:28.454Z"
   }
 ]
