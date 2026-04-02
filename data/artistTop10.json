@@ -631,13 +631,6 @@
         "spotify_id": "2VAvhf61GgLYmC6C8anyX1"
       },
       {
-        "artist": "Autechre",
-        "listeners": 273727,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "6WH1V41LwGDGmlPUhSZLHO"
-      },
-      {
         "artist": "Amon Tobin",
         "listeners": 276559,
         "recommended": true,
@@ -650,13 +643,6 @@
         "recommended": true,
         "spotify_popularity": 54,
         "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
-      },
-      {
-        "artist": "Jon Hopkins",
-        "listeners": 577616,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "7yxi31szvlbwvKq9dYOmFI"
       },
       {
         "artist": "Four Tet",
@@ -811,6 +797,20 @@
         "artist": "Tricky",
         "listeners": 575435,
         "spotify_id": "6hhA8TKRNryM8FNzqCqdDO",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Autechre",
+        "listeners": 273727,
+        "spotify_id": "6WH1V41LwGDGmlPUhSZLHO",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Jon Hopkins",
+        "listeners": 577616,
+        "spotify_id": "7yxi31szvlbwvKq9dYOmFI",
         "recommended": true,
         "tracksAdded": 5
       }

@@ -1,97 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-06-20",
-      "albums": [
-        {
-          "title": "I Quit",
-          "artist": "HAIM",
-          "spotifyTrack": {
-            "id": "1FlDLGaTsr9HH1zfJiq6is",
-            "name": "Relationships",
-            "uri": "spotify:track:1FlDLGaTsr9HH1zfJiq6is",
-            "popularity": 50,
-            "albumName": "I quit",
-            "albumId": "6bpglEwFypc0rfzYDyhf6i",
-            "foundAt": "2026-02-05T18:47:45.789Z"
-          }
-        },
-        {
-          "title": "Metallic Life Review",
-          "artist": "Matmos",
-          "spotifyTrack": {
-            "id": "1KOlXSrzEZHdEX4Scqzjw5",
-            "name": "Changing States",
-            "uri": "spotify:track:1KOlXSrzEZHdEX4Scqzjw5",
-            "popularity": 19,
-            "albumName": "Metallic Life Review",
-            "albumId": "3BRvLi10lgG6J6ighV6tsR",
-            "foundAt": "2026-02-05T18:47:47.323Z"
-          }
-        },
-        {
-          "title": "Raspberry Moon",
-          "artist": "Hotline TNT",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-03-28T10:24:27.064Z"
-          }
-        },
-        {
-          "title": "do it afraid",
-          "artist": "Yaya Bey",
-          "spotifyTrack": {
-            "id": "2vBjZFdR2y2TAoDzvFJmD5",
-            "name": "spin cycle",
-            "uri": "spotify:track:2vBjZFdR2y2TAoDzvFJmD5",
-            "popularity": 33,
-            "albumName": "do it afraid",
-            "albumId": "43EgijZ2EwYb8xgRDMh8GK",
-            "foundAt": "2026-02-05T18:47:49.779Z"
-          }
-        },
-        {
-          "title": "Words Fall Short",
-          "artist": "Joshua Redman",
-          "spotifyTrack": {
-            "id": "7hw0gTEglwLIXdnvd35Cu1",
-            "name": "Borrowed Eyes",
-            "uri": "spotify:track:7hw0gTEglwLIXdnvd35Cu1",
-            "popularity": 35,
-            "albumName": "Words Fall Short",
-            "albumId": "2toluYLW38SlSkSYLHscpR",
-            "foundAt": "2026-02-05T18:47:51.603Z"
-          }
-        },
-        {
-          "title": "Solace of the Mind",
-          "artist": "Amina Claudine Myers",
-          "spotifyTrack": {
-            "id": "1qKDytptOpoCbAW2ZjzUOO",
-            "name": "African Blues",
-            "uri": "spotify:track:1qKDytptOpoCbAW2ZjzUOO",
-            "popularity": 32,
-            "albumName": "Solace of the Mind",
-            "albumId": "2FqtIfqlE5GjhQelCprSHl",
-            "foundAt": "2026-02-05T18:47:53.143Z"
-          }
-        },
-        {
-          "title": "McCartney, It'll Be OK",
-          "artist": "UNIVERSITY",
-          "spotifyTrack": {
-            "id": "0ECyD9JSQkXUQUVmBZc64d",
-            "name": "GTA Online",
-            "uri": "spotify:track:0ECyD9JSQkXUQUVmBZc64d",
-            "popularity": 26,
-            "albumName": "McCartney, It'll Be OK",
-            "albumId": "72ngHbkK2oI4I3FRqN4cxR",
-            "foundAt": "2026-02-05T18:47:54.676Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-06-13",
       "albums": [
         {
@@ -2218,6 +2127,99 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-06-20",
+      "albums": [
+        {
+          "title": "I Quit",
+          "artist": "HAIM",
+          "spotifyTrack": {
+            "id": "1FlDLGaTsr9HH1zfJiq6is",
+            "name": "Relationships",
+            "uri": "spotify:track:1FlDLGaTsr9HH1zfJiq6is",
+            "popularity": 50,
+            "albumName": "I quit",
+            "albumId": "6bpglEwFypc0rfzYDyhf6i",
+            "foundAt": "2026-02-05T18:47:45.789Z"
+          }
+        },
+        {
+          "title": "Metallic Life Review",
+          "artist": "Matmos",
+          "spotifyTrack": {
+            "id": "1KOlXSrzEZHdEX4Scqzjw5",
+            "name": "Changing States",
+            "uri": "spotify:track:1KOlXSrzEZHdEX4Scqzjw5",
+            "popularity": 19,
+            "albumName": "Metallic Life Review",
+            "albumId": "3BRvLi10lgG6J6ighV6tsR",
+            "foundAt": "2026-02-05T18:47:47.323Z"
+          }
+        },
+        {
+          "title": "Raspberry Moon",
+          "artist": "Hotline TNT",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-03-28T10:24:27.064Z"
+          }
+        },
+        {
+          "title": "do it afraid",
+          "artist": "Yaya Bey",
+          "spotifyTrack": {
+            "id": "2vBjZFdR2y2TAoDzvFJmD5",
+            "name": "spin cycle",
+            "uri": "spotify:track:2vBjZFdR2y2TAoDzvFJmD5",
+            "popularity": 33,
+            "albumName": "do it afraid",
+            "albumId": "43EgijZ2EwYb8xgRDMh8GK",
+            "foundAt": "2026-02-05T18:47:49.779Z"
+          }
+        },
+        {
+          "title": "Words Fall Short",
+          "artist": "Joshua Redman",
+          "spotifyTrack": {
+            "id": "7hw0gTEglwLIXdnvd35Cu1",
+            "name": "Borrowed Eyes",
+            "uri": "spotify:track:7hw0gTEglwLIXdnvd35Cu1",
+            "popularity": 35,
+            "albumName": "Words Fall Short",
+            "albumId": "2toluYLW38SlSkSYLHscpR",
+            "foundAt": "2026-02-05T18:47:51.603Z"
+          }
+        },
+        {
+          "title": "Solace of the Mind",
+          "artist": "Amina Claudine Myers",
+          "spotifyTrack": {
+            "id": "1qKDytptOpoCbAW2ZjzUOO",
+            "name": "African Blues",
+            "uri": "spotify:track:1qKDytptOpoCbAW2ZjzUOO",
+            "popularity": 32,
+            "albumName": "Solace of the Mind",
+            "albumId": "2FqtIfqlE5GjhQelCprSHl",
+            "foundAt": "2026-02-05T18:47:53.143Z"
+          }
+        },
+        {
+          "title": "McCartney, It'll Be OK",
+          "artist": "UNIVERSITY",
+          "spotifyTrack": {
+            "id": "0ECyD9JSQkXUQUVmBZc64d",
+            "name": "GTA Online",
+            "uri": "spotify:track:0ECyD9JSQkXUQUVmBZc64d",
+            "popularity": 26,
+            "albumName": "McCartney, It'll Be OK",
+            "albumId": "72ngHbkK2oI4I3FRqN4cxR",
+            "foundAt": "2026-02-05T18:47:54.676Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-02T00:45:27.658Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-06-27",
       "albums": [
