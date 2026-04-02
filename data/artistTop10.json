@@ -263,6 +263,37 @@
   "Progressive / Experimental Rock & Metal": {
     "not_added": [
       {
+        "artist": "Sleep Token",
+        "listeners": 3091533,
+        "spotify_popularity": 77,
+        "spotify_id": "2n2RSaZqBuUUukhbLlpnE6"
+      },
+      {
+        "artist": "Explosions in the Sky",
+        "listeners": 675331,
+        "spotify_popularity": 47,
+        "spotify_id": "1uQWmt1OhuHGRKmZ2ZcL6p"
+      },
+      {
+        "artist": "Mogwai",
+        "listeners": 632818,
+        "spotify_popularity": 48,
+        "spotify_id": "34UhPkLbtFKRq3nmfFgejG"
+      },
+      {
+        "artist": "Swans",
+        "listeners": 359060,
+        "spotify_popularity": 45,
+        "spotify_id": "79S80ZWgVhIPMCHuvl6SkA"
+      },
+      {
+        "artist": "Pink Floyd",
+        "listeners": 23331273,
+        "recommended": true,
+        "spotify_popularity": 80,
+        "spotify_id": "0k17h0D3J5VfsdmQ1iZtE9"
+      },
+      {
         "artist": "Karnivool",
         "listeners": 254541,
         "spotify_popularity": 55,
@@ -281,12 +312,6 @@
         "spotify_id": "5XDeFQDarnwpR5WAfD6S0d"
       },
       {
-        "artist": "Swans",
-        "listeners": 359060,
-        "spotify_popularity": 45,
-        "spotify_id": "79S80ZWgVhIPMCHuvl6SkA"
-      },
-      {
         "artist": "Mastodon",
         "listeners": 1062768,
         "spotify_popularity": 56,
@@ -297,18 +322,6 @@
         "listeners": 205921,
         "spotify_popularity": 37,
         "spotify_id": "3z3KnhKZObj216IgfHYGVf"
-      },
-      {
-        "artist": "Sleep Token",
-        "listeners": 3091533,
-        "spotify_popularity": 77,
-        "spotify_id": "2n2RSaZqBuUUukhbLlpnE6"
-      },
-      {
-        "artist": "King Crimson",
-        "listeners": 1352688,
-        "spotify_popularity": 55,
-        "spotify_id": "7M1FPw29m5FbicYzS2xdpi"
       },
       {
         "artist": "Puscifer",
@@ -327,18 +340,6 @@
         "listeners": 17230328,
         "spotify_popularity": 73,
         "spotify_id": "1wGIhYkKWSq4yACtTkCkSX"
-      },
-      {
-        "artist": "Mogwai",
-        "listeners": 632818,
-        "spotify_popularity": 48,
-        "spotify_id": "34UhPkLbtFKRq3nmfFgejG"
-      },
-      {
-        "artist": "Explosions in the Sky",
-        "listeners": 675331,
-        "spotify_popularity": 47,
-        "spotify_id": "1uQWmt1OhuHGRKmZ2ZcL6p"
       },
       {
         "artist": "Steven Wilson",
@@ -365,25 +366,11 @@
         "spotify_id": "5yjbUO1Jocui7RKE30zfLT"
       },
       {
-        "artist": "Rush",
-        "listeners": 2613442,
-        "recommended": true,
-        "spotify_popularity": 64,
-        "spotify_id": "2Hkut4rAAyrQxRdof7FVJq"
-      },
-      {
         "artist": "Genesis",
         "listeners": 3837312,
         "recommended": true,
         "spotify_popularity": 69,
         "spotify_id": "3CkvROUTQ6nRi9yQOcsB50"
-      },
-      {
-        "artist": "Pink Floyd",
-        "listeners": 23331273,
-        "recommended": true,
-        "spotify_popularity": 80,
-        "spotify_id": "0k17h0D3J5VfsdmQ1iZtE9"
       },
       {
         "artist": "Radiohead",
@@ -526,6 +513,20 @@
         "spotify_id": "5INjqkS1o8h1imAzPqGZBb",
         "recommended": false,
         "tracksAdded": 5
+      },
+      {
+        "artist": "Rush",
+        "listeners": 2613442,
+        "spotify_id": "2Hkut4rAAyrQxRdof7FVJq",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "King Crimson",
+        "listeners": 1352688,
+        "spotify_id": "7M1FPw29m5FbicYzS2xdpi",
+        "recommended": false,
+        "tracksAdded": 5
       }
     ]
   },
@@ -630,13 +631,6 @@
         "spotify_id": "2VAvhf61GgLYmC6C8anyX1"
       },
       {
-        "artist": "Autechre",
-        "listeners": 273727,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "6WH1V41LwGDGmlPUhSZLHO"
-      },
-      {
         "artist": "Amon Tobin",
         "listeners": 276559,
         "recommended": true,
@@ -649,13 +643,6 @@
         "recommended": true,
         "spotify_popularity": 54,
         "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
-      },
-      {
-        "artist": "Jon Hopkins",
-        "listeners": 577616,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "7yxi31szvlbwvKq9dYOmFI"
       },
       {
         "artist": "Four Tet",
@@ -810,6 +797,20 @@
         "artist": "Tricky",
         "listeners": 575435,
         "spotify_id": "6hhA8TKRNryM8FNzqCqdDO",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Autechre",
+        "listeners": 273727,
+        "spotify_id": "6WH1V41LwGDGmlPUhSZLHO",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Jon Hopkins",
+        "listeners": 577616,
+        "spotify_id": "7yxi31szvlbwvKq9dYOmFI",
         "recommended": true,
         "tracksAdded": 5
       }

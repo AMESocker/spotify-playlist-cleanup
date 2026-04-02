@@ -2131,7 +2131,6 @@
       "Artist": "Slipknot",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Slipknot (1999)",
         "Iowa (2001)",
         "Vol. 3: The Subliminal Verses (2004)",
         "All Hope Is Gone (2008)",
@@ -2140,6 +2139,7 @@
         "The End, So Far (2022)"
       ],
       "AddedAlbums": [
+        "The End, So Far (2022)"
       ]
     },
     {
@@ -2156,10 +2156,9 @@
       "AddedAlbums": []
     },
     {
-      "Artist":"Disturbed",
+      "Artist": "Disturbed",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "The Sickness (2000)",
         "Believe (2002)",
         "Ten Thousand Fists (2005)",
         "Indestructible (2008)",
@@ -2168,7 +2167,9 @@
         "Evolution (2018)",
         "Divisive (2022)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Believe (2002)"
+      ]
     },
     {
       "Artist": "Breaking Benjamin",
