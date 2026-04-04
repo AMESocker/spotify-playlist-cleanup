@@ -48,12 +48,12 @@ const dataSources = [
     strategy: "rockHall",
     originalPosition: 3,
   },
-  {
+  /*{
     name: "spotifyTotmPlaylists",
     file: "data/spotifyPlaylists.json",
     strategy: "spotifyPlaylist",
     originalPosition: 5,
-  },
+  },*/
   {
     name: "smoothJazz",
     file: "data/smoothJazz.json",
