@@ -553,7 +553,7 @@ async function handleSingleTrack(source, data) {
   console.log(`🎶 Added ${uris.length} tracks`);
 
   pushHistory({
-    action: "addBillboard",
+    action: source.name,
     tracksAdded: uris.length,
     sourceFile: source.file,
     strategy: source.strategy
