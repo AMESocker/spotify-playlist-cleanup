@@ -406,8 +406,7 @@
     </div>
 
     <div class="card">
-      <div class="section-title">Source Breakdown <span style="color:var(--muted);font-size:10px;font-weight:300">—
-          click to explore</span></div>
+      <div class="section-title">Source Breakdown <span style="color:var(--muted);font-size:10px;font-weight:300"></span></div>
       <div class="source-list" id="source-list">
         <div class="loading">Loading sources…</div>
       </div>
@@ -500,7 +499,7 @@
         } else if (entry.action === 'addFestival' || entry.action === 'addGlastonbury') {
           // Show artist and festival name if available
           const festivalLabel = entry.festival ? `<em>${entry.festival}</em>` : '';
-          title = `${entry.artist}${festivalLabel ? ' · ' + festivalLabel : ''}`;
+          title = `${entry.artist}`;
         } else if (entry.action === 'addBillboard') {
           title = entry.artist ? `${entry.artist} <br><em>${entry.album ?? ''}</em>` : 'Billboard Hot 100';
         } else {
@@ -509,9 +508,13 @@
 
         const tracksLabel = entry.tracksAdded
           ? `<span class="tag green">${entry.tracksAdded} tracks</span>` : '';
-
+        console.log(entry.festival)
         const srcLabel = src
-          ? `<span style="color:${src.color}">${src.icon} ${src.label}</span>`
+          ? `<span style="color:${src.color}">${src.icon} ${src.label}</span>
+              <span style="color:var(--dim);font-size:10px;margin-left:4px"> 
+                ${entry.genre ?   `· ${entry.genre}` : ''}
+                ${entry.festival? `· ${entry.festival}` : ''}
+              </span>`
           : (entry.strategy ?? '');
 
         return `
@@ -519,8 +522,8 @@
         <div class="history-main">
           <div class="history-title">${title}${tracksLabel}</div>
           <div class="history-source">${srcLabel}</div>
-        </div>
-        <div class="history-time">${timeAgo(entry.timestamp)}</div>
+          </div>
+          <div class="history-time">${timeAgo(entry.timestamp)}</div>
       </div>`;
       }).join('');
     }
@@ -540,7 +543,7 @@
         .sort((a, b) => (counts[b.key] ?? 0) - (counts[a.key] ?? 0))
         .map(src => {
           const count = counts[src.key] ?? 0;
-          const pct = Math.round((count / total) * 100);
+          const pct = Number((count / total) * 100).toFixed(0);
           // pct.sort((a, b) => b - a)
           console.log(count, pct + '%', src.label);
           return `
