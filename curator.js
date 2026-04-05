@@ -82,7 +82,7 @@ const dataSources = [
   },*/
 const SOURCE_INDEX_FILE = "data/sourceIndex.json";
 const HISTORY_FILE = "history.json";
-const MAX_PLAYLIST_SIZE = 200;
+const MAX_PLAYLIST_SIZE = 400;
 
 //* ─── STATE ──────────────────────────────────────────────────────────────────────
 
