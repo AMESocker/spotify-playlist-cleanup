@@ -2135,13 +2135,6 @@
         "spotify_id": "1YzCsTRb22dQkh9lghPIrp"
       },
       {
-        "artist": "Herbie Hancock",
-        "listeners": 809733,
-        "recommended": true,
-        "spotify_popularity": 55,
-        "spotify_id": "2ZvrvbQNrHKwjT7qfGFFUW"
-      },
-      {
         "artist": "Art Blakey "
       },
       {
@@ -2176,9 +2169,6 @@
       },
       {
         "artist": "Robert Glasper"
-      },
-      {
-        "artist": "Esperanza Spalding"
       },
       {
         "artist": "Howlin' Wolf"
@@ -2251,6 +2241,20 @@
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Esperanza Spalding",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Herbie Hancock",
+        "listeners": 809733,
+        "spotify_id": "2ZvrvbQNrHKwjT7qfGFFUW",
+        "recommended": true,
         "tracksAdded": 5
       }
     ]

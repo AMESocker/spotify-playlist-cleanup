@@ -4128,5 +4128,41 @@
     "sourceFile": "data/rockNRollHallofFame.json",
     "strategy": "rockHall",
     "timestamp": "2026-04-05T00:13:43.107Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-05T01:49:58.117Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Esperanza Spalding",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T01:50:03.410Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Herbie Hancock",
+    "listeners": 809733,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T01:50:03.639Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-30",
+    "tracksAdded": 7,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-05T01:50:06.875Z"
   }
 ]

@@ -1,118 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-05-30",
-      "albums": [
-        {
-          "title": "Something Beautiful",
-          "artist": "Miley Cyrus",
-          "spotifyTrack": {
-            "id": "2rDMtmPctM67hICAZTKAjx",
-            "name": "End of the World",
-            "uri": "spotify:track:2rDMtmPctM67hICAZTKAjx",
-            "popularity": 67,
-            "albumName": "Something Beautiful",
-            "albumId": "7h7smPzBYx8LOLI3ncM3vQ",
-            "foundAt": "2026-02-05T18:48:19.360Z"
-          }
-        },
-        {
-          "title": "Let All That We Imagine Be the Light",
-          "artist": "Garbage",
-          "spotifyTrack": {
-            "id": "6lKZIy0vqA2J4skj7SC9DT",
-            "name": "There's No Future In Optimism",
-            "uri": "spotify:track:6lKZIy0vqA2J4skj7SC9DT",
-            "popularity": 37,
-            "albumName": "Let All That We Imagine Be The Light",
-            "albumId": "3SVwtqCeeVLPdnxipKxgIj",
-            "foundAt": "2026-02-05T18:48:20.995Z"
-          }
-        },
-        {
-          "title": "Possession",
-          "artist": "Ty Segall",
-          "spotifyTrack": {
-            "id": "76OFo5N9D8SHaHzGnISea5",
-            "name": "Buildings",
-            "uri": "spotify:track:76OFo5N9D8SHaHzGnISea5",
-            "popularity": 38,
-            "albumName": "Possession",
-            "albumId": "3ZxMlJq7ztw1jd5mDEaNkl",
-            "foundAt": "2026-02-05T18:48:22.718Z"
-          }
-        },
-        {
-          "title": "Evangelic Girl Is a Gun",
-          "artist": "yeule",
-          "spotifyTrack": {
-            "id": "2jjLiYXjmDzfyul2IJ6EVa",
-            "name": "Evangelic Girl is a Gun",
-            "uri": "spotify:track:2jjLiYXjmDzfyul2IJ6EVa",
-            "popularity": 49,
-            "albumName": "Evangelic Girl is a Gun",
-            "albumId": "0YYPOxN7WrWD3ygAP5KB50",
-            "foundAt": "2026-02-05T18:48:24.578Z"
-          }
-        },
-        {
-          "title": "caroline 2",
-          "artist": "caroline",
-          "spotifyTrack": {
-            "id": "0p6WXZoqJ3eoV6G9WtL0o3",
-            "name": "Tell me I never knew that",
-            "uri": "spotify:track:0p6WXZoqJ3eoV6G9WtL0o3",
-            "popularity": 45,
-            "albumName": "caroline 2",
-            "albumId": "1CmdanwOGnV5QevtJQL6bN",
-            "foundAt": "2026-02-05T18:48:26.216Z"
-          }
-        },
-        {
-          "title": "The Complete Virgin Years",
-          "artist": "Pale Fountains",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-04T10:24:46.122Z"
-          }
-        },
-        {
-          "title": "VII",
-          "artist": "The Budos Band",
-          "spotifyTrack": {
-            "id": "0Z44YaZDDQrZueFQTnP4BV",
-            "name": "Overlander",
-            "uri": "spotify:track:0Z44YaZDDQrZueFQTnP4BV",
-            "popularity": 31,
-            "albumName": "VII",
-            "albumId": "5i5lH85pBKllXbeTa9lxAT",
-            "foundAt": "2026-02-05T18:48:28.612Z"
-          }
-        },
-        {
-          "title": "Counterclockwise",
-          "artist": "Faun Fables",
-          "spotifyTrack": {
-            "id": "5jbZB7AHySxwQox3liE9X5",
-            "name": "Ember Bell",
-            "uri": "spotify:track:5jbZB7AHySxwQox3liE9X5",
-            "popularity": 4,
-            "albumName": "Counterclockwise",
-            "albumId": "5ds515lK00De4qniY0nvtP",
-            "foundAt": "2026-02-05T18:48:30.314Z"
-          }
-        },
-        {
-          "title": "Ravel: Complete Works for Solo Piano",
-          "artist": "Jean-Efflam Bavouzet",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-04T10:24:46.810Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-05-23",
       "albums": [
         {
@@ -1937,6 +1825,120 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-05-30",
+      "albums": [
+        {
+          "title": "Something Beautiful",
+          "artist": "Miley Cyrus",
+          "spotifyTrack": {
+            "id": "2rDMtmPctM67hICAZTKAjx",
+            "name": "End of the World",
+            "uri": "spotify:track:2rDMtmPctM67hICAZTKAjx",
+            "popularity": 67,
+            "albumName": "Something Beautiful",
+            "albumId": "7h7smPzBYx8LOLI3ncM3vQ",
+            "foundAt": "2026-02-05T18:48:19.360Z"
+          }
+        },
+        {
+          "title": "Let All That We Imagine Be the Light",
+          "artist": "Garbage",
+          "spotifyTrack": {
+            "id": "6lKZIy0vqA2J4skj7SC9DT",
+            "name": "There's No Future In Optimism",
+            "uri": "spotify:track:6lKZIy0vqA2J4skj7SC9DT",
+            "popularity": 37,
+            "albumName": "Let All That We Imagine Be The Light",
+            "albumId": "3SVwtqCeeVLPdnxipKxgIj",
+            "foundAt": "2026-02-05T18:48:20.995Z"
+          }
+        },
+        {
+          "title": "Possession",
+          "artist": "Ty Segall",
+          "spotifyTrack": {
+            "id": "76OFo5N9D8SHaHzGnISea5",
+            "name": "Buildings",
+            "uri": "spotify:track:76OFo5N9D8SHaHzGnISea5",
+            "popularity": 38,
+            "albumName": "Possession",
+            "albumId": "3ZxMlJq7ztw1jd5mDEaNkl",
+            "foundAt": "2026-02-05T18:48:22.718Z"
+          }
+        },
+        {
+          "title": "Evangelic Girl Is a Gun",
+          "artist": "yeule",
+          "spotifyTrack": {
+            "id": "2jjLiYXjmDzfyul2IJ6EVa",
+            "name": "Evangelic Girl is a Gun",
+            "uri": "spotify:track:2jjLiYXjmDzfyul2IJ6EVa",
+            "popularity": 49,
+            "albumName": "Evangelic Girl is a Gun",
+            "albumId": "0YYPOxN7WrWD3ygAP5KB50",
+            "foundAt": "2026-02-05T18:48:24.578Z"
+          }
+        },
+        {
+          "title": "caroline 2",
+          "artist": "caroline",
+          "spotifyTrack": {
+            "id": "0p6WXZoqJ3eoV6G9WtL0o3",
+            "name": "Tell me I never knew that",
+            "uri": "spotify:track:0p6WXZoqJ3eoV6G9WtL0o3",
+            "popularity": 45,
+            "albumName": "caroline 2",
+            "albumId": "1CmdanwOGnV5QevtJQL6bN",
+            "foundAt": "2026-02-05T18:48:26.216Z"
+          }
+        },
+        {
+          "title": "The Complete Virgin Years",
+          "artist": "Pale Fountains",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-04T10:24:46.122Z"
+          }
+        },
+        {
+          "title": "VII",
+          "artist": "The Budos Band",
+          "spotifyTrack": {
+            "id": "0Z44YaZDDQrZueFQTnP4BV",
+            "name": "Overlander",
+            "uri": "spotify:track:0Z44YaZDDQrZueFQTnP4BV",
+            "popularity": 31,
+            "albumName": "VII",
+            "albumId": "5i5lH85pBKllXbeTa9lxAT",
+            "foundAt": "2026-02-05T18:48:28.612Z"
+          }
+        },
+        {
+          "title": "Counterclockwise",
+          "artist": "Faun Fables",
+          "spotifyTrack": {
+            "id": "5jbZB7AHySxwQox3liE9X5",
+            "name": "Ember Bell",
+            "uri": "spotify:track:5jbZB7AHySxwQox3liE9X5",
+            "popularity": 4,
+            "albumName": "Counterclockwise",
+            "albumId": "5ds515lK00De4qniY0nvtP",
+            "foundAt": "2026-02-05T18:48:30.314Z"
+          }
+        },
+        {
+          "title": "Ravel: Complete Works for Solo Piano",
+          "artist": "Jean-Efflam Bavouzet",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-04T10:24:46.810Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-05T01:50:06.873Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-06-06",
       "albums": [
