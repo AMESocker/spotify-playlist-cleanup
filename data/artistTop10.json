@@ -547,13 +547,6 @@
         "spotify_id": "72T7x96EAqN2UWvAgobYfv"
       },
       {
-        "artist": "Bombino",
-        "listeners": 116297,
-        "recommended": true,
-        "spotify_popularity": 36,
-        "spotify_id": "7s4I6rDvTcdBDKElVbtsAN"
-      },
-      {
         "artist": "Khruangbin",
         "listeners": 2252112,
         "recommended": true,
@@ -614,9 +607,6 @@
       },
       {
         "artist": "Barrington Levy"
-      },
-      {
-        "artist": "Eek-A-Mouse"
       },
       {
         "artist": "Junior Murvin"
@@ -721,6 +711,20 @@
         "spotify_id": "6qaKS0nzGP4hfjl4aFZmEU",
         "recommended": true,
         "tracksAdded": 10
+      },
+      {
+        "artist": "Bombino",
+        "listeners": 116297,
+        "spotify_id": "7s4I6rDvTcdBDKElVbtsAN",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Eek-A-Mouse",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
       }
     ]
   },
@@ -2138,13 +2142,6 @@
         "spotify_id": "2ZvrvbQNrHKwjT7qfGFFUW"
       },
       {
-        "artist": "Robert Johnson",
-        "listeners": 635706,
-        "recommended": true,
-        "spotify_popularity": 43,
-        "spotify_id": "0f8MDDzIc6M4uH1xH0o0gy"
-      },
-      {
         "artist": "Art Blakey "
       },
       {
@@ -2193,9 +2190,6 @@
         "artist": "T-Bone Walker"
       },
       {
-        "artist": "Etta James "
-      },
-      {
         "artist": "Koko Taylor"
       },
       {
@@ -2242,6 +2236,20 @@
         "artist": "Buddy Guy",
         "listeners": 890726,
         "spotify_id": "2gCsNOpiBaMNh20jQ5prf0",
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Robert Johnson",
+        "listeners": 635706,
+        "spotify_id": "0f8MDDzIc6M4uH1xH0o0gy",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Etta James ",
+        "listeners": null,
+        "spotify_id": null,
         "recommended": false,
         "tracksAdded": 5
       }

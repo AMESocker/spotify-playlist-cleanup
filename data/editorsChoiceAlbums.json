@@ -1,209 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2026-04-03",
-      "albums": [
-        {
-          "title": "Distracted",
-          "artist": "Thundercat",
-          "spotifyTrack": {
-            "id": "0mmgpCQiuPIcQcEsSXLf4H",
-            "name": "Candlelight",
-            "uri": "spotify:track:0mmgpCQiuPIcQcEsSXLf4H",
-            "popularity": 0,
-            "albumName": "Distracted",
-            "albumId": "4DkVTJfU9qyNWKbjLoTENL",
-            "foundAt": "2026-04-04T10:24:37.933Z"
-          }
-        },
-        {
-          "title": "Glorious Mahalia",
-          "artist": "Kronos Quartet",
-          "spotifyTrack": {
-            "id": "5ewUTtVewKyyiQt7wr75Yn",
-            "name": "Glorious Mahalia: I. Hold on",
-            "uri": "spotify:track:5ewUTtVewKyyiQt7wr75Yn",
-            "popularity": 0,
-            "albumName": "Glorious Mahalia",
-            "albumId": "53hRpzYvJVi85o4ykYdSLe",
-            "foundAt": "2026-04-04T10:24:39.350Z"
-          }
-        },
-        {
-          "title": "Sunny, I Was Wrong",
-          "artist": "Joe Pernice",
-          "spotifyTrack": {
-            "id": "1NeiqERhexZKY8Whe7eX48",
-            "name": "Peace in Our Home",
-            "uri": "spotify:track:1NeiqERhexZKY8Whe7eX48",
-            "popularity": 0,
-            "albumName": "Sunny, I Was Wrong",
-            "albumId": "3FbtAQJjbjhCWXWAK3qvSP",
-            "foundAt": "2026-04-04T10:24:40.772Z"
-          }
-        },
-        {
-          "title": "Glass and Bones",
-          "artist": "Makthaverskan",
-          "spotifyTrack": {
-            "id": "0m2ncFcStCXGkaiCEZGwZF",
-            "name": "Pity Party",
-            "uri": "spotify:track:0m2ncFcStCXGkaiCEZGwZF",
-            "popularity": 0,
-            "albumName": "Glass and Bones",
-            "albumId": "2TBOgMEKprOm6aJ8sKKp0O",
-            "foundAt": "2026-04-04T10:24:42.154Z"
-          }
-        },
-        {
-          "title": "Antonio Carlos & Jocafi JID026",
-          "artist": "Antonio CarlosAntônio Carlos & Jocafi",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-04T10:24:42.734Z"
-          }
-        },
-        {
-          "title": "Sunn O)))",
-          "artist": "Sunn O)))",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-04T10:24:43.318Z"
-          }
-        },
-        {
-          "title": "Birding",
-          "artist": "deary",
-          "spotifyTrack": {
-            "id": "2ipXB1iXNOVsNiAuWkTsY3",
-            "name": "Smile",
-            "uri": "spotify:track:2ipXB1iXNOVsNiAuWkTsY3",
-            "popularity": 0,
-            "albumName": "Birding",
-            "albumId": "4LRV1hTTosrrR7cdWyqyJo",
-            "foundAt": "2026-04-04T10:24:44.905Z"
-          }
-        },
-        {
-          "title": "Peter Navarro-Alonso: In Flagrante Delicto",
-          "artist": "Paul HillierEnsemble StraloTheatre of Voices",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-04T10:24:45.504Z"
-          }
-        }
-      ]
-    },
-    {
-      "date": "2025-06-06",
-      "albums": [
-        {
-          "title": "More",
-          "artist": "Pulp",
-          "spotifyTrack": {
-            "id": "1c66APUihMSvbniRdka1Er",
-            "name": "Spike Island",
-            "uri": "spotify:track:1c66APUihMSvbniRdka1Er",
-            "popularity": 54,
-            "albumName": "More",
-            "albumId": "4et2xBFMKmsaWQPjlKTbG6",
-            "foundAt": "2026-02-05T18:48:04.916Z"
-          }
-        },
-        {
-          "title": "Lotus",
-          "artist": "Little Simz",
-          "spotifyTrack": {
-            "id": "05n0mwlh1y3cwjGmHnfVjh",
-            "name": "Free",
-            "uri": "spotify:track:05n0mwlh1y3cwjGmHnfVjh",
-            "popularity": 54,
-            "albumName": "Lotus",
-            "albumId": "0ofdTvYtx4LpsVjemJt71X",
-            "foundAt": "2026-02-05T18:48:06.561Z"
-          }
-        },
-        {
-          "title": "NEVER ENOUGH",
-          "artist": "Turnstile",
-          "spotifyTrack": {
-            "id": "0kshHISCRGn9MwpkbqafG4",
-            "name": "BIRDS",
-            "uri": "spotify:track:0kshHISCRGn9MwpkbqafG4",
-            "popularity": 67,
-            "albumName": "NEVER ENOUGH",
-            "albumId": "52yD51X7yDinwlg6tbCtpP",
-            "foundAt": "2026-02-05T18:48:08.395Z"
-          }
-        },
-        {
-          "title": "Letters to Ordinary Outsiders",
-          "artist": "Comet Gain",
-          "spotifyTrack": {
-            "id": "2zNmCYah0gysftCyjshfMb",
-            "name": "If They Can't Find the Way Then There's No Way Out",
-            "uri": "spotify:track:2zNmCYah0gysftCyjshfMb",
-            "popularity": 11,
-            "albumName": "Letters to Ordinary Outsiders",
-            "albumId": "6tHJF6PCQ4IEETEy4t7oqX",
-            "foundAt": "2026-02-05T18:48:10.145Z"
-          }
-        },
-        {
-          "title": "Ripped and Torn",
-          "artist": "Lifeguard",
-          "spotifyTrack": {
-            "id": "6BHZGzza22cxWzNj4zbrh3",
-            "name": "It Will Get Worse",
-            "uri": "spotify:track:6BHZGzza22cxWzNj4zbrh3",
-            "popularity": 33,
-            "albumName": "Ripped and Torn",
-            "albumId": "3B22vFtjNRkF1ZBnCYEDa9",
-            "foundAt": "2026-02-05T18:48:11.884Z"
-          }
-        },
-        {
-          "title": "Salt",
-          "artist": "Salem 66",
-          "spotifyTrack": {
-            "id": "2OXQZpW7p7rAfvq0pgxeQp",
-            "name": "Across The Sea",
-            "uri": "spotify:track:2OXQZpW7p7rAfvq0pgxeQp",
-            "popularity": 8,
-            "albumName": "SALT",
-            "albumId": "4eqnbuNHnzb6ZAO9cU32C8",
-            "foundAt": "2026-02-05T18:48:13.623Z"
-          }
-        },
-        {
-          "title": "Marca Passo",
-          "artist": "Azymuth",
-          "spotifyTrack": {
-            "id": "2J8Wc1tjG7Ko83dnEndO97",
-            "name": "Belenzinho",
-            "uri": "spotify:track:2J8Wc1tjG7Ko83dnEndO97",
-            "popularity": 29,
-            "albumName": "Marca Passo",
-            "albumId": "5gPnlRYkxpQLIYMy5hEpR6",
-            "foundAt": "2026-02-05T18:48:15.875Z"
-          }
-        },
-        {
-          "title": "Death Mask",
-          "artist": "Death in Vegas",
-          "spotifyTrack": {
-            "id": "0DKOyxboO1gkI9aMZ6qQGS",
-            "name": "Chingola",
-            "uri": "spotify:track:0DKOyxboO1gkI9aMZ6qQGS",
-            "popularity": 20,
-            "albumName": "Death Mask",
-            "albumId": "45azRNsBbvHxolRgXMBr1G",
-            "foundAt": "2026-02-05T18:48:17.721Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-05-30",
       "albums": [
         {
@@ -2140,6 +1937,213 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-06-06",
+      "albums": [
+        {
+          "title": "More",
+          "artist": "Pulp",
+          "spotifyTrack": {
+            "id": "1c66APUihMSvbniRdka1Er",
+            "name": "Spike Island",
+            "uri": "spotify:track:1c66APUihMSvbniRdka1Er",
+            "popularity": 54,
+            "albumName": "More",
+            "albumId": "4et2xBFMKmsaWQPjlKTbG6",
+            "foundAt": "2026-02-05T18:48:04.916Z"
+          }
+        },
+        {
+          "title": "Lotus",
+          "artist": "Little Simz",
+          "spotifyTrack": {
+            "id": "05n0mwlh1y3cwjGmHnfVjh",
+            "name": "Free",
+            "uri": "spotify:track:05n0mwlh1y3cwjGmHnfVjh",
+            "popularity": 54,
+            "albumName": "Lotus",
+            "albumId": "0ofdTvYtx4LpsVjemJt71X",
+            "foundAt": "2026-02-05T18:48:06.561Z"
+          }
+        },
+        {
+          "title": "NEVER ENOUGH",
+          "artist": "Turnstile",
+          "spotifyTrack": {
+            "id": "0kshHISCRGn9MwpkbqafG4",
+            "name": "BIRDS",
+            "uri": "spotify:track:0kshHISCRGn9MwpkbqafG4",
+            "popularity": 67,
+            "albumName": "NEVER ENOUGH",
+            "albumId": "52yD51X7yDinwlg6tbCtpP",
+            "foundAt": "2026-02-05T18:48:08.395Z"
+          }
+        },
+        {
+          "title": "Letters to Ordinary Outsiders",
+          "artist": "Comet Gain",
+          "spotifyTrack": {
+            "id": "2zNmCYah0gysftCyjshfMb",
+            "name": "If They Can't Find the Way Then There's No Way Out",
+            "uri": "spotify:track:2zNmCYah0gysftCyjshfMb",
+            "popularity": 11,
+            "albumName": "Letters to Ordinary Outsiders",
+            "albumId": "6tHJF6PCQ4IEETEy4t7oqX",
+            "foundAt": "2026-02-05T18:48:10.145Z"
+          }
+        },
+        {
+          "title": "Ripped and Torn",
+          "artist": "Lifeguard",
+          "spotifyTrack": {
+            "id": "6BHZGzza22cxWzNj4zbrh3",
+            "name": "It Will Get Worse",
+            "uri": "spotify:track:6BHZGzza22cxWzNj4zbrh3",
+            "popularity": 33,
+            "albumName": "Ripped and Torn",
+            "albumId": "3B22vFtjNRkF1ZBnCYEDa9",
+            "foundAt": "2026-02-05T18:48:11.884Z"
+          }
+        },
+        {
+          "title": "Salt",
+          "artist": "Salem 66",
+          "spotifyTrack": {
+            "id": "2OXQZpW7p7rAfvq0pgxeQp",
+            "name": "Across The Sea",
+            "uri": "spotify:track:2OXQZpW7p7rAfvq0pgxeQp",
+            "popularity": 8,
+            "albumName": "SALT",
+            "albumId": "4eqnbuNHnzb6ZAO9cU32C8",
+            "foundAt": "2026-02-05T18:48:13.623Z"
+          }
+        },
+        {
+          "title": "Marca Passo",
+          "artist": "Azymuth",
+          "spotifyTrack": {
+            "id": "2J8Wc1tjG7Ko83dnEndO97",
+            "name": "Belenzinho",
+            "uri": "spotify:track:2J8Wc1tjG7Ko83dnEndO97",
+            "popularity": 29,
+            "albumName": "Marca Passo",
+            "albumId": "5gPnlRYkxpQLIYMy5hEpR6",
+            "foundAt": "2026-02-05T18:48:15.875Z"
+          }
+        },
+        {
+          "title": "Death Mask",
+          "artist": "Death in Vegas",
+          "spotifyTrack": {
+            "id": "0DKOyxboO1gkI9aMZ6qQGS",
+            "name": "Chingola",
+            "uri": "spotify:track:0DKOyxboO1gkI9aMZ6qQGS",
+            "popularity": 20,
+            "albumName": "Death Mask",
+            "albumId": "45azRNsBbvHxolRgXMBr1G",
+            "foundAt": "2026-02-05T18:48:17.721Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-05T00:13:07.901Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
+    {
+      "date": "2026-04-03",
+      "albums": [
+        {
+          "title": "Distracted",
+          "artist": "Thundercat",
+          "spotifyTrack": {
+            "id": "0mmgpCQiuPIcQcEsSXLf4H",
+            "name": "Candlelight",
+            "uri": "spotify:track:0mmgpCQiuPIcQcEsSXLf4H",
+            "popularity": 0,
+            "albumName": "Distracted",
+            "albumId": "4DkVTJfU9qyNWKbjLoTENL",
+            "foundAt": "2026-04-04T10:24:37.933Z"
+          }
+        },
+        {
+          "title": "Glorious Mahalia",
+          "artist": "Kronos Quartet",
+          "spotifyTrack": {
+            "id": "5ewUTtVewKyyiQt7wr75Yn",
+            "name": "Glorious Mahalia: I. Hold on",
+            "uri": "spotify:track:5ewUTtVewKyyiQt7wr75Yn",
+            "popularity": 0,
+            "albumName": "Glorious Mahalia",
+            "albumId": "53hRpzYvJVi85o4ykYdSLe",
+            "foundAt": "2026-04-04T10:24:39.350Z"
+          }
+        },
+        {
+          "title": "Sunny, I Was Wrong",
+          "artist": "Joe Pernice",
+          "spotifyTrack": {
+            "id": "1NeiqERhexZKY8Whe7eX48",
+            "name": "Peace in Our Home",
+            "uri": "spotify:track:1NeiqERhexZKY8Whe7eX48",
+            "popularity": 0,
+            "albumName": "Sunny, I Was Wrong",
+            "albumId": "3FbtAQJjbjhCWXWAK3qvSP",
+            "foundAt": "2026-04-04T10:24:40.772Z"
+          }
+        },
+        {
+          "title": "Glass and Bones",
+          "artist": "Makthaverskan",
+          "spotifyTrack": {
+            "id": "0m2ncFcStCXGkaiCEZGwZF",
+            "name": "Pity Party",
+            "uri": "spotify:track:0m2ncFcStCXGkaiCEZGwZF",
+            "popularity": 0,
+            "albumName": "Glass and Bones",
+            "albumId": "2TBOgMEKprOm6aJ8sKKp0O",
+            "foundAt": "2026-04-04T10:24:42.154Z"
+          }
+        },
+        {
+          "title": "Antonio Carlos & Jocafi JID026",
+          "artist": "Antonio CarlosAntônio Carlos & Jocafi",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-04T10:24:42.734Z"
+          }
+        },
+        {
+          "title": "Sunn O)))",
+          "artist": "Sunn O)))",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-04T10:24:43.318Z"
+          }
+        },
+        {
+          "title": "Birding",
+          "artist": "deary",
+          "spotifyTrack": {
+            "id": "2ipXB1iXNOVsNiAuWkTsY3",
+            "name": "Smile",
+            "uri": "spotify:track:2ipXB1iXNOVsNiAuWkTsY3",
+            "popularity": 0,
+            "albumName": "Birding",
+            "albumId": "4LRV1hTTosrrR7cdWyqyJo",
+            "foundAt": "2026-04-04T10:24:44.905Z"
+          }
+        },
+        {
+          "title": "Peter Navarro-Alonso: In Flagrante Delicto",
+          "artist": "Paul HillierEnsemble StraloTheatre of Voices",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-04T10:24:45.504Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-05T00:12:14.670Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-06-13",
       "albums": [
