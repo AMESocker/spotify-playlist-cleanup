@@ -533,6 +533,29 @@
   "Reggae / World ": {
     "not_added": [
       {
+        "artist": "Mdou Moctar",
+        "listeners": 161193,
+        "recommended": true,
+        "spotify_popularity": 33,
+        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
+      },
+      {
+        "artist": "Mulatu Astatke",
+        "listeners": 309357,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
+      },
+      {
+        "artist": "Ebo Taylor"
+      },
+      {
+        "artist": "Max Romeo"
+      },
+      {
+        "artist": "Horace Andy"
+      },
+      {
         "artist": "Damian Marley",
         "listeners": 1938005,
         "recommended": true,
@@ -582,20 +605,6 @@
         "spotify_id": "6UL7BodGc5iVmQGlMwHR0g"
       },
       {
-        "artist": "Mulatu Astatke",
-        "listeners": 309357,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
-      },
-      {
-        "artist": "Mdou Moctar",
-        "listeners": 161193,
-        "recommended": true,
-        "spotify_popularity": 33,
-        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
-      },
-      {
         "artist": "Tinariwen",
         "listeners": 497655,
         "recommended": true,
@@ -613,9 +622,6 @@
       },
       {
         "artist": "Black Uhuru"
-      },
-      {
-        "artist": "Horace Andy"
       },
       {
         "artist": "Gregory Isaacs"
@@ -645,9 +651,6 @@
         "artist": "Cedric Myton"
       },
       {
-        "artist": "Ebo Taylor"
-      },
-      {
         "artist": "William Onyeabor"
       },
       {
@@ -655,9 +658,6 @@
       },
       {
         "artist": "Bunny Wailer"
-      },
-      {
-        "artist": "Max Romeo"
       },
       {
         "artist": "Alpha Blondy"
