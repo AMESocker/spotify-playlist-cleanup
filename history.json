@@ -4386,5 +4386,21 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-04-08T11:09:22.955Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Shirelles",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-08T17:15:51.241Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Bob Marley",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-08T17:15:52.917Z"
   }
 ]
