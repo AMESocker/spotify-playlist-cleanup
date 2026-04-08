@@ -2175,14 +2175,15 @@
       "Artist": "Breaking Benjamin",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Saturate (2002)",
         "We Are Not Alone (2004)",
         "Phobia (2006)",
         "Dear Agony (2009)",
         "Dark Before Dawn (2015)",
         "Ember (2018)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Dark Before Dawn (2015)"
+      ]
     },
     {
       "Artist": "Dream Theater",
