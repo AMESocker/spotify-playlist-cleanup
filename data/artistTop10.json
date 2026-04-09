@@ -533,6 +533,64 @@
   "Reggae / World ": {
     "not_added": [
       {
+        "artist": "William Onyeabor"
+      },
+      {
+        "artist": "Toots and the Maytals",
+        "listeners": 501550,
+        "recommended": true,
+        "spotify_popularity": 54,
+        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
+      },
+      {
+        "artist": "Alpha Blondy"
+      },
+      {
+        "artist": "Linton Kwesi Johnson"
+      },
+      {
+        "artist": "Tinariwen",
+        "listeners": 497655,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "2sf2owtFSCvz2MLfxmNdkb"
+      },
+      {
+        "artist": "Orchestra Baobab"
+      },
+      {
+        "artist": "Prince Far I"
+      },
+      {
+        "artist": "Prince Far I"
+      },
+      {
+        "artist": "Ali Farka Touré"
+      },
+      {
+        "artist": "Ebo Taylor"
+      },
+      {
+        "artist": "Mdou Moctar",
+        "listeners": 161193,
+        "recommended": true,
+        "spotify_popularity": 33,
+        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
+      },
+      {
+        "artist": "Mulatu Astatke",
+        "listeners": 309357,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
+      },
+      {
+        "artist": "Max Romeo"
+      },
+      {
+        "artist": "Horace Andy"
+      },
+      {
         "artist": "Damian Marley",
         "listeners": 1938005,
         "recommended": true,
@@ -547,32 +605,11 @@
         "spotify_id": "72T7x96EAqN2UWvAgobYfv"
       },
       {
-        "artist": "Bombino",
-        "listeners": 116297,
-        "recommended": true,
-        "spotify_popularity": 36,
-        "spotify_id": "7s4I6rDvTcdBDKElVbtsAN"
-      },
-      {
         "artist": "Khruangbin",
         "listeners": 2252112,
         "recommended": true,
         "spotify_popularity": 69,
         "spotify_id": "2mVVjNmdjXZZDvhgQWiakk"
-      },
-      {
-        "artist": "Culture",
-        "listeners": 113762,
-        "recommended": true,
-        "spotify_popularity": 51,
-        "spotify_id": "0DoNSZa1R1DV69oY1djlbf"
-      },
-      {
-        "artist": "Toots and the Maytals",
-        "listeners": 501550,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
       },
       {
         "artist": "Augustus Pablo",
@@ -589,43 +626,13 @@
         "spotify_id": "6UL7BodGc5iVmQGlMwHR0g"
       },
       {
-        "artist": "Mulatu Astatke",
-        "listeners": 309357,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
-      },
-      {
-        "artist": "Mdou Moctar",
-        "listeners": 161193,
-        "recommended": true,
-        "spotify_popularity": 33,
-        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
-      },
-      {
-        "artist": "Tinariwen",
-        "listeners": 497655,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "2sf2owtFSCvz2MLfxmNdkb"
-      },
-      {
         "artist": "Jimmy Cliff"
       },
       {
         "artist": "Barrington Levy"
       },
       {
-        "artist": "Eek-A-Mouse"
-      },
-      {
-        "artist": "Junior Murvin"
-      },
-      {
         "artist": "Black Uhuru"
-      },
-      {
-        "artist": "Horace Andy"
       },
       {
         "artist": "Gregory Isaacs"
@@ -640,43 +647,16 @@
         "artist": "Fela Kuti"
       },
       {
-        "artist": "Miriam Makeba"
-      },
-      {
-        "artist": "Ali Farka Touré"
-      },
-      {
-        "artist": "Orchestra Baobab"
-      },
-      {
         "artist": "Toumani Diabaté"
       },
       {
         "artist": "Cedric Myton"
       },
       {
-        "artist": "Ebo Taylor"
-      },
-      {
-        "artist": "William Onyeabor"
-      },
-      {
-        "artist": "Prince Far I"
-      },
-      {
         "artist": "Bunny Wailer"
       },
       {
-        "artist": "Max Romeo"
-      },
-      {
-        "artist": "Alpha Blondy"
-      },
-      {
         "artist": "U-Roy"
-      },
-      {
-        "artist": "Linton Kwesi Johnson"
       }
     ],
     "added": [
@@ -721,6 +701,48 @@
         "spotify_id": "6qaKS0nzGP4hfjl4aFZmEU",
         "recommended": true,
         "tracksAdded": 10
+      },
+      {
+        "artist": "Bombino",
+        "listeners": 116297,
+        "spotify_id": "7s4I6rDvTcdBDKElVbtsAN",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Eek-A-Mouse",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Culture",
+        "listeners": 113762,
+        "spotify_id": "0DoNSZa1R1DV69oY1djlbf",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Culture",
+        "listeners": 113762,
+        "spotify_id": "0DoNSZa1R1DV69oY1djlbf",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Junior Murvin",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Miriam Makeba",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
       }
     ]
   },
@@ -781,13 +803,6 @@
         "recommended": true,
         "spotify_popularity": 60,
         "spotify_id": "7Eu1txygG6nJttLHbZdQOh"
-      },
-      {
-        "artist": "Arca",
-        "listeners": 18524280,
-        "recommended": true,
-        "spotify_popularity": 84,
-        "spotify_id": "4SsVbpTthjScTS7U2hmr1X"
       },
       {
         "artist": "Floating Points",
@@ -860,9 +875,6 @@
         "artist": "Oval"
       },
       {
-        "artist": "Labradford"
-      },
-      {
         "artist": "Loscil"
       },
       {
@@ -930,6 +942,20 @@
         "artist": "Jon Hopkins",
         "listeners": 577616,
         "spotify_id": "7yxi31szvlbwvKq9dYOmFI",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Labradford",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Arca",
+        "listeners": 18524280,
+        "spotify_id": "4SsVbpTthjScTS7U2hmr1X",
         "recommended": true,
         "tracksAdded": 5
       }
@@ -2131,20 +2157,6 @@
         "spotify_id": "1YzCsTRb22dQkh9lghPIrp"
       },
       {
-        "artist": "Herbie Hancock",
-        "listeners": 809733,
-        "recommended": true,
-        "spotify_popularity": 55,
-        "spotify_id": "2ZvrvbQNrHKwjT7qfGFFUW"
-      },
-      {
-        "artist": "Robert Johnson",
-        "listeners": 635706,
-        "recommended": true,
-        "spotify_popularity": 43,
-        "spotify_id": "0f8MDDzIc6M4uH1xH0o0gy"
-      },
-      {
         "artist": "Art Blakey "
       },
       {
@@ -2181,9 +2193,6 @@
         "artist": "Robert Glasper"
       },
       {
-        "artist": "Esperanza Spalding"
-      },
-      {
         "artist": "Howlin' Wolf"
       },
       {
@@ -2191,9 +2200,6 @@
       },
       {
         "artist": "T-Bone Walker"
-      },
-      {
-        "artist": "Etta James "
       },
       {
         "artist": "Koko Taylor"
@@ -2244,6 +2250,34 @@
         "spotify_id": "2gCsNOpiBaMNh20jQ5prf0",
         "recommended": false,
         "tracksAdded": 5
+      },
+      {
+        "artist": "Robert Johnson",
+        "listeners": 635706,
+        "spotify_id": "0f8MDDzIc6M4uH1xH0o0gy",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Etta James ",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Esperanza Spalding",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Herbie Hancock",
+        "listeners": 809733,
+        "spotify_id": "2ZvrvbQNrHKwjT7qfGFFUW",
+        "recommended": true,
+        "tracksAdded": 5
       }
     ]
   },
@@ -2260,12 +2294,6 @@
         "listeners": 8695773,
         "spotify_popularity": 78,
         "spotify_id": "1Mxqyy3pSjf8kZZL4QVxS0"
-      },
-      {
-        "artist": "Celia Cruz",
-        "listeners": 749468,
-        "spotify_popularity": 63,
-        "spotify_id": "2weA6hhVqTIN2gSn9PUB9U"
       },
       {
         "artist": "Fela Kuti",
@@ -2367,9 +2395,6 @@
         "artist": "Thundercat"
       },
       {
-        "artist": "Antibalas"
-      },
-      {
         "artist": "Orchestra Baobab"
       }
     ],
@@ -2428,6 +2453,20 @@
         "listeners": 1113102,
         "spotify_id": "5m8H6zSadhu1j9Yi04VLqD",
         "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Antibalas",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Celia Cruz",
+        "listeners": 749468,
+        "spotify_id": "2weA6hhVqTIN2gSn9PUB9U",
+        "recommended": false,
         "tracksAdded": 5
       }
     ]

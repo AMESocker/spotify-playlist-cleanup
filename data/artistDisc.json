@@ -2033,7 +2033,6 @@
       "Artist": "Live",
       "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
-        "The Death of a Dictionary (1989)[a]",
         "Mental Jewelry (1991)",
         "Throwing Copper (1994)",
         "Secret Samadhi (1997)",
@@ -2043,7 +2042,9 @@
         "Songs from Black Mountain (2006)",
         "The Turn (2014)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "The Turn (2014)"
+      ]
     },
     {
       "Artist": "Collective Soul",
@@ -2144,14 +2145,15 @@
       "Artist": "Stone Sour",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Stone Sour (2002)",
         "Come What(ever) May (2006)",
         "Audio Secrecy (2010)",
         "House of Gold & Bones – Part 1 (2012)",
         "House of Gold & Bones – Part 2 (2013)",
         "Hydrograd (2017)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "House of Gold & Bones – Part 2 (2013)"
+      ]
     },
     {
       "Artist": "Disturbed",
@@ -2173,20 +2175,20 @@
       "Artist": "Breaking Benjamin",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Saturate (2002)",
         "We Are Not Alone (2004)",
         "Phobia (2006)",
         "Dear Agony (2009)",
         "Dark Before Dawn (2015)",
         "Ember (2018)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Dark Before Dawn (2015)"
+      ]
     },
     {
       "Artist": "Dream Theater",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Images and Words (1992)",
         "Awake (1994)",
         "Falling into Infinity (1997)",
         "Metropolis Pt. 2: Scenes from a Memory (1999)",
@@ -2203,14 +2205,14 @@
         "Parasomnia (2025)"
       ],
       "AddedAlbums": [
-        "A View from the Top of the World (2021)"
+        "A View from the Top of the World (2021)",
+        "Octavarium (2005)"
       ]
     },
     {
       "Artist": "Anthrax",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Fistful of Metal (1984)",
         "Spreading the Disease (1985)",
         "Among the Living (1987)",
         "State of Euphoria (1988)",
@@ -2223,13 +2225,14 @@
         "For All Kings (2016)",
         "Cursum Perficio (2026)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Cursum Perficio (2026) [NOT FOUND]"
+      ]
     },
     {
       "Artist": "Mötley Crüe",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Too Fast for Love (1981)",
         "Shout at the Devil (1983)",
         "Theatre of Pain (1985)",
         "Girls, Girls, Girls (1987)",
@@ -2239,13 +2242,14 @@
         "New Tattoo (2000)",
         "Saints of Los Angeles (2008)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "New Tattoo (2000)"
+      ]
     },
     {
       "Artist": "Poison",
       "Group": "🔴 Metal / Hard Rock",
       "Albums": [
-        "Look What the Cat Dragged In (1986)",
         "Open Up and Say... Ahh! (1988)",
         "Flesh & Blood (1990)",
         "Native Tongue (1993)",
@@ -2253,13 +2257,14 @@
         "Hollyweird (2002)",
         "Poison'd! (2007)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Native Tongue (1993)"
+      ]
     },
     {
       "Artist": "Bush",
       "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
-        "Sixteen Stone (1994)",
         "Razorblade Suitcase (1996)",
         "The Science of Things (1999)",
         "Golden State (2001)",
@@ -2270,11 +2275,13 @@
         "The Art of Survival (2022)",
         "I Beat Loneliness (2025)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "The Sea of Memories (2011)"
+      ]
     },
     {
-      "Artist":"Silverchair",
-      "Group":"🟠 Grunge / Alt Rock / Post-Grunge",
+      "Artist": "Silverchair",
+      "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
         "Frogstomp (1995)",
         "Freak Show (1997)",
@@ -2285,8 +2292,8 @@
       "AddedAlbums": []
     },
     {
-      "Artist":"Aerosmith",
-      "Group":"⚪ Classic Rock",
+      "Artist": "Aerosmith",
+      "Group": "⚪ Classic Rock",
       "Albums": [
         "Aerosmith (1973)",
         "Get Your Wings (1974)",
@@ -2307,8 +2314,8 @@
       "AddedAlbums": []
     },
     {
-      "Artist":"The Cranberries",
-      "Group":"🟠 Grunge / Alt Rock / Post-Grunge",
+      "Artist": "The Cranberries",
+      "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
         "Everybody Else Is Doing It, So Why Can't We? (1993)",
         "No Need to Argue (1994)",
@@ -2322,8 +2329,8 @@
       "AddedAlbums": []
     },
     {
-      "Artist":"Candlebox",
-      "Group":"🟠 Grunge / Alt Rock / Post-Grunge",
+      "Artist": "Candlebox",
+      "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
         "Candlebox (1993)",
         "Lucy (1995)",

@@ -3891,5 +3891,657 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-04-04T22:02:20.194Z"
+  },
+  {
+    "action": "add",
+    "artist": "Bush",
+    "album": "The Sea of Memories (2011)",
+    "index": null,
+    "tracksAdded": 21,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-05T00:11:33.610Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-05T00:11:42.462Z"
+  },
+  {
+    "action": "add",
+    "artist": "Led Zeppelin",
+    "album": "Physical Graffiti",
+    "index": 180,
+    "tracksAdded": 22,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-04-05T00:11:47.597Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Mamas & the Papas",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:11:54.860Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Bob Dylan",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:11:56.717Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 8,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-05T00:12:05.657Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Robert Johnson",
+    "listeners": 635706,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T00:12:10.865Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Etta James ",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T00:12:11.216Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-04-03",
+    "tracksAdded": 5,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-05T00:12:14.672Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Freddie Gibbs",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T00:12:20.942Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Zara Larsson",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T00:12:23.009Z"
+  },
+  {
+    "action": "add",
+    "artist": "Mötley Crüe",
+    "album": "New Tattoo (2000)",
+    "index": null,
+    "tracksAdded": 11,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-05T00:12:27.908Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-05T00:12:36.718Z"
+  },
+  {
+    "action": "add",
+    "artist": "Adele",
+    "album": "25",
+    "index": 874,
+    "tracksAdded": 11,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-04-05T00:12:41.734Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The (Young) Rascals",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:12:48.692Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "B.B. King",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:12:50.575Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 8,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-05T00:12:59.203Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Bombino",
+    "listeners": 116297,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T00:13:04.248Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Eek-A-Mouse",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T00:13:04.642Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-06-06",
+    "tracksAdded": 8,
+    "tracksSkipped": 0,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-05T00:13:07.903Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Jessica Brankka",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T00:13:14.463Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Young Thug",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T00:13:16.400Z"
+  },
+  {
+    "action": "add",
+    "artist": "Poison",
+    "album": "Native Tongue (1993)",
+    "index": null,
+    "tracksAdded": 15,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-05T00:13:21.172Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 8,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-05T00:13:29.559Z"
+  },
+  {
+    "action": "add",
+    "artist": "David Gray",
+    "album": "White Ladder",
+    "index": 676,
+    "tracksAdded": 10,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-04-05T00:13:34.560Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Elvis Presley",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:13:41.225Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Carl Perkins",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-05T00:13:43.107Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-05T01:49:58.117Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Esperanza Spalding",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T01:50:03.410Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Herbie Hancock",
+    "listeners": 809733,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-05T01:50:03.639Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-30",
+    "tracksAdded": 7,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-05T01:50:06.875Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "Boundaries",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T18:35:38.860Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "The Pretty Wild",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-05T18:35:41.119Z"
+  },
+  {
+    "action": "add",
+    "artist": "Live",
+    "album": "The Turn (2014)",
+    "index": null,
+    "tracksAdded": 15,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-06T01:50:59.175Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 8,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-06T04:29:46.932Z"
+  },
+  {
+    "action": "add",
+    "artist": "Def Leppard",
+    "album": "Pyromania",
+    "index": 342,
+    "tracksAdded": 10,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-04-06T05:18:47.381Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Paul Simon",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-06T18:50:52.397Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Bruce Springsteen",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-06T18:50:54.100Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 8,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-06T20:53:16.959Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Culture",
+    "listeners": 113762,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-06T22:34:29.890Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Culture",
+    "listeners": 113762,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-06T22:34:30.176Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-23",
+    "tracksAdded": 6,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-06T22:34:33.793Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Ayybo",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-06T22:46:16.776Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Audrey Hobert",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-06T22:46:18.688Z"
+  },
+  {
+    "action": "add",
+    "artist": "Stone Sour",
+    "album": "House of Gold & Bones – Part 2 (2013)",
+    "index": null,
+    "tracksAdded": 12,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-07T01:47:48.678Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-07T16:37:09.046Z"
+  },
+  {
+    "action": "add",
+    "artist": "Simply Red",
+    "album": "Picture Book",
+    "index": 377,
+    "tracksAdded": 15,
+    "sourceFile": "data/1080albums.json",
+    "strategy": "sequential",
+    "timestamp": "2026-04-07T18:56:34.464Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Blondie",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-07T18:56:41.941Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "James Brown",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-07T18:56:44.348Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Antibalas",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-07T20:56:16.449Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Celia Cruz",
+    "listeners": 749468,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-07T20:56:16.723Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-16",
+    "tracksAdded": 8,
+    "tracksSkipped": 1,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-07T20:56:20.170Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Sabrina Carpenter",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-08T01:48:14.670Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Laufey",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-08T01:48:16.111Z"
+  },
+  {
+    "action": "add",
+    "artist": "Breaking Benjamin",
+    "album": "Dark Before Dawn (2015)",
+    "index": null,
+    "tracksAdded": 12,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-08T04:32:21.384Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-08T11:09:22.955Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Shirelles",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-08T17:15:51.241Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Bob Marley",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-08T17:15:52.917Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 8,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-08T19:08:36.997Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Ambient / Experimental Electronic",
+    "artist": "Labradford",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-08T19:08:42.570Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Ambient / Experimental Electronic",
+    "artist": "Arca",
+    "listeners": 18524280,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-08T19:08:42.911Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-09",
+    "tracksAdded": 7,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-08T19:08:46.233Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Avello",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-08T22:36:43.028Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Whethan",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-08T22:36:44.537Z"
+  },
+  {
+    "action": "add",
+    "artist": "Dream Theater",
+    "album": "Octavarium (2005)",
+    "index": null,
+    "tracksAdded": 8,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-08T22:36:48.933Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 6,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-09T00:24:53.349Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Frank Zappa",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-09T00:24:59.977Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Fleetwood Mac",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-09T00:25:02.024Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-09T00:25:09.324Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Junior Murvin",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-09T02:15:27.220Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Miriam Makeba",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-09T02:15:27.537Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-05-02",
+    "tracksAdded": 8,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-09T02:15:30.874Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "Ankor",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-09T11:08:22.790Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Download Festival",
+    "artist": "Stampin' Ground",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-09T11:08:24.904Z"
   }
 ]

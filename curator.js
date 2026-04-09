@@ -35,12 +35,12 @@ const dataSources = [
     strategy: "singleTrack",
     originalPosition: 7,
   },
-  {
+/* {
     name: "1080albums",
     file: "data/1080albums.json",
     strategy: "sequential",
     originalPosition: 1,
-  },
+  },*/
   {
     name: "rockNRollHallOfFame",
     file: "data/rockNRollHallofFame.json",

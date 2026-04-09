@@ -186,7 +186,6 @@
       "name": "Coachella",
       "year": 2026,
       "artists": [
-        "Sabrina Carpenter",
         "the XX",
         "Nine Inch Noize",
         "Disclosure",
@@ -224,7 +223,6 @@
         "Ninajirachi",
         "Max Dean x Luke Dean",
         "Cachirula & Loojan",
-        "Jessica Brankka",
         "Chloé Caillet x Rossi.",
         "Arodes NewDad",
         "Carolina Durante",
@@ -276,9 +274,7 @@
         "GENESI",
         "Yamagucci",
         "Karol G",
-        "Young Thug",
         "Kaskade",
-        "Laufey",
         "Major Lazer",
         "Iggy Pop",
         "FKA twigs",
@@ -320,7 +316,11 @@
         "Wednesday",
         "Alex G",
         "MESTIZA",
-        "Suicidal Tendencies"
+        "Suicidal Tendencies",
+        "Jessica Brankka",
+        "Young Thug",
+        "Sabrina Carpenter",
+        "Laufey"
       ]
     },
     {
@@ -350,9 +350,7 @@
         "Leon Thomas",
         "Clipse",
         "Muna",
-        "Zara Larsson",
         "Geese",
-        "Freddie Gibbs",
         "Wet Leg",
         "Worship",
         "Blood Orange",
@@ -365,7 +363,6 @@
         "Viagra Boys",
         "Ado",
         "Mustard",
-        "Audrey Hobert",
         "Jade",
         "Snow Strippers",
         "Boris Brejcha",
@@ -386,12 +383,10 @@
         "Nettspend",
         "Sidepiece",
         "Cortis",
-        "Whethan",
         "Skye Newman",
         "Dombresky",
         "Monaleo",
         "Notion",
-        "Ayybo",
         "Cameron Whitcomb",
         "Between Friends",
         "Khamari",
@@ -440,7 +435,6 @@
         "The Bends",
         "PartyOf2",
         "After",
-        "Avello",
         "The Army, The Navy",
         "Jae Stephens",
         "Pearly Drops",
@@ -499,7 +493,13 @@
         "Bbno$",
         "Fakemink",
         "Adéla",
-        "The Neighbourhood"
+        "The Neighbourhood",
+        "Freddie Gibbs",
+        "Zara Larsson",
+        "Ayybo",
+        "Audrey Hobert",
+        "Avello",
+        "Whethan"
       ]
     }
   ],
@@ -532,7 +532,6 @@
         "Cavalera",
         "Corrosion of Conformity",
         "Band-Maid",
-        "Stampin' Ground",
         "The Primals",
         "Lake Malice",
         "Nasty",
@@ -595,14 +594,11 @@
         "Magnolia Park",
         "TX2",
         "Sweet Pill",
-        "The Pretty Wild",
         "Ivri",
         "Zero 9:36",
         "Static-X",
         "Spineshank",
         "Gatecreeper",
-        "Boundaries",
-        "Ankor",
         "Annisokay",
         "Last Train",
         "Decessus",
@@ -617,7 +613,11 @@
         "Social Distortion",
         "Scene Queen",
         "Ice Nine Kills",
-        "Pussyliquor"
+        "Pussyliquor",
+        "Boundaries",
+        "The Pretty Wild",
+        "Ankor",
+        "Stampin' Ground"
       ]
     }
   ]
