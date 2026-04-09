@@ -2317,7 +2317,6 @@
       "Artist": "The Cranberries",
       "Group": "🟠 Grunge / Alt Rock / Post-Grunge",
       "Albums": [
-        "Everybody Else Is Doing It, So Why Can't We? (1993)",
         "No Need to Argue (1994)",
         "To the Faithful Departed (1996)",
         "Bury the Hatchet (1999)",
@@ -2326,7 +2325,9 @@
         "Something Else (2017)",
         "In the End (2019)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Roses (2012)"
+      ]
     },
     {
       "Artist": "Candlebox",

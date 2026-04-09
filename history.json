@@ -4543,5 +4543,15 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-04-09T11:08:24.904Z"
+  },
+  {
+    "action": "add",
+    "artist": "The Cranberries",
+    "album": "Roses (2012)",
+    "index": null,
+    "tracksAdded": 14,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-09T17:17:12.794Z"
   }
 ]
