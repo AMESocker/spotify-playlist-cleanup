@@ -536,6 +536,29 @@
         "artist": "William Onyeabor"
       },
       {
+        "artist": "Miriam Makeba"
+      },
+      {
+        "artist": "Toots and the Maytals",
+        "listeners": 501550,
+        "recommended": true,
+        "spotify_popularity": 54,
+        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
+      },
+      {
+        "artist": "Alpha Blondy"
+      },
+      {
+        "artist": "Linton Kwesi Johnson"
+      },
+      {
+        "artist": "Tinariwen",
+        "listeners": 497655,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "2sf2owtFSCvz2MLfxmNdkb"
+      },
+      {
         "artist": "Orchestra Baobab"
       },
       {
@@ -592,13 +615,6 @@
         "spotify_id": "2mVVjNmdjXZZDvhgQWiakk"
       },
       {
-        "artist": "Toots and the Maytals",
-        "listeners": 501550,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
-      },
-      {
         "artist": "Augustus Pablo",
         "listeners": 114950,
         "recommended": true,
@@ -611,13 +627,6 @@
         "recommended": true,
         "spotify_popularity": 56,
         "spotify_id": "6UL7BodGc5iVmQGlMwHR0g"
-      },
-      {
-        "artist": "Tinariwen",
-        "listeners": 497655,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "2sf2owtFSCvz2MLfxmNdkb"
       },
       {
         "artist": "Jimmy Cliff"
@@ -644,9 +653,6 @@
         "artist": "Fela Kuti"
       },
       {
-        "artist": "Miriam Makeba"
-      },
-      {
         "artist": "Toumani Diabaté"
       },
       {
@@ -656,13 +662,7 @@
         "artist": "Bunny Wailer"
       },
       {
-        "artist": "Alpha Blondy"
-      },
-      {
         "artist": "U-Roy"
-      },
-      {
-        "artist": "Linton Kwesi Johnson"
       }
     ],
     "added": [
