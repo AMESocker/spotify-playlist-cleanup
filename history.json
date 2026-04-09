@@ -4560,5 +4560,21 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-04-09T18:56:50.773Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Yardbirds",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-09T20:59:00.708Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Bobby 'Blue' Bland",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-09T20:59:02.714Z"
   }
 ]
