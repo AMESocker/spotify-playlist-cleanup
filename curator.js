@@ -445,7 +445,7 @@ async function handleAlbum(source, data) {
     console.log("⚠️ Album not found on Spotify.");
     if (source.strategy === "sequential") {
       data.master.shift();
-      data.added.push(`${pick.artist} - ${pick.nextAlbum} [NOT FOUND]`);
+      data.notFound.push(`${pick.artist} - ${pick.nextAlbum} [NOT FOUND]`);
     } else {
       const entry = data.artists.find(a => a.Artist === pick.artist);
       if (entry) { entry.Albums.shift(); entry.AddedAlbums.push(`${pick.nextAlbum} [NOT FOUND]`); }
@@ -562,7 +562,7 @@ async function handleSingleTrack(source, data) {
       if (!tracks.length) {
         console.log(`⚠️ Not found: ${entry}`);
         data.master.splice(randomIndex, 1);
-        data.added.push(`${entry} [NOT FOUND]`);
+        data.notFound.push(`${entry} [NOT FOUND]`);
         continue;
       }
 
