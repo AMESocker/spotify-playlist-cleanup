@@ -4647,5 +4647,21 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-04-11T01:30:08.898Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Hank Ballard",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-11T03:27:31.234Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Moonglows",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-11T03:27:32.876Z"
   }
 ]
