@@ -71,11 +71,6 @@
       "year": 2007
     },
     {
-      "song": "Give Me the Reason",
-      "artist": "Kirk Whalum",
-      "year": 2007
-    },
-    {
       "song": "Bloom",
       "artist": "Mindi Abair",
       "year": 2007
@@ -366,11 +361,6 @@
       "year": 2012
     },
     {
-      "song": "Oliver's Twist",
-      "artist": "Chris Standring",
-      "year": 2012
-    },
-    {
       "song": "Here We Go",
       "artist": "Peter White",
       "year": 2012
@@ -401,11 +391,6 @@
       "year": 2012
     },
     {
-      "song": "In the Moment",
-      "artist": "Gerald Albright / Norman Brown",
-      "year": 2012
-    },
-    {
       "song": "On Your Feet",
       "artist": "Julian Vaughn",
       "year": 2012
@@ -423,11 +408,6 @@
     {
       "song": "Sonnymoon",
       "artist": "Fourplay",
-      "year": 2012
-    },
-    {
-      "song": "Inner City Blues (Make Me Wanna Holler)",
-      "artist": "Richard Elliot",
       "year": 2012
     },
     {
@@ -503,11 +483,6 @@
     {
       "song": "Snap",
       "artist": "Nicholas Cole featuring Vincent Ingala",
-      "year": 2014
-    },
-    {
-      "song": "At Your Service",
-      "artist": "Oli Silk featuring Julian Vaughn",
       "year": 2014
     },
     {
@@ -726,11 +701,6 @@
       "year": 2016
     },
     {
-      "song": "Triple Dare",
-      "artist": "bwb",
-      "year": 2016
-    },
-    {
       "song": "Say What's on Your Mind",
       "artist": "Nick Colionne",
       "year": 2016
@@ -783,11 +753,6 @@
     {
       "song": "I Am",
       "artist": "Kayla Waters featuring Kim Waters",
-      "year": 2017
-    },
-    {
-      "song": "Hey Girl",
-      "artist": "Brian Culbertson",
       "year": 2017
     },
     {
@@ -1666,11 +1631,6 @@
       "year": 2023
     },
     {
-      "song": "Uptop",
-      "artist": "Adam Hawley",
-      "year": 2023
-    },
-    {
       "song": "South Bay",
       "artist": "Michael Lington",
       "year": 2023
@@ -1718,11 +1678,6 @@
     {
       "song": "Cigar Lounge",
       "artist": "Big Mike Hart featuring Boney James",
-      "year": 2024
-    },
-    {
-      "song": "Tell Me Something",
-      "artist": "Quintin Gerard W.",
       "year": 2024
     },
     {
@@ -1843,11 +1798,6 @@
     {
       "song": "A Little Moxie",
       "artist": "Cindy Bradley",
-      "year": 2025
-    },
-    {
-      "song": "Wheels in Motion",
-      "artist": "Mark Jaimes",
       "year": 2025
     },
     {
@@ -2052,6 +2002,51 @@
       "song": "Keys to Paradise",
       "artist": "Jonathan Fritzén",
       "year": 2021
+    },
+    {
+      "song": "In the Moment",
+      "artist": "Gerald Albright / Norman Brown",
+      "year": 2012
+    },
+    {
+      "song": "Hey Girl",
+      "artist": "Brian Culbertson",
+      "year": 2017
+    },
+    {
+      "song": "Inner City Blues (Make Me Wanna Holler)",
+      "artist": "Richard Elliot",
+      "year": 2012
+    },
+    {
+      "song": "Triple Dare",
+      "artist": "bwb",
+      "year": 2016
+    },
+    {
+      "song": "Tell Me Something",
+      "artist": "Quintin Gerard W.",
+      "year": 2024
+    },
+    {
+      "song": "Wheels in Motion",
+      "artist": "Mark Jaimes",
+      "year": 2025
+    },
+    {
+      "song": "Oliver's Twist",
+      "artist": "Chris Standring",
+      "year": 2012
+    },
+    {
+      "song": "Uptop",
+      "artist": "Adam Hawley",
+      "year": 2023
+    },
+    {
+      "song": "Give Me the Reason",
+      "artist": "Kirk Whalum",
+      "year": 2007
     }
   ]
 }

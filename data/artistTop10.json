@@ -749,6 +749,25 @@
   "Ambient / Experimental Electronic": {
     "not_added": [
       {
+        "artist": "Caribou",
+        "listeners": 732092,
+        "recommended": true,
+        "spotify_popularity": 54,
+        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
+      },
+      {
+        "artist": "Murcof"
+      },
+      {
+        "artist": "Rafael Anton Irisarri"
+      },
+      {
+        "artist": "Prefuse 73"
+      },
+      {
+        "artist": "The Caretaker"
+      },
+      {
         "artist": "Burial",
         "listeners": 527105,
         "recommended": true,
@@ -789,13 +808,6 @@
         "recommended": true,
         "spotify_popularity": 42,
         "spotify_id": "3mvkWMe6swnknwscwvGCHO"
-      },
-      {
-        "artist": "Caribou",
-        "listeners": 732092,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
       },
       {
         "artist": "Four Tet",
@@ -839,9 +851,6 @@
         "artist": "Harold Budd"
       },
       {
-        "artist": "The Caretaker"
-      },
-      {
         "artist": "Lustmord"
       },
       {
@@ -851,16 +860,10 @@
         "artist": "Grouper"
       },
       {
-        "artist": "Murcof"
-      },
-      {
         "artist": "Squarepusher"
       },
       {
         "artist": "Plaid"
-      },
-      {
-        "artist": "Prefuse 73"
       },
       {
         "artist": "Pole"
@@ -876,9 +879,6 @@
       },
       {
         "artist": "Loscil"
-      },
-      {
-        "artist": "Rafael Anton Irisarri"
       }
     ],
     "added": [
