@@ -4630,5 +4630,248 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-04-10T20:46:58.795Z"
+  },
+  {
+    "action": "add",
+    "artist": "Machine Head",
+    "album": "Through the Ashes of Empires (2003)",
+    "index": null,
+    "tracksAdded": 11,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-10T22:26:41.170Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 10,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-11T01:30:08.898Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Hank Ballard",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-11T03:27:31.234Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "The Moonglows",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-11T03:27:32.876Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 7,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-11T16:49:33.652Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Sam Cooke",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-11T16:49:38.969Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Maxwell",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-11T16:49:39.205Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-04-10",
+    "tracksAdded": 5,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-11T16:49:42.704Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Surfing for Daisy",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-11T18:36:50.895Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Max Styler",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-11T18:36:52.629Z"
+  },
+  {
+    "action": "add",
+    "artist": "Corrosion of Conformity",
+    "album": "IX",
+    "index": null,
+    "tracksAdded": 11,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-11T22:29:47.133Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-12T16:51:48.120Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Buddy Guy",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-12T20:43:43.857Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Creedence Clearwater Revival",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-12T20:43:45.383Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-12T22:32:10.910Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Ambient / Experimental Electronic",
+    "artist": "Prefuse 73",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T01:59:43.834Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Ambient / Experimental Electronic",
+    "artist": "Boards of Canada",
+    "listeners": 762055,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T01:59:44.133Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-04-18",
+    "tracksAdded": 7,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-13T01:59:47.485Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Katseye",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-13T01:59:53.433Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Coachella",
+    "artist": "Fujii Kaze",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-13T01:59:55.060Z"
+  },
+  {
+    "action": "add",
+    "artist": "Machine Head",
+    "album": "The Blackening (2007)",
+    "index": null,
+    "tracksAdded": 10,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-13T11:23:54.488Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 9,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-13T17:15:00.212Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Dion",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-13T19:07:13.918Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Rod Stewart",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-13T19:07:15.767Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-13T21:02:17.504Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Toots and the Maytals",
+    "listeners": 501550,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T22:40:41.989Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Linton Kwesi Johnson",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T22:40:42.378Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-04-11",
+    "tracksAdded": 8,
+    "tracksSkipped": 0,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-13T22:40:45.722Z"
   }
 ]

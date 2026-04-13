@@ -533,20 +533,40 @@
   "Reggae / World ": {
     "not_added": [
       {
+        "artist": "Toumani Diabaté"
+      },
+      {
+        "artist": "Fela Kuti"
+      },
+      {
+        "artist": "Prince Far I"
+      },
+      {
+        "artist": "Mulatu Astatke",
+        "listeners": 309357,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
+      },
+      {
+        "artist": "Steel Pulse",
+        "listeners": 717398,
+        "recommended": true,
+        "spotify_popularity": 56,
+        "spotify_id": "6UL7BodGc5iVmQGlMwHR0g"
+      },
+      {
+        "artist": "Sizzla",
+        "listeners": 648280,
+        "recommended": true,
+        "spotify_popularity": 53,
+        "spotify_id": "72T7x96EAqN2UWvAgobYfv"
+      },
+      {
         "artist": "William Onyeabor"
       },
       {
-        "artist": "Toots and the Maytals",
-        "listeners": 501550,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
-      },
-      {
         "artist": "Alpha Blondy"
-      },
-      {
-        "artist": "Linton Kwesi Johnson"
       },
       {
         "artist": "Tinariwen",
@@ -557,12 +577,6 @@
       },
       {
         "artist": "Orchestra Baobab"
-      },
-      {
-        "artist": "Prince Far I"
-      },
-      {
-        "artist": "Prince Far I"
       },
       {
         "artist": "Ali Farka Touré"
@@ -578,13 +592,6 @@
         "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
       },
       {
-        "artist": "Mulatu Astatke",
-        "listeners": 309357,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "7HGFXtBhRq3g1Ma3nH4Rgv"
-      },
-      {
         "artist": "Max Romeo"
       },
       {
@@ -596,13 +603,6 @@
         "recommended": true,
         "spotify_popularity": 67,
         "spotify_id": "3QJzdZJYIAcoET1GcfpNGi"
-      },
-      {
-        "artist": "Sizzla",
-        "listeners": 648280,
-        "recommended": true,
-        "spotify_popularity": 53,
-        "spotify_id": "72T7x96EAqN2UWvAgobYfv"
       },
       {
         "artist": "Khruangbin",
@@ -617,13 +617,6 @@
         "recommended": true,
         "spotify_popularity": 42,
         "spotify_id": "5WwEQwX3ruZofwDDqtOXwI"
-      },
-      {
-        "artist": "Steel Pulse",
-        "listeners": 717398,
-        "recommended": true,
-        "spotify_popularity": 56,
-        "spotify_id": "6UL7BodGc5iVmQGlMwHR0g"
       },
       {
         "artist": "Jimmy Cliff"
@@ -642,12 +635,6 @@
       },
       {
         "artist": "Cymande"
-      },
-      {
-        "artist": "Fela Kuti"
-      },
-      {
-        "artist": "Toumani Diabaté"
       },
       {
         "artist": "Cedric Myton"
@@ -743,11 +730,41 @@
         "spotify_id": null,
         "recommended": false,
         "tracksAdded": 5
+      },
+      {
+        "artist": "Toots and the Maytals",
+        "listeners": 501550,
+        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Linton Kwesi Johnson",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
       }
     ]
   },
   "Ambient / Experimental Electronic": {
     "not_added": [
+      {
+        "artist": "Caribou",
+        "listeners": 732092,
+        "recommended": true,
+        "spotify_popularity": 54,
+        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
+      },
+      {
+        "artist": "Murcof"
+      },
+      {
+        "artist": "Rafael Anton Irisarri"
+      },
+      {
+        "artist": "The Caretaker"
+      },
       {
         "artist": "Burial",
         "listeners": 527105,
@@ -777,25 +794,11 @@
         "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y"
       },
       {
-        "artist": "Boards of Canada",
-        "listeners": 762055,
-        "recommended": true,
-        "spotify_popularity": 55,
-        "spotify_id": "2VAvhf61GgLYmC6C8anyX1"
-      },
-      {
         "artist": "Amon Tobin",
         "listeners": 276559,
         "recommended": true,
         "spotify_popularity": 42,
         "spotify_id": "3mvkWMe6swnknwscwvGCHO"
-      },
-      {
-        "artist": "Caribou",
-        "listeners": 732092,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
       },
       {
         "artist": "Four Tet",
@@ -839,9 +842,6 @@
         "artist": "Harold Budd"
       },
       {
-        "artist": "The Caretaker"
-      },
-      {
         "artist": "Lustmord"
       },
       {
@@ -851,16 +851,10 @@
         "artist": "Grouper"
       },
       {
-        "artist": "Murcof"
-      },
-      {
         "artist": "Squarepusher"
       },
       {
         "artist": "Plaid"
-      },
-      {
-        "artist": "Prefuse 73"
       },
       {
         "artist": "Pole"
@@ -876,9 +870,6 @@
       },
       {
         "artist": "Loscil"
-      },
-      {
-        "artist": "Rafael Anton Irisarri"
       }
     ],
     "added": [
@@ -956,6 +947,20 @@
         "artist": "Arca",
         "listeners": 18524280,
         "spotify_id": "4SsVbpTthjScTS7U2hmr1X",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Prefuse 73",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Boards of Canada",
+        "listeners": 762055,
+        "spotify_id": "2VAvhf61GgLYmC6C8anyX1",
         "recommended": true,
         "tracksAdded": 5
       }
@@ -2358,9 +2363,6 @@
         "artist": "Al Green"
       },
       {
-        "artist": "Sam Cooke"
-      },
-      {
         "artist": "Wilson Pickett"
       },
       {
@@ -2386,9 +2388,6 @@
       },
       {
         "artist": "Jill Scott"
-      },
-      {
-        "artist": "Maxwell"
       },
       {
         "artist": "Leon Bridges"
@@ -2474,6 +2473,20 @@
         "artist": "Celia Cruz",
         "listeners": 749468,
         "spotify_id": "2weA6hhVqTIN2gSn9PUB9U",
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Sam Cooke",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Maxwell",
+        "listeners": null,
+        "spotify_id": null,
         "recommended": false,
         "tracksAdded": 5
       }
