@@ -566,17 +566,7 @@
         "artist": "William Onyeabor"
       },
       {
-        "artist": "Toots and the Maytals",
-        "listeners": 501550,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK"
-      },
-      {
         "artist": "Alpha Blondy"
-      },
-      {
-        "artist": "Linton Kwesi Johnson"
       },
       {
         "artist": "Tinariwen",
@@ -736,6 +726,20 @@
       },
       {
         "artist": "Miriam Makeba",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Toots and the Maytals",
+        "listeners": 501550,
+        "spotify_id": "6ZFv3wQwwWPiVDWhv0mjQK",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Linton Kwesi Johnson",
         "listeners": null,
         "spotify_id": null,
         "recommended": false,

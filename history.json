@@ -4844,5 +4844,34 @@
     "sourceFile": "data/smoothJazz.json",
     "strategy": "smoothJazz",
     "timestamp": "2026-04-13T21:02:17.504Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Toots and the Maytals",
+    "listeners": 501550,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T22:40:41.989Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Linton Kwesi Johnson",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-13T22:40:42.378Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-04-11",
+    "tracksAdded": 8,
+    "tracksSkipped": 0,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-13T22:40:45.722Z"
   }
 ]

@@ -1,115 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-04-11",
-      "albums": [
-        {
-          "title": "SABLE, fABLE",
-          "artist": "Bon Iver",
-          "spotifyTrack": {
-            "id": "4FeYX8QKpNA1Nof6XLsMnv",
-            "name": "S P E Y S I D E",
-            "uri": "spotify:track:4FeYX8QKpNA1Nof6XLsMnv",
-            "popularity": 65,
-            "albumName": "SABLE, fABLE",
-            "albumId": "3L3UjpXtom6T0Plt1j6l1T",
-            "foundAt": "2026-02-05T18:49:56.742Z"
-          }
-        },
-        {
-          "title": "Owls, Omens, and Oracles",
-          "artist": "Valerie June",
-          "spotifyTrack": {
-            "id": "58X7WJEPP3SkcvCMAdmkfU",
-            "name": "Joy, Joy!",
-            "uri": "spotify:track:58X7WJEPP3SkcvCMAdmkfU",
-            "popularity": 33,
-            "albumName": "Owls, Omens, and Oracles",
-            "albumId": "5K6SF5pgdnfHRnuC4gaC0Q",
-            "foundAt": "2026-02-05T18:49:58.377Z"
-          }
-        },
-        {
-          "title": "Anxious",
-          "artist": "Nell Smith",
-          "spotifyTrack": {
-            "id": "7xJdWKxJoFjSkX0tkDE6nj",
-            "name": "Billions Of People",
-            "uri": "spotify:track:7xJdWKxJoFjSkX0tkDE6nj",
-            "popularity": 23,
-            "albumName": "Anxious",
-            "albumId": "3TnqVllDL3di6RA2owF0m4",
-            "foundAt": "2026-02-05T18:50:00.225Z"
-          }
-        },
-        {
-          "title": "Light for the Midnight",
-          "artist": "Cold Specks",
-          "spotifyTrack": {
-            "id": "2FVQNaItwjlVi6FwTJMe7u",
-            "name": "How it Feels",
-            "uri": "spotify:track:2FVQNaItwjlVi6FwTJMe7u",
-            "popularity": 7,
-            "albumName": "Light for the Midnight",
-            "albumId": "0t7eL94TWpVkVxVmp6BfLk",
-            "foundAt": "2026-02-05T18:50:01.930Z"
-          }
-        },
-        {
-          "title": "Hex Key",
-          "artist": "Mamalarky",
-          "spotifyTrack": {
-            "id": "3POqTfHky5SIYc4wzgDd8j",
-            "name": "Nothing Lasts Forever",
-            "uri": "spotify:track:3POqTfHky5SIYc4wzgDd8j",
-            "popularity": 35,
-            "albumName": "Hex Key",
-            "albumId": "71gvpd2oNaGwGmbqXOk8zk",
-            "foundAt": "2026-02-05T18:50:03.704Z"
-          }
-        },
-        {
-          "title": "Ones & Twos",
-          "artist": "Gerald Clayton",
-          "spotifyTrack": {
-            "id": "4xqXQ0uxRxluGxOYG7aa9C",
-            "name": "Cinnamon Sugar",
-            "uri": "spotify:track:4xqXQ0uxRxluGxOYG7aa9C",
-            "popularity": 32,
-            "albumName": "Ones & Twos",
-            "albumId": "4nRENY6OH6RHFGrf1RthCW",
-            "foundAt": "2026-02-05T18:50:05.339Z"
-          }
-        },
-        {
-          "title": "Bowerbirds and Blue Things",
-          "artist": "Jetstream Pony",
-          "spotifyTrack": {
-            "id": "38btwhUZ07HCTJojct6b4o",
-            "name": "Bubblegum Nothingness",
-            "uri": "spotify:track:38btwhUZ07HCTJojct6b4o",
-            "popularity": 14,
-            "albumName": "Bowerbirds and Blue Things",
-            "albumId": "0gmeJtYpIV3WnUB7lyqE8V",
-            "foundAt": "2026-02-05T18:50:07.378Z"
-          }
-        },
-        {
-          "title": "Watersong",
-          "artist": "Savina Yannatou",
-          "spotifyTrack": {
-            "id": "0KFEwjKeoXNJlqz7B26F14",
-            "name": "The Song of Klidonas",
-            "uri": "spotify:track:0KFEwjKeoXNJlqz7B26F14",
-            "popularity": 13,
-            "albumName": "Watersong",
-            "albumId": "0duxmOsm8pHKaG9XRptyoC",
-            "foundAt": "2026-02-05T18:50:09.168Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-04-04",
       "albums": [
         {
@@ -1116,6 +1007,117 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-04-11",
+      "albums": [
+        {
+          "title": "SABLE, fABLE",
+          "artist": "Bon Iver",
+          "spotifyTrack": {
+            "id": "4FeYX8QKpNA1Nof6XLsMnv",
+            "name": "S P E Y S I D E",
+            "uri": "spotify:track:4FeYX8QKpNA1Nof6XLsMnv",
+            "popularity": 65,
+            "albumName": "SABLE, fABLE",
+            "albumId": "3L3UjpXtom6T0Plt1j6l1T",
+            "foundAt": "2026-02-05T18:49:56.742Z"
+          }
+        },
+        {
+          "title": "Owls, Omens, and Oracles",
+          "artist": "Valerie June",
+          "spotifyTrack": {
+            "id": "58X7WJEPP3SkcvCMAdmkfU",
+            "name": "Joy, Joy!",
+            "uri": "spotify:track:58X7WJEPP3SkcvCMAdmkfU",
+            "popularity": 33,
+            "albumName": "Owls, Omens, and Oracles",
+            "albumId": "5K6SF5pgdnfHRnuC4gaC0Q",
+            "foundAt": "2026-02-05T18:49:58.377Z"
+          }
+        },
+        {
+          "title": "Anxious",
+          "artist": "Nell Smith",
+          "spotifyTrack": {
+            "id": "7xJdWKxJoFjSkX0tkDE6nj",
+            "name": "Billions Of People",
+            "uri": "spotify:track:7xJdWKxJoFjSkX0tkDE6nj",
+            "popularity": 23,
+            "albumName": "Anxious",
+            "albumId": "3TnqVllDL3di6RA2owF0m4",
+            "foundAt": "2026-02-05T18:50:00.225Z"
+          }
+        },
+        {
+          "title": "Light for the Midnight",
+          "artist": "Cold Specks",
+          "spotifyTrack": {
+            "id": "2FVQNaItwjlVi6FwTJMe7u",
+            "name": "How it Feels",
+            "uri": "spotify:track:2FVQNaItwjlVi6FwTJMe7u",
+            "popularity": 7,
+            "albumName": "Light for the Midnight",
+            "albumId": "0t7eL94TWpVkVxVmp6BfLk",
+            "foundAt": "2026-02-05T18:50:01.930Z"
+          }
+        },
+        {
+          "title": "Hex Key",
+          "artist": "Mamalarky",
+          "spotifyTrack": {
+            "id": "3POqTfHky5SIYc4wzgDd8j",
+            "name": "Nothing Lasts Forever",
+            "uri": "spotify:track:3POqTfHky5SIYc4wzgDd8j",
+            "popularity": 35,
+            "albumName": "Hex Key",
+            "albumId": "71gvpd2oNaGwGmbqXOk8zk",
+            "foundAt": "2026-02-05T18:50:03.704Z"
+          }
+        },
+        {
+          "title": "Ones & Twos",
+          "artist": "Gerald Clayton",
+          "spotifyTrack": {
+            "id": "4xqXQ0uxRxluGxOYG7aa9C",
+            "name": "Cinnamon Sugar",
+            "uri": "spotify:track:4xqXQ0uxRxluGxOYG7aa9C",
+            "popularity": 32,
+            "albumName": "Ones & Twos",
+            "albumId": "4nRENY6OH6RHFGrf1RthCW",
+            "foundAt": "2026-02-05T18:50:05.339Z"
+          }
+        },
+        {
+          "title": "Bowerbirds and Blue Things",
+          "artist": "Jetstream Pony",
+          "spotifyTrack": {
+            "id": "38btwhUZ07HCTJojct6b4o",
+            "name": "Bubblegum Nothingness",
+            "uri": "spotify:track:38btwhUZ07HCTJojct6b4o",
+            "popularity": 14,
+            "albumName": "Bowerbirds and Blue Things",
+            "albumId": "0gmeJtYpIV3WnUB7lyqE8V",
+            "foundAt": "2026-02-05T18:50:07.378Z"
+          }
+        },
+        {
+          "title": "Watersong",
+          "artist": "Savina Yannatou",
+          "spotifyTrack": {
+            "id": "0KFEwjKeoXNJlqz7B26F14",
+            "name": "The Song of Klidonas",
+            "uri": "spotify:track:0KFEwjKeoXNJlqz7B26F14",
+            "popularity": 13,
+            "albumName": "Watersong",
+            "albumId": "0duxmOsm8pHKaG9XRptyoC",
+            "foundAt": "2026-02-05T18:50:09.168Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-13T22:40:45.721Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-04-18",
       "albums": [
