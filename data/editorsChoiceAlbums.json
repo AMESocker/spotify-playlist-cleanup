@@ -1,126 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-04-18",
-      "albums": [
-        {
-          "title": "Send a Prayer My Way",
-          "artist": "Julien BakerTorres",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:15.083Z"
-          }
-        },
-        {
-          "title": "What Did the Blackbird Say to the Crow",
-          "artist": "Rhiannon GiddensJustin Robinson",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:15.654Z"
-          }
-        },
-        {
-          "title": "Electric War",
-          "artist": "Malcolm CattoLittle Barrie",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:16.298Z"
-          }
-        },
-        {
-          "title": "Thee Black Boltz",
-          "artist": "Tunde Adebimpe",
-          "spotifyTrack": {
-            "id": "3ffpAgPusYqOoQJmKWtnbW",
-            "name": "Magnetic",
-            "uri": "spotify:track:3ffpAgPusYqOoQJmKWtnbW",
-            "popularity": 43,
-            "albumName": "Thee Black Boltz",
-            "albumId": "0MuAR8zcmZyGAwJcnkCpV1",
-            "foundAt": "2026-02-05T18:49:44.387Z"
-          }
-        },
-        {
-          "title": "Adrian Younge Presents Something About April III",
-          "artist": "Adrian Younge",
-          "spotifyTrack": {
-            "id": "6UQ26Pjdx5vWBJfG7csg4u",
-            "name": "O Som do Amor",
-            "uri": "spotify:track:6UQ26Pjdx5vWBJfG7csg4u",
-            "popularity": 20,
-            "albumName": "Adrian Younge presents Something About April III",
-            "albumId": "2lbVK9NP3QKqEeA8NrOjbx",
-            "foundAt": "2026-02-05T18:49:45.890Z"
-          }
-        },
-        {
-          "title": "A Study of Losses",
-          "artist": "Beirut",
-          "spotifyTrack": {
-            "id": "2lXcqdC9jF4cuDjmGQNw8m",
-            "name": "Guericke's Unicorn",
-            "uri": "spotify:track:2lXcqdC9jF4cuDjmGQNw8m",
-            "popularity": 44,
-            "albumName": "A Study of Losses",
-            "albumId": "78tXJfTs54x8GO5aq4rbVE",
-            "foundAt": "2026-02-05T18:49:47.726Z"
-          }
-        },
-        {
-          "title": "Insatiable",
-          "artist": "Divide and Dissolve",
-          "spotifyTrack": {
-            "id": "1W5bnwDLHMyEX5htVkYl01",
-            "name": "Monolithic",
-            "uri": "spotify:track:1W5bnwDLHMyEX5htVkYl01",
-            "popularity": 30,
-            "albumName": "Insatiable",
-            "albumId": "5174DaPHbMVAzmnWR1CQ0b",
-            "foundAt": "2026-02-05T18:49:49.262Z"
-          }
-        },
-        {
-          "title": "Dance Music 4 Bad People",
-          "artist": "Hieroglyphic Being",
-          "spotifyTrack": {
-            "id": "1NVaKxXHxHS497lkwsal4G",
-            "name": "U R Not Dying U R Just Waking Up",
-            "uri": "spotify:track:1NVaKxXHxHS497lkwsal4G",
-            "popularity": 11,
-            "albumName": "Dance Music 4 Bad People",
-            "albumId": "6PuN8mmEo3GGOmGkEYwigY",
-            "foundAt": "2026-02-05T18:49:51.087Z"
-          }
-        },
-        {
-          "title": "On Fire: Live from the Blue Morocco",
-          "artist": "Freddie Hubbard",
-          "spotifyTrack": {
-            "id": "4dULWNf6bwn9mLmyl5EKsx",
-            "name": "Crisis (Live at the Blue Morocco in the Bronx, New York ,1967)",
-            "uri": "spotify:track:4dULWNf6bwn9mLmyl5EKsx",
-            "popularity": 10,
-            "albumName": "On Fire: Live from the Blue Morocco",
-            "albumId": "28eFVFplciiCjTp0fl7G9s",
-            "foundAt": "2026-02-05T18:49:52.853Z"
-          }
-        },
-        {
-          "title": "I Heard That Noise",
-          "artist": "Quickly, Quickly",
-          "spotifyTrack": {
-            "id": "49lYeNtjK2w2gErCYz2ljk",
-            "name": "I Punched Through The Wall",
-            "uri": "spotify:track:49lYeNtjK2w2gErCYz2ljk",
-            "popularity": 45,
-            "albumName": "I Heard That Noise",
-            "albumId": "3hXswlXaEoYMiBQ9TZN2wR",
-            "foundAt": "2026-02-05T18:49:54.791Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-04-11",
       "albums": [
         {
@@ -1236,6 +1116,128 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-04-18",
+      "albums": [
+        {
+          "title": "Send a Prayer My Way",
+          "artist": "Julien BakerTorres",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:15.083Z"
+          }
+        },
+        {
+          "title": "What Did the Blackbird Say to the Crow",
+          "artist": "Rhiannon GiddensJustin Robinson",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:15.654Z"
+          }
+        },
+        {
+          "title": "Electric War",
+          "artist": "Malcolm CattoLittle Barrie",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:16.298Z"
+          }
+        },
+        {
+          "title": "Thee Black Boltz",
+          "artist": "Tunde Adebimpe",
+          "spotifyTrack": {
+            "id": "3ffpAgPusYqOoQJmKWtnbW",
+            "name": "Magnetic",
+            "uri": "spotify:track:3ffpAgPusYqOoQJmKWtnbW",
+            "popularity": 43,
+            "albumName": "Thee Black Boltz",
+            "albumId": "0MuAR8zcmZyGAwJcnkCpV1",
+            "foundAt": "2026-02-05T18:49:44.387Z"
+          }
+        },
+        {
+          "title": "Adrian Younge Presents Something About April III",
+          "artist": "Adrian Younge",
+          "spotifyTrack": {
+            "id": "6UQ26Pjdx5vWBJfG7csg4u",
+            "name": "O Som do Amor",
+            "uri": "spotify:track:6UQ26Pjdx5vWBJfG7csg4u",
+            "popularity": 20,
+            "albumName": "Adrian Younge presents Something About April III",
+            "albumId": "2lbVK9NP3QKqEeA8NrOjbx",
+            "foundAt": "2026-02-05T18:49:45.890Z"
+          }
+        },
+        {
+          "title": "A Study of Losses",
+          "artist": "Beirut",
+          "spotifyTrack": {
+            "id": "2lXcqdC9jF4cuDjmGQNw8m",
+            "name": "Guericke's Unicorn",
+            "uri": "spotify:track:2lXcqdC9jF4cuDjmGQNw8m",
+            "popularity": 44,
+            "albumName": "A Study of Losses",
+            "albumId": "78tXJfTs54x8GO5aq4rbVE",
+            "foundAt": "2026-02-05T18:49:47.726Z"
+          }
+        },
+        {
+          "title": "Insatiable",
+          "artist": "Divide and Dissolve",
+          "spotifyTrack": {
+            "id": "1W5bnwDLHMyEX5htVkYl01",
+            "name": "Monolithic",
+            "uri": "spotify:track:1W5bnwDLHMyEX5htVkYl01",
+            "popularity": 30,
+            "albumName": "Insatiable",
+            "albumId": "5174DaPHbMVAzmnWR1CQ0b",
+            "foundAt": "2026-02-05T18:49:49.262Z"
+          }
+        },
+        {
+          "title": "Dance Music 4 Bad People",
+          "artist": "Hieroglyphic Being",
+          "spotifyTrack": {
+            "id": "1NVaKxXHxHS497lkwsal4G",
+            "name": "U R Not Dying U R Just Waking Up",
+            "uri": "spotify:track:1NVaKxXHxHS497lkwsal4G",
+            "popularity": 11,
+            "albumName": "Dance Music 4 Bad People",
+            "albumId": "6PuN8mmEo3GGOmGkEYwigY",
+            "foundAt": "2026-02-05T18:49:51.087Z"
+          }
+        },
+        {
+          "title": "On Fire: Live from the Blue Morocco",
+          "artist": "Freddie Hubbard",
+          "spotifyTrack": {
+            "id": "4dULWNf6bwn9mLmyl5EKsx",
+            "name": "Crisis (Live at the Blue Morocco in the Bronx, New York ,1967)",
+            "uri": "spotify:track:4dULWNf6bwn9mLmyl5EKsx",
+            "popularity": 10,
+            "albumName": "On Fire: Live from the Blue Morocco",
+            "albumId": "28eFVFplciiCjTp0fl7G9s",
+            "foundAt": "2026-02-05T18:49:52.853Z"
+          }
+        },
+        {
+          "title": "I Heard That Noise",
+          "artist": "Quickly, Quickly",
+          "spotifyTrack": {
+            "id": "49lYeNtjK2w2gErCYz2ljk",
+            "name": "I Punched Through The Wall",
+            "uri": "spotify:track:49lYeNtjK2w2gErCYz2ljk",
+            "popularity": 45,
+            "albumName": "I Heard That Noise",
+            "albumId": "3hXswlXaEoYMiBQ9TZN2wR",
+            "foundAt": "2026-02-05T18:49:54.791Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-13T01:59:47.483Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2026-04-10",
       "albums": [

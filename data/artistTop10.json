@@ -762,9 +762,6 @@
         "artist": "Rafael Anton Irisarri"
       },
       {
-        "artist": "Prefuse 73"
-      },
-      {
         "artist": "The Caretaker"
       },
       {
@@ -794,13 +791,6 @@
         "recommended": true,
         "spotify_popularity": 65,
         "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y"
-      },
-      {
-        "artist": "Boards of Canada",
-        "listeners": 762055,
-        "recommended": true,
-        "spotify_popularity": 55,
-        "spotify_id": "2VAvhf61GgLYmC6C8anyX1"
       },
       {
         "artist": "Amon Tobin",
@@ -956,6 +946,20 @@
         "artist": "Arca",
         "listeners": 18524280,
         "spotify_id": "4SsVbpTthjScTS7U2hmr1X",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Prefuse 73",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Boards of Canada",
+        "listeners": 762055,
+        "spotify_id": "2VAvhf61GgLYmC6C8anyX1",
         "recommended": true,
         "tracksAdded": 5
       }
