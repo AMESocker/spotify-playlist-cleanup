@@ -4908,5 +4908,21 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "singleTrack",
     "timestamp": "2026-04-14T05:28:03.450Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Sam Cooke",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-14T17:19:42.117Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Dusty Springfield",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-14T17:19:44.213Z"
   }
 ]
