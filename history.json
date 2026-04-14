@@ -4891,5 +4891,15 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-04-13T23:56:43.848Z"
+  },
+  {
+    "action": "add",
+    "artist": "Young the Giant",
+    "album": "Mirror Master (2018)",
+    "index": null,
+    "tracksAdded": 12,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-14T01:53:50.475Z"
   }
 ]

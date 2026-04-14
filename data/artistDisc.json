@@ -1365,14 +1365,15 @@
       "Artist": "Young the Giant",
       "Group": "🔷 Indie / Alternative Rock",
       "Albums": [
-        "Young the Giant",
         "Mind Over Matter (2014)",
         "Home of the Strange (2016)",
         "Mirror Master (2018)",
         "American Bollywood (2022)",
         "Victory Garden"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Mirror Master (2018)"
+      ]
     },
     {
       "Artist": "Toadies",
