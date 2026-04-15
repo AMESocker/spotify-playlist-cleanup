@@ -58,7 +58,6 @@
     "Van Morrison",
     "The Doors",
     "Sly and the Family Stone",
-    "Ruth Brown",
     "Frankie Lymon & The Teenagers",
     "Johnny Cash",
     "The Isley Brothers",
@@ -86,7 +85,6 @@
     "Muddy Waters",
     "Smokey Robinson",
     "Eddie Cochran",
-    "Clyde McPhatter",
     "Ray Charles",
     "Jerry Lee Lewis",
     "Little Richard",
@@ -231,6 +229,8 @@
     "Dion",
     "Rod Stewart",
     "Sam Cooke",
-    "Dusty Springfield"
+    "Dusty Springfield",
+    "Clyde McPhatter",
+    "Ruth Brown"
   ]
 }
