@@ -2301,10 +2301,30 @@
   "Soul / Funk": {
     "not_added": [
       {
-        "artist": "Anderson .Paak",
-        "listeners": 2746196,
-        "spotify_popularity": 75,
-        "spotify_id": "3jK9MiCrA42lLAdMGUZpwa"
+        "artist": "Curtis Mayfield",
+        "listeners": 1206124,
+        "recommended": true,
+        "spotify_popularity": 56,
+        "spotify_id": "2AV6XDIs32ofIJhkkDevjm"
+      },
+      {
+        "artist": "Gil Scott-Heron",
+        "listeners": 392678,
+        "recommended": true,
+        "spotify_popularity": 47,
+        "spotify_id": "0kEfub5RzlZOB2zGomqVSU"
+      },
+      {
+        "artist": "The Meters"
+      },
+      {
+        "artist": "Fela Kuti",
+        "listeners": 714797,
+        "spotify_popularity": 49,
+        "spotify_id": "5CG9X521RDFWCuAhlo6QoR"
+      },
+      {
+        "artist": "Orchestra Baobab"
       },
       {
         "artist": "Frank Sinatra",
@@ -2313,10 +2333,10 @@
         "spotify_id": "1Mxqyy3pSjf8kZZL4QVxS0"
       },
       {
-        "artist": "Fela Kuti",
-        "listeners": 714797,
-        "spotify_popularity": 49,
-        "spotify_id": "5CG9X521RDFWCuAhlo6QoR"
+        "artist": "Anderson .Paak",
+        "listeners": 2746196,
+        "spotify_popularity": 75,
+        "spotify_id": "3jK9MiCrA42lLAdMGUZpwa"
       },
       {
         "artist": "Nina Simone",
@@ -2347,20 +2367,6 @@
         "spotify_id": "3koiLjNrgRTNbOwViDipeA"
       },
       {
-        "artist": "Curtis Mayfield",
-        "listeners": 1206124,
-        "recommended": true,
-        "spotify_popularity": 56,
-        "spotify_id": "2AV6XDIs32ofIJhkkDevjm"
-      },
-      {
-        "artist": "Gil Scott-Heron",
-        "listeners": 392678,
-        "recommended": true,
-        "spotify_popularity": 47,
-        "spotify_id": "0kEfub5RzlZOB2zGomqVSU"
-      },
-      {
         "artist": "Otis Redding"
       },
       {
@@ -2374,9 +2380,6 @@
       },
       {
         "artist": "Bootsy Collins"
-      },
-      {
-        "artist": "The Meters"
       },
       {
         "artist": "Ohio Players"
@@ -2404,9 +2407,6 @@
       },
       {
         "artist": "Thundercat"
-      },
-      {
-        "artist": "Orchestra Baobab"
       }
     ],
     "added": [

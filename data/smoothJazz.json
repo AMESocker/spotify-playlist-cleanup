@@ -58,11 +58,6 @@
     {
       "song": "Mornin'",
       "artist": "George Benson and Al Jarreau",
-      "year": 2006
-    },
-    {
-      "song": "Mornin'",
-      "artist": "George Benson and Al Jarreau",
       "year": 2007
     },
     {
@@ -346,11 +341,6 @@
       "year": 2012
     },
     {
-      "song": "Big Brother",
-      "artist": "Jeff Lorber Fusion",
-      "year": 2012
-    },
-    {
       "song": "Your Smile",
       "artist": "Brian Culbertson",
       "year": 2012
@@ -466,11 +456,6 @@
       "year": 2014
     },
     {
-      "song": "Sneakin' out the Front Door",
-      "artist": "Chris Standring",
-      "year": 2014
-    },
-    {
       "song": "Supernova",
       "artist": "Paul Taylor",
       "year": 2014
@@ -493,11 +478,6 @@
     {
       "song": "African Breeze",
       "artist": "Jonathan Butler",
-      "year": 2014
-    },
-    {
-      "song": "Serious Business",
-      "artist": "Jazz Funk Soul",
       "year": 2014
     },
     {
@@ -756,11 +736,6 @@
       "year": 2017
     },
     {
-      "song": "Caminando",
-      "artist": "David Benoit and Marc Antoine",
-      "year": 2017
-    },
-    {
       "song": "Frankie B.",
       "artist": "Gerald Albright",
       "year": 2017
@@ -793,11 +768,6 @@
     {
       "song": "Pass the Groove",
       "artist": "Lin Rountree",
-      "year": 2018
-    },
-    {
-      "song": "Groove On",
-      "artist": "Euge Groove",
       "year": 2018
     },
     {
@@ -898,11 +868,6 @@
     {
       "song": "Infinite Soul",
       "artist": "Will Donato",
-      "year": 2019
-    },
-    {
-      "song": "Good to Go",
-      "artist": "John Novello featuring Eric Marienthal",
       "year": 2019
     },
     {
@@ -1093,11 +1058,6 @@
     {
       "song": "Full Effect",
       "artist": "Boney James",
-      "year": 2020
-    },
-    {
-      "song": "Escape",
-      "artist": "Adam Hawley featuring Rick Braun",
       "year": 2020
     },
     {
@@ -1521,11 +1481,6 @@
       "year": 2023
     },
     {
-      "song": "Static",
-      "artist": "Mo Louis",
-      "year": 2023
-    },
-    {
       "song": "Closer to You",
       "artist": "Ryan La Valette featuring Chris 'Big Dog' Davis",
       "year": 2023
@@ -1678,11 +1633,6 @@
     {
       "song": "Happy Hour",
       "artist": "Michael Broening",
-      "year": 2024
-    },
-    {
-      "song": "Automatic",
-      "artist": "Dave Koz and Adam Hawley",
       "year": 2024
     },
     {
@@ -2032,6 +1982,31 @@
       "song": "Heart and Soul",
       "artist": "Kenny G",
       "year": 2010
+    },
+    {
+      "song": "Serious Business",
+      "artist": "Jazz Funk Soul",
+      "year": 2014
+    },
+    {
+      "song": "Big Brother",
+      "artist": "Jeff Lorber Fusion",
+      "year": 2012
+    },
+    {
+      "song": "Sneakin' out the Front Door",
+      "artist": "Chris Standring",
+      "year": 2014
+    },
+    {
+      "song": "Static",
+      "artist": "Mo Louis",
+      "year": 2023
+    },
+    {
+      "song": "Groove On",
+      "artist": "Euge Groove",
+      "year": 2018
     }
   ]
 }
