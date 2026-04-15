@@ -1,113 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-03-28",
-      "albums": [
-        {
-          "title": "Forever Is a Feeling",
-          "artist": "Lucy Dacus",
-          "spotifyTrack": {
-            "id": "4VhbsGXRGDncpi79aiX8eE",
-            "name": "Ankles",
-            "uri": "spotify:track:4VhbsGXRGDncpi79aiX8eE",
-            "popularity": 56,
-            "albumName": "Forever Is A Feeling",
-            "albumId": "2PedUC4azy5ywqWp8gVVrs",
-            "foundAt": "2026-02-05T18:50:23.546Z"
-          }
-        },
-        {
-          "title": "Arcadia",
-          "artist": "Alison KraussAlison Krauss & Union Station",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:18.023Z"
-          }
-        },
-        {
-          "title": "Glory",
-          "artist": "Perfume Genius",
-          "spotifyTrack": {
-            "id": "2UYuux157cn498H23UfHQf",
-            "name": "It's a Mirror",
-            "uri": "spotify:track:2UYuux157cn498H23UfHQf",
-            "popularity": 45,
-            "albumName": "Glory",
-            "albumId": "2Y5e4etT3wCXoyllnQ0aAD",
-            "foundAt": "2026-02-05T18:50:25.820Z"
-          }
-        },
-        {
-          "title": "Belonging",
-          "artist": "Branford MarsalisBranford Marsalis Quartet",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:18.599Z"
-          }
-        },
-        {
-          "title": "Letters from the Atlantic",
-          "artist": "Butcher Brown",
-          "spotifyTrack": {
-            "id": "4bEaFObJgcmZWUd99CntDR",
-            "name": "Ibiza",
-            "uri": "spotify:track:4bEaFObJgcmZWUd99CntDR",
-            "popularity": 33,
-            "albumName": "Letters From The Atlantic",
-            "albumId": "4t7ckccjrCGSqqUFrfQLpX",
-            "foundAt": "2026-02-05T18:50:28.174Z"
-          }
-        },
-        {
-          "title": "Jay Marie, Comfort Me",
-          "artist": "Mess Esque",
-          "spotifyTrack": {
-            "id": "3Dum7WctMuZgE9xnx7Jgqs",
-            "name": "Crow's Ash Tree",
-            "uri": "spotify:track:3Dum7WctMuZgE9xnx7Jgqs",
-            "popularity": 39,
-            "albumName": "Jay Marie, Comfort Me",
-            "albumId": "3eR01UioeLRPdXMXuCNkBg",
-            "foundAt": "2026-02-05T18:50:29.908Z"
-          }
-        },
-        {
-          "title": "Portrait of My Heart",
-          "artist": "Spellling",
-          "spotifyTrack": {
-            "id": "2EDBjvlWHKWNyHHWMWPx1j",
-            "name": "Portrait of My Heart",
-            "uri": "spotify:track:2EDBjvlWHKWNyHHWMWPx1j",
-            "popularity": 34,
-            "albumName": "Portrait of My Heart",
-            "albumId": "3cpbY6YDGJsTPnWTqSG2It",
-            "foundAt": "2026-02-05T18:50:31.656Z"
-          }
-        },
-        {
-          "title": "All the Quiet (Part I)",
-          "artist": "Joe Armon-Jones",
-          "spotifyTrack": {
-            "id": "0gouDswj0R5jne7YUUrlIO",
-            "name": "Lifetones",
-            "uri": "spotify:track:0gouDswj0R5jne7YUUrlIO",
-            "popularity": 31,
-            "albumName": "All The Quiet (Part I)",
-            "albumId": "0efFrXZr98tY3O5qkAGQB7",
-            "foundAt": "2026-02-05T18:50:33.208Z"
-          }
-        },
-        {
-          "title": "John Field: Complete Nocturnes",
-          "artist": "Alice Sara Ott",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:19.181Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-03-21",
       "albums": [
         {
@@ -895,6 +788,115 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-03-28",
+      "albums": [
+        {
+          "title": "Forever Is a Feeling",
+          "artist": "Lucy Dacus",
+          "spotifyTrack": {
+            "id": "4VhbsGXRGDncpi79aiX8eE",
+            "name": "Ankles",
+            "uri": "spotify:track:4VhbsGXRGDncpi79aiX8eE",
+            "popularity": 56,
+            "albumName": "Forever Is A Feeling",
+            "albumId": "2PedUC4azy5ywqWp8gVVrs",
+            "foundAt": "2026-02-05T18:50:23.546Z"
+          }
+        },
+        {
+          "title": "Arcadia",
+          "artist": "Alison KraussAlison Krauss & Union Station",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:18.023Z"
+          }
+        },
+        {
+          "title": "Glory",
+          "artist": "Perfume Genius",
+          "spotifyTrack": {
+            "id": "2UYuux157cn498H23UfHQf",
+            "name": "It's a Mirror",
+            "uri": "spotify:track:2UYuux157cn498H23UfHQf",
+            "popularity": 45,
+            "albumName": "Glory",
+            "albumId": "2Y5e4etT3wCXoyllnQ0aAD",
+            "foundAt": "2026-02-05T18:50:25.820Z"
+          }
+        },
+        {
+          "title": "Belonging",
+          "artist": "Branford MarsalisBranford Marsalis Quartet",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:18.599Z"
+          }
+        },
+        {
+          "title": "Letters from the Atlantic",
+          "artist": "Butcher Brown",
+          "spotifyTrack": {
+            "id": "4bEaFObJgcmZWUd99CntDR",
+            "name": "Ibiza",
+            "uri": "spotify:track:4bEaFObJgcmZWUd99CntDR",
+            "popularity": 33,
+            "albumName": "Letters From The Atlantic",
+            "albumId": "4t7ckccjrCGSqqUFrfQLpX",
+            "foundAt": "2026-02-05T18:50:28.174Z"
+          }
+        },
+        {
+          "title": "Jay Marie, Comfort Me",
+          "artist": "Mess Esque",
+          "spotifyTrack": {
+            "id": "3Dum7WctMuZgE9xnx7Jgqs",
+            "name": "Crow's Ash Tree",
+            "uri": "spotify:track:3Dum7WctMuZgE9xnx7Jgqs",
+            "popularity": 39,
+            "albumName": "Jay Marie, Comfort Me",
+            "albumId": "3eR01UioeLRPdXMXuCNkBg",
+            "foundAt": "2026-02-05T18:50:29.908Z"
+          }
+        },
+        {
+          "title": "Portrait of My Heart",
+          "artist": "Spellling",
+          "spotifyTrack": {
+            "id": "2EDBjvlWHKWNyHHWMWPx1j",
+            "name": "Portrait of My Heart",
+            "uri": "spotify:track:2EDBjvlWHKWNyHHWMWPx1j",
+            "popularity": 34,
+            "albumName": "Portrait of My Heart",
+            "albumId": "3cpbY6YDGJsTPnWTqSG2It",
+            "foundAt": "2026-02-05T18:50:31.656Z"
+          }
+        },
+        {
+          "title": "All the Quiet (Part I)",
+          "artist": "Joe Armon-Jones",
+          "spotifyTrack": {
+            "id": "0gouDswj0R5jne7YUUrlIO",
+            "name": "Lifetones",
+            "uri": "spotify:track:0gouDswj0R5jne7YUUrlIO",
+            "popularity": 31,
+            "albumName": "All The Quiet (Part I)",
+            "albumId": "0efFrXZr98tY3O5qkAGQB7",
+            "foundAt": "2026-02-05T18:50:33.208Z"
+          }
+        },
+        {
+          "title": "John Field: Complete Nocturnes",
+          "artist": "Alice Sara Ott",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:19.181Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-15T20:10:43.894Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-04-04",
       "albums": [

@@ -2317,9 +2317,6 @@
         "artist": "The Meters"
       },
       {
-        "artist": "Wilson Pickett"
-      },
-      {
         "artist": "Curtis Mayfield",
         "listeners": 1206124,
         "recommended": true,
@@ -2360,13 +2357,6 @@
         "recommended": true,
         "spotify_popularity": 68,
         "spotify_id": "7G1GBhoKtEPnP86X2PvEYO"
-      },
-      {
-        "artist": "Stevie Wonder",
-        "listeners": 7292634,
-        "recommended": true,
-        "spotify_popularity": 75,
-        "spotify_id": "7guDJrEfX3qb6FEbdPA5qi"
       },
       {
         "artist": "Aretha Franklin",
@@ -2492,6 +2482,20 @@
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Wilson Pickett",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Stevie Wonder",
+        "listeners": 7292634,
+        "spotify_id": "7guDJrEfX3qb6FEbdPA5qi",
+        "recommended": true,
         "tracksAdded": 5
       }
     ]
