@@ -16,7 +16,7 @@ import {
 import { handleArtistGenre } from "./artistGenreStrategy.js";
 import { runArtistBatch } from "./topTracksUtil.js";
 import {
-  processEditorsChoiceYear,
+  processAlbumsByYear,
   getEditorsChoiceStatus as getAlbumsByYearStatus,
 } from "./albums_by_year.js";
 
@@ -318,7 +318,7 @@ async function handleEditorsChoice(source) {
 
 async function handleAlbumsByYear(source) {
 
-  if (await wouldExceedLimit(10)) return false;
+if (await wouldExceedLimit(10)) return false; 
 
   const status = getAlbumsByYearStatus();
 
@@ -334,7 +334,7 @@ async function handleAlbumsByYear(source) {
     );
   }
 
-  const result = await processEditorsChoiceYear();
+  const result = await processAlbumsByYear();
 
   if (!result?.success && result?.reason !== "NO TRACKS AVAILABLE") {
     console.log(`⚠️ Failed to process year: ${result?.reason}`);
