@@ -15,6 +15,10 @@ import {
 } from "./allMusicIntegration.js";
 import { handleArtistGenre } from "./artistGenreStrategy.js";
 import { runArtistBatch } from "./topTracksUtil.js";
+import {
+  processEditorsChoiceYear,
+  getEditorsChoiceStatus as getAlbumsByYearStatus,
+} from "./albums_by_year.js";
 
 //* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
@@ -43,6 +47,12 @@ const dataSources = [
     name: "rockNRollHallOfFame",
     file: "data/rockNRollHallofFame.json",
     strategy: "rockHall",
+    originalPosition: 3,
+  },
+  {
+    name: "albumsByYear",
+    file: "data/albums_by_year_63-25_api.json",
+    strategy: "albumsByYear",
     originalPosition: 3,
   },
   {
@@ -306,6 +316,43 @@ async function handleEditorsChoice(source) {
   return true;
 }
 
+async function handleAlbumsByYear(source) {
+
+  if (await wouldExceedLimit(10)) return false;
+
+  const status = getAlbumsByYearStatus();
+
+  if (!status.available || status.pendingYears === 0) {
+    console.log(`🎉 No more years in ${source.name}`);
+    return null; // exhausted → advance source
+  }
+
+  if (status.nextYear) {
+    console.log(`📅 Year: ${status.nextYear.year}`);
+    console.log(
+      `Albums: ${status.nextYear.enrichedAlbums}/${status.nextYear.totalAlbums} ready`
+    );
+  }
+
+  const result = await processEditorsChoiceYear();
+
+  if (!result?.success && result?.reason !== "NO TRACKS AVAILABLE") {
+    console.log(`⚠️ Failed to process year: ${result?.reason}`);
+    return false; // transient failure, don't advance
+  }
+
+  pushHistory({
+    action: "addAlbumsByYear",
+    albumYear: result.albumYear,
+    tracksAdded: result.tracksAdded ?? 0,
+    tracksSkipped: result.tracksSkipped ?? 0,
+    sourceFile: source.file,
+    strategy: source.strategy,
+  });
+  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+  console.log(`✅ Completed: Year ${result.albumYear}`);
+  return true;
+}
 //* ─── ROCK HALL STRATEGY ───────────────────────────────────
 
 async function handleRockHall(source, data) {
@@ -767,6 +814,8 @@ export async function addNextAlbum() {
     result = await handleSingleTrack(source, data);
   else if (source.strategy === "smoothJazz")
     result = await handleSingleTrack(source, data);
+  else if (source.strategy === "albumsByYear")
+    result = await handleAlbumsByYear(source);
   else result = await handleAlbum(source, data);
 
   // null means "this source is exhausted, skip it"
