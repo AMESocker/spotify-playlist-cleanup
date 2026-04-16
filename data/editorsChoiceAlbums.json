@@ -1,225 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-04-04",
-      "albums": [
-        {
-          "title": "Who Believes in Angels?",
-          "artist": "Brandi CarlileElton John",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:16.875Z"
-          }
-        },
-        {
-          "title": "Bunky Becky Birthday Boy",
-          "artist": "Sleigh Bells",
-          "spotifyTrack": {
-            "id": "2aNONqhy4ZNrnhfvWJqmSF",
-            "name": "Wanna Start A Band?",
-            "uri": "spotify:track:2aNONqhy4ZNrnhfvWJqmSF",
-            "popularity": 32,
-            "albumName": "Bunky Becky Birthday Boy",
-            "albumId": "0jFDQr2f0BdbnRZtPX3RbG",
-            "foundAt": "2026-02-05T18:50:11.482Z"
-          }
-        },
-        {
-          "title": "Abyss",
-          "artist": "Anika",
-          "spotifyTrack": {
-            "id": "1u9Uj3oUgYWIH5AaiZvhze",
-            "name": "Abyss",
-            "uri": "spotify:track:1u9Uj3oUgYWIH5AaiZvhze",
-            "popularity": 31,
-            "albumName": "Abyss",
-            "albumId": "0L5Z3YLCTykE0iFt2SX5wi",
-            "foundAt": "2026-02-05T18:50:13.016Z"
-          }
-        },
-        {
-          "title": "The Crux",
-          "artist": "Djo",
-          "spotifyTrack": {
-            "id": "7tFI5cqfAoR7MIvmbw1qd8",
-            "name": "Delete Ya",
-            "uri": "spotify:track:7tFI5cqfAoR7MIvmbw1qd8",
-            "popularity": 82,
-            "albumName": "The Crux",
-            "albumId": "1xQGeKOIMZrPBUlDJuqZGQ",
-            "foundAt": "2026-02-05T18:50:14.632Z"
-          }
-        },
-        {
-          "title": "Rathlin from a Distance/The Liquid Hour",
-          "artist": "Yann Tiersen",
-          "spotifyTrack": {
-            "id": "2UxkfRsjXCKkFH7P6WSNyd",
-            "name": "Ninnog",
-            "uri": "spotify:track:2UxkfRsjXCKkFH7P6WSNyd",
-            "popularity": 16,
-            "albumName": "Rathlin from a Distance l The Liquid Hour",
-            "albumId": "3Uq0jKffAgKPlgMV4abHjd",
-            "foundAt": "2026-02-05T18:50:16.086Z"
-          }
-        },
-        {
-          "title": "Stochastic Drift",
-          "artist": "Barker",
-          "spotifyTrack": {
-            "id": "0gRPbCjHQ3B5R7LnYdxdJg",
-            "name": "Reframing",
-            "uri": "spotify:track:0gRPbCjHQ3B5R7LnYdxdJg",
-            "popularity": 39,
-            "albumName": "Stochastic Drift",
-            "albumId": "3ChV6s15ch9qohd5gZaGOF",
-            "foundAt": "2026-02-05T18:50:17.625Z"
-          }
-        },
-        {
-          "title": "Take Me Out to a Bar/What Am I, Gatsby?",
-          "artist": "Sarah Mary Chadwick",
-          "spotifyTrack": {
-            "id": "1t1SjJgQZyYig3mI3Y8HGQ",
-            "name": "Not Cool Like NY / Not Cool Like LA",
-            "uri": "spotify:track:1t1SjJgQZyYig3mI3Y8HGQ",
-            "popularity": 7,
-            "albumName": "Take Me Out To a Bar / What Am I, Gatsby?",
-            "albumId": "2fEHRMOa8zt8Kq5Uj65zNw",
-            "foundAt": "2026-02-05T18:50:19.403Z"
-          }
-        },
-        {
-          "title": "Te Whare Tiwekaweka",
-          "artist": "Marlon Williams",
-          "spotifyTrack": {
-            "id": "6pcLDsn5Dyp3w6qQutyjMY",
-            "name": "Aua Atu Rā",
-            "uri": "spotify:track:6pcLDsn5Dyp3w6qQutyjMY",
-            "popularity": 36,
-            "albumName": "Te Whare Tīwekaweka",
-            "albumId": "5qMWA3N20b5Qpcak8rbj3b",
-            "foundAt": "2026-02-05T18:50:21.209Z"
-          }
-        },
-        {
-          "title": "Hyldon JID023",
-          "artist": "HyldonAdrian Younge",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:17.456Z"
-          }
-        }
-      ]
-    },
-    {
-      "date": "2025-03-28",
-      "albums": [
-        {
-          "title": "Forever Is a Feeling",
-          "artist": "Lucy Dacus",
-          "spotifyTrack": {
-            "id": "4VhbsGXRGDncpi79aiX8eE",
-            "name": "Ankles",
-            "uri": "spotify:track:4VhbsGXRGDncpi79aiX8eE",
-            "popularity": 56,
-            "albumName": "Forever Is A Feeling",
-            "albumId": "2PedUC4azy5ywqWp8gVVrs",
-            "foundAt": "2026-02-05T18:50:23.546Z"
-          }
-        },
-        {
-          "title": "Arcadia",
-          "artist": "Alison KraussAlison Krauss & Union Station",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:18.023Z"
-          }
-        },
-        {
-          "title": "Glory",
-          "artist": "Perfume Genius",
-          "spotifyTrack": {
-            "id": "2UYuux157cn498H23UfHQf",
-            "name": "It's a Mirror",
-            "uri": "spotify:track:2UYuux157cn498H23UfHQf",
-            "popularity": 45,
-            "albumName": "Glory",
-            "albumId": "2Y5e4etT3wCXoyllnQ0aAD",
-            "foundAt": "2026-02-05T18:50:25.820Z"
-          }
-        },
-        {
-          "title": "Belonging",
-          "artist": "Branford MarsalisBranford Marsalis Quartet",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:18.599Z"
-          }
-        },
-        {
-          "title": "Letters from the Atlantic",
-          "artist": "Butcher Brown",
-          "spotifyTrack": {
-            "id": "4bEaFObJgcmZWUd99CntDR",
-            "name": "Ibiza",
-            "uri": "spotify:track:4bEaFObJgcmZWUd99CntDR",
-            "popularity": 33,
-            "albumName": "Letters From The Atlantic",
-            "albumId": "4t7ckccjrCGSqqUFrfQLpX",
-            "foundAt": "2026-02-05T18:50:28.174Z"
-          }
-        },
-        {
-          "title": "Jay Marie, Comfort Me",
-          "artist": "Mess Esque",
-          "spotifyTrack": {
-            "id": "3Dum7WctMuZgE9xnx7Jgqs",
-            "name": "Crow's Ash Tree",
-            "uri": "spotify:track:3Dum7WctMuZgE9xnx7Jgqs",
-            "popularity": 39,
-            "albumName": "Jay Marie, Comfort Me",
-            "albumId": "3eR01UioeLRPdXMXuCNkBg",
-            "foundAt": "2026-02-05T18:50:29.908Z"
-          }
-        },
-        {
-          "title": "Portrait of My Heart",
-          "artist": "Spellling",
-          "spotifyTrack": {
-            "id": "2EDBjvlWHKWNyHHWMWPx1j",
-            "name": "Portrait of My Heart",
-            "uri": "spotify:track:2EDBjvlWHKWNyHHWMWPx1j",
-            "popularity": 34,
-            "albumName": "Portrait of My Heart",
-            "albumId": "3cpbY6YDGJsTPnWTqSG2It",
-            "foundAt": "2026-02-05T18:50:31.656Z"
-          }
-        },
-        {
-          "title": "All the Quiet (Part I)",
-          "artist": "Joe Armon-Jones",
-          "spotifyTrack": {
-            "id": "0gouDswj0R5jne7YUUrlIO",
-            "name": "Lifetones",
-            "uri": "spotify:track:0gouDswj0R5jne7YUUrlIO",
-            "popularity": 31,
-            "albumName": "All The Quiet (Part I)",
-            "albumId": "0efFrXZr98tY3O5qkAGQB7",
-            "foundAt": "2026-02-05T18:50:33.208Z"
-          }
-        },
-        {
-          "title": "John Field: Complete Nocturnes",
-          "artist": "Alice Sara Ott",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-11T10:26:19.181Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-03-21",
       "albums": [
         {
@@ -1007,6 +788,229 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-03-28",
+      "albums": [
+        {
+          "title": "Forever Is a Feeling",
+          "artist": "Lucy Dacus",
+          "spotifyTrack": {
+            "id": "4VhbsGXRGDncpi79aiX8eE",
+            "name": "Ankles",
+            "uri": "spotify:track:4VhbsGXRGDncpi79aiX8eE",
+            "popularity": 56,
+            "albumName": "Forever Is A Feeling",
+            "albumId": "2PedUC4azy5ywqWp8gVVrs",
+            "foundAt": "2026-02-05T18:50:23.546Z"
+          }
+        },
+        {
+          "title": "Arcadia",
+          "artist": "Alison KraussAlison Krauss & Union Station",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:18.023Z"
+          }
+        },
+        {
+          "title": "Glory",
+          "artist": "Perfume Genius",
+          "spotifyTrack": {
+            "id": "2UYuux157cn498H23UfHQf",
+            "name": "It's a Mirror",
+            "uri": "spotify:track:2UYuux157cn498H23UfHQf",
+            "popularity": 45,
+            "albumName": "Glory",
+            "albumId": "2Y5e4etT3wCXoyllnQ0aAD",
+            "foundAt": "2026-02-05T18:50:25.820Z"
+          }
+        },
+        {
+          "title": "Belonging",
+          "artist": "Branford MarsalisBranford Marsalis Quartet",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:18.599Z"
+          }
+        },
+        {
+          "title": "Letters from the Atlantic",
+          "artist": "Butcher Brown",
+          "spotifyTrack": {
+            "id": "4bEaFObJgcmZWUd99CntDR",
+            "name": "Ibiza",
+            "uri": "spotify:track:4bEaFObJgcmZWUd99CntDR",
+            "popularity": 33,
+            "albumName": "Letters From The Atlantic",
+            "albumId": "4t7ckccjrCGSqqUFrfQLpX",
+            "foundAt": "2026-02-05T18:50:28.174Z"
+          }
+        },
+        {
+          "title": "Jay Marie, Comfort Me",
+          "artist": "Mess Esque",
+          "spotifyTrack": {
+            "id": "3Dum7WctMuZgE9xnx7Jgqs",
+            "name": "Crow's Ash Tree",
+            "uri": "spotify:track:3Dum7WctMuZgE9xnx7Jgqs",
+            "popularity": 39,
+            "albumName": "Jay Marie, Comfort Me",
+            "albumId": "3eR01UioeLRPdXMXuCNkBg",
+            "foundAt": "2026-02-05T18:50:29.908Z"
+          }
+        },
+        {
+          "title": "Portrait of My Heart",
+          "artist": "Spellling",
+          "spotifyTrack": {
+            "id": "2EDBjvlWHKWNyHHWMWPx1j",
+            "name": "Portrait of My Heart",
+            "uri": "spotify:track:2EDBjvlWHKWNyHHWMWPx1j",
+            "popularity": 34,
+            "albumName": "Portrait of My Heart",
+            "albumId": "3cpbY6YDGJsTPnWTqSG2It",
+            "foundAt": "2026-02-05T18:50:31.656Z"
+          }
+        },
+        {
+          "title": "All the Quiet (Part I)",
+          "artist": "Joe Armon-Jones",
+          "spotifyTrack": {
+            "id": "0gouDswj0R5jne7YUUrlIO",
+            "name": "Lifetones",
+            "uri": "spotify:track:0gouDswj0R5jne7YUUrlIO",
+            "popularity": 31,
+            "albumName": "All The Quiet (Part I)",
+            "albumId": "0efFrXZr98tY3O5qkAGQB7",
+            "foundAt": "2026-02-05T18:50:33.208Z"
+          }
+        },
+        {
+          "title": "John Field: Complete Nocturnes",
+          "artist": "Alice Sara Ott",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:19.181Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-15T20:10:43.894Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
+    {
+      "date": "2025-04-04",
+      "albums": [
+        {
+          "title": "Who Believes in Angels?",
+          "artist": "Brandi CarlileElton John",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:16.875Z"
+          }
+        },
+        {
+          "title": "Bunky Becky Birthday Boy",
+          "artist": "Sleigh Bells",
+          "spotifyTrack": {
+            "id": "2aNONqhy4ZNrnhfvWJqmSF",
+            "name": "Wanna Start A Band?",
+            "uri": "spotify:track:2aNONqhy4ZNrnhfvWJqmSF",
+            "popularity": 32,
+            "albumName": "Bunky Becky Birthday Boy",
+            "albumId": "0jFDQr2f0BdbnRZtPX3RbG",
+            "foundAt": "2026-02-05T18:50:11.482Z"
+          }
+        },
+        {
+          "title": "Abyss",
+          "artist": "Anika",
+          "spotifyTrack": {
+            "id": "1u9Uj3oUgYWIH5AaiZvhze",
+            "name": "Abyss",
+            "uri": "spotify:track:1u9Uj3oUgYWIH5AaiZvhze",
+            "popularity": 31,
+            "albumName": "Abyss",
+            "albumId": "0L5Z3YLCTykE0iFt2SX5wi",
+            "foundAt": "2026-02-05T18:50:13.016Z"
+          }
+        },
+        {
+          "title": "The Crux",
+          "artist": "Djo",
+          "spotifyTrack": {
+            "id": "7tFI5cqfAoR7MIvmbw1qd8",
+            "name": "Delete Ya",
+            "uri": "spotify:track:7tFI5cqfAoR7MIvmbw1qd8",
+            "popularity": 82,
+            "albumName": "The Crux",
+            "albumId": "1xQGeKOIMZrPBUlDJuqZGQ",
+            "foundAt": "2026-02-05T18:50:14.632Z"
+          }
+        },
+        {
+          "title": "Rathlin from a Distance/The Liquid Hour",
+          "artist": "Yann Tiersen",
+          "spotifyTrack": {
+            "id": "2UxkfRsjXCKkFH7P6WSNyd",
+            "name": "Ninnog",
+            "uri": "spotify:track:2UxkfRsjXCKkFH7P6WSNyd",
+            "popularity": 16,
+            "albumName": "Rathlin from a Distance l The Liquid Hour",
+            "albumId": "3Uq0jKffAgKPlgMV4abHjd",
+            "foundAt": "2026-02-05T18:50:16.086Z"
+          }
+        },
+        {
+          "title": "Stochastic Drift",
+          "artist": "Barker",
+          "spotifyTrack": {
+            "id": "0gRPbCjHQ3B5R7LnYdxdJg",
+            "name": "Reframing",
+            "uri": "spotify:track:0gRPbCjHQ3B5R7LnYdxdJg",
+            "popularity": 39,
+            "albumName": "Stochastic Drift",
+            "albumId": "3ChV6s15ch9qohd5gZaGOF",
+            "foundAt": "2026-02-05T18:50:17.625Z"
+          }
+        },
+        {
+          "title": "Take Me Out to a Bar/What Am I, Gatsby?",
+          "artist": "Sarah Mary Chadwick",
+          "spotifyTrack": {
+            "id": "1t1SjJgQZyYig3mI3Y8HGQ",
+            "name": "Not Cool Like NY / Not Cool Like LA",
+            "uri": "spotify:track:1t1SjJgQZyYig3mI3Y8HGQ",
+            "popularity": 7,
+            "albumName": "Take Me Out To a Bar / What Am I, Gatsby?",
+            "albumId": "2fEHRMOa8zt8Kq5Uj65zNw",
+            "foundAt": "2026-02-05T18:50:19.403Z"
+          }
+        },
+        {
+          "title": "Te Whare Tiwekaweka",
+          "artist": "Marlon Williams",
+          "spotifyTrack": {
+            "id": "6pcLDsn5Dyp3w6qQutyjMY",
+            "name": "Aua Atu Rā",
+            "uri": "spotify:track:6pcLDsn5Dyp3w6qQutyjMY",
+            "popularity": 36,
+            "albumName": "Te Whare Tīwekaweka",
+            "albumId": "5qMWA3N20b5Qpcak8rbj3b",
+            "foundAt": "2026-02-05T18:50:21.209Z"
+          }
+        },
+        {
+          "title": "Hyldon JID023",
+          "artist": "HyldonAdrian Younge",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-11T10:26:17.456Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-14T19:05:34.133Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-04-11",
       "albums": [

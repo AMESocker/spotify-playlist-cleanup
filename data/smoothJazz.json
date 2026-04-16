@@ -46,11 +46,6 @@
       "year": 2006
     },
     {
-      "song": "What Does It Take (To Win Your Love)",
-      "artist": "Peter White",
-      "year": 2006
-    },
-    {
       "song": "Free as the Wind",
       "artist": "Jazzmasters",
       "year": 2006
@@ -58,11 +53,6 @@
     {
       "song": "The Total Experience",
       "artist": "Boney James featuring George Duke",
-      "year": 2006
-    },
-    {
-      "song": "Mornin'",
-      "artist": "George Benson and Al Jarreau",
       "year": 2006
     },
     {
@@ -281,11 +271,6 @@
       "year": 2010
     },
     {
-      "song": "Heart and Soul",
-      "artist": "Kenny G",
-      "year": 2010
-    },
-    {
       "song": "That's Life",
       "artist": "Brian Culbertson featuring Earl Klugh",
       "year": 2010
@@ -356,11 +341,6 @@
       "year": 2012
     },
     {
-      "song": "Big Brother",
-      "artist": "Jeff Lorber Fusion",
-      "year": 2012
-    },
-    {
       "song": "Your Smile",
       "artist": "Brian Culbertson",
       "year": 2012
@@ -398,11 +378,6 @@
     {
       "song": "Sonnymoon",
       "artist": "Fourplay",
-      "year": 2012
-    },
-    {
-      "song": "Backstage Pass",
-      "artist": "Paul Brown featuring Bob James",
       "year": 2012
     },
     {
@@ -481,16 +456,6 @@
       "year": 2014
     },
     {
-      "song": "The Sweetness",
-      "artist": "Down to the Bone",
-      "year": 2014
-    },
-    {
-      "song": "Sneakin' out the Front Door",
-      "artist": "Chris Standring",
-      "year": 2014
-    },
-    {
       "song": "Supernova",
       "artist": "Paul Taylor",
       "year": 2014
@@ -516,11 +481,6 @@
       "year": 2014
     },
     {
-      "song": "Serious Business",
-      "artist": "Jazz Funk Soul",
-      "year": 2014
-    },
-    {
       "song": "Head Over Heels",
       "artist": "Peter White",
       "year": 2014
@@ -533,11 +493,6 @@
     {
       "song": "Back to Back",
       "artist": "Rick Braun",
-      "year": 2015
-    },
-    {
-      "song": "Think Free (live)",
-      "artist": "Brian Culbertson",
       "year": 2015
     },
     {
@@ -604,11 +559,6 @@
       "song": "Get Up",
       "artist": "Jeff Lorber Fusion",
       "year": 2015
-    },
-    {
-      "song": "Get Up",
-      "artist": "Jeff Lorber Fusion",
-      "year": 2016
     },
     {
       "song": "Silverado",
@@ -786,11 +736,6 @@
       "year": 2017
     },
     {
-      "song": "Caminando",
-      "artist": "David Benoit and Marc Antoine",
-      "year": 2017
-    },
-    {
       "song": "Frankie B.",
       "artist": "Gerald Albright",
       "year": 2017
@@ -823,11 +768,6 @@
     {
       "song": "Pass the Groove",
       "artist": "Lin Rountree",
-      "year": 2018
-    },
-    {
-      "song": "Groove On",
-      "artist": "Euge Groove",
       "year": 2018
     },
     {
@@ -928,11 +868,6 @@
     {
       "song": "Infinite Soul",
       "artist": "Will Donato",
-      "year": 2019
-    },
-    {
-      "song": "Good to Go",
-      "artist": "John Novello featuring Eric Marienthal",
       "year": 2019
     },
     {
@@ -1126,11 +1061,6 @@
       "year": 2020
     },
     {
-      "song": "Escape",
-      "artist": "Adam Hawley featuring Rick Braun",
-      "year": 2020
-    },
-    {
       "song": "Outta Sight",
       "artist": "Nils Jiptner",
       "year": 2020
@@ -1238,11 +1168,6 @@
     {
       "song": "Affection",
       "artist": "Randy Scott",
-      "year": 2021
-    },
-    {
-      "song": "Sunrise Boulevard",
-      "artist": "Greg Manning",
       "year": 2021
     },
     {
@@ -1431,11 +1356,6 @@
       "year": 2022
     },
     {
-      "song": "Thrill Ride",
-      "artist": "Ragan Whiteside",
-      "year": 2022
-    },
-    {
       "song": "Summertime in NYC",
       "artist": "Dave Koz featuring Brian McKnight",
       "year": 2022
@@ -1463,11 +1383,6 @@
     {
       "song": "I'll Be the One",
       "artist": "Le Sonic featuring Lauran Beluzo and Robert Lee",
-      "year": 2022
-    },
-    {
-      "song": "Let's Get Down Tonight",
-      "artist": "Adam Hawley featuring Vincent Ingala",
       "year": 2022
     },
     {
@@ -1563,11 +1478,6 @@
     {
       "song": "Solid",
       "artist": "Lin Rountree featuring Ryan La Valette",
-      "year": 2023
-    },
-    {
-      "song": "Static",
-      "artist": "Mo Louis",
       "year": 2023
     },
     {
@@ -1726,11 +1636,6 @@
       "year": 2024
     },
     {
-      "song": "Automatic",
-      "artist": "Dave Koz and Adam Hawley",
-      "year": 2024
-    },
-    {
       "song": "Happy Hour",
       "artist": "Michael Broening",
       "year": 2025
@@ -1798,11 +1703,6 @@
     {
       "song": "So Naturally",
       "artist": "Lin Rountree",
-      "year": 2025
-    },
-    {
-      "song": "Straight Up Down",
-      "artist": "Richard Elliot",
       "year": 2025
     },
     {
@@ -2042,6 +1942,71 @@
       "song": "Is There a Doctor in the House?",
       "artist": "Chris Standring",
       "year": 2020
+    },
+    {
+      "song": "Thrill Ride",
+      "artist": "Ragan Whiteside",
+      "year": 2022
+    },
+    {
+      "song": "Think Free (live)",
+      "artist": "Brian Culbertson",
+      "year": 2015
+    },
+    {
+      "song": "What Does It Take (To Win Your Love)",
+      "artist": "Peter White",
+      "year": 2006
+    },
+    {
+      "song": "Get Up",
+      "artist": "Jeff Lorber Fusion",
+      "year": 2016
+    },
+    {
+      "song": "Straight Up Down",
+      "artist": "Richard Elliot",
+      "year": 2025
+    },
+    {
+      "song": "Sunrise Boulevard",
+      "artist": "Greg Manning",
+      "year": 2021
+    },
+    {
+      "song": "The Sweetness",
+      "artist": "Down to the Bone",
+      "year": 2014
+    },
+    {
+      "song": "Heart and Soul",
+      "artist": "Kenny G",
+      "year": 2010
+    },
+    {
+      "song": "Serious Business",
+      "artist": "Jazz Funk Soul",
+      "year": 2014
+    },
+    {
+      "song": "Big Brother",
+      "artist": "Jeff Lorber Fusion",
+      "year": 2012
+    },
+    {
+      "song": "Sneakin' out the Front Door",
+      "artist": "Chris Standring",
+      "year": 2014
+    },
+    {
+      "song": "Static",
+      "artist": "Mo Louis",
+      "year": 2023
+    },
+    {
+      "song": "Groove On",
+      "artist": "Euge Groove",
+      "year": 2018
     }
   ]
 }

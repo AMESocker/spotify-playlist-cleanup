@@ -4873,5 +4873,214 @@
     "sourceFile": "data/editorsChoiceAlbums.json",
     "strategy": "editorsChoice",
     "timestamp": "2026-04-13T22:40:45.722Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Jennie",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-13T23:56:42.074Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "PartyOf2",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-13T23:56:43.848Z"
+  },
+  {
+    "action": "add",
+    "artist": "Young the Giant",
+    "album": "Mirror Master (2018)",
+    "index": null,
+    "tracksAdded": 12,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-14T01:53:50.475Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 4,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-14T05:28:03.450Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Sam Cooke",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-14T17:19:42.117Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Dusty Springfield",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-14T17:19:44.213Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 8,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-14T19:05:24.786Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "John Coltrane",
+    "listeners": 1874891,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-14T19:05:30.453Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Jazz / Blues",
+    "artist": "Wayne Shorter ",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-14T19:05:30.778Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-04-04",
+    "tracksAdded": 7,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-14T19:05:34.136Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Glastonbury",
+    "artist": "The Henry Girls",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-14T21:02:14.895Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Glastonbury",
+    "artist": "AJ Tracey",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-14T21:02:17.342Z"
+  },
+  {
+    "action": "add",
+    "artist": "Corrosion of Conformity",
+    "album": "No Cross No Crown (2018)",
+    "index": null,
+    "tracksAdded": 15,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-14T22:42:58.500Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 8,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-15T01:50:57.209Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Clyde McPhatter",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-15T01:51:04.421Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Ruth Brown",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-15T01:51:06.450Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 5,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-04-15T17:16:12.979Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Wilson Pickett",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-15T20:10:40.281Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Soul / Funk",
+    "artist": "Stevie Wonder",
+    "listeners": 7292634,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-15T20:10:40.567Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2025-03-28",
+    "tracksAdded": 6,
+    "tracksSkipped": 3,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-15T20:10:43.896Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "MC4D",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-15T20:59:27.362Z"
+  },
+  {
+    "action": "addFestival",
+    "festival": "Lollapalooza",
+    "artist": "Calder Allen",
+    "tracksAdded": 5,
+    "sourceFile": "data/festivals.json",
+    "strategy": "festival",
+    "timestamp": "2026-04-15T20:59:29.014Z"
+  },
+  {
+    "action": "add",
+    "artist": "Sepultura",
+    "album": "Arise (1991)",
+    "index": null,
+    "tracksAdded": 13,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-15T23:41:55.206Z"
+  },
+  {
+    "action": "billboardHot100",
+    "tracksAdded": 10,
+    "sourceFile": "data/billboardHot100.json",
+    "strategy": "singleTrack",
+    "timestamp": "2026-04-16T01:58:50.307Z"
   }
 ]

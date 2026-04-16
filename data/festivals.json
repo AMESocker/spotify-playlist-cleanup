@@ -38,7 +38,6 @@
         "Goat",
         "Abel Selaocoe",
         "Thandii",
-        "AJ Tracey",
         "Black Country, New Road",
         "Blossoms",
         "Djo",
@@ -70,7 +69,6 @@
         "Faye Webster",
         "Gary Numan",
         "Geordie Greep",
-        "Girl in Red",
         "Haim",
         "Horsegirl",
         "Ichiko Aoba",
@@ -113,7 +111,6 @@
         "The Bluebells",
         "The Bootleg Beatles",
         "The Coronas",
-        "The Henry Girls",
         "The Riptide Movement",
         "The Searchers",
         "Tift Merritt",
@@ -179,7 +176,10 @@
         "Shed Seven",
         "The Magic Numbers",
         "Floating Points",
-        "Future Islands"
+        "Future Islands",
+        "Girl in Red [DUPLICATE]",
+        "The Henry Girls",
+        "AJ Tracey"
       ]
     },
     {
@@ -332,7 +332,6 @@
         "Lorde",
         "Olivia Dean",
         "John Summit",
-        "Jennie",
         "The Smashing Pumpkins",
         "The xx",
         "Lil Uzi Vert",
@@ -432,7 +431,6 @@
         "New Constellations",
         "Bixby",
         "The Bends",
-        "PartyOf2",
         "After",
         "The Army, The Navy",
         "Jae Stephens",
@@ -451,13 +449,11 @@
         "Know Good",
         "Faouzia",
         "Sunday (1994)",
-        "MC4D",
         "Elizabeth Nichols",
         "Ella Red",
         "Chace",
         "Ella Boh",
         "Villanelle",
-        "Calder Allen",
         "The Braymores",
         "Ivri",
         "Justine Skye",
@@ -499,7 +495,11 @@
         "Avello",
         "Whethan",
         "Surfing for Daisy",
-        "Max Styler"
+        "Max Styler",
+        "Jennie",
+        "PartyOf2",
+        "MC4D",
+        "Calder Allen"
       ]
     }
   ],

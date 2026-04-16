@@ -2152,13 +2152,6 @@
         "spotify_id": "5dCuFngSPyOOnTAvrC7v2s"
       },
       {
-        "artist": "John Coltrane",
-        "listeners": 1874891,
-        "recommended": true,
-        "spotify_popularity": 65,
-        "spotify_id": "2hGh5VOeeqimQFxqXvfCUf"
-      },
-      {
         "artist": "Thelonious Monk",
         "listeners": 743275,
         "recommended": true,
@@ -2181,9 +2174,6 @@
       },
       {
         "artist": "Cannonball Adderley "
-      },
-      {
-        "artist": "Wayne Shorter "
       },
       {
         "artist": "Sonny Rollins "
@@ -2291,49 +2281,27 @@
         "spotify_id": null,
         "recommended": false,
         "tracksAdded": 5
+      },
+      {
+        "artist": "John Coltrane",
+        "listeners": 1874891,
+        "spotify_id": "2hGh5VOeeqimQFxqXvfCUf",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Wayne Shorter ",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
       }
     ]
   },
   "Soul / Funk": {
     "not_added": [
       {
-        "artist": "Anderson .Paak",
-        "listeners": 2746196,
-        "spotify_popularity": 75,
-        "spotify_id": "3jK9MiCrA42lLAdMGUZpwa"
-      },
-      {
-        "artist": "Frank Sinatra",
-        "listeners": 8695773,
-        "spotify_popularity": 78,
-        "spotify_id": "1Mxqyy3pSjf8kZZL4QVxS0"
-      },
-      {
-        "artist": "Fela Kuti",
-        "listeners": 714797,
-        "spotify_popularity": 49,
-        "spotify_id": "5CG9X521RDFWCuAhlo6QoR"
-      },
-      {
-        "artist": "Nina Simone",
-        "listeners": 3319842,
-        "recommended": true,
-        "spotify_popularity": 68,
-        "spotify_id": "7G1GBhoKtEPnP86X2PvEYO"
-      },
-      {
-        "artist": "Stevie Wonder",
-        "listeners": 7292634,
-        "recommended": true,
-        "spotify_popularity": 75,
-        "spotify_id": "7guDJrEfX3qb6FEbdPA5qi"
-      },
-      {
-        "artist": "Aretha Franklin",
-        "listeners": 3903676,
-        "recommended": true,
-        "spotify_popularity": 68,
-        "spotify_id": "7nwUJBm0HE4ZxD3f5cy5ok"
+        "artist": "Otis Redding"
       },
       {
         "artist": "Marvin Gaye",
@@ -2341,6 +2309,12 @@
         "recommended": true,
         "spotify_popularity": 74,
         "spotify_id": "3koiLjNrgRTNbOwViDipeA"
+      },
+      {
+        "artist": "Ohio Players"
+      },
+      {
+        "artist": "The Meters"
       },
       {
         "artist": "Curtis Mayfield",
@@ -2357,25 +2331,48 @@
         "spotify_id": "0kEfub5RzlZOB2zGomqVSU"
       },
       {
-        "artist": "Otis Redding"
+        "artist": "Fela Kuti",
+        "listeners": 714797,
+        "spotify_popularity": 49,
+        "spotify_id": "5CG9X521RDFWCuAhlo6QoR"
+      },
+      {
+        "artist": "Orchestra Baobab"
+      },
+      {
+        "artist": "Frank Sinatra",
+        "listeners": 8695773,
+        "spotify_popularity": 78,
+        "spotify_id": "1Mxqyy3pSjf8kZZL4QVxS0"
+      },
+      {
+        "artist": "Anderson .Paak",
+        "listeners": 2746196,
+        "spotify_popularity": 75,
+        "spotify_id": "3jK9MiCrA42lLAdMGUZpwa"
+      },
+      {
+        "artist": "Nina Simone",
+        "listeners": 3319842,
+        "recommended": true,
+        "spotify_popularity": 68,
+        "spotify_id": "7G1GBhoKtEPnP86X2PvEYO"
+      },
+      {
+        "artist": "Aretha Franklin",
+        "listeners": 3903676,
+        "recommended": true,
+        "spotify_popularity": 68,
+        "spotify_id": "7nwUJBm0HE4ZxD3f5cy5ok"
       },
       {
         "artist": "Al Green"
-      },
-      {
-        "artist": "Wilson Pickett"
       },
       {
         "artist": "Donny Hathaway"
       },
       {
         "artist": "Bootsy Collins"
-      },
-      {
-        "artist": "The Meters"
-      },
-      {
-        "artist": "Ohio Players"
       },
       {
         "artist": "Kool & the Gang"
@@ -2400,9 +2397,6 @@
       },
       {
         "artist": "Thundercat"
-      },
-      {
-        "artist": "Orchestra Baobab"
       }
     ],
     "added": [
@@ -2488,6 +2482,20 @@
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Wilson Pickett",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Stevie Wonder",
+        "listeners": 7292634,
+        "spotify_id": "7guDJrEfX3qb6FEbdPA5qi",
+        "recommended": true,
         "tracksAdded": 5
       }
     ]
