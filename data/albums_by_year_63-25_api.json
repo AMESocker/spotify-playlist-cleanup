@@ -1467,10 +1467,6 @@
           "album": "The Soul Album"
         },
         {
-          "artist": "Bobby Darin",
-          "album": "Bobby Darin Sings The Shadow of Your Smile"
-        },
-        {
           "artist": "Lou Rawls",
           "album": "Live!"
         },
@@ -2294,10 +2290,6 @@
         {
           "artist": "Paul Butterfield Blues Band",
           "album": "The Resurrection of Pigboy Crabshaw"
-        },
-        {
-          "artist": "Van Dyke Parks",
-          "album": "Song Cycle"
         },
         {
           "artist": "Hep Stars",
@@ -3560,10 +3552,6 @@
         {
           "artist": "Fairport Convention",
           "album": "Liege & Lief"
-        },
-        {
-          "artist": "Donald Byrd",
-          "album": "Fancy Free"
         },
         {
           "artist": "Renaissance",
@@ -16109,10 +16097,6 @@
         {
           "artist": "The Lords of the New Church",
           "album": "The Lords of the New Church"
-        },
-        {
-          "artist": "Kenny Rogers",
-          "album": "Love Will Turn You Around"
         },
         {
           "artist": "Whitehouse",
@@ -38658,10 +38642,6 @@
           "album": "Diana, Princess of Wales: Tribute"
         },
         {
-          "artist": "Pandora",
-          "album": "This Could Be Heaven"
-        },
-        {
           "artist": "Ron Wasserman",
           "album": "Dragon Ball Z: Original USA Television Soundtrack"
         },
@@ -48264,10 +48244,6 @@
         {
           "artist": "Z-Ro",
           "album": "King of da Ghetto"
-        },
-        {
-          "artist": "Ivy",
-          "album": "Long Distance"
         },
         {
           "artist": "Avantasia",
@@ -65837,10 +65813,6 @@
         {
           "artist": "Godsmack",
           "album": "IV"
-        },
-        {
-          "artist": "Goo Goo Dolls",
-          "album": "Let Love In"
         },
         {
           "artist": "Irma Thomas",
@@ -90400,10 +90372,6 @@
         {
           "artist": "The Field",
           "album": "Cupid's Head"
-        },
-        {
-          "artist": "Joan Jett and the Blackhearts",
-          "album": "Unvarnished"
         },
         {
           "artist": "Mack Wilds",
@@ -147975,6 +147943,46 @@
       "artist": "BT",
       "album": "The Secret Language of Trees",
       "year": "2023"
+    },
+    {
+      "artist": "Goo Goo Dolls",
+      "album": "Let Love In",
+      "year": "2006"
+    },
+    {
+      "artist": "Kenny Rogers",
+      "album": "Love Will Turn You Around",
+      "year": "1982"
+    },
+    {
+      "artist": "Pandora",
+      "album": "This Could Be Heaven",
+      "year": "1997"
+    },
+    {
+      "artist": "Ivy",
+      "album": "Long Distance",
+      "year": "2001"
+    },
+    {
+      "artist": "Van Dyke Parks",
+      "album": "Song Cycle",
+      "year": "1967"
+    },
+    {
+      "artist": "Joan Jett and the Blackhearts",
+      "album": "Unvarnished",
+      "year": "2013"
+    },
+    {
+      "artist": "Donald Byrd",
+      "album": "Fancy Free",
+      "year": "1969"
+    },
+    {
+      "artist": "Bobby Darin",
+      "album": "Bobby Darin Sings The Shadow of Your Smile",
+      "year": "1966"
     }
   ]
 }
