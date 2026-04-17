@@ -750,6 +750,28 @@
   "Ambient / Experimental Electronic": {
     "not_added": [
       {
+        "artist": "Loscil"
+      },
+      {
+        "artist": "Harold Budd"
+      },
+      {
+        "artist": "William Basinski"
+      },
+      {
+        "artist": "Gas"
+      },
+      {
+        "artist": "The Caretaker"
+      },
+      {
+        "artist": "Nils Frahm",
+        "listeners": 727464,
+        "recommended": true,
+        "spotify_popularity": 57,
+        "spotify_id": "5gqhueRUZEa7VDnQt4HODp"
+      },
+      {
         "artist": "Floating Points",
         "listeners": 404135,
         "recommended": true,
@@ -762,9 +784,6 @@
         "recommended": true,
         "spotify_popularity": 61,
         "spotify_id": "25KNo5GDS6ZpLkjasaecA3"
-      },
-      {
-        "artist": "Gas"
       },
       {
         "artist": "Pole"
@@ -784,9 +803,6 @@
       },
       {
         "artist": "Rafael Anton Irisarri"
-      },
-      {
-        "artist": "The Caretaker"
       },
       {
         "artist": "Burial",
@@ -831,13 +847,6 @@
         "spotify_id": "7Eu1txygG6nJttLHbZdQOh"
       },
       {
-        "artist": "Nils Frahm",
-        "listeners": 727464,
-        "recommended": true,
-        "spotify_popularity": 57,
-        "spotify_id": "5gqhueRUZEa7VDnQt4HODp"
-      },
-      {
         "artist": "Bonobo",
         "listeners": 1485781,
         "recommended": true,
@@ -846,9 +855,6 @@
       },
       {
         "artist": "Brian Eno"
-      },
-      {
-        "artist": "Harold Budd"
       },
       {
         "artist": "Lustmord"
@@ -863,13 +869,7 @@
         "artist": "Plaid"
       },
       {
-        "artist": "William Basinski"
-      },
-      {
         "artist": "Oval"
-      },
-      {
-        "artist": "Loscil"
       }
     ],
     "added": [
