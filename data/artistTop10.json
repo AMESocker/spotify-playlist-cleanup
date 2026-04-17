@@ -750,14 +750,30 @@
   "Ambient / Experimental Electronic": {
     "not_added": [
       {
+        "artist": "The Caretaker"
+      },
+      {
+        "artist": "Caribou",
+        "listeners": 732092,
+        "recommended": true,
+        "spotify_popularity": 54,
+        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
+      },
+      {
+        "artist": "Harold Budd"
+      },
+      {
+        "artist": "Brian Eno"
+      },
+      {
+        "artist": "Loscil"
+      },
+      {
         "artist": "Burial",
         "listeners": 527105,
         "recommended": true,
         "spotify_popularity": 48,
         "spotify_id": "0uCCBpmg6MrPb1KY2msceF"
-      },
-      {
-        "artist": "Loscil"
       },
       {
         "artist": "Nils Frahm",
@@ -780,16 +796,10 @@
         "artist": "Murcof"
       },
       {
-        "artist": "Harold Budd"
-      },
-      {
         "artist": "William Basinski"
       },
       {
         "artist": "Gas"
-      },
-      {
-        "artist": "The Caretaker"
       },
       {
         "artist": "Floating Points",
@@ -810,13 +820,6 @@
       },
       {
         "artist": "Tim Hecker"
-      },
-      {
-        "artist": "Caribou",
-        "listeners": 732092,
-        "recommended": true,
-        "spotify_popularity": 54,
-        "spotify_id": "4aEnNH9PuU1HF3TsZTru54"
       },
       {
         "artist": "Rafael Anton Irisarri"
@@ -862,9 +865,6 @@
         "recommended": true,
         "spotify_popularity": 61,
         "spotify_id": "0cmWgDlu9CwTgxPhf403hb"
-      },
-      {
-        "artist": "Brian Eno"
       },
       {
         "artist": "Lustmord"
