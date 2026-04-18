@@ -5210,5 +5210,34 @@
     "sourceFile": "data/smoothJazz.json",
     "strategy": "smoothJazz",
     "timestamp": "2026-04-18T18:39:42.087Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Mdou Moctar",
+    "listeners": 161193,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-18T19:42:51.447Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Barrington Levy",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-18T19:42:51.758Z"
+  },
+  {
+    "action": "addEditorsChoice",
+    "weekDate": "2026-04-17",
+    "tracksAdded": 7,
+    "tracksSkipped": 2,
+    "sourceFile": "data/editorsChoiceAlbums.json",
+    "strategy": "editorsChoice",
+    "timestamp": "2026-04-18T19:42:55.084Z"
   }
 ]

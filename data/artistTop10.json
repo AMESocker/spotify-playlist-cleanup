@@ -591,13 +591,6 @@
         "artist": "Ali Farka Touré"
       },
       {
-        "artist": "Mdou Moctar",
-        "listeners": 161193,
-        "recommended": true,
-        "spotify_popularity": 33,
-        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94"
-      },
-      {
         "artist": "Max Romeo"
       },
       {
@@ -626,9 +619,6 @@
       },
       {
         "artist": "Jimmy Cliff"
-      },
-      {
-        "artist": "Barrington Levy"
       },
       {
         "artist": "Gregory Isaacs"
@@ -740,6 +730,20 @@
       },
       {
         "artist": "Linton Kwesi Johnson",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Mdou Moctar",
+        "listeners": 161193,
+        "spotify_id": "48dgx7iGqLQ3E5KO3pzd94",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Barrington Levy",
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
