@@ -181,9 +181,10 @@ export async function processAlbumsByYear() {
   let skippedCount = 0;
 const successfulPicks = [];
 
-for (let i = 0; i < 10; i++) {
   const randomYearIndex = Math.floor(Math.random() * data.yearlyAlbums.length);
   lastYearEntry = data.yearlyAlbums[randomYearIndex];
+
+for (let i = 0; i < 10; i++) {
 
   const randomAlbumIndex = Math.floor(Math.random() * lastYearEntry.albums.length);
   lastAlbum = lastYearEntry.albums[randomAlbumIndex];
