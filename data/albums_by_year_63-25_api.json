@@ -109236,10 +109236,6 @@
           "album": "Ladytron"
         },
         {
-          "artist": "Luis Fonsi",
-          "album": "Vida"
-        },
-        {
           "artist": "Nina Nesbitt",
           "album": "The Sun Will Come Up, the Seasons Will Change"
         },
@@ -109564,10 +109560,6 @@
           "album": "Crushing"
         },
         {
-          "artist": "Kehlani",
-          "album": "While We Wait"
-        },
-        {
           "artist": "Kerli",
           "album": "Shadow Works"
         },
@@ -109826,10 +109818,6 @@
         {
           "artist": "Maren Morris",
           "album": "Girl"
-        },
-        {
-          "artist": "Meat Puppets",
-          "album": "Dusty Notes"
         },
         {
           "artist": "Patty Griffin",
@@ -110436,10 +110424,6 @@
           "album": "Evergreen"
         },
         {
-          "artist": "Allegaeon",
-          "album": "Apoptosis"
-        },
-        {
           "artist": "Bananarama",
           "album": "In Stereo"
         },
@@ -110856,10 +110840,6 @@
           "album": "Injury Reserve"
         },
         {
-          "artist": "Interpol",
-          "album": "A Fine Mess"
-        },
-        {
           "artist": "Kany García",
           "album": "Contra el Viento"
         },
@@ -111226,10 +111206,6 @@
         {
           "artist": "Mary's Blood",
           "album": "Confessions"
-        },
-        {
-          "artist": "Bad Books",
-          "album": "III"
         },
         {
           "artist": "Baroness",
@@ -111682,10 +111658,6 @@
         {
           "artist": "Maxo Kream",
           "album": "Brandon Banks"
-        },
-        {
-          "artist": "Peppa Pig",
-          "album": "My First Album"
         },
         {
           "artist": "Sabaton",
@@ -112210,10 +112182,6 @@
         {
           "artist": "EarthGang",
           "album": "Mirrorland"
-        },
-        {
-          "artist": "Frankie Cosmos",
-          "album": "Close It Quietly"
         },
         {
           "artist": "Flor",
@@ -113098,10 +113066,6 @@
         {
           "artist": "The Magpie Salute",
           "album": "High Water II"
-        },
-        {
-          "artist": "Mark Lanegan Band",
-          "album": "Somebody's Knocking"
         },
         {
           "artist": "Mavi",
@@ -148007,6 +147971,51 @@
       "artist": "Sloan",
       "album": "The Double Cross",
       "year": "2011"
+    },
+    {
+      "artist": "Bad Books",
+      "album": "III",
+      "year": "2019"
+    },
+    {
+      "artist": "Meat Puppets",
+      "album": "Dusty Notes",
+      "year": "2019"
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "album": "Close It Quietly",
+      "year": "2019"
+    },
+    {
+      "artist": "Allegaeon",
+      "album": "Apoptosis",
+      "year": "2019"
+    },
+    {
+      "artist": "Mark Lanegan Band",
+      "album": "Somebody's Knocking",
+      "year": "2019"
+    },
+    {
+      "artist": "Peppa Pig",
+      "album": "My First Album",
+      "year": "2019"
+    },
+    {
+      "artist": "Kehlani",
+      "album": "While We Wait",
+      "year": "2019"
+    },
+    {
+      "artist": "Luis Fonsi",
+      "album": "Vida",
+      "year": "2019"
+    },
+    {
+      "artist": "Interpol",
+      "album": "A Fine Mess",
+      "year": "2019"
     }
   ]
 }
