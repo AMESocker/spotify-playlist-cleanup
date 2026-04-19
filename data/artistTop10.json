@@ -1824,13 +1824,6 @@
         "spotify_id": "3Q8wgwyVVv0z4UEh1HB0KY"
       },
       {
-        "artist": "Phosphorescent",
-        "listeners": 259498,
-        "recommended": true,
-        "spotify_popularity": 48,
-        "spotify_id": "57kIMCLPgkzQlXjblX7XXP"
-      },
-      {
         "artist": "Fleet Foxes",
         "listeners": 1474085,
         "recommended": true,
@@ -1959,13 +1952,6 @@
         "spotify_id": "32vWCbZh0xZ4o9gkz4PsEU"
       },
       {
-        "artist": "Willie Nelson",
-        "listeners": 2644932,
-        "recommended": true,
-        "spotify_popularity": 69,
-        "spotify_id": "5W5bDNCqJ1jbCgTxDD0Cb3"
-      },
-      {
         "artist": "Joni Mitchell",
         "listeners": 1677360,
         "recommended": true,
@@ -2083,6 +2069,20 @@
         "artist": "Neutral Milk Hotel",
         "listeners": 814554,
         "spotify_id": "2ooIqOf4X2uz4mMptXCtie",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Phosphorescent",
+        "listeners": 259498,
+        "spotify_id": "57kIMCLPgkzQlXjblX7XXP",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Willie Nelson",
+        "listeners": 2644932,
+        "spotify_id": "5W5bDNCqJ1jbCgTxDD0Cb3",
         "recommended": true,
         "tracksAdded": 5
       }

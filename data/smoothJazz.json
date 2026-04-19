@@ -41,11 +41,6 @@
       "year": 2006
     },
     {
-      "song": "Summer Nights",
-      "artist": "Nils Jiptner",
-      "year": 2006
-    },
-    {
       "song": "Free as the Wind",
       "artist": "Jazzmasters",
       "year": 2006
@@ -171,11 +166,6 @@
       "year": 2009
     },
     {
-      "song": "I'm Waiting for You",
-      "artist": "Jackiem Joyner",
-      "year": 2009
-    },
-    {
       "song": "Steady as She Goes",
       "artist": "Walter Beasley",
       "year": 2009
@@ -231,11 +221,6 @@
       "year": 2010
     },
     {
-      "song": "Ritmo De Otono",
-      "artist": "Bernie Williams featuring Dave Koz",
-      "year": 2010
-    },
-    {
       "song": "Christiane",
       "artist": "Rick Braun",
       "year": 2010
@@ -258,16 +243,6 @@
     {
       "song": "Touch and Go",
       "artist": "Jazzmasters",
-      "year": 2010
-    },
-    {
-      "song": "That's Life",
-      "artist": "Brian Culbertson featuring Earl Klugh",
-      "year": 2010
-    },
-    {
-      "song": "Put the Top Down",
-      "artist": "Dave Koz featuring Lee Ritenour",
       "year": 2010
     },
     {
@@ -736,11 +711,6 @@
       "year": 2018
     },
     {
-      "song": "Up and Up",
-      "artist": "Jeff Ryan",
-      "year": 2018
-    },
-    {
       "song": "Corey's Bop",
       "artist": "Ragan Whiteside",
       "year": 2018
@@ -1066,11 +1036,6 @@
       "year": 2021
     },
     {
-      "song": "Now or Never",
-      "artist": "Skinny Hightower",
-      "year": 2021
-    },
-    {
       "song": "Just like Music",
       "artist": "Ben Tankard",
       "year": 2021
@@ -1126,11 +1091,6 @@
       "year": 2021
     },
     {
-      "song": "Hispanica",
-      "artist": "Christian de Mesones featuring Bob James",
-      "year": 2021
-    },
-    {
       "song": "Feels So Right",
       "artist": "Blake Aaron",
       "year": 2021
@@ -1138,11 +1098,6 @@
     {
       "song": "Serendipity",
       "artist": "The Saxtress Pamela Williams featuring Gerald Albright",
-      "year": 2021
-    },
-    {
-      "song": "I'm Every Woman",
-      "artist": "Kim Scott featuring Althea Rene and Ragan Whiteside",
       "year": 2021
     },
     {
@@ -1438,11 +1393,6 @@
     {
       "song": "Full Throttle",
       "artist": "Gerald Albright",
-      "year": 2024
-    },
-    {
-      "song": "Hypnotized",
-      "artist": "The TNR Collective",
       "year": 2024
     },
     {
@@ -1977,6 +1927,26 @@
       "song": "The King Is Here",
       "artist": "Norman Brown",
       "year": 2019
+    },
+    {
+      "song": "I'm Waiting for You",
+      "artist": "Jackiem Joyner",
+      "year": 2009
+    },
+    {
+      "song": "Now or Never",
+      "artist": "Skinny Hightower",
+      "year": 2021
+    },
+    {
+      "song": "Hypnotized",
+      "artist": "The TNR Collective",
+      "year": 2024
+    },
+    {
+      "song": "Up and Up",
+      "artist": "Jeff Ryan",
+      "year": 2018
     }
   ]
 }

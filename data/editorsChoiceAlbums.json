@@ -1,100 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-03-07",
-      "albums": [
-        {
-          "title": "MAYHEM",
-          "artist": "Lady Gaga",
-          "spotifyTrack": {
-            "id": "7so0lgd0zP2Sbgs2d7a1SZ",
-            "name": "Die With A Smile",
-            "uri": "spotify:track:7so0lgd0zP2Sbgs2d7a1SZ",
-            "popularity": 88,
-            "albumName": "MAYHEM",
-            "albumId": "2MHUaRi9OCyTN02SoyRRBJ",
-            "foundAt": "2026-02-05T18:51:02.912Z"
-          }
-        },
-        {
-          "title": "Foxes in the Snow",
-          "artist": "Jason Isbell",
-          "spotifyTrack": {
-            "id": "56fy1fC0cxRpoEDMySEGBv",
-            "name": "Bury Me",
-            "uri": "spotify:track:56fy1fC0cxRpoEDMySEGBv",
-            "popularity": 47,
-            "albumName": "Foxes in the Snow",
-            "albumId": "6OgNgnMcqhcDw01qXlw8el",
-            "foundAt": "2026-02-05T18:51:04.923Z"
-          }
-        },
-        {
-          "title": "This Side of the Island",
-          "artist": "Hamilton Leithauser",
-          "spotifyTrack": {
-            "id": "3IFk55tJwqBrdhgsLvrVvn",
-            "name": "Knockin' Heart",
-            "uri": "spotify:track:3IFk55tJwqBrdhgsLvrVvn",
-            "popularity": 31,
-            "albumName": "This Side of the Island",
-            "albumId": "06d60TFUm7t91QHcVKq65T",
-            "foundAt": "2026-02-05T18:51:06.680Z"
-          }
-        },
-        {
-          "title": "ASTROPICAL",
-          "artist": "ASTROPICALBomba EstéreoRawayana",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-18T10:33:02.347Z"
-          }
-        },
-        {
-          "title": "All Worlds",
-          "artist": "Croatian AmorLust for Youth",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-18T10:33:03.024Z"
-          }
-        },
-        {
-          "title": "Flamingo Tower",
-          "artist": "Monde UFO",
-          "spotifyTrack": {
-            "id": "6gD298fIBCCEGSNcCPwFlt",
-            "name": "Samba 9",
-            "uri": "spotify:track:6gD298fIBCCEGSNcCPwFlt",
-            "popularity": 12,
-            "albumName": "Flamingo Tower",
-            "albumId": "0XlAdNXmPXFPWdonLpsNRl",
-            "foundAt": "2026-02-05T18:51:09.479Z"
-          }
-        },
-        {
-          "title": "Points of Origin",
-          "artist": "Will Stratton",
-          "spotifyTrack": {
-            "id": "5xc2qWp99FMsCTZ0OOD5xI",
-            "name": "I Found You",
-            "uri": "spotify:track:5xc2qWp99FMsCTZ0OOD5xI",
-            "popularity": 13,
-            "albumName": "Points Of Origin",
-            "albumId": "5kjbZokM10OexxRnyJvwK5",
-            "foundAt": "2026-02-05T18:51:11.160Z"
-          }
-        },
-        {
-          "title": "Masaaki Suzuki plays Bach Organ Works, Vol. 6 … leipziger choräle (I) …",
-          "artist": "Masaaki Suzuki",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-18T10:33:03.628Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-02-28",
       "albums": [
         {
@@ -567,6 +473,102 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-03-07",
+      "albums": [
+        {
+          "title": "MAYHEM",
+          "artist": "Lady Gaga",
+          "spotifyTrack": {
+            "id": "7so0lgd0zP2Sbgs2d7a1SZ",
+            "name": "Die With A Smile",
+            "uri": "spotify:track:7so0lgd0zP2Sbgs2d7a1SZ",
+            "popularity": 88,
+            "albumName": "MAYHEM",
+            "albumId": "2MHUaRi9OCyTN02SoyRRBJ",
+            "foundAt": "2026-02-05T18:51:02.912Z"
+          }
+        },
+        {
+          "title": "Foxes in the Snow",
+          "artist": "Jason Isbell",
+          "spotifyTrack": {
+            "id": "56fy1fC0cxRpoEDMySEGBv",
+            "name": "Bury Me",
+            "uri": "spotify:track:56fy1fC0cxRpoEDMySEGBv",
+            "popularity": 47,
+            "albumName": "Foxes in the Snow",
+            "albumId": "6OgNgnMcqhcDw01qXlw8el",
+            "foundAt": "2026-02-05T18:51:04.923Z"
+          }
+        },
+        {
+          "title": "This Side of the Island",
+          "artist": "Hamilton Leithauser",
+          "spotifyTrack": {
+            "id": "3IFk55tJwqBrdhgsLvrVvn",
+            "name": "Knockin' Heart",
+            "uri": "spotify:track:3IFk55tJwqBrdhgsLvrVvn",
+            "popularity": 31,
+            "albumName": "This Side of the Island",
+            "albumId": "06d60TFUm7t91QHcVKq65T",
+            "foundAt": "2026-02-05T18:51:06.680Z"
+          }
+        },
+        {
+          "title": "ASTROPICAL",
+          "artist": "ASTROPICALBomba EstéreoRawayana",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-18T10:33:02.347Z"
+          }
+        },
+        {
+          "title": "All Worlds",
+          "artist": "Croatian AmorLust for Youth",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-18T10:33:03.024Z"
+          }
+        },
+        {
+          "title": "Flamingo Tower",
+          "artist": "Monde UFO",
+          "spotifyTrack": {
+            "id": "6gD298fIBCCEGSNcCPwFlt",
+            "name": "Samba 9",
+            "uri": "spotify:track:6gD298fIBCCEGSNcCPwFlt",
+            "popularity": 12,
+            "albumName": "Flamingo Tower",
+            "albumId": "0XlAdNXmPXFPWdonLpsNRl",
+            "foundAt": "2026-02-05T18:51:09.479Z"
+          }
+        },
+        {
+          "title": "Points of Origin",
+          "artist": "Will Stratton",
+          "spotifyTrack": {
+            "id": "5xc2qWp99FMsCTZ0OOD5xI",
+            "name": "I Found You",
+            "uri": "spotify:track:5xc2qWp99FMsCTZ0OOD5xI",
+            "popularity": 13,
+            "albumName": "Points Of Origin",
+            "albumId": "5kjbZokM10OexxRnyJvwK5",
+            "foundAt": "2026-02-05T18:51:11.160Z"
+          }
+        },
+        {
+          "title": "Masaaki Suzuki plays Bach Organ Works, Vol. 6 … leipziger choräle (I) …",
+          "artist": "Masaaki Suzuki",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-18T10:33:03.628Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-19T20:27:09.806Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-03-14",
       "albums": [
