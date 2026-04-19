@@ -2097,12 +2097,6 @@
         "artist": "Bill Evans "
       },
       {
-        "artist": "Ella Fitzgerald",
-        "listeners": 2792082,
-        "spotify_popularity": 68,
-        "spotify_id": "5V0MlUE1Bft0mbLlND7FJz"
-      },
-      {
         "artist": "Count Basie",
         "listeners": 417750,
         "spotify_popularity": 60,
@@ -2196,9 +2190,6 @@
       },
       {
         "artist": "Sonny Rollins "
-      },
-      {
-        "artist": "Oscar Peterson"
       },
       {
         "artist": "Kamasi Washington"
@@ -2312,6 +2303,20 @@
         "artist": "Wayne Shorter ",
         "listeners": null,
         "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Oscar Peterson",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Ella Fitzgerald",
+        "listeners": 2792082,
+        "spotify_id": "5V0MlUE1Bft0mbLlND7FJz",
         "recommended": false,
         "tracksAdded": 5
       }
