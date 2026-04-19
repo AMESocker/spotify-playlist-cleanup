@@ -123,6 +123,7 @@ export async function handleArtistGenre(source, wouldExceedLimit, pushHistory, s
     }
 
     await addTracks(process.env.TARGET_PLAYLIST_ID, result.trackUris);
+    await addTracks(process.env.ARTIST_GENRE_PLAYLIST_ID, result.trackUris);
     console.log(`🎶 Added ${result.trackCount} tracks for ${artist.artist}`);
 
     data[genre].added.push({

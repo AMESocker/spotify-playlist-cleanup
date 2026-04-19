@@ -22,12 +22,9 @@ import {
 
 //* ─── TODOs ──────────────────────────────────────────────────────────────────────
 
-// Todo - Get new albums from Wikipedia from dates more then 7 days ago. If Artist is from new albums or all music is on Artist disc add full album otherwise add top track.
 // Todo - Add Disney/Pixar Movie Soundtracks source
-// Todo - Add non-explicit tracks to a second clean playlist (filter trackItems by explicit flag in addTracks).
 // Todo - Add retry logic for Spotify API calls in case of transient errors (e.g. 429 rate limits or network issues).
-// Todo - Monitor Source specific playlists.
-
+// Todo - Push new tracks to source playlists
 //* ─── DATA SOURCES ───────────────────────────────────────────────────────────────
 
 const dataSources = [
@@ -570,6 +567,7 @@ async function handleAlbum(source, data) {
   if (await wouldExceedLimit(albumInfo.totalTracks)) return false;
 
   await addTracks(process.env.TARGET_PLAYLIST_ID, uris);
+  await addTracks(process.env.ARTIST_DISC_PLAYLIST_ID, uris);
   console.log(`🎶 Added ${uris.length} tracks.`);
 
   if (source.strategy === "sequential") {
