@@ -34,7 +34,6 @@
     "Santana",
     "Gene Vincent",
     "Lloyd Price",
-    "Parliament-Funkadelic",
     "David Bowie",
     "The Velvet Underground",
     "Gladys Knight & the Pips",
@@ -57,7 +56,6 @@
     "Booker T. & the M.G.'s",
     "Wilson Pickett",
     "John Lee Hooker",
-    "Ike & Tina Turner",
     "Jimmy Reed",
     "LaVern Baker",
     "Simon & Garfunkel",
@@ -231,6 +229,8 @@
     "Eric Clapton",
     "The Drifters",
     "Steely Dan",
-    "The Animals"
+    "The Animals",
+    "Parliament-Funkadelic",
+    "Ike & Tina Turner"
   ]
 }
