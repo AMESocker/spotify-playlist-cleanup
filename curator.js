@@ -37,7 +37,7 @@ const dataSources = [
   {
     name: "billboardHot100",
     file: "data/billboardHot100.json",
-    strategy: "singleTrack",
+    strategy: "billboard100",
     originalPosition: 7,
   },
   {
@@ -669,6 +669,11 @@ async function handleSingleTrack(source, data) {
   }
 
   await addTracks(process.env.TARGET_PLAYLIST_ID, uris);
+  if (source.strategy === "billboard100") {
+    await addTracks(process.env.BILLBOARD_100_PLAYLIST_ID, uris);
+  } else if (source.strategy === "smoothJazz") {
+    await addTracks(process.env.SMOOTH_JAZZ_PLAYLIST_ID, uris);
+  }
   console.log(`🎶 Added ${uris.length} tracks`);
 
   pushHistory({
@@ -810,7 +815,7 @@ export async function addNextAlbum() {
     );
   else if (source.strategy === "spotifyPlaylist")
     result = await handleSpotifyPlaylist(source, data);
-  else if (source.strategy === "singleTrack")
+  else if (source.strategy === "billboard100")
     result = await handleSingleTrack(source, data);
   else if (source.strategy === "smoothJazz")
     result = await handleSingleTrack(source, data);
