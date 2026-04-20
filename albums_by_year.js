@@ -226,6 +226,7 @@ for (let i = 0; i < 10; i++) {
   try {
     const targetPlaylistId = process.env.TARGET_PLAYLIST_ID;
     await addTracks(targetPlaylistId, trackUris);
+    await addTracks(process.env.ALBUMS_BY_YEAR_PLAYLIST_ID, trackUris);
     console.log(`   ✅ Added ${trackUris.length} tracks to playlist`);
 
     markProcessed(successfulPicks);
