@@ -1,71 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-02-21",
-      "albums": [
-        {
-          "title": "Exploding Trees & Airplane Screams",
-          "artist": "Patterson Hood",
-          "spotifyTrack": {
-            "id": "7Mmu8cIhnuOOfxT8UXs7sJ",
-            "name": "The Forks of Cypress (feat. Waxahatchee)",
-            "uri": "spotify:track:7Mmu8cIhnuOOfxT8UXs7sJ",
-            "popularity": 23,
-            "albumName": "Exploding Trees & Airplane Screams",
-            "albumId": "1q3rza4WeEyGx1RGhcnsUG",
-            "foundAt": "2026-02-05T18:51:22.958Z"
-          }
-        },
-        {
-          "title": "GNOSIS",
-          "artist": "RAVEN",
-          "spotifyTrack": {
-            "id": "7oLMbkdwvQ6tUo6ag56gPL",
-            "name": "GNOSIS THEME",
-            "uri": "spotify:track:7oLMbkdwvQ6tUo6ag56gPL",
-            "popularity": 14,
-            "albumName": "GNOSIS",
-            "albumId": "7fmwPlVcvQWwGHPoDxCZWD",
-            "foundAt": "2026-02-05T18:51:24.697Z"
-          }
-        },
-        {
-          "title": "Flowers in the Spring",
-          "artist": "Wrekmeister Harmonies",
-          "spotifyTrack": {
-            "id": "2ZWvjscMaGuA4lanETLoqd",
-            "name": "Flowers In The Spring",
-            "uri": "spotify:track:2ZWvjscMaGuA4lanETLoqd",
-            "popularity": 6,
-            "albumName": "Flowers in the Spring",
-            "albumId": "7c481P4ertLg2JC9BhVqvs",
-            "foundAt": "2026-02-05T18:51:26.333Z"
-          }
-        },
-        {
-          "title": "Rise Above It: A Souled American Anthology",
-          "artist": "Souled American",
-          "spotifyTrack": {
-            "id": "5lDfmx08l8321CSXNOeA3R",
-            "name": "Before Tonight",
-            "uri": "spotify:track:5lDfmx08l8321CSXNOeA3R",
-            "popularity": 10,
-            "albumName": "Rise Above It: A Souled American Anthology",
-            "albumId": "60tO4FIZ4m9SRKaSkpwVzl",
-            "foundAt": "2026-02-05T18:51:27.977Z"
-          }
-        },
-        {
-          "title": "Ligeti: String Quartets Nos. 1 & 2; Bartók: String Quartet No. 4",
-          "artist": "Marmen Quartet",
-          "spotifyTrack": {
-            "error": "Not found",
-            "searchedAt": "2026-04-18T10:33:04.942Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-02-14",
       "albums": [
         {
@@ -395,6 +330,73 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-02-21",
+      "albums": [
+        {
+          "title": "Exploding Trees & Airplane Screams",
+          "artist": "Patterson Hood",
+          "spotifyTrack": {
+            "id": "7Mmu8cIhnuOOfxT8UXs7sJ",
+            "name": "The Forks of Cypress (feat. Waxahatchee)",
+            "uri": "spotify:track:7Mmu8cIhnuOOfxT8UXs7sJ",
+            "popularity": 23,
+            "albumName": "Exploding Trees & Airplane Screams",
+            "albumId": "1q3rza4WeEyGx1RGhcnsUG",
+            "foundAt": "2026-02-05T18:51:22.958Z"
+          }
+        },
+        {
+          "title": "GNOSIS",
+          "artist": "RAVEN",
+          "spotifyTrack": {
+            "id": "7oLMbkdwvQ6tUo6ag56gPL",
+            "name": "GNOSIS THEME",
+            "uri": "spotify:track:7oLMbkdwvQ6tUo6ag56gPL",
+            "popularity": 14,
+            "albumName": "GNOSIS",
+            "albumId": "7fmwPlVcvQWwGHPoDxCZWD",
+            "foundAt": "2026-02-05T18:51:24.697Z"
+          }
+        },
+        {
+          "title": "Flowers in the Spring",
+          "artist": "Wrekmeister Harmonies",
+          "spotifyTrack": {
+            "id": "2ZWvjscMaGuA4lanETLoqd",
+            "name": "Flowers In The Spring",
+            "uri": "spotify:track:2ZWvjscMaGuA4lanETLoqd",
+            "popularity": 6,
+            "albumName": "Flowers in the Spring",
+            "albumId": "7c481P4ertLg2JC9BhVqvs",
+            "foundAt": "2026-02-05T18:51:26.333Z"
+          }
+        },
+        {
+          "title": "Rise Above It: A Souled American Anthology",
+          "artist": "Souled American",
+          "spotifyTrack": {
+            "id": "5lDfmx08l8321CSXNOeA3R",
+            "name": "Before Tonight",
+            "uri": "spotify:track:5lDfmx08l8321CSXNOeA3R",
+            "popularity": 10,
+            "albumName": "Rise Above It: A Souled American Anthology",
+            "albumId": "60tO4FIZ4m9SRKaSkpwVzl",
+            "foundAt": "2026-02-05T18:51:27.977Z"
+          }
+        },
+        {
+          "title": "Ligeti: String Quartets Nos. 1 & 2; Bartók: String Quartet No. 4",
+          "artist": "Marmen Quartet",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-04-18T10:33:04.942Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-20T20:56:26.258Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-02-28",
       "albums": [
