@@ -797,9 +797,6 @@
         "artist": "Oval"
       },
       {
-        "artist": "Murcof"
-      },
-      {
         "artist": "William Basinski"
       },
       {
@@ -848,13 +845,6 @@
         "recommended": true,
         "spotify_popularity": 65,
         "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y"
-      },
-      {
-        "artist": "Amon Tobin",
-        "listeners": 276559,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "3mvkWMe6swnknwscwvGCHO"
       },
       {
         "artist": "Four Tet",
@@ -981,6 +971,20 @@
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Murcof",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Amon Tobin",
+        "listeners": 276559,
+        "spotify_id": "3mvkWMe6swnknwscwvGCHO",
+        "recommended": true,
         "tracksAdded": 5
       }
     ]

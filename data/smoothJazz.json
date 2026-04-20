@@ -206,11 +206,6 @@
       "year": 2010
     },
     {
-      "song": "Soldier of Love",
-      "artist": "Sade",
-      "year": 2010
-    },
-    {
       "song": "Sweet Summer Nights",
       "artist": "Najee",
       "year": 2010
@@ -228,11 +223,6 @@
     {
       "song": "Bossa Blue",
       "artist": "Chris Standring",
-      "year": 2010
-    },
-    {
-      "song": "Fun in the Sun",
-      "artist": "Steve Oliver",
       "year": 2010
     },
     {
@@ -531,11 +521,6 @@
       "year": 2016
     },
     {
-      "song": "bwb",
-      "artist": "bwb",
-      "year": 2016
-    },
-    {
       "song": "D-Luxe",
       "artist": "Darren Rahn",
       "year": 2016
@@ -551,11 +536,6 @@
       "year": 2016
     },
     {
-      "song": "Still Euge",
-      "artist": "Euge Groove",
-      "year": 2016
-    },
-    {
       "song": "Mirage",
       "artist": "Steve Cole",
       "year": 2016
@@ -568,11 +548,6 @@
     {
       "song": "Say What's on Your Mind",
       "artist": "Nick Colionne",
-      "year": 2016
-    },
-    {
-      "song": "Been Around the World",
-      "artist": "Brian Culbertson",
       "year": 2016
     },
     {
@@ -828,11 +803,6 @@
     {
       "song": "Soulmate",
       "artist": "Nicholas Cole featuring Chieli Minucci",
-      "year": 2019
-    },
-    {
-      "song": "Crossroads",
-      "artist": "Rick Braun",
       "year": 2019
     },
     {
@@ -1146,11 +1116,6 @@
       "year": 2022
     },
     {
-      "song": "Change the World",
-      "artist": "Chris Standring",
-      "year": 2022
-    },
-    {
       "song": "Out to Lunch",
       "artist": "Oli Silk",
       "year": 2022
@@ -1236,11 +1201,6 @@
       "year": 2022
     },
     {
-      "song": "Nothing Ever Hurt like You",
-      "artist": "Mindi Abair",
-      "year": 2023
-    },
-    {
       "song": "Let It Breathe",
       "artist": "Michael Broening",
       "year": 2023
@@ -1268,11 +1228,6 @@
     {
       "song": "Just like That",
       "artist": "Nick Colionne",
-      "year": 2023
-    },
-    {
-      "song": "Groove Central",
-      "artist": "Lemek featuring Ryan La Valette",
       "year": 2023
     },
     {
@@ -1468,11 +1423,6 @@
     {
       "song": "A Little Moxie",
       "artist": "Cindy Bradley",
-      "year": 2025
-    },
-    {
-      "song": "Seaside Story",
-      "artist": "Carol Albert",
       "year": 2025
     },
     {
@@ -1947,6 +1897,51 @@
       "song": "Up and Up",
       "artist": "Jeff Ryan",
       "year": 2018
+    },
+    {
+      "song": "Crossroads",
+      "artist": "Rick Braun",
+      "year": 2019
+    },
+    {
+      "song": "Seaside Story",
+      "artist": "Carol Albert",
+      "year": 2025
+    },
+    {
+      "song": "Nothing Ever Hurt like You",
+      "artist": "Mindi Abair",
+      "year": 2023
+    },
+    {
+      "song": "bwb",
+      "artist": "bwb",
+      "year": 2016
+    },
+    {
+      "song": "Been Around the World",
+      "artist": "Brian Culbertson",
+      "year": 2016
+    },
+    {
+      "song": "Change the World",
+      "artist": "Chris Standring",
+      "year": 2022
+    },
+    {
+      "song": "Fun in the Sun",
+      "artist": "Steve Oliver",
+      "year": 2010
+    },
+    {
+      "song": "Soldier of Love",
+      "artist": "Sade",
+      "year": 2010
+    },
+    {
+      "song": "Still Euge",
+      "artist": "Euge Groove",
+      "year": 2016
     }
   ]
 }

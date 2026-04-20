@@ -108884,10 +108884,6 @@
           "album": "The Imperial"
         },
         {
-          "artist": "Gnash",
-          "album": "We"
-        },
-        {
           "artist": "Randy Houser",
           "album": "Magnolia"
         },
@@ -109420,10 +109416,6 @@
           "album": "Can't Say I Ain't Country"
         },
         {
-          "artist": "Hayes Carll",
-          "album": "What It Is"
-        },
-        {
           "artist": "Homeshake",
           "album": "Helium"
         },
@@ -109784,10 +109776,6 @@
           "album": "Gold in a Brass Age"
         },
         {
-          "artist": "Dido",
-          "album": "Still on My Mind"
-        },
-        {
           "artist": "Foals",
           "album": "Everything Not Saved Will Be Lost – Part 1"
         },
@@ -110080,10 +110068,6 @@
           "album": "When We All Fall Asleep, Where Do We Go?"
         },
         {
-          "artist": "Billy Woods & Kenny Segal",
-          "album": "Hiding Places"
-        },
-        {
           "artist": "The Black Sorrows",
           "album": "Citizen John"
         },
@@ -110334,10 +110318,6 @@
         {
           "artist": "The Chemical Brothers",
           "album": "No Geography"
-        },
-        {
-          "artist": "Dan Sultan",
-          "album": "Nali & Friends"
         },
         {
           "artist": "Emma Bunton",
@@ -110622,10 +110602,6 @@
         {
           "artist": "Maps",
           "album": "Colours. Reflect. Time. Loss."
-        },
-        {
-          "artist": "Diplo",
-          "album": "Higher Ground"
         },
         {
           "artist": "Passenger",
@@ -111680,10 +111656,6 @@
           "album": "Order in Decline"
         },
         {
-          "artist": "Willow",
-          "album": "Willow"
-        },
-        {
           "artist": "Andy Grammer",
           "album": "Naive"
         },
@@ -111778,10 +111750,6 @@
         {
           "artist": "Carnifex",
           "album": "World War X"
-        },
-        {
-          "artist": "Clairo",
-          "album": "Immunity"
         },
         {
           "artist": "Cory Wong",
@@ -112134,10 +112102,6 @@
         {
           "artist": "Tarja",
           "album": "In the Raw"
-        },
-        {
-          "artist": "Tones and I",
-          "album": "The Kids Are Coming"
         },
         {
           "artist": "Tool",
@@ -113366,10 +113330,6 @@
         {
           "artist": "Yelawolf",
           "album": "Ghetto Cowboy"
-        },
-        {
-          "artist": "Got7",
-          "album": "Call My Name"
         },
         {
           "artist": "Victon",
@@ -148015,6 +147975,56 @@
     {
       "artist": "Interpol",
       "album": "A Fine Mess",
+      "year": "2019"
+    },
+    {
+      "artist": "Dan Sultan",
+      "album": "Nali & Friends",
+      "year": "2019"
+    },
+    {
+      "artist": "Billy Woods & Kenny Segal",
+      "album": "Hiding Places",
+      "year": "2019"
+    },
+    {
+      "artist": "Got7",
+      "album": "Call My Name",
+      "year": "2019"
+    },
+    {
+      "artist": "Diplo",
+      "album": "Higher Ground",
+      "year": "2019"
+    },
+    {
+      "artist": "Tones and I",
+      "album": "The Kids Are Coming",
+      "year": "2019"
+    },
+    {
+      "artist": "Willow",
+      "album": "Willow",
+      "year": "2019"
+    },
+    {
+      "artist": "Gnash",
+      "album": "We",
+      "year": "2019"
+    },
+    {
+      "artist": "Hayes Carll",
+      "album": "What It Is",
+      "year": "2019"
+    },
+    {
+      "artist": "Clairo",
+      "album": "Immunity",
+      "year": "2019"
+    },
+    {
+      "artist": "Dido",
+      "album": "Still on My Mind",
       "year": "2019"
     }
   ]
