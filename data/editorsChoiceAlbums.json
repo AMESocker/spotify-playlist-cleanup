@@ -1,115 +1,6 @@
 {
   "weeklyAlbums": [
     {
-      "date": "2025-02-14",
-      "albums": [
-        {
-          "title": "Phonetics On and On",
-          "artist": "Horsegirl",
-          "spotifyTrack": {
-            "id": "1SFVei3ZUf3EuJdvKqmGKv",
-            "name": "Switch Over",
-            "uri": "spotify:track:1SFVei3ZUf3EuJdvKqmGKv",
-            "popularity": 43,
-            "albumName": "Phonetics On and On",
-            "albumId": "7C51cbjlLSILLTMVnxbrOc",
-            "foundAt": "2026-02-05T18:51:30.330Z"
-          }
-        },
-        {
-          "title": "Plus One",
-          "artist": "The War and Treaty",
-          "spotifyTrack": {
-            "id": "6opRiNYlpcAzBN5fYlzWfX",
-            "name": "Love Like Whiskey",
-            "uri": "spotify:track:6opRiNYlpcAzBN5fYlzWfX",
-            "popularity": 33,
-            "albumName": "Plus One",
-            "albumId": "5I11qjCOCm0tLcBwX82sMj",
-            "foundAt": "2026-02-05T18:51:32.074Z"
-          }
-        },
-        {
-          "title": "New Dawn",
-          "artist": "Marshall Allen",
-          "spotifyTrack": {
-            "id": "5IYde0rMQ7lZsKWLpHtwYi",
-            "name": "African Sunset",
-            "uri": "spotify:track:5IYde0rMQ7lZsKWLpHtwYi",
-            "popularity": 14,
-            "albumName": "New Dawn",
-            "albumId": "0BOZmnGO69A24yXIJ6lOpd",
-            "foundAt": "2026-02-05T18:51:33.606Z"
-          }
-        },
-        {
-          "title": "Pine",
-          "artist": "Daniel Ögren",
-          "spotifyTrack": {
-            "id": "4RhM1PO6jV3tJaIWqMozcl",
-            "name": "Vänern",
-            "uri": "spotify:track:4RhM1PO6jV3tJaIWqMozcl",
-            "popularity": 30,
-            "albumName": "Pine",
-            "albumId": "58zLFLvUw5I6ezitdYDlWW",
-            "foundAt": "2026-02-05T18:51:35.240Z"
-          }
-        },
-        {
-          "title": "End of the Middle",
-          "artist": "Richard Dawson",
-          "spotifyTrack": {
-            "id": "4zND6NKoMq9ZkjvDAHAgqH",
-            "name": "Gondola",
-            "uri": "spotify:track:4zND6NKoMq9ZkjvDAHAgqH",
-            "popularity": 30,
-            "albumName": "End of the Middle",
-            "albumId": "1JzuX5abMNgLKPw1POeo1r",
-            "foundAt": "2026-02-05T18:51:36.824Z"
-          }
-        },
-        {
-          "title": "The Breeze Grew a Fire",
-          "artist": "Mereba",
-          "spotifyTrack": {
-            "id": "70f8ADxp61RO13yrHXdJoN",
-            "name": "Counterfeit",
-            "uri": "spotify:track:70f8ADxp61RO13yrHXdJoN",
-            "popularity": 36,
-            "albumName": "The Breeze Grew a Fire",
-            "albumId": "27Wwasz4XZHobOHQaB4R0g",
-            "foundAt": "2026-02-05T18:51:38.626Z"
-          }
-        },
-        {
-          "title": "It Will Be Like Now",
-          "artist": "Vulture Feather",
-          "spotifyTrack": {
-            "id": "1f3j5jrBasUOx37mxZLalS",
-            "name": "Blood Knot",
-            "uri": "spotify:track:1f3j5jrBasUOx37mxZLalS",
-            "popularity": 18,
-            "albumName": "It Will Be Like Now",
-            "albumId": "76zr9ZfG0SvNIvPPnzGPht",
-            "foundAt": "2026-02-05T18:51:40.342Z"
-          }
-        },
-        {
-          "title": "Spirit Fall",
-          "artist": "John Patitucci",
-          "spotifyTrack": {
-            "id": "1IemmCwowgqQ4XT8jx0hYl",
-            "name": "Think Fast",
-            "uri": "spotify:track:1IemmCwowgqQ4XT8jx0hYl",
-            "popularity": 16,
-            "albumName": "Spirit Fall",
-            "albumId": "4Ryiyu2772lo1lQIy3xQE1",
-            "foundAt": "2026-02-05T18:51:41.902Z"
-          }
-        }
-      ]
-    },
-    {
       "date": "2025-02-07",
       "albums": [
         {
@@ -330,6 +221,117 @@
     }
   ],
   "addedWeeks": [
+    {
+      "date": "2025-02-14",
+      "albums": [
+        {
+          "title": "Phonetics On and On",
+          "artist": "Horsegirl",
+          "spotifyTrack": {
+            "id": "1SFVei3ZUf3EuJdvKqmGKv",
+            "name": "Switch Over",
+            "uri": "spotify:track:1SFVei3ZUf3EuJdvKqmGKv",
+            "popularity": 43,
+            "albumName": "Phonetics On and On",
+            "albumId": "7C51cbjlLSILLTMVnxbrOc",
+            "foundAt": "2026-02-05T18:51:30.330Z"
+          }
+        },
+        {
+          "title": "Plus One",
+          "artist": "The War and Treaty",
+          "spotifyTrack": {
+            "id": "6opRiNYlpcAzBN5fYlzWfX",
+            "name": "Love Like Whiskey",
+            "uri": "spotify:track:6opRiNYlpcAzBN5fYlzWfX",
+            "popularity": 33,
+            "albumName": "Plus One",
+            "albumId": "5I11qjCOCm0tLcBwX82sMj",
+            "foundAt": "2026-02-05T18:51:32.074Z"
+          }
+        },
+        {
+          "title": "New Dawn",
+          "artist": "Marshall Allen",
+          "spotifyTrack": {
+            "id": "5IYde0rMQ7lZsKWLpHtwYi",
+            "name": "African Sunset",
+            "uri": "spotify:track:5IYde0rMQ7lZsKWLpHtwYi",
+            "popularity": 14,
+            "albumName": "New Dawn",
+            "albumId": "0BOZmnGO69A24yXIJ6lOpd",
+            "foundAt": "2026-02-05T18:51:33.606Z"
+          }
+        },
+        {
+          "title": "Pine",
+          "artist": "Daniel Ögren",
+          "spotifyTrack": {
+            "id": "4RhM1PO6jV3tJaIWqMozcl",
+            "name": "Vänern",
+            "uri": "spotify:track:4RhM1PO6jV3tJaIWqMozcl",
+            "popularity": 30,
+            "albumName": "Pine",
+            "albumId": "58zLFLvUw5I6ezitdYDlWW",
+            "foundAt": "2026-02-05T18:51:35.240Z"
+          }
+        },
+        {
+          "title": "End of the Middle",
+          "artist": "Richard Dawson",
+          "spotifyTrack": {
+            "id": "4zND6NKoMq9ZkjvDAHAgqH",
+            "name": "Gondola",
+            "uri": "spotify:track:4zND6NKoMq9ZkjvDAHAgqH",
+            "popularity": 30,
+            "albumName": "End of the Middle",
+            "albumId": "1JzuX5abMNgLKPw1POeo1r",
+            "foundAt": "2026-02-05T18:51:36.824Z"
+          }
+        },
+        {
+          "title": "The Breeze Grew a Fire",
+          "artist": "Mereba",
+          "spotifyTrack": {
+            "id": "70f8ADxp61RO13yrHXdJoN",
+            "name": "Counterfeit",
+            "uri": "spotify:track:70f8ADxp61RO13yrHXdJoN",
+            "popularity": 36,
+            "albumName": "The Breeze Grew a Fire",
+            "albumId": "27Wwasz4XZHobOHQaB4R0g",
+            "foundAt": "2026-02-05T18:51:38.626Z"
+          }
+        },
+        {
+          "title": "It Will Be Like Now",
+          "artist": "Vulture Feather",
+          "spotifyTrack": {
+            "id": "1f3j5jrBasUOx37mxZLalS",
+            "name": "Blood Knot",
+            "uri": "spotify:track:1f3j5jrBasUOx37mxZLalS",
+            "popularity": 18,
+            "albumName": "It Will Be Like Now",
+            "albumId": "76zr9ZfG0SvNIvPPnzGPht",
+            "foundAt": "2026-02-05T18:51:40.342Z"
+          }
+        },
+        {
+          "title": "Spirit Fall",
+          "artist": "John Patitucci",
+          "spotifyTrack": {
+            "id": "1IemmCwowgqQ4XT8jx0hYl",
+            "name": "Think Fast",
+            "uri": "spotify:track:1IemmCwowgqQ4XT8jx0hYl",
+            "popularity": 16,
+            "albumName": "Spirit Fall",
+            "albumId": "4Ryiyu2772lo1lQIy3xQE1",
+            "foundAt": "2026-02-05T18:51:41.902Z"
+          }
+        }
+      ],
+      "addedToPlaylist": "2026-04-21T19:04:26.323Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-02-21",
       "albums": [

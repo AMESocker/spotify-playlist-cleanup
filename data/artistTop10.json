@@ -536,9 +536,6 @@
         "artist": "Orchestra Baobab"
       },
       {
-        "artist": "Ebo Taylor"
-      },
-      {
         "artist": "Ali Farka Touré"
       },
       {
@@ -616,9 +613,6 @@
         "recommended": true,
         "spotify_popularity": 42,
         "spotify_id": "5WwEQwX3ruZofwDDqtOXwI"
-      },
-      {
-        "artist": "Jimmy Cliff"
       },
       {
         "artist": "Gregory Isaacs"
@@ -744,6 +738,20 @@
       },
       {
         "artist": "Barrington Levy",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Jimmy Cliff",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Ebo Taylor",
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
