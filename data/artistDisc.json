@@ -1393,13 +1393,14 @@
       "Artist": "A",
       "Group": "🔷 Indie / Alternative Rock",
       "Albums": [
-        "How Ace Are Buildings (1997)",
         "A vs. Monkey Kong (1999)",
         "Hi-Fi Serious (2002)",
         "Teen Dance Ordinance (2005)",
         "Prang (2026)"
       ],
-      "AddedAlbums": []
+      "AddedAlbums": [
+        "Prang (2026)"
+      ]
     },
     {
       "Artist": "OK Go",
