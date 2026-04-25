@@ -6530,5 +6530,25 @@
     "sourceFile": "data/smoothJazz.json",
     "strategy": "smoothJazz",
     "timestamp": "2026-04-24T20:57:31.521Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "Sizzla",
+    "listeners": 648280,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-25T01:49:03.252Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Reggae / World ",
+    "artist": "U-Roy",
+    "listeners": null,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-04-25T01:49:03.828Z"
   }
 ]

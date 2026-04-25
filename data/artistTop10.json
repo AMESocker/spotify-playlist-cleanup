@@ -581,13 +581,6 @@
         "artist": "Ali Farka Touré"
       },
       {
-        "artist": "Sizzla",
-        "listeners": 648280,
-        "recommended": true,
-        "spotify_popularity": 53,
-        "spotify_id": "72T7x96EAqN2UWvAgobYfv"
-      },
-      {
         "artist": "Black Uhuru"
       },
       {
@@ -628,9 +621,6 @@
       },
       {
         "artist": "Cymande"
-      },
-      {
-        "artist": "U-Roy"
       }
     ],
     "added": [
@@ -755,6 +745,20 @@
       },
       {
         "artist": "Ebo Taylor",
+        "listeners": null,
+        "spotify_id": null,
+        "recommended": false,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Sizzla",
+        "listeners": 648280,
+        "spotify_id": "72T7x96EAqN2UWvAgobYfv",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "U-Roy",
         "listeners": null,
         "spotify_id": null,
         "recommended": false,
