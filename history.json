@@ -6577,5 +6577,15 @@
     "sourceFile": "data/festivals.json",
     "strategy": "festival",
     "timestamp": "2026-04-25T18:42:00.016Z"
+  },
+  {
+    "action": "add",
+    "artist": "Orbital",
+    "album": "Monsters Exist",
+    "index": null,
+    "tracksAdded": 17,
+    "sourceFile": "data/artistDisc.json",
+    "strategy": "fairness",
+    "timestamp": "2026-04-25T22:35:01.105Z"
   }
 ]
