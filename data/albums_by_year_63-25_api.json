@@ -136337,10 +136337,6 @@
           "album": "Dostrotime"
         },
         {
-          "artist": "Sultan & Shepard",
-          "album": "Endless, Dawn"
-        },
-        {
           "artist": "That Mexican OT",
           "album": "Texas Technician"
         },
@@ -136561,10 +136557,6 @@
           "album": "Hello There"
         },
         {
-          "artist": "Cakes da Killa",
-          "album": "Black Sheep"
-        },
-        {
           "artist": "Cassie Kinoshi's Seed",
           "album": "Gratitude"
         },
@@ -136677,10 +136669,6 @@
           "album": "Las Mujeres Ya No Lloran"
         },
         {
-          "artist": "Sierra Ferrell",
-          "album": "Trail of Flowers"
-        },
-        {
           "artist": "Starsailor",
           "album": "Where the Wild Things Grow"
         },
@@ -136767,10 +136755,6 @@
         {
           "artist": "The High Llamas",
           "album": "Hey Panda"
-        },
-        {
-          "artist": "J-Hope",
-          "album": "Hope on the Street Vol. 1"
         },
         {
           "artist": "Jim White",
@@ -137051,10 +137035,6 @@
         {
           "artist": "English Teacher",
           "album": "This Could Be Texas"
-        },
-        {
-          "artist": "Ernest",
-          "album": "Nashville, Tennessee"
         },
         {
           "artist": "Girl in Red",
@@ -137947,10 +137927,6 @@
         {
           "artist": "Becky Hill",
           "album": "Believe Me Now?"
-        },
-        {
-          "artist": "Ben Platt",
-          "album": "Honeymind"
         },
         {
           "artist": "Bernard Butler",
@@ -138945,10 +138921,6 @@
           "album": "Smoke & Fiction"
         },
         {
-          "artist": "Parannoul",
-          "album": "Sky Hundred"
-        },
-        {
           "artist": "¥$",
           "album": "Vultures 2"
         },
@@ -139139,10 +139111,6 @@
         {
           "artist": "Cash Cobain",
           "album": "Play Cash Cobain"
-        },
-        {
-          "artist": "Cassyette",
-          "album": "This World Fucking Sucks"
         },
         {
           "artist": "Delta Heavy",
@@ -140699,10 +140667,6 @@
         {
           "artist": "Stray Kids",
           "album": "Hop"
-        },
-        {
-          "artist": "G Herbo",
-          "album": "Greatest Rapper Alive"
         },
         {
           "artist": "Mozzy and Kalan.FrFr",
@@ -148107,6 +148071,51 @@
       "artist": "Fightmilk",
       "album": "Contender",
       "year": "2021"
+    },
+    {
+      "artist": "Cassyette",
+      "album": "This World Fucking Sucks",
+      "year": "2024"
+    },
+    {
+      "artist": "Sierra Ferrell",
+      "album": "Trail of Flowers",
+      "year": "2024"
+    },
+    {
+      "artist": "G Herbo",
+      "album": "Greatest Rapper Alive",
+      "year": "2024"
+    },
+    {
+      "artist": "Parannoul",
+      "album": "Sky Hundred",
+      "year": "2024"
+    },
+    {
+      "artist": "Ernest",
+      "album": "Nashville, Tennessee",
+      "year": "2024"
+    },
+    {
+      "artist": "J-Hope",
+      "album": "Hope on the Street Vol. 1",
+      "year": "2024"
+    },
+    {
+      "artist": "Ben Platt",
+      "album": "Honeymind",
+      "year": "2024"
+    },
+    {
+      "artist": "Sultan & Shepard",
+      "album": "Endless, Dawn",
+      "year": "2024"
+    },
+    {
+      "artist": "Cakes da Killa",
+      "album": "Black Sheep",
+      "year": "2024"
     }
   ]
 }
