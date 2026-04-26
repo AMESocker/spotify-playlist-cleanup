@@ -1990,7 +1990,6 @@
       "Artist": "Elvis Presley",
       "Group": "⚪ Classic Rock & Blues Rock",
       "Albums": [
-        "Loving You (1957)",
         "King Creole (1958)",
         "Elvis Is Back! (1960)",
         "Viva Las Vegas (1964)",
@@ -2002,7 +2001,8 @@
         "Elvis at Sun (1979)"
       ],
       "AddedAlbums": [
-        "Elvis Presley (1956)"
+        "Elvis Presley (1956)",
+        "Loving You (1957)"
       ]
     },
     {
