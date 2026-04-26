@@ -1123,13 +1123,6 @@
         "spotify_id": "6x33CmZWo2Ve4hxYl2Craq"
       },
       {
-        "artist": "Free",
-        "listeners": 159159,
-        "recommended": true,
-        "spotify_popularity": 52,
-        "spotify_id": "49b68DLRK5eCbtJf7Xx4Cc"
-      },
-      {
         "artist": "Bad Company",
         "listeners": 1402286,
         "recommended": true,
@@ -1142,13 +1135,6 @@
         "recommended": true,
         "spotify_popularity": 67,
         "spotify_id": "34jw2BbxjoYalTp8cJFCPv"
-      },
-      {
-        "artist": "Whitesnake",
-        "listeners": 3416893,
-        "recommended": true,
-        "spotify_popularity": 64,
-        "spotify_id": "3UbyYnvNIT5DFXU4WgiGpP"
       },
       {
         "artist": "Blue Oyster Cult",
@@ -1289,6 +1275,20 @@
         "artist": "Thin Lizzy",
         "listeners": 1394637,
         "spotify_id": "6biWAmrHyiMkX49LkycGqQ",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Free",
+        "listeners": 159159,
+        "spotify_id": "49b68DLRK5eCbtJf7Xx4Cc",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Whitesnake",
+        "listeners": 3416893,
+        "spotify_id": "3UbyYnvNIT5DFXU4WgiGpP",
         "recommended": true,
         "tracksAdded": 5
       }

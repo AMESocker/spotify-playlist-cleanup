@@ -21,11 +21,6 @@
       "year": 2006
     },
     {
-      "song": "Winelite",
-      "artist": "Paul Brown",
-      "year": 2006
-    },
-    {
       "song": "Do It Again",
       "artist": "Philippe Saisse Trio",
       "year": 2006
@@ -326,11 +321,6 @@
       "year": 2015
     },
     {
-      "song": "I'm Back",
-      "artist": "Walter Beasley",
-      "year": 2015
-    },
-    {
       "song": "Because of You",
       "artist": "Gerald Albright",
       "year": 2015
@@ -358,11 +348,6 @@
     {
       "song": "Fool Me Once",
       "artist": "Lindsey Webster",
-      "year": 2016
-    },
-    {
-      "song": "Big Shot",
-      "artist": "3rd Force",
       "year": 2016
     },
     {
@@ -631,11 +616,6 @@
       "year": 2021
     },
     {
-      "song": "Exhale",
-      "artist": "Patrick Bradley",
-      "year": 2021
-    },
-    {
       "song": "Sway",
       "artist": "Julian Vaughn",
       "year": 2021
@@ -726,11 +706,6 @@
       "year": 2022
     },
     {
-      "song": "Crazy",
-      "artist": "Gerald Albright",
-      "year": 2022
-    },
-    {
       "song": "The Closer We Get",
       "artist": "Dave Koz",
       "year": 2022
@@ -748,11 +723,6 @@
     {
       "song": "Out to Lunch",
       "artist": "Oli Silk",
-      "year": 2022
-    },
-    {
-      "song": "Let It Flow",
-      "artist": "Ryan La Valette",
       "year": 2022
     },
     {
@@ -846,11 +816,6 @@
       "year": 2023
     },
     {
-      "song": "Twilight",
-      "artist": "Randy Scott",
-      "year": 2023
-    },
-    {
       "song": "My Heart to Yours",
       "artist": "Ellis Hamilton",
       "year": 2024
@@ -896,18 +861,8 @@
       "year": 2024
     },
     {
-      "song": "Diamond Dress",
-      "artist": "Lisa Addeo",
-      "year": 2024
-    },
-    {
       "song": "Cool Summer",
       "artist": "Special EFX featuring Chieli Minucci",
-      "year": 2024
-    },
-    {
-      "song": "Embrace",
-      "artist": "Randy Scott featuring Bill Moio",
       "year": 2024
     },
     {
@@ -923,11 +878,6 @@
     {
       "song": "Very Delicious",
       "artist": "Richard Elliot",
-      "year": 2024
-    },
-    {
-      "song": "Runnin' Hot",
-      "artist": "Elan Trotman",
       "year": 2024
     },
     {
@@ -1792,6 +1742,46 @@
       "song": "Do I Do",
       "artist": "Peter White",
       "year": 2017
+    },
+    {
+      "song": "Twilight",
+      "artist": "Randy Scott",
+      "year": 2023
+    },
+    {
+      "song": "Let It Flow",
+      "artist": "Ryan La Valette",
+      "year": 2022
+    },
+    {
+      "song": "Crazy",
+      "artist": "Gerald Albright",
+      "year": 2022
+    },
+    {
+      "song": "Diamond Dress",
+      "artist": "Lisa Addeo",
+      "year": 2024
+    },
+    {
+      "song": "Runnin' Hot",
+      "artist": "Elan Trotman",
+      "year": 2024
+    },
+    {
+      "song": "I'm Back",
+      "artist": "Walter Beasley",
+      "year": 2015
+    },
+    {
+      "song": "Big Shot",
+      "artist": "3rd Force",
+      "year": 2016
+    },
+    {
+      "song": "Exhale",
+      "artist": "Patrick Bradley",
+      "year": 2021
     }
   ]
 }

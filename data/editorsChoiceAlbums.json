@@ -1,5 +1,6 @@
 {
-  "weeklyAlbums": [
+  "weeklyAlbums": [],
+  "addedWeeks": [
     {
       "date": "2026-04-24",
       "albums": [
@@ -126,10 +127,10 @@
             "searchedAt": "2026-04-25T10:36:30.423Z"
           }
         }
-      ]
-    }
-  ],
-  "addedWeeks": [
+      ],
+      "addedToPlaylist": "2026-04-26T16:56:32.030Z",
+      "playlistId": "0xTdpxzdPQLlASRxbPvDl1"
+    },
     {
       "date": "2025-01-31",
       "albums": [
