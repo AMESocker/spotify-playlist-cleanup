@@ -43,7 +43,6 @@
     "The Isley Brothers",
     "Wilson Pickett",
     "John Lee Hooker",
-    "Jimmy Reed",
     "Simon & Garfunkel",
     "Bobby Darin",
     "The Platters",
@@ -51,7 +50,6 @@
     "Roy Orbison",
     "Jackie Wilson",
     "Muddy Waters",
-    "Eddie Cochran",
     "Ray Charles",
     "Jerry Lee Lewis",
     "Little Richard"
@@ -231,6 +229,8 @@
     "Sex Pistols",
     "Gene Pitney",
     "Smokey Robinson",
-    "George Harrison"
+    "George Harrison",
+    "Eddie Cochran",
+    "Jimmy Reed"
   ]
 }
