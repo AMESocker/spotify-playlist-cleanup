@@ -18963,10 +18963,6 @@
           "album": "Precious Moments"
         },
         {
-          "artist": "King Diamond",
-          "album": "Fatal Portrait"
-        },
-        {
           "artist": "Animotion",
           "album": "Strange Behavior"
         },
@@ -19131,10 +19127,6 @@
           "album": "Strength in Numbers"
         },
         {
-          "artist": "Icehouse",
-          "album": "Measure for Measure"
-        },
-        {
           "artist": "The Cure",
           "album": "Standing on a Beach"
         },
@@ -19149,10 +19141,6 @@
         {
           "artist": "The Dream Syndicate",
           "album": "Out of the Grey"
-        },
-        {
-          "artist": "AC/DC",
-          "album": "Who Made Who"
         },
         {
           "artist": "Laurie Anderson",
@@ -19177,10 +19165,6 @@
         {
           "artist": "The Shadows",
           "album": "Moonlight Shadows"
-        },
-        {
-          "artist": "Girlschool",
-          "album": "Nightmare at Maple Cross"
         },
         {
           "artist": "Sodom",
@@ -19259,10 +19243,6 @@
           "album": "Bend Sinister"
         },
         {
-          "artist": "SNFU",
-          "album": "If You Swear, You'll Catch No Fish"
-        },
-        {
           "artist": "Jimmy Buffett",
           "album": "Floridays"
         },
@@ -19273,10 +19253,6 @@
         {
           "artist": "Richard Thompson",
           "album": "Daring Adventures"
-        },
-        {
-          "artist": "The Sisterhood",
-          "album": "Gift"
         },
         {
           "artist": "The Style Council",
@@ -19365,10 +19341,6 @@
         {
           "artist": "Van Morrison",
           "album": "No Guru, No Method, No Teacher"
-        },
-        {
-          "artist": "Peter Murphy",
-          "album": "Should the World Fail to Fall Apart"
         },
         {
           "artist": "Spacemen 3",
@@ -19539,10 +19511,6 @@
           "album": "Music That You Can Dance To"
         },
         {
-          "artist": "Benjamin Orr",
-          "album": "The Lace"
-        },
-        {
           "artist": "A-ha",
           "album": "Scoundrel Days"
         },
@@ -19679,10 +19647,6 @@
           "album": "Brighter Than a Thousand Suns"
         },
         {
-          "artist": "Sepultura",
-          "album": "Morbid Visions"
-        },
-        {
           "artist": "The Mission (band)",
           "album": "God's Own Medicine"
         },
@@ -19737,10 +19701,6 @@
         {
           "artist": "Various Artists",
           "album": "Now That's What I Call Music 8"
-        },
-        {
-          "artist": "Zebra",
-          "album": "3.V"
         },
         {
           "artist": "Revolting Cocks",
@@ -148116,6 +148076,56 @@
       "artist": "Cakes da Killa",
       "album": "Black Sheep",
       "year": "2024"
+    },
+    {
+      "artist": "Girlschool",
+      "album": "Nightmare at Maple Cross",
+      "year": "1986"
+    },
+    {
+      "artist": "Peter Murphy",
+      "album": "Should the World Fail to Fall Apart",
+      "year": "1986"
+    },
+    {
+      "artist": "King Diamond",
+      "album": "Fatal Portrait",
+      "year": "1986"
+    },
+    {
+      "artist": "The Sisterhood",
+      "album": "Gift",
+      "year": "1986"
+    },
+    {
+      "artist": "AC/DC",
+      "album": "Who Made Who",
+      "year": "1986"
+    },
+    {
+      "artist": "Sepultura",
+      "album": "Morbid Visions",
+      "year": "1986"
+    },
+    {
+      "artist": "Zebra",
+      "album": "3.V",
+      "year": "1986"
+    },
+    {
+      "artist": "Benjamin Orr",
+      "album": "The Lace",
+      "year": "1986"
+    },
+    {
+      "artist": "Icehouse",
+      "album": "Measure for Measure",
+      "year": "1986"
+    },
+    {
+      "artist": "SNFU",
+      "album": "If You Swear, You'll Catch No Fish",
+      "year": "1986"
     }
   ]
 }
