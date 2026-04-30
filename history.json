@@ -6891,5 +6891,21 @@
     "sourceFile": "data/billboardHot100.json",
     "strategy": "billboard100",
     "timestamp": "2026-04-30T05:25:51.587Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Miles Davis",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-30T17:39:56.355Z"
+  },
+  {
+    "action": "addRockHall",
+    "artist": "Little Willie John",
+    "tracksAdded": 5,
+    "sourceFile": "data/rockNRollHallofFame.json",
+    "strategy": "rockHall",
+    "timestamp": "2026-04-30T17:40:02.506Z"
   }
 ]
