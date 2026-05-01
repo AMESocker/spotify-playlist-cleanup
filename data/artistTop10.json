@@ -362,25 +362,11 @@
         "spotify_id": "3CkvROUTQ6nRi9yQOcsB50"
       },
       {
-        "artist": "Radiohead",
-        "listeners": 15162882,
-        "recommended": true,
-        "spotify_popularity": 85,
-        "spotify_id": "4Z8W4fKeB5YxbusRsdQVPb"
-      },
-      {
         "artist": "Tool",
         "listeners": 4711814,
         "recommended": true,
         "spotify_popularity": 71,
         "spotify_id": "2yEwvVSSSUkcLeSTNyHKh8"
-      },
-      {
-        "artist": "Porcupine Tree",
-        "listeners": 783828,
-        "recommended": true,
-        "spotify_popularity": 52,
-        "spotify_id": "5NXHXK6hOCotCF8lvGM1I0"
       },
       {
         "artist": "Mars Volta",
@@ -528,6 +514,20 @@
         "artist": "Pink Floyd",
         "listeners": 23331273,
         "spotify_id": "0k17h0D3J5VfsdmQ1iZtE9",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Porcupine Tree",
+        "listeners": 783828,
+        "spotify_id": "5NXHXK6hOCotCF8lvGM1I0",
+        "recommended": true,
+        "tracksAdded": 5
+      },
+      {
+        "artist": "Radiohead",
+        "listeners": 15162882,
+        "spotify_id": "4Z8W4fKeB5YxbusRsdQVPb",
         "recommended": true,
         "tracksAdded": 5
       }

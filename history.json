@@ -6916,5 +6916,32 @@
     "sourceFile": "data/albums_by_year_63-25_api.json",
     "strategy": "albumsByYear",
     "timestamp": "2026-04-30T19:12:13.355Z"
+  },
+  {
+    "action": "smoothJazz",
+    "tracksAdded": 9,
+    "sourceFile": "data/smoothJazz.json",
+    "strategy": "smoothJazz",
+    "timestamp": "2026-05-01T19:04:10.546Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Progressive / Experimental Rock & Metal",
+    "artist": "Porcupine Tree",
+    "listeners": 783828,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-05-01T19:04:18.760Z"
+  },
+  {
+    "action": "addArtistGenre",
+    "genre": "Progressive / Experimental Rock & Metal",
+    "artist": "Radiohead",
+    "listeners": 15162882,
+    "tracksAdded": 5,
+    "sourceFile": "data/artistTop10.json",
+    "strategy": "artistGenre",
+    "timestamp": "2026-05-01T19:04:19.242Z"
   }
 ]

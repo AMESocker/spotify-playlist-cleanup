@@ -46,16 +46,6 @@
       "year": 2007
     },
     {
-      "song": "The Rhythm Method",
-      "artist": "Paul Brown",
-      "year": 2007
-    },
-    {
-      "song": "Let's Take a Ride",
-      "artist": "Norman Brown",
-      "year": 2007
-    },
-    {
       "song": "Born 2 Groove",
       "artist": "Euge Groove",
       "year": 2007
@@ -138,11 +128,6 @@
     {
       "song": "Take Me There",
       "artist": "Jackiem Joyner",
-      "year": 2010
-    },
-    {
-      "song": "Bossa Blue",
-      "artist": "Chris Standring",
       "year": 2010
     },
     {
@@ -366,11 +351,6 @@
       "year": 2017
     },
     {
-      "song": "Uncle Nick",
-      "artist": "Nick Colionne",
-      "year": 2017
-    },
-    {
       "song": "Baby Coffee",
       "artist": "Michael J Thomas",
       "year": 2018
@@ -391,11 +371,6 @@
       "year": 2018
     },
     {
-      "song": "You're Magic",
-      "artist": "Brian Culbertson",
-      "year": 2018
-    },
-    {
       "song": "Traveling Mood",
       "artist": "Adam Hawley featuring Julian Vaughn",
       "year": 2018
@@ -413,16 +388,6 @@
     {
       "song": "Snap, Crackle, Pop",
       "artist": "Vincent Ingala",
-      "year": 2019
-    },
-    {
-      "song": "Backyard Brew",
-      "artist": "The JT Project featuring Najee",
-      "year": 2019
-    },
-    {
-      "song": "Rise!",
-      "artist": "Ben Tankard",
       "year": 2019
     },
     {
@@ -746,11 +711,6 @@
       "year": 2024
     },
     {
-      "song": "The Way She Moves",
-      "artist": "Michael Broening",
-      "year": 2024
-    },
-    {
       "song": "Ocean Breeze",
       "artist": "Tim Bowman",
       "year": 2024
@@ -768,11 +728,6 @@
     {
       "song": "Cool Summer",
       "artist": "Special EFX featuring Chieli Minucci",
-      "year": 2024
-    },
-    {
-      "song": "Movin' and Shakin'",
-      "artist": "Vincent Ingala",
       "year": 2024
     },
     {
@@ -838,11 +793,6 @@
     {
       "song": "So Naturally",
       "artist": "Lin Rountree",
-      "year": 2025
-    },
-    {
-      "song": "Release Me",
-      "artist": "Ryan La Valette",
       "year": 2025
     },
     {
@@ -1742,6 +1692,51 @@
       "song": "Let's Ride",
       "artist": "Vandell Andrew",
       "year": 2014
+    },
+    {
+      "song": "Uncle Nick",
+      "artist": "Nick Colionne",
+      "year": 2017
+    },
+    {
+      "song": "Rise!",
+      "artist": "Ben Tankard",
+      "year": 2019
+    },
+    {
+      "song": "The Way She Moves",
+      "artist": "Michael Broening",
+      "year": 2024
+    },
+    {
+      "song": "Let's Take a Ride",
+      "artist": "Norman Brown",
+      "year": 2007
+    },
+    {
+      "song": "Release Me",
+      "artist": "Ryan La Valette",
+      "year": 2025
+    },
+    {
+      "song": "You're Magic",
+      "artist": "Brian Culbertson",
+      "year": 2018
+    },
+    {
+      "song": "The Rhythm Method",
+      "artist": "Paul Brown",
+      "year": 2007
+    },
+    {
+      "song": "Bossa Blue",
+      "artist": "Chris Standring",
+      "year": 2010
+    },
+    {
+      "song": "Movin' and Shakin'",
+      "artist": "Vincent Ingala",
+      "year": 2024
     }
   ]
 }
