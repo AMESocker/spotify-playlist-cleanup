@@ -1,5 +1,126 @@
 {
-  "weeklyAlbums": [],
+  "weeklyAlbums": [
+    {
+      "date": "2026-05-01",
+      "albums": [
+        {
+          "title": "In Times of Dragons",
+          "artist": "Tori Amos",
+          "spotifyTrack": {
+            "id": "1FXXrQQCC9y69H1AeTYEfr",
+            "name": "In Times of Dragons",
+            "uri": "spotify:track:1FXXrQQCC9y69H1AeTYEfr",
+            "popularity": 20,
+            "albumName": "In Times Of Dragons",
+            "albumId": "6KnWKWlU9xvhuOxEgkl4l2",
+            "foundAt": "2026-05-02T10:43:04.198Z"
+          }
+        },
+        {
+          "title": "Fenian",
+          "artist": "Kneecap",
+          "spotifyTrack": {
+            "id": "23rWMQeQZXdvpsH9lb7CwK",
+            "name": "Éire go Deo",
+            "uri": "spotify:track:23rWMQeQZXdvpsH9lb7CwK",
+            "popularity": 29,
+            "albumName": "FENIAN",
+            "albumId": "0z5uyAUrflFAnjBR2EhW9J",
+            "foundAt": "2026-05-02T10:43:05.771Z"
+          }
+        },
+        {
+          "title": "Sweat",
+          "artist": "Melanie C",
+          "spotifyTrack": {
+            "id": "1nKvzyWhcP4KYAXeOMrul5",
+            "name": "Drum Machine",
+            "uri": "spotify:track:1nKvzyWhcP4KYAXeOMrul5",
+            "popularity": 23,
+            "albumName": "Sweat",
+            "albumId": "2ZrlQz1UiDn1pCThyICAeD",
+            "foundAt": "2026-05-02T10:43:07.377Z"
+          }
+        },
+        {
+          "title": "Hoopla",
+          "artist": "Weird Nightmare",
+          "spotifyTrack": {
+            "id": "66tbzPuNTAXPfmVsdJ9yBr",
+            "name": "Baby Don't",
+            "uri": "spotify:track:66tbzPuNTAXPfmVsdJ9yBr",
+            "popularity": 3,
+            "albumName": "Hoopla",
+            "albumId": "4OmO1a6jKotWwguSeQzLBa",
+            "foundAt": "2026-05-02T10:43:08.920Z"
+          }
+        },
+        {
+          "title": "No One Waved Goodbye",
+          "artist": "Tacoma Radar",
+          "spotifyTrack": {
+            "id": "3ThZ8DZZ6sEwmLwP7KPRmJ",
+            "name": "So Much Water",
+            "uri": "spotify:track:3ThZ8DZZ6sEwmLwP7KPRmJ",
+            "popularity": 48,
+            "albumName": "No One Waved Goodbye",
+            "albumId": "7IdMlfoQItwTc4MPb8rq2l",
+            "foundAt": "2026-05-02T10:43:10.450Z"
+          }
+        },
+        {
+          "title": "Sol.Hz",
+          "artist": "Seefeel",
+          "spotifyTrack": {
+            "id": "0rfwYDOFGVRtiLeyNC6hS4",
+            "name": "Brazen Haze",
+            "uri": "spotify:track:0rfwYDOFGVRtiLeyNC6hS4",
+            "popularity": 8,
+            "albumName": "Sol.Hz",
+            "albumId": "4itsHfW3VFZ0nob3mqMCsf",
+            "foundAt": "2026-05-02T10:43:11.994Z"
+          }
+        },
+        {
+          "title": "They Came Like Swallows: Seven Requiems for the Children of Gaza",
+          "artist": "Bonner KramerThurston Moore",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-05-02T10:43:12.639Z"
+          }
+        },
+        {
+          "title": "Time",
+          "artist": "Taj MahalTaj Mahal & the Phantom Blues Band",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-05-02T10:43:13.249Z"
+          }
+        },
+        {
+          "title": "Diavola",
+          "artist": "Gabrielle Cavassa",
+          "spotifyTrack": {
+            "id": "6Ol78Z5mqB1bIcNmfqupIn",
+            "name": "Bossy Nova",
+            "uri": "spotify:track:6Ol78Z5mqB1bIcNmfqupIn",
+            "popularity": 9,
+            "albumName": "Diavola",
+            "albumId": "4lQriMCxFMyor9TIJlvOxU",
+            "foundAt": "2026-05-02T10:43:14.944Z"
+          }
+        },
+        {
+          "title": "Gustav Mahler: Das Lied von der Erde",
+          "artist": "Marie-Nicole LemieuxAndrew StaplesFrançois-Xavier RothLes Siècles",
+          "spotifyTrack": {
+            "error": "Not found",
+            "searchedAt": "2026-05-02T10:43:15.540Z"
+          }
+        }
+      ]
+    }
+  ],
   "addedWeeks": [
     {
       "date": "2026-04-24",
