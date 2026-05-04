@@ -1835,11 +1835,18 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
-        "artist": "Iris DeMent",
-        "listeners": 99655,
+        "artist": "Bill Callahan",
+        "listeners": 193713,
         "recommended": true,
         "spotify_popularity": 46,
-        "spotify_id": "3NPZs8XgXtaWslUcnIw6rY"
+        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
+      },
+      {
+        "artist": "Merle Haggard",
+        "listeners": 1551114,
+        "recommended": true,
+        "spotify_popularity": 60,
+        "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
       },
       {
         "artist": "Lucinda Williams",
@@ -1847,6 +1854,20 @@
         "recommended": true,
         "spotify_popularity": 50,
         "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
+      },
+      {
+        "artist": "Kris Kristofferson",
+        "listeners": 720708,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
+      },
+      {
+        "artist": "Iris DeMent",
+        "listeners": 99655,
+        "recommended": true,
+        "spotify_popularity": 46,
+        "spotify_id": "3NPZs8XgXtaWslUcnIw6rY"
       },
       {
         "artist": "Bonnie Raitt",
@@ -1882,13 +1903,6 @@
         "spotify_id": "6DoH7ywD5BcQvjloe9OcIj"
       },
       {
-        "artist": "Bill Callahan",
-        "listeners": 193713,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
-      },
-      {
         "artist": "Sufjan Stevens",
         "listeners": 2453974,
         "recommended": true,
@@ -1900,13 +1914,6 @@
         "listeners": 1039278,
         "spotify_popularity": 61,
         "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
-      },
-      {
-        "artist": "Kris Kristofferson",
-        "listeners": 720708,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
       },
       {
         "artist": "Emmylou Harris",
@@ -1954,13 +1961,6 @@
         "recommended": true,
         "spotify_popularity": 56,
         "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
-      },
-      {
-        "artist": "Merle Haggard",
-        "listeners": 1551114,
-        "recommended": true,
-        "spotify_popularity": 60,
-        "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
       },
       {
         "artist": "Patsy Cline",
