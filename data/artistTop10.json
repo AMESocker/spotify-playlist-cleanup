@@ -1835,6 +1835,47 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Anais Mitchell",
+        "listeners": 81084,
+        "recommended": true,
+        "spotify_popularity": 63,
+        "spotify_id": "7K5Lm5dxoEwEpOS0Fc3l3s"
+      },
+      {
+        "artist": "Devendra Banhart",
+        "listeners": 643737,
+        "recommended": true,
+        "spotify_popularity": 53,
+        "spotify_id": "1YZEoYFXx4AxVv13OiOPvZ"
+      },
+      {
+        "artist": "Rhiannon Giddens",
+        "listeners": 177816,
+        "recommended": true,
+        "spotify_popularity": 46,
+        "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
+      },
+      {
+        "artist": "Hank Williams",
+        "listeners": 1088229,
+        "recommended": true,
+        "spotify_popularity": 56,
+        "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
+      },
+      {
+        "artist": "Ray LaMontagne",
+        "listeners": 1114058,
+        "spotify_popularity": 62,
+        "spotify_id": "6DoH7ywD5BcQvjloe9OcIj"
+      },
+      {
+        "artist": "Patsy Cline",
+        "listeners": 978183,
+        "recommended": true,
+        "spotify_popularity": 57,
+        "spotify_id": "7dNsHhGeGU5MV01r06O8gK"
+      },
+      {
         "artist": "Bill Callahan",
         "listeners": 193713,
         "recommended": true,
@@ -1897,12 +1938,6 @@
         "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
       },
       {
-        "artist": "Ray LaMontagne",
-        "listeners": 1114058,
-        "spotify_popularity": 62,
-        "spotify_id": "6DoH7ywD5BcQvjloe9OcIj"
-      },
-      {
         "artist": "Sufjan Stevens",
         "listeners": 2453974,
         "recommended": true,
@@ -1935,20 +1970,6 @@
         "spotify_id": "3ZWab2LEVkNKiBPIClTwof"
       },
       {
-        "artist": "Anais Mitchell",
-        "listeners": 81084,
-        "recommended": true,
-        "spotify_popularity": 63,
-        "spotify_id": "7K5Lm5dxoEwEpOS0Fc3l3s"
-      },
-      {
-        "artist": "Rhiannon Giddens",
-        "listeners": 177816,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
-      },
-      {
         "artist": "Iron & Wine",
         "listeners": 1173835,
         "recommended": true,
@@ -1956,32 +1977,11 @@
         "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
       },
       {
-        "artist": "Hank Williams",
-        "listeners": 1088229,
-        "recommended": true,
-        "spotify_popularity": 56,
-        "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
-      },
-      {
-        "artist": "Patsy Cline",
-        "listeners": 978183,
-        "recommended": true,
-        "spotify_popularity": 57,
-        "spotify_id": "7dNsHhGeGU5MV01r06O8gK"
-      },
-      {
         "artist": "Dolly Parton",
         "listeners": 3077601,
         "recommended": true,
         "spotify_popularity": 71,
         "spotify_id": "32vWCbZh0xZ4o9gkz4PsEU"
-      },
-      {
-        "artist": "Devendra Banhart",
-        "listeners": 643737,
-        "recommended": true,
-        "spotify_popularity": 53,
-        "spotify_id": "1YZEoYFXx4AxVv13OiOPvZ"
       }
     ],
     "added": [
