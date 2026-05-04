@@ -1835,6 +1835,46 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Hank Williams",
+        "listeners": 1088229,
+        "recommended": true,
+        "spotify_popularity": 56,
+        "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
+      },
+      {
+        "artist": "Loretta Lynn",
+        "listeners": 849210,
+        "spotify_popularity": 53,
+        "spotify_id": "1FE0rls8gfQT3laAeRYNgl"
+      },
+      {
+        "artist": "Lucinda Williams",
+        "listeners": 286858,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
+      },
+      {
+        "artist": "Emmylou Harris",
+        "listeners": 435655,
+        "spotify_popularity": 58,
+        "spotify_id": "5s6TJEuHTr9GR894wc6VfP"
+      },
+      {
+        "artist": "Merle Haggard",
+        "listeners": 1551114,
+        "recommended": true,
+        "spotify_popularity": 60,
+        "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
+      },
+      {
+        "artist": "Nanci Griffith",
+        "listeners": 112720,
+        "recommended": true,
+        "spotify_popularity": 42,
+        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
+      },
+      {
         "artist": "Anais Mitchell",
         "listeners": 81084,
         "recommended": true,
@@ -1856,13 +1896,6 @@
         "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
       },
       {
-        "artist": "Hank Williams",
-        "listeners": 1088229,
-        "recommended": true,
-        "spotify_popularity": 56,
-        "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
-      },
-      {
         "artist": "Ray LaMontagne",
         "listeners": 1114058,
         "spotify_popularity": 62,
@@ -1881,20 +1914,6 @@
         "recommended": true,
         "spotify_popularity": 46,
         "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
-      },
-      {
-        "artist": "Merle Haggard",
-        "listeners": 1551114,
-        "recommended": true,
-        "spotify_popularity": 60,
-        "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
-      },
-      {
-        "artist": "Lucinda Williams",
-        "listeners": 286858,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
       },
       {
         "artist": "Kris Kristofferson",
@@ -1931,13 +1950,6 @@
         "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
       },
       {
-        "artist": "Nanci Griffith",
-        "listeners": 112720,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
-      },
-      {
         "artist": "Sufjan Stevens",
         "listeners": 2453974,
         "recommended": true,
@@ -1949,18 +1961,6 @@
         "listeners": 1039278,
         "spotify_popularity": 61,
         "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
-      },
-      {
-        "artist": "Emmylou Harris",
-        "listeners": 435655,
-        "spotify_popularity": 58,
-        "spotify_id": "5s6TJEuHTr9GR894wc6VfP"
-      },
-      {
-        "artist": "Loretta Lynn",
-        "listeners": 849210,
-        "spotify_popularity": 53,
-        "spotify_id": "1FE0rls8gfQT3laAeRYNgl"
       },
       {
         "artist": "Townes Van Zandt",
