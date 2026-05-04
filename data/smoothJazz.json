@@ -61,11 +61,6 @@
       "year": 2008
     },
     {
-      "song": "Lucky Star",
-      "artist": "Paul Hardcastle",
-      "year": 2008
-    },
-    {
       "song": "Sax-o-loco",
       "artist": "Kenny G",
       "year": 2008
@@ -83,11 +78,6 @@
     {
       "song": "Goin' All Out",
       "artist": "Eric Darius",
-      "year": 2008
-    },
-    {
-      "song": "Sweet Sundays",
-      "artist": "Tim Bowman",
       "year": 2008
     },
     {
@@ -231,11 +221,6 @@
       "year": 2014
     },
     {
-      "song": "Head Over Heels",
-      "artist": "Peter White",
-      "year": 2014
-    },
-    {
       "song": "Ride Along",
       "artist": "Julian Vaughn featuring Elan Trotman",
       "year": 2015
@@ -313,11 +298,6 @@
     {
       "song": "Put It Where You Want It",
       "artist": "Paul Brown",
-      "year": 2016
-    },
-    {
-      "song": "Lifecycle",
-      "artist": "Nathan East",
       "year": 2016
     },
     {
@@ -416,11 +396,6 @@
       "year": 2019
     },
     {
-      "song": "Eddie's Ready",
-      "artist": "Thom Rotella",
-      "year": 2019
-    },
-    {
       "song": "Before I Let Go",
       "artist": "Dave Koz / Gerald Albright / Rick Braun / Richard Elliot / Aubrey Logan",
       "year": 2019
@@ -463,11 +438,6 @@
     {
       "song": "Keep Movin'",
       "artist": "Brian Culbertson featuring Everette Harp",
-      "year": 2020
-    },
-    {
-      "song": "Dirty Dozen",
-      "artist": "Euge Groove",
       "year": 2020
     },
     {
@@ -601,11 +571,6 @@
       "year": 2022
     },
     {
-      "song": "Move Ahead",
-      "artist": "Richard Elliot",
-      "year": 2022
-    },
-    {
       "song": "Dreamland",
       "artist": "Blake Aaron",
       "year": 2022
@@ -638,11 +603,6 @@
     {
       "song": "Co-Motion",
       "artist": "Lemek",
-      "year": 2022
-    },
-    {
-      "song": "Good on You",
-      "artist": "Will Donato",
       "year": 2022
     },
     {
@@ -751,11 +711,6 @@
       "year": 2025
     },
     {
-      "song": "A Little Moxie",
-      "artist": "Cindy Bradley",
-      "year": 2025
-    },
-    {
       "song": "So in Love with You",
       "artist": "Nathan Mitchell featuring Chelsey Green",
       "year": 2025
@@ -808,11 +763,6 @@
     {
       "song": "De Nada",
       "artist": "Roberto Restuccia",
-      "year": 2025
-    },
-    {
-      "song": "Dare to Fly",
-      "artist": "Blake Aaron",
       "year": 2025
     },
     {
@@ -1737,6 +1687,56 @@
       "song": "Movin' and Shakin'",
       "artist": "Vincent Ingala",
       "year": 2024
+    },
+    {
+      "song": "Sweet Sundays",
+      "artist": "Tim Bowman",
+      "year": 2008
+    },
+    {
+      "song": "Head Over Heels",
+      "artist": "Peter White",
+      "year": 2014
+    },
+    {
+      "song": "Lifecycle",
+      "artist": "Nathan East",
+      "year": 2016
+    },
+    {
+      "song": "Lucky Star",
+      "artist": "Paul Hardcastle",
+      "year": 2008
+    },
+    {
+      "song": "A Little Moxie",
+      "artist": "Cindy Bradley",
+      "year": 2025
+    },
+    {
+      "song": "Move Ahead",
+      "artist": "Richard Elliot",
+      "year": 2022
+    },
+    {
+      "song": "Good on You",
+      "artist": "Will Donato",
+      "year": 2022
+    },
+    {
+      "song": "Dirty Dozen",
+      "artist": "Euge Groove",
+      "year": 2020
+    },
+    {
+      "song": "Eddie's Ready",
+      "artist": "Thom Rotella",
+      "year": 2019
+    },
+    {
+      "song": "Dare to Fly",
+      "artist": "Blake Aaron",
+      "year": 2025
     }
   ]
 }

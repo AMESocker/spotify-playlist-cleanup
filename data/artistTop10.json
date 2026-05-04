@@ -1835,11 +1835,24 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
-        "artist": "Kris Kristofferson",
-        "listeners": 720708,
+        "artist": "Ray LaMontagne",
+        "listeners": 1114058,
+        "spotify_popularity": 62,
+        "spotify_id": "6DoH7ywD5BcQvjloe9OcIj"
+      },
+      {
+        "artist": "Bill Callahan",
+        "listeners": 193713,
         "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
+        "spotify_popularity": 46,
+        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
+      },
+      {
+        "artist": "Sufjan Stevens",
+        "listeners": 2453974,
+        "recommended": true,
+        "spotify_popularity": 72,
+        "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
       },
       {
         "artist": "Johnny Cash",
@@ -1848,22 +1861,23 @@
         "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
       },
       {
-        "artist": "Ray LaMontagne",
-        "listeners": 1114058,
-        "spotify_popularity": 62,
-        "spotify_id": "6DoH7ywD5BcQvjloe9OcIj"
+        "artist": "Sturgill Simpson",
+        "listeners": 1039278,
+        "spotify_popularity": 61,
+        "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
+      },
+      {
+        "artist": "Kris Kristofferson",
+        "listeners": 720708,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
       },
       {
         "artist": "Emmylou Harris",
         "listeners": 435655,
         "spotify_popularity": 58,
         "spotify_id": "5s6TJEuHTr9GR894wc6VfP"
-      },
-      {
-        "artist": "Sturgill Simpson",
-        "listeners": 1039278,
-        "spotify_popularity": 61,
-        "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
       },
       {
         "artist": "Loretta Lynn",
@@ -1921,13 +1935,6 @@
         "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
       },
       {
-        "artist": "Sufjan Stevens",
-        "listeners": 2453974,
-        "recommended": true,
-        "spotify_popularity": 72,
-        "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
-      },
-      {
         "artist": "Bonnie Raitt",
         "listeners": 825315,
         "recommended": true,
@@ -1968,13 +1975,6 @@
         "recommended": true,
         "spotify_popularity": 61,
         "spotify_id": "5hW4L92KnC6dX9t7tYM4Ve"
-      },
-      {
-        "artist": "Bill Callahan",
-        "listeners": 193713,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
       },
       {
         "artist": "Devendra Banhart",
