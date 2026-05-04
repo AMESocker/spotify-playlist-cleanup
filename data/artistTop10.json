@@ -1835,6 +1835,47 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Iris DeMent",
+        "listeners": 99655,
+        "recommended": true,
+        "spotify_popularity": 46,
+        "spotify_id": "3NPZs8XgXtaWslUcnIw6rY"
+      },
+      {
+        "artist": "Lucinda Williams",
+        "listeners": 286858,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
+      },
+      {
+        "artist": "Bonnie Raitt",
+        "listeners": 825315,
+        "recommended": true,
+        "spotify_popularity": 57,
+        "spotify_id": "4KDyYWR7IpxZ7xrdYbKrqY"
+      },
+      {
+        "artist": "Joni Mitchell",
+        "listeners": 1677360,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "5hW4L92KnC6dX9t7tYM4Ve"
+      },
+      {
+        "artist": "Johnny Cash",
+        "listeners": 7038022,
+        "spotify_popularity": 73,
+        "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
+      },
+      {
+        "artist": "Nanci Griffith",
+        "listeners": 112720,
+        "recommended": true,
+        "spotify_popularity": 42,
+        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
+      },
+      {
         "artist": "Ray LaMontagne",
         "listeners": 1114058,
         "spotify_popularity": 62,
@@ -1853,12 +1894,6 @@
         "recommended": true,
         "spotify_popularity": 72,
         "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
-      },
-      {
-        "artist": "Johnny Cash",
-        "listeners": 7038022,
-        "spotify_popularity": 73,
-        "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
       },
       {
         "artist": "Sturgill Simpson",
@@ -1893,27 +1928,6 @@
         "spotify_id": "3ZWab2LEVkNKiBPIClTwof"
       },
       {
-        "artist": "Iris DeMent",
-        "listeners": 99655,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "3NPZs8XgXtaWslUcnIw6rY"
-      },
-      {
-        "artist": "Nanci Griffith",
-        "listeners": 112720,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
-      },
-      {
-        "artist": "Lucinda Williams",
-        "listeners": 286858,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
-      },
-      {
         "artist": "Anais Mitchell",
         "listeners": 81084,
         "recommended": true,
@@ -1933,13 +1947,6 @@
         "recommended": true,
         "spotify_popularity": 61,
         "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
-      },
-      {
-        "artist": "Bonnie Raitt",
-        "listeners": 825315,
-        "recommended": true,
-        "spotify_popularity": 57,
-        "spotify_id": "4KDyYWR7IpxZ7xrdYbKrqY"
       },
       {
         "artist": "Hank Williams",
@@ -1968,13 +1975,6 @@
         "recommended": true,
         "spotify_popularity": 71,
         "spotify_id": "32vWCbZh0xZ4o9gkz4PsEU"
-      },
-      {
-        "artist": "Joni Mitchell",
-        "listeners": 1677360,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "5hW4L92KnC6dX9t7tYM4Ve"
       },
       {
         "artist": "Devendra Banhart",
