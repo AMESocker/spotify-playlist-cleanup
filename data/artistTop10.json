@@ -1842,6 +1842,27 @@
         "spotify_id": "3NPZs8XgXtaWslUcnIw6rY"
       },
       {
+        "artist": "Rhiannon Giddens",
+        "listeners": 177816,
+        "recommended": true,
+        "spotify_popularity": 46,
+        "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
+      },
+      {
+        "artist": "Bill Callahan",
+        "listeners": 193713,
+        "recommended": true,
+        "spotify_popularity": 46,
+        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
+      },
+      {
+        "artist": "Iron & Wine",
+        "listeners": 1173835,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
+      },
+      {
         "artist": "Lucinda Williams",
         "listeners": 286858,
         "recommended": true,
@@ -1854,13 +1875,6 @@
         "recommended": true,
         "spotify_popularity": 60,
         "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
-      },
-      {
-        "artist": "Rhiannon Giddens",
-        "listeners": 177816,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
       },
       {
         "artist": "Kris Kristofferson",
@@ -1930,13 +1944,6 @@
         "spotify_id": "7dNsHhGeGU5MV01r06O8gK"
       },
       {
-        "artist": "Bill Callahan",
-        "listeners": 193713,
-        "recommended": true,
-        "spotify_popularity": 46,
-        "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
-      },
-      {
         "artist": "Joni Mitchell",
         "listeners": 1677360,
         "recommended": true,
@@ -1968,13 +1975,6 @@
         "recommended": true,
         "spotify_popularity": 50,
         "spotify_id": "3ZWab2LEVkNKiBPIClTwof"
-      },
-      {
-        "artist": "Iron & Wine",
-        "listeners": 1173835,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
       },
       {
         "artist": "Dolly Parton",
