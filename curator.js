@@ -66,13 +66,13 @@ const dataSources = [
     strategy: "artistGenre",
     originalPosition: 4,
   },
-  /*
   {
     name: "allMusicEditorsChoice",
     file: "data/editorsChoiceAlbums.json",
     strategy: "editorsChoice",
     originalPosition: 2,
   },
+  /*
   {
     name: "festivals",
     file: "data/festivals.json",
