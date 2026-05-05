@@ -1835,11 +1835,32 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Lucinda Williams",
+        "listeners": 286858,
+        "recommended": true,
+        "spotify_popularity": 50,
+        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
+      },
+      {
         "artist": "Bill Callahan",
         "listeners": 193713,
         "recommended": true,
         "spotify_popularity": 46,
         "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
+      },
+      {
+        "artist": "Kris Kristofferson",
+        "listeners": 720708,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
+      },
+      {
+        "artist": "Sufjan Stevens",
+        "listeners": 2453974,
+        "recommended": true,
+        "spotify_popularity": 72,
+        "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
       },
       {
         "artist": "Iris DeMent",
@@ -1868,13 +1889,6 @@
         "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
       },
       {
-        "artist": "Kris Kristofferson",
-        "listeners": 720708,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
-      },
-      {
         "artist": "Loretta Lynn",
         "listeners": 849210,
         "spotify_popularity": 53,
@@ -1893,13 +1907,6 @@
         "recommended": true,
         "spotify_popularity": 46,
         "spotify_id": "1EI0NtLHoh9KBziYCeN1vM"
-      },
-      {
-        "artist": "Lucinda Williams",
-        "listeners": 286858,
-        "recommended": true,
-        "spotify_popularity": 50,
-        "spotify_id": "60ht0hWRy1yjUDfNsLuHuP"
       },
       {
         "artist": "Merle Haggard",
@@ -1961,13 +1968,6 @@
         "recommended": true,
         "spotify_popularity": 61,
         "spotify_id": "5hW4L92KnC6dX9t7tYM4Ve"
-      },
-      {
-        "artist": "Sufjan Stevens",
-        "listeners": 2453974,
-        "recommended": true,
-        "spotify_popularity": 72,
-        "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
       },
       {
         "artist": "Townes Van Zandt",
