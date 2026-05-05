@@ -1835,6 +1835,45 @@
   "Folk / Country / Americana": {
     "not_added": [
       {
+        "artist": "Nanci Griffith",
+        "listeners": 112720,
+        "recommended": true,
+        "spotify_popularity": 42,
+        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
+      },
+      {
+        "artist": "Sturgill Simpson",
+        "listeners": 1039278,
+        "spotify_popularity": 61,
+        "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
+      },
+      {
+        "artist": "Kris Kristofferson",
+        "listeners": 720708,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
+      },
+      {
+        "artist": "Johnny Cash",
+        "listeners": 7038022,
+        "spotify_popularity": 73,
+        "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
+      },
+      {
+        "artist": "Loretta Lynn",
+        "listeners": 849210,
+        "spotify_popularity": 53,
+        "spotify_id": "1FE0rls8gfQT3laAeRYNgl"
+      },
+      {
+        "artist": "Iron & Wine",
+        "listeners": 1173835,
+        "recommended": true,
+        "spotify_popularity": 61,
+        "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
+      },
+      {
         "artist": "Iris DeMent",
         "listeners": 99655,
         "recommended": true,
@@ -1856,13 +1895,6 @@
         "spotify_id": "7gqsi6aBSkRMJoL9psKqMr"
       },
       {
-        "artist": "Iron & Wine",
-        "listeners": 1173835,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "4M5nCE77Qaxayuhp3fVn4V"
-      },
-      {
         "artist": "Lucinda Williams",
         "listeners": 286858,
         "recommended": true,
@@ -1875,13 +1907,6 @@
         "recommended": true,
         "spotify_popularity": 60,
         "spotify_id": "2ptmyXoL7poH6Zq62h1QT9"
-      },
-      {
-        "artist": "Kris Kristofferson",
-        "listeners": 720708,
-        "recommended": true,
-        "spotify_popularity": 61,
-        "spotify_id": "0vYQRW5LIDeYQOccTviQNX"
       },
       {
         "artist": "Bonnie Raitt",
@@ -1898,23 +1923,10 @@
         "spotify_id": "1FClsNYBUoNFtGgzeG74dW"
       },
       {
-        "artist": "Loretta Lynn",
-        "listeners": 849210,
-        "spotify_popularity": 53,
-        "spotify_id": "1FE0rls8gfQT3laAeRYNgl"
-      },
-      {
         "artist": "Emmylou Harris",
         "listeners": 435655,
         "spotify_popularity": 58,
         "spotify_id": "5s6TJEuHTr9GR894wc6VfP"
-      },
-      {
-        "artist": "Nanci Griffith",
-        "listeners": 112720,
-        "recommended": true,
-        "spotify_popularity": 42,
-        "spotify_id": "5CAiy5rDr3LaSoGtJOq6A0"
       },
       {
         "artist": "Anais Mitchell",
@@ -1951,23 +1963,11 @@
         "spotify_id": "5hW4L92KnC6dX9t7tYM4Ve"
       },
       {
-        "artist": "Johnny Cash",
-        "listeners": 7038022,
-        "spotify_popularity": 73,
-        "spotify_id": "6kACVPfCOnqzgfEF5ryl0x"
-      },
-      {
         "artist": "Sufjan Stevens",
         "listeners": 2453974,
         "recommended": true,
         "spotify_popularity": 72,
         "spotify_id": "4MXUO7sVCaFgFjoTI5ox5c"
-      },
-      {
-        "artist": "Sturgill Simpson",
-        "listeners": 1039278,
-        "spotify_popularity": 61,
-        "spotify_id": "3vDpQbGnzRbRVirXlfQagB"
       },
       {
         "artist": "Townes Van Zandt",
