@@ -34,12 +34,14 @@ const dataSources = [
     strategy: "fairness",
     originalPosition: 0,
   },
+  /*
   {
     name: "billboardHot100",
     file: "data/billboardHot100.json",
     strategy: "billboard100",
     originalPosition: 7,
   },
+  */
   {
     name: "rockNRollHallOfFame",
     file: "data/rockNRollHallofFame.json",
@@ -64,6 +66,7 @@ const dataSources = [
     strategy: "artistGenre",
     originalPosition: 4,
   },
+  /*
   {
     name: "allMusicEditorsChoice",
     file: "data/editorsChoiceAlbums.json",
@@ -76,6 +79,7 @@ const dataSources = [
     strategy: "festival",
     originalPosition: 6,
   },
+  */
 ];
 /*
 {
